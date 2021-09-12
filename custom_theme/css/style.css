@@ -248,7 +248,7 @@ a {
     color: #fff;
 
 }
-.sidebar + main {
+main {
     margin-left: var(--sidebar-width);
 }
 main {

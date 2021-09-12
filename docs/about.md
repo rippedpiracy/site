@@ -2,7 +2,7 @@ title: About
 
 # Contributing
 
-Feel free to contribute by opening a pull request in our [repo](https://github.com/ripped).
+Feel free to contribute by opening a pull request in our [repo](https://github.com/rippedpiracy/rippedpiracy.github.io).
 
 ## Formatting
 
