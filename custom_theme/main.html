@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+      <script>var base_url = '{{ base_url }}';</script>
+      <script src="/search/main.js" defer></script>
+
+      <script src="/js/tocscroll.js"></script>
+      <script src="/js/clearinput.js"></script>
+
+
+    </head>
+    <body>
+
+        <aside class="sidebar">
+
+            {% if 'search' in config['plugins'] %}
+
+                {% include "search-modal.html" %}
+
+            {% endif %}
+
+
+
+        {% if nav|length>1 %}
+            <ul id="navigation">
+            {% for nav_item in nav %}
+                {% if nav_item.children %}
+                    <li>
+                        <p class="navtitle">{{ nav_item.title }}</p>
+                        <ul>
+                        {% for nav_item in nav_item.children %}
+                            <li class="{% if nav_item.active%}current{% endif %}">
+                                <a href="/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                                {% if nav_item.active%}{% include "toc.html" %}{% endif %}
+                            </li>
+                        {% endfor %}
+                        </ul>
+                    </li>
+                {% else %}
+                    <li class="{% if nav_item.active%}current{% endif %}">
+                        <a href="/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                        {% if nav_item.active%}{% include "toc.html" %}{% endif %}
+                    </li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        {% endif %}
+
+
+        <h1 class="site-name"><a class="home-link" href="/">{{ config.site_name }}</a></h1>
+
+        <p class="credits">Original Theme by Creatable</p>
+
+        </aside>
+        <main>
+            <h1 class="article-title">{{ page.meta.title }}</h1>
+            {% if page.meta.author is defined %}
+                <p class="article-info">Author: {{ page.meta.author }}</p>
+            {% endif %}
+            {% if page.meta.contributors is defined %}
+                <p class="article-info">Contributors: {{ page.meta.contributors }}</p>
+            {% endif %}
+            {% if page.meta.updated is defined %}
+                <p class="article-info">Last update: {{ page.meta.update-date }}</p>
+            {% endif %}
+            {{ page.content }}
+        </main>
+    </body>
+</html>
+
