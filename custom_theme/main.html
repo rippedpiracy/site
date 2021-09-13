@@ -66,16 +66,18 @@
 
         </aside>
         <main class="content">
-            <h1 class="article-title">{{ page.meta.title }}</h1>
-            {% if page.meta.author is defined %}
-                <p class="article-info">Author: {{ page.meta.author }}</p>
-            {% endif %}
-            {% if page.meta.contributors is defined %}
-                <p class="article-info">Contributors: {{ page.meta.contributors }}</p>
-            {% endif %}
-            {% if page.meta.updated is defined %}
-                <p class="article-info">Last update: {{ page.meta.updated }}</p>
-            {% endif %}
+            <div class="article-info-container">
+                <h1 class="article-title">{{ page.meta.title }}</h1>
+                {% if page.meta.author is defined %}
+                    <p class="article-info">Author: {{ page.meta.author }}</p>
+                {% endif %}
+                {% if page.meta.contributors is defined %}
+                    <p class="article-info">Contributors: {{ page.meta.contributors }}</p>
+                {% endif %}
+                {% if page.meta.updated is defined %}
+                    <p class="article-info">Last updated: {{ page.meta.updated }}</p>
+                {% endif %}
+            </div>
             {{ page.content }}
         </main>
     </body>

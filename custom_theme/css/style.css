@@ -185,6 +185,13 @@ input[type="search"] {
 .sidebar, .sidebar-toggle, .sidebar + main {
     transition: all 0.35s ease-out;
 }
+p.article-info {
+    font-size: small;
+    margin: 0;
+}
+.article-info-container {
+    margin-bottom: 1em;
+}
 
 body:not([data-platform^="Mac"]) * {
     scrollbar-color: hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.3) hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.1);
@@ -275,7 +282,7 @@ main {
 }
 h1.article-title {
     text-decoration: underline;
-    margin-bottom: 1em;
+    margin-bottom: 0.35em;
 }
 
 main a {
