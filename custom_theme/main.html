@@ -12,10 +12,17 @@
 
       <script src="/js/tocscroll.js"></script>
       <script src="/js/clearinput.js"></script>
+      <script src="/js/nav.js"></script>
 
 
     </head>
     <body>
+
+        <button class="sidebar-toggle" onclick="closeOrOpen()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
 
         <aside class="sidebar">
 
@@ -58,7 +65,7 @@
         <p class="credits">Original Theme by Creatable</p>
 
         </aside>
-        <main>
+        <main class="content">
             <h1 class="article-title">{{ page.meta.title }}</h1>
             {% if page.meta.author is defined %}
                 <p class="article-info">Author: {{ page.meta.author }}</p>

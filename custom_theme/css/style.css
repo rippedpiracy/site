@@ -166,6 +166,25 @@ input[type="search"] {
     color: white;
     background-color: var(--theme-color);
 }
+.sidebar-toggle div {
+    width: 16px;
+    height: 1px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+.sidebar-toggle {
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 7;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.sidebar, .sidebar-toggle, .sidebar + main {
+    transition: all 0.35s ease-out;
+}
 
 body:not([data-platform^="Mac"]) * {
     scrollbar-color: hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.3) hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.1);
