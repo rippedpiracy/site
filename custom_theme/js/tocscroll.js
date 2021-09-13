@@ -2,7 +2,7 @@ var anchors;
 var anchor_tops = [];
 
 $(function() {
-    window.anchors = $('body').find("h1:not('.site-name'):not('.article-title'), h2, h3");
+    window.anchors = $('body').find("h1:not('.site-name'):not('.article-title'), h2, h3, h4");
 	for (var i = 0; i < anchors.length; i++) {
 		window.anchor_tops.push(Math.trunc($(anchors[i]).offset().top));
 	}
