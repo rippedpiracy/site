@@ -1,4 +1,4 @@
-title: EAC Setup & Ripping Guide
+title: EAC Ripping
 updated: 2021-01-24 23:02:01
 author: force_ken#4416 (doggo)
 
