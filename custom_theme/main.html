@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>{{ page.meta.title }} - {{ config.site_name }}</title>
-      <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
-
-      {%- if config.theme.highlightjs %}
-      <link rel="stylesheet" href="/css/hljs.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
-      <script>hljs.highlightAll();</script>
-      {%- endif %}
-
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-
-      <script>var base_url = '{{ base_url }}';</script>
-      <script src="/search/main.js" defer></script>
-
-      <script src="/js/tocscroll.js"></script>
-      <script src="/js/clearinput.js"></script>
-      <script src="/js/nav.js"></script>
+        <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
+  
+        {%- if config.theme.highlightjs %}
+        <link rel="stylesheet" href="/css/hljs.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+        {%- endif %}
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+        <script>var base_url = '{{ base_url }}';</script>
+        <script src="/search/main.js" defer></script>
+  
+        <script src="/js/tocscroll.js"></script>
+        <script src="/js/clearinput.js"></script>
+        <script src="/js/nav.js"></script>
+  
+        <!--  for embeds -->
+        <meta property="og:title" content="{{ page.meta.title }}" />
+        <meta property="og:image" content="https://rippedpiracy.github.io/pix/ripped.png" />
+<!--         <meta property="og:description" content="" /> -->
 
 
     </head>
@@ -71,10 +74,10 @@
 
         <h1 class="site-name"><a class="home-link" href="/">{{ config.site_name }}</a></h1>
 
-		<div class="credits-container">
-			<p class="credits"><a href="https://discord.gg/6qVr2aR">Discord</a></p>
-			<p class="credits">Original Theme by Creatable</p>
-		</div>
+        <div class="credits-container">
+            <p class="credits"><a href="https://discord.gg/6qVr2aR">Discord</a></p>
+            <p class="credits">Original Theme by Creatable</p>
+        </div>
 
         </aside>
         <main class="content">
