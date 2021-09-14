@@ -231,8 +231,8 @@ ul.toc {
 }
 .sidebar > h1 .home-link {
     color: var(--sidebar-name-color);
+    font-weight: bold;
 }
-
 .sidebar > h1 {
     margin: 1.5rem 0 0;
     font-weight: var(--sidebar-name-font-weight);
