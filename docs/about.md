@@ -37,3 +37,7 @@ author: <you>
 contributors: <omit this line if empty>
 updated: <last updated date, preferably in YYYY-MM-DD format>
 ```
+
+## Discord
+
+You can join the Discord Server [here](https://discord.gg/6qVr2aR)
