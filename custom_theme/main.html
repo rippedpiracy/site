@@ -3,6 +3,7 @@
     <head>
       <title>{{ page.meta.title }} - {{ config.site_name }}</title>
       <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
 
       {%- if config.theme.highlightjs %}
@@ -70,7 +71,10 @@
 
         <h1 class="site-name"><a class="home-link" href="/">{{ config.site_name }}</a></h1>
 
-        <p class="credits">Original Theme by Creatable</p>
+		<div class="credits-container">
+			<p class="credits"><a href="https://discord.gg/6qVr2aR">Discord</a></p>
+			<p class="credits">Original Theme by Creatable</p>
+		</div>
 
         </aside>
         <main class="content">

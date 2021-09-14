@@ -241,12 +241,21 @@ ul.toc {
 p.credits {
     color: gray;
     font-size: small;
-    align-self: flex-end;
-    margin-top: auto;
-    margin-bottom: 2em;
     width: 100%;
     text-align: center;
-    order: 10 /* should always be at bottom */
+}
+.credits a {
+	color: #00aff4;
+}
+.credits a:hover {
+	text-decoration: underline;
+}
+div.credits-container {
+	margin: auto;
+	margin-bottom: 2em;
+	align-self: flex-end;
+	margin-top: auto;
+	order: 10 /* should always be at bottom */
 }
 #mkdocs-search-results {
     order: 3;
