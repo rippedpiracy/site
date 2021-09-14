@@ -269,6 +269,30 @@ p.credits {
     padding: 0;
 }
 
+pre code {
+    display: block;
+    overflow: auto;
+    padding: 16px !important;
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+    hyphens: none;
+}
+code:not([class*="lang-"]):not([class*="language-"]) {
+    margin: 0 0.15em;
+    white-space: pre-wrap;
+    padding: 3px 5px 4px;
+    border-radius: 3px;
+    background: #18191c;
+    color: #fff;
+}
+code {
+    font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    font-size: 0.95rem;
+}
+main h3 {
+    margin: 0.5em 0;
+}
+
 a {
     text-decoration: none;
     color: #fff;

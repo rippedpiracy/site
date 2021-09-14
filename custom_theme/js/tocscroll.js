@@ -14,7 +14,7 @@ $(function() {
 
 function myFunc() {
 	var scrollTop = $(document).scrollTop();
-	for (var i = 0; i < anchors.length; i++) {
+	for (var i = 0; i < window.anchors.length; i++) {
 		$('nav ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('active');
 		if (i > 0) {
 			var athird = (anchor_tops[i] - anchor_tops[i-1])/3;

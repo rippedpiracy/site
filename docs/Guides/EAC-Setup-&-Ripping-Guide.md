@@ -116,7 +116,9 @@ Set up this tab exactly as shown. You'll have to browse to the path where you ha
 
 The commandline parameters have changed in this version, so this will look new to most of you. The commandline recommended for optimal completeness is this:  
 
-`-8 -e -p -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T "TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%`  
+```
+-8 -e -p -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T "TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%
+```
 
 It takes no extra effort on your part, just copy and paste that into the additional commandline options and you're done.  
 
@@ -129,16 +131,24 @@ A note on ripping to lossy formats like MP3: So first off, this is a complete wa
 However, the MP3 and Ogg command lines are included below. You'll need to browse to LAME.exe or oggenc2.exe, and set the extension to .mp3 or .ogg, respectively. The other settings remain the same, bitrate is still irrelevant.  
 
 V0 MP3:  
-`-V 0 --vbr-new --add-id3v2 --ignore-tag-errors --ta "%artist%" --tt "%title%" --tg "%genre%" --tl "%albumtitle%" --ty "%year%" --tn "%tracknr%" %source% -o %dest%`  
+```bash
+-V 0 --vbr-new --add-id3v2 --ignore-tag-errors --ta "%artist%" --tt "%title%" --tg "%genre%" --tl "%albumtitle%" --ty "%year%" --tn "%tracknr%" %source% -o %dest%
+```
 
 V2 MP3:  
-`-V 2 --vbr-new --add-id3v2 --ignore-tag-errors --ta "%artist%" --tt "%title%" --tg "%genre%" --tl "%albumtitle%" --ty "%year%" --tn "%tracknr%" %source% -o %dest%`  
+```bash
+-V 2 --vbr-new --add-id3v2 --ignore-tag-errors --ta "%artist%" --tt "%title%" --tg "%genre%" --tl "%albumtitle%" --ty "%year%" --tn "%tracknr%" %source% -o %dest%
+```
 
 320 kbps MP3:  
-`-b 320 -h --add-id3v2 --ignore-tag-errors --ta "%artist%" --tt "%title%" --tg "%genre%" --tl "%albumtitle%" --ty "%year%" --tn "%tracknr%" %source% -o %dest%`  
+```bash
+-b 320 -h --add-id3v2 --ignore-tag-errors --ta "%artist%" --tt "%title%" --tg "%genre%" --tl "%albumtitle%" --ty "%year%" --tn "%tracknr%" %source% -o %dest%
+```
 
 q8 Ogg:  
-`-q 8 -a "%artist%" -t "%title%" -l "%albumtitle%" -d "%year%" -N "%tracknr%" -G "%genre%" %source% -o %dest%`  
+```
+-q 8 -a "%artist%" -t "%title%" -l "%albumtitle%" -d "%year%" -N "%tracknr%" -G "%genre%" %source% -o %dest%
+```
 
 ![https://i.imgur.com/4KJfgSf.png](https://i.imgur.com/4KJfgSf.png)  
 
