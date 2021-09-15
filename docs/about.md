@@ -11,7 +11,8 @@ This website is generated using markdown, which you can read more about [here](h
 In brief, here's how it works:
 
 ```md
-title: <title here>
+title: (title here)
+description: (a short description that will appear in embeds)
 
 # Header 1
 
@@ -33,9 +34,9 @@ here is **bold text**
 If you would like to write a guide, include some extra metadata at the top
 
 ```md
-author: <you>
-contributors: <omit this line if empty>
-updated: <last updated date, preferably in YYYY-MM-DD format>
+author: (you)
+contributors: (omit this line if empty)
+updated: (last updated date, preferably in YYYY-MM-DD format)
 ```
 
 ## Discord
