@@ -1,4 +1,5 @@
 site_name: Ripped
+site_url: https://rippedpiracy.github.io 
 repo_url: "https://github.com/rippedpiracy/rippedpiracy.github.io"
 theme:
     name: null
