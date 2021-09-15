@@ -1,4 +1,5 @@
 title: Intro
+description: Welcome to Ripped!
 
 # Welcome to Ripped Resources
 
