@@ -1,6 +1,6 @@
 title: EAC Ripping
 updated: 2021-01-24 23:02:01
-author: force_ken#4416 (doggo)
+author: doggo404#0001
 
 ### EAC Setup Process
 This guide was made for EAC version 1.0 beta 3 and above and will not completely work with earlier versions. Versions 0.99 or earlier should use the blowfish guide.  
