@@ -31,7 +31,7 @@
 
 body {
   text-rendering: optimizeLegibility !important;
-  margin-bottom: 80vh;
+/*   margin-bottom: 80vh; */
 }
 
 html {
@@ -174,16 +174,21 @@ input[type="search"] {
 }
 .sidebar-toggle {
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 16px;
     left: 16px;
     z-index: 7;
     background: transparent;
     outline: none;
     border: none;
+    padding: 1em;
+    margin: -1em;
 }
 .sidebar, .sidebar-toggle, .sidebar + main {
     transition: all 0.35s ease-out;
+}
+main {
+    margin-bottom: 80vh;
 }
 p.article-info {
     font-size: small;
@@ -281,6 +286,7 @@ div.credits-container {
 pre code {
     display: block;
     overflow: auto;
+    border-radius: 5px;
     padding: 16px !important;
     margin-bottom: 0.8em;
     margin-top: 0.8em;
