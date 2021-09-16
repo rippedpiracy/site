@@ -250,6 +250,16 @@ p.credits {
 .credits a:hover {
 	text-decoration: underline;
 }
+/* tables */
+table, th, td {
+	border: 1px solid gray;
+	padding: 0.2em;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0.5m 0;
+}
 div.credits-container {
 	margin: auto;
 	margin-bottom: 2em;
