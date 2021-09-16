@@ -1,5 +1,5 @@
+
 title: Scene Glossary
-description: All you need to know about Scene Terminology.
 updated: 2021-09-15 14:00:59 
 author: doggo404#0001
 
