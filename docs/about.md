@@ -1,4 +1,5 @@
 title: About
+description: Info about the website.
 
 # Contributing
 
