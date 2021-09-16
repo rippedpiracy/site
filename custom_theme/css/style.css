@@ -174,13 +174,15 @@ input[type="search"] {
 }
 .sidebar-toggle {
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 16px;
     left: 16px;
     z-index: 7;
     background: transparent;
     outline: none;
     border: none;
+    padding: 1em;
+    margin: -1em;
 }
 .sidebar, .sidebar-toggle, .sidebar + main {
     transition: all 0.35s ease-out;
