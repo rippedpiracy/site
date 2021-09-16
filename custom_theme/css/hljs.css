@@ -7,14 +7,14 @@ code.hljs {
     padding: 3px 5px;
 }
 .hljs {
-    color: #d5c4a1;
+    color: #e3e5e8;
     background: #32302f;
 }
-.hljs ::selection {
+/*.hljs ::selection {
     color: #504945;
-}
+}*/
 .hljs-comment {
-    color: #665c54;
+    color: #4f54c;
 }
 .hljs-tag {
     color: #bdae93;
