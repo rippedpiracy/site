@@ -6,11 +6,6 @@ description: Comprehensive list of emulators.
 
 
 
-## Emulators
-
-
-
-
 ### Atari
 
 
