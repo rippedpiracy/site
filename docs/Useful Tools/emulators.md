@@ -161,20 +161,13 @@ Linux|[DeSmuME](https://desmume.org/)|
 #### Super Nintendo Entertainment System
 
 
-
-Windows
-
-[SNES9x](http://snes9x.ipherswipsite.com/)
-
-[bSNES](https://byuu.org/emulation/bsnes/)
-
-[ZSNES](http://www.zsnes.com/)
-
-[SNESGT](http://gigo.retrogames.com/index.html)
-
-Mac
-
-[SNES9x](http://snes9x.ipherswipsite.com/)
+| Platform | Emulator |
+| --- | --- |
+|Windows|[SNES9x](http://snes9x.ipherswipsite.com/)|
+||[bSNES](https://byuu.org/emulation/bsnes/)|
+||[ZSNES](http://www.zsnes.com/)|
+||[SNESGT](http://gigo.retrogames.com/index.html)|
+|Mac|[SNES9x](http://snes9x.ipherswipsite.com/)|
 
 [bSNES](https://byuu.org/emulation/bsnes/)
 
