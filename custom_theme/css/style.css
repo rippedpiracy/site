@@ -185,6 +185,9 @@ input[type="search"] {
 .sidebar, .sidebar-toggle, .sidebar + main {
     transition: all 0.35s ease-out;
 }
+main {
+    margin-bottom: 80vh;
+}
 p.article-info {
     font-size: small;
     margin: 0;
