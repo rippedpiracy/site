@@ -15,17 +15,18 @@ A very safe site to get Games from, mostly scene releases which they automatical
 
 ## Repackers
 
-**[FitGirl](https://fitgirl-repacks.site) (Torrent / Direct Download)**
+**[FitGirl](https://fitgirl-repacks.site) (Torrent / DDL)**
 
 The most well known and reputable repacker out there, very active and provides torrent links with DDL mirrors. The only downside being the repacks can take a long time to install depending on your hardware.
 
-**[DODI](https://dodi-repacks.site) (Torrent / Direct Download)**
+**[DODI](https://dodi-repacks.site) (Torrent / DDL)**
 
 Another active repacker that provides torrent links with DDL mirrors. Usually takes shorter to install compared to FitGirl, having slightly bigger releases.
 
-**[Masquerade](https://masquerade.site) (Direct Download / Torrent)**
+**[Masquerade](https://masquerade.site) (DDL / Torrent*)**
 
 Known repacker that focuses more on indie titles and mostly uses google drive as the main downloading option.
+*Only some Repacks have Torrent options.
 
 **[Xatab](https://xatab-repack.com) (Torrent)**
 
@@ -33,30 +34,30 @@ One of the oldest and most respected Repackers that passed away recently. His si
 
 ## Mirrors
 
-**[Ova Games](https://ovagames.com) (Direct Download / Torrent)**
+**[Ova Games](https://ovagames.com) (DDL / Torrent)**
 
 A site which focuses on reuploading Repacks, P2P cracks, Scene releases and GOG rips on multiple mirrors. They take requests too.
 
-**[CrackHub](https://crackhub.site) (Direct Download)**
+**[CrackHub](https://crackhub.site) (DDL)**
 
 Another site that mainly focuses on reuploading to different hosts, they take requests. It also has an automatic Scene upload Bot which uploads to Zippyshare [here](https://scene.crackhub.site).
 
-**[GamesDrive](https://gamesdrive.net) (Direct Downlaod)**
+**[GamesDrive](https://gamesdrive.net) (DDL)**
 
 Another site that reuploads Repacks, P2P cracks and Scene Releases to various hosts.
 
 ## Forums
 
-**[cs.rin.ru](https://cs.rin.ru/forum) (Torrent links / Direct Download)**
+**[cs.rin.ru](https://cs.rin.ru/forum) (Torrent links / DDL)**
 
 Arguably the best site to download from. It's a well moderated Forum with active members. Not only good for getting Games from but also learning about different Piracy tools as well.
 
-**[Torrminatorr](https://forum.torrminatorr.com) (Torrent / Direct Download)**
+**[Torrminatorr](https://forum.torrminatorr.com) (Torrent / DDL)**
 
 Another well moderated forum with active uploaders and discussions.
 
 ## Misc
 
-**[Online-Fix](https://online-fix.me) (Direct Download / Torrent)**
+**[Online-Fix](https://online-fix.me) (DDL / Torrent)**
 
 Any cracked game that has multiplayer (usually on Steam) you will most likely find it here done by their own cracker, 0xDeadCode. Also their site has very strong measures against Ad-Blockers.
