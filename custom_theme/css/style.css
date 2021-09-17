@@ -256,15 +256,38 @@ p.credits {
 	text-decoration: underline;
 }
 /* tables */
-table, th, td {
-	border: 1px solid gray;
-	padding: 0.2em;
-}
 table {
-	border-collapse: collapse;
-	width: 100%;
-	margin: 0.5m 0;
+    border-collapse: collapse;
+/*     width: 100%; */
+    margin: 0.5em 0;
+    border: none;
 }
+table td {
+  border: 1px solid var(--base-color);
+  padding: 0.2em 0.8em;
+}
+table td {
+	width: 50%;
+}
+
+table tr:first-child td {
+  border-top: none;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr td:first-child {
+  border-left: none;
+}
+
+table tr td:last-child {
+  border-right: none;
+}
+
+
+
 div.credits-container {
 	margin: auto;
 	margin-bottom: 2em;
