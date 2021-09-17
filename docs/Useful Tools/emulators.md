@@ -5,7 +5,7 @@ description: Comprehensive list of emulators.
 
 &nbsp;
 ## Atari
-&nbsp;
+
 ### Atari 2600
 
 
@@ -70,7 +70,7 @@ description: Comprehensive list of emulators.
 &nbsp;
 &nbsp;
 ## Nintendo
-&nbsp;
+
 ### Nintendo 64
 
 
@@ -233,7 +233,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 &nbsp;
 &nbsp;
 ## PlayStation
-&nbsp;
+
 ### PlayStation Portable
 
 
@@ -289,7 +289,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 &nbsp;
 &nbsp;
 ## Sega
-&nbsp;
+
 ### Sega 32X
 
 
@@ -401,7 +401,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 &nbsp;
 &nbsp;
 ## Retro - Other
-&nbsp;
+
 ### Acorn BBC Micro
 
 
@@ -544,7 +544,7 @@ Windows
 &nbsp;
 &nbsp;
 ## Multi-Platform & Arcade
-&nbsp;
+
 ### M.A.M.E. - Multiple Arcade Machine Emulator
 
 
