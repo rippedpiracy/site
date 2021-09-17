@@ -11,7 +11,7 @@ As in 0hour access to a release. Means someone has access to a release within an
 ### 0day [1]   
 As in 0day access to a release. Means someone has access to a release within a day after it was pred.  
 
-### 0day [2]   
+**0day [2]**   
 As in 0day which refers to software, videos, music, or information released or obtained on the day of public release.  
 
 ### 1337   
