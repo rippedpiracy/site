@@ -25,7 +25,7 @@ Another active repacker that provides torrent links with DDL mirrors. Usually ta
 
 **[Masquerade](https://masquerade.site) (DDL / *Torrent*)**
 
-Known repacker that focuses more on indie titles and mostly uses google drive as the main downloading option.
+Known repacker that focuses more on indie titles and mostly uses google drive as the main downloading option.  
 *Only some Repacks have Torrent options.
 
 **[Xatab](https://xatab-repack.com) (Torrent)**
