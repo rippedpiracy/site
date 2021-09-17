@@ -1,13 +1,13 @@
 title: Generators
 description: Account Dispensers and more.
 
-[**h-gen.to**](h-gen.to) - Account Dispenser with varying categories of accounts. Mostly reliable. 
+[**h-gen.to**](https://h-gen.to) - Account Dispenser with varying categories of accounts. Mostly reliable. 
 
-[**leak.sx**](leak.sx) - Account Leecher with lists of publicly available pastebins, go in it with an [adblocker](https://ublockorigin.com/).  
+[**leak.sx**](https://leak.sx) - Account Leecher with lists of publicly available pastebins, go in it with an [adblocker](https://ublockorigin.com/).  
 
 [**leak.to**](https://leak.to/forum/21-premium-accounts/) - Forum with an account leaks session, needs registration. Only get accounts and __NOTHING ELSE__.
 
-[**cracked.to**](cracked.to) & [**nulled.to**](nulled.to) - Same exact principles as [**leak.to**](https://leak.to/forum/21-premium-accounts/), just a Forum. 
+[**cracked.to**](https://cracked.to/Forum-Accounts) & [**nulled.to**](https://nulled.to/forum/43-accounts/) - Same exact principles as [**leak.to**](https://leak.to/forum/21-premium-accounts/), just a Forum. 
 
 [**leakzone.net**](https://leakzone.net/Forum-Accounts) & [**crackx.to**](https://crackx.to/Forum-Accounts) Other less popular forums, same rules as the others mostly. 
 
