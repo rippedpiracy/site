@@ -253,8 +253,11 @@ Groups of people who pirate and release software, music and movies.
 **Remastered**
 (Digitally) remastered means that an older not-digital movie has been re-editted, remastered and is released on DVD.  
 
+**Repacker**
+Entity or Group which makes Repacks and releases them.
+
 **Repack**
-If a group releases a bad rip, they can release a Repack. A Repack is a fixed version of the original release. It's similar to PROPER but then done by the same group. Note that a Repack is different from a fix. A Fix will repair the original release whilst a repack is a new release.  
+A Scene Release compressed to the lightest possible, has to be installed when downloaded. 
 
 **Rip**
 To extract or copy data from a cd/dvd to another, more useful (and smaller) format.  
