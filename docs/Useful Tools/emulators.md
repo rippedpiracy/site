@@ -6,7 +6,7 @@ description: Comprehensive list of emulators.
 &nbsp;
 ## Atari
 
-### Atari 2600
+**Atari 2600**
 
 
 | Platform | Emulator |
@@ -22,7 +22,7 @@ description: Comprehensive list of emulators.
 |PlayStation 3|[Stella](https://www.emuparadise.me/emulators/files/user/stella-3.3-ps3-release3-cfw-1506.rar)|
 
 &nbsp;
-### Atari 5200
+**Atari 5200**
 
 
 | Platform | Emulator |
@@ -30,7 +30,7 @@ description: Comprehensive list of emulators.
 |Windows|[Atari ++](http://www.xl-project.com/downloads.html)|
 
 &nbsp;
-### Atari 7800
+**Atari 7800**
 
 
 | Platform | Emulator |
@@ -38,7 +38,7 @@ description: Comprehensive list of emulators.
 |Windows|[EMU7800](http://emu7800.sourceforge.net/)|
 
 &nbsp;
-### Atari Jaguar
+**Atari Jaguar**
 
 
 | Platform | Emulator |
@@ -47,7 +47,7 @@ description: Comprehensive list of emulators.
 ||[Project Tempest](http://pt.emuunlim.com/)|
 
 &nbsp;
-### Atari Lynx
+**Atari Lynx**
 
 
 | Platform | Emulator |
@@ -55,7 +55,7 @@ description: Comprehensive list of emulators.
 |Windows|[Handy](http://handy.sourceforge.net/download.htm)|
 
 &nbsp;
-### Atari ST
+**Atari ST**
 
 
 | Platform | Emulator |
@@ -72,7 +72,7 @@ description: Comprehensive list of emulators.
 
 ## Nintendo
 
-### Nintendo 64
+**Nintendo 64**
 
 
 | Platform | Emulator |
@@ -95,7 +95,7 @@ description: Comprehensive list of emulators.
 |Nintendo 3DS|[DaedalusX64-3DS](https://github.com/masterfeizz/DaedalusX64-3DS)|
 
 &nbsp;
-### Nintendo DS
+**Nintendo DS**
 
 
 | Platform | Emulator |
@@ -108,7 +108,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Android|[DraStic DS Emulator](https://play.google.com/store/apps/details?id=com.dsemu.drastic&hl=en)|
 
 &nbsp;
-### Nintendo 3DS
+**Nintendo 3DS**
 
 
 | Platform | Emulator |
@@ -118,7 +118,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Linux|[Citra](https://citra-emu.org/)|
 
 &nbsp;
-### Nintendo Entertainment System
+**Nintendo Entertainment System**
 
 
 | Platform | Emulator |
@@ -135,7 +135,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Nintendo DS|[nesDS](https://sourceforge.net/projects/nesds/)|
 
 &nbsp;
-### Super Nintendo Entertainment System
+**Super Nintendo Entertainment System**
 
 | Platform | Emulator |
 | --- | --- |
@@ -153,7 +153,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |PlayStation 3|[SNES9x](http://psx-scene.com/forums/f190/snes9x-ps3-4-4-4-fw-1-92-fw-3-15-fw-3-41-cfw-3-55-released-75378/index2.html#post698157)|
 
 &nbsp;
-### Nintendo Game Boy
+**Nintendo Game Boy**
 
 
 | Platform | Emulator |
@@ -164,7 +164,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Nintendo DS|[GameYob](https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/)|
 
 &nbsp;
-### Nintendo Game Boy Color
+**Nintendo Game Boy Color**
 
 
 | Platform | Emulator |
@@ -177,7 +177,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 ||[Lameboy](https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/)|
 
 &nbsp;
-### Nintendo Gameboy Advance
+**Nintendo Gameboy Advance**
 
 
 | Platform | Emulator |
@@ -193,7 +193,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 ||[My Boy!](https://play.google.com/store/apps/details?id=com.fastemulator.gbafree&hl=en)|
 
 &nbsp;
-### Nintendo Gamecube
+**Nintendo Gamecube**
 
 
 | Platform | Emulator |
@@ -206,7 +206,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Android|[Dolphin](https://dolphin-emulator.en.uptodown.com/android)|
 
 &nbsp;
-### Nintendo Virtual Boy
+**Nintendo Virtual Boy**
 
 
 | Platform | Emulator |
@@ -216,7 +216,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |3DS|[r3Ddragon](https://github.com/mrdanielps/r3Ddragon)|
 
 &nbsp;
-### Nintendo Wii
+**Nintendo Wii**
 
 
 | Platform | Emulator |
@@ -224,7 +224,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Windows|[Dolphin](https://dolphin-emu.org/)|
 
 &nbsp;
-### Nintendo Wii U
+**Nintendo Wii U**
 
 
 | Platform | Emulator |
@@ -239,7 +239,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 ## PlayStation
 
-### PlayStation Portable
+**PlayStation Portable**
 
 
 | Platform | Emulator |
@@ -250,7 +250,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Playstation Vita|[Adrenaline](https://github.com/TheOfficialFloW/Adrenaline)|
 
 &nbsp;
-### Sony Playstation
+**Sony Playstation**
 
 
 | Platform | Emulator |
@@ -270,7 +270,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |PlayStation Portable|[PSX2PSP](https://gazellegames.net/wiki.php?action=article&id=526)|  converts|
 
 &nbsp;
-### Sony Playstation 2
+**Sony Playstation 2**
 
 
 
@@ -281,7 +281,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Linux|[PCSX2](http://pcsx2.net/)|
 
 &nbsp;
-### Sony Playstation 3
+**Sony Playstation 3**
 
 
 
@@ -299,7 +299,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 ## Sega
 
-### Sega 32X
+**Sega 32X**
 
 
 
@@ -310,7 +310,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Linux|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
 
 &nbsp;
-### Sega Arcade Systems
+**Sega Arcade Systems**
 
 
 
@@ -319,7 +319,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Windows|[TeknoParrot](https://teknogods.github.io/)|
 
 &nbsp;
-### Sega CD
+**Sega CD**
 
 
 
@@ -331,7 +331,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Android|[MD.emu](https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu&hl=en)|
 
 &nbsp;
-### Sega Dreamcast
+**Sega Dreamcast**
 
 
 
@@ -343,7 +343,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Android|[Reicast](https://play.google.com/store/apps/details?id=com.reicast.emulator)|
 
 &nbsp;
-### Sega Game Gear
+**Sega Game Gear**
 
 
 
@@ -355,7 +355,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 ||[Regen](http://aamirm.hacking-cult.org/www/regen.html)|
 
 &nbsp;
-### Sega Genesis - Sega Megadrive
+**Sega Genesis - Sega Megadrive**
 
 
 
@@ -372,7 +372,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Nintendo DS|[jEnesisDS](http://www.workingdesign.de/projects/jenesisds.php)|
 
 &nbsp;
-### Sega Master System
+**Sega Master System**
 
 
 
@@ -387,7 +387,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Linux|[Mednafen](https://mednafen.github.io/)|
 
 &nbsp;
-### Sega NAOMI
+**Sega NAOMI**
 
 
 | Platform | Emulator |
@@ -397,7 +397,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 ||[nulldc](https://code.google.com/archive/p/nulldc/)|
 
 &nbsp;
-### Sega Saturn
+**Sega Saturn**
 
 
 | Platform | Emulator |
@@ -413,7 +413,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 ## Retro - Other
 
-### Acorn BBC Micro
+**Acorn BBC Micro**
 
 
 | Platform | Emulator |
@@ -422,7 +422,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Mac|[BeebEm](http://www.g7jjf.com/beebemmac.htm)|
 
 &nbsp;
-### Amiga
+**Amiga**
 
 
 | Platform | Emulator |
@@ -433,7 +433,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 ||[GGn Torrent](https://gazellegames.net/torrents.php?id=27408)|
 
 &nbsp;
-### Apple II
+**Apple II**
 
 
 | Platform | Emulator |
@@ -441,7 +441,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Windows|[AppleWin](https://github.com/AppleWin/AppleWin)|
 
 &nbsp;
-### Bandai Wonderswan
+**Bandai Wonderswan**
 
 
 | Platform | Emulator |
@@ -449,7 +449,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Windows|[oswan](https://github.com/gameblabla/oswan)|
 
 &nbsp;
-### Capcom Play System 2
+**Capcom Play System 2**
 
 
 | Platform | Emulator |
@@ -458,7 +458,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Android|[CPSEmu](https://forum.xda-developers.com/showthread.php?t=1483303)|
 
 &nbsp;
-### Capcom Play System 3
+**Capcom Play System 3**
 
 
 | Platform | Emulator |
@@ -466,7 +466,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Windows|[CPS3 Emulator](http://nebula.emulatronia.com/descargas.php)|
 
 &nbsp;
-### Commodore 64
+**Commodore 64**
 
 
 | Platform | Emulator |
@@ -476,7 +476,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |PlayStation Portable|[VICE](http://vice-emu.sourceforge.net/index.html#download)|
 
 &nbsp;
-### NEC PC-9800 series
+**NEC PC-9800 series**
 
 
 | Platform | Emulator |
@@ -484,7 +484,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Linux|[Neko Project II kai](https://github.com/AZO234/NP2kai)|
 
 &nbsp;
-### Neo Geo
+**Neo Geo**
 
 
 | Platform | Emulator |
@@ -492,7 +492,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Windows|[NeoRageX](http://www.neoragex.fr/)|
 
 &nbsp;
-### Neo Geo Pocket
+**Neo Geo Pocket**
 
 
 | Platform | Emulator |
@@ -500,7 +500,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Windows|[NeoPop](https://www.emuparadise.me/emulators/files/user/NeoPop-0.71-Win32-1.06b-1975.zip)|
 
 &nbsp;
-### Panasonic 3DO
+**Panasonic 3DO**
 
 
 | Platform | Emulator |
@@ -509,7 +509,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 ||[FreedO](http://www.freedo.org/)|
 
 &nbsp;
-### PC Engine - TurboGrafx16
+**PC Engine - TurboGrafx16**
 
 
 
@@ -517,7 +517,7 @@ Windows
 [Ootake](http://www.ouma.jp/ootake/)|
 
 &nbsp;
-### PC Engine CD - Turbo Duo - TurboGrafx CD
+**PC Engine CD - Turbo Duo - TurboGrafx CD**
 
 
 | Platform | Emulator |
@@ -535,7 +535,7 @@ Windows
 ||[CD-i Emulator](http://www.cdiemu.org/)|
 
 &nbsp;
-### Sharp X68000
+**Sharp X68000**
 
 
 | Platform | Emulator |
@@ -543,7 +543,7 @@ Windows
 |Windows|[WinX68k](http://www.geocities.jp/winx68khighspeed/)|
 
 &nbsp;
-### ZX Spectrum
+**ZX Spectrum**
 
 
 | Platform | Emulator |
@@ -560,7 +560,7 @@ Windows
 
 ## Multi-Platform & Arcade
 
-### M.A.M.E. - Multiple Arcade Machine Emulator
+**M.A.M.E. - Multiple Arcade Machine Emulator**
 
 
 | Platform | Emulator |
@@ -570,7 +570,7 @@ Windows
 |macOS|[M.A.M.E.](https://github.com/mamedev/mame)|
 
 &nbsp;
-### Mednafen
+**Mednafen**
 
 
 | Platform | Emulator |
@@ -581,7 +581,7 @@ Windows
 |*BSD|[Mednafen](https://mednafen.github.io/releases)|
 
 &nbsp;
-### ScummVM
+**ScummVM**
 
 
 | Platform | Emulator |
@@ -593,7 +593,7 @@ Windows
 |PS3 / PSP / OUYA / iOS / Dreamcast / Raspberry Pie / other|[ScummVM](https://www.scummvm.org/downloads/)|
 
 &nbsp;
-### higan
+**higan**
 
 
 | Platform | Emulator |
@@ -601,7 +601,7 @@ Windows
 |Windows|[higan](https://byuu.org/emulation/higan/)|
 
 &nbsp;
-### MEKA
+**MEKA**
 
 
 | Platform | Emulator |
@@ -611,7 +611,7 @@ Windows
 |Linux|[MEKA](https://www.smspower.org/meka/)|
 
 &nbsp;
-### TeknoParrot
+**TeknoParrot**
 
 
 | Platform | Emulator |
@@ -619,7 +619,7 @@ Windows
 |Windows|[TeknoParrot](https://teknogods.github.io/)|
 
 &nbsp;
-### OpenParrot
+**OpenParrot**
 
 
 | Platform | Emulator |
