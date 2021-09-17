@@ -64,11 +64,12 @@ description: Comprehensive list of emulators.
 |Mac|[Hatari](https://hatari.tuxfamily.org/)|
 |Linux|[Hatari](https://hatari.tuxfamily.org/)|
 
+&nbsp;
 
-
+---
 
 &nbsp;
-&nbsp;
+
 ## Nintendo
 
 ### Nintendo 64
@@ -231,7 +232,11 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Windows|[Cemu](http://cemu.info/)|
 
 &nbsp;
+
+---
+
 &nbsp;
+
 ## PlayStation
 
 ### PlayStation Portable
@@ -287,7 +292,11 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Linux|[RPCS3](https://rpcs3.net/)|
 
 &nbsp;
+
+---
+
 &nbsp;
+
 ## Sega
 
 ### Sega 32X
@@ -396,10 +405,12 @@ Linux|[DeSmuME](https://desmume.org/)|
 |Windows|[Yabause](https://yabause.org/)|
 ||[SSF](http://segaretro.org/SSF)|
 
+&nbsp;
 
+---
 
 &nbsp;
-&nbsp;
+
 ## Retro - Other
 
 ### Acorn BBC Micro
@@ -542,7 +553,11 @@ Windows
 ||[ZX Spectrum 4](http://zxspectrum4.net/)|
 
 &nbsp;
+
+---
+
 &nbsp;
+
 ## Multi-Platform & Arcade
 
 ### M.A.M.E. - Multiple Arcade Machine Emulator
