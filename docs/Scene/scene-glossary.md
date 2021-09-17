@@ -3,6 +3,7 @@ updated: 2021-09-15 14:00:59
 author: doggo404#0001
 description: Definitions for common Scene words you might not get.
 **0sec**
+
 As in 0sec access to a release. Means someone has access to a release immediately after it's pred.  
 
 **0hour**
