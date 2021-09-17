@@ -4,7 +4,7 @@ author: doggo404#0001
 description: Comprehensive list of emulators.
 
 &nbsp;
-## Atari
+# Atari
 
 **Atari 2600**
 
@@ -70,7 +70,7 @@ description: Comprehensive list of emulators.
 
 &nbsp;
 
-## Nintendo
+# Nintendo
 
 **Nintendo 64**
 
@@ -237,7 +237,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 &nbsp;
 
-## PlayStation
+# PlayStation
 
 **PlayStation Portable**
 
@@ -297,7 +297,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 &nbsp;
 
-## Sega
+# Sega
 
 **Sega 32X**
 
@@ -411,7 +411,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 &nbsp;
 
-## Retro - Other
+# Retro - Other
 
 **Acorn BBC Micro**
 
@@ -526,7 +526,7 @@ Windows
 | | [Magic Engine](http://www.magicengine.com/)| |
 
 &nbsp;
-## Philips CD-i
+# Philips CD-i
 
 
 | Platform | Emulator |
@@ -558,7 +558,7 @@ Windows
 
 &nbsp;
 
-## Multi-Platform & Arcade
+# Multi-Platform & Arcade
 
 **M.A.M.E. - Multiple Arcade Machine Emulator**
 
