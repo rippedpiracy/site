@@ -7,7 +7,7 @@ description: Various tools to make your life easier.
 
 [**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - Universal Bypass alternative, bypasses ad counters. 
 
-[**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient ad blocker for Chromium and Firefox, fast and lean. 
+[**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient Ad-Blocker for Chromium and Firefox, fast and lean. 
 
 [**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers. 
 
