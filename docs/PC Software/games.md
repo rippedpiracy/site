@@ -34,7 +34,7 @@ One of the oldest and most respected Repackers that passed away recently. His si
 
 ## Mirrors
 
-**[Ova Games](https://ovagames.com) (DDL / Torrent)**
+**[OvaGames](https://ovagames.com) (DDL / Torrent)**
 
 A site which focuses on reuploading Repacks, P2P cracks, Scene releases and GOG rips on multiple mirrors. They take requests too.
 
