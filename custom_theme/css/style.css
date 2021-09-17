@@ -271,19 +271,19 @@ table td {
 }
 
 table tr:first-child td {
-  border-top: none;
+  border-top: 1px solid var(--base-color);
 }
 
 table tr:last-child td {
-  border-bottom: none;
+  border-bottom: 1px solid var(--base-color);
 }
 
 table tr td:first-child {
-  border-left: none;
+  border-left: 1px solid var(--base-color);
 }
 
 table tr td:last-child {
-  border-right: none;
+  border-right: 1px solid var(--base-color);
 }
 
 
