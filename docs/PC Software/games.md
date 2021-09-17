@@ -9,7 +9,7 @@ description: Where to get Games from safely and efficiently.
 
 A very popular Torrenting site which has an incredible amount of content, but also has major downsides including a bad moderation team (Not banning uploaders who uploaded malware in the past) and an incredibly unsafe Software category (Don't get Software releases from this site). **Note: Stay away from Torrents marked IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM and CorePack.**
 
-**[Rarbg](https://rarbg.to) (Torrent)**
+**[RARBG](https://rarbg.to) (Torrent)**
 
 A very safe site to get Games from, mostly scene releases which they automatically upload using Bots. If you use a VPN get ready to solve CAPTCHAs.
 
@@ -28,7 +28,7 @@ Another active repacker that provides torrent links with DDL mirrors. Usually ta
 Known repacker that focuses more on indie titles and mostly uses google drive as the main downloading option.  
 *Only some Repacks have Torrent options.
 
-**[Xatab](https://xatab-repack.com) (Torrent)**
+**[xatab](https://xatab-repack.com) (Torrent)**
 
 One of the oldest and most respected Repackers that passed away recently. His site is currently reposting from other sources but his older Releases can still be found here. **RIP.**
 
