@@ -9,4 +9,4 @@ description: Various tools to make your life easier.
 [**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser userscript managers.  
 [**Dark Reader**](https://github.com/darkreader/darkreader) - Dark mode for all websites.
 [**No Script**](https://github.com/hackademix/noscript) - Allow/Disallow JavaScript, Flash, Java and other executable content to only run on sites of your choice.  
-[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (chromium) - Manually or automatically suspend/unsuspend browser tabs to save up memory usage. 
+[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or automatically suspend/unsuspend browser tabs to save up memory usage. 
