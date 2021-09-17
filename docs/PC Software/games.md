@@ -23,7 +23,7 @@ The most well known and reputable repacker out there, very active and provides t
 
 Another active repacker that provides torrent links with DDL mirrors. Usually takes shorter to install compared to FitGirl, having slightly bigger releases.
 
-**[Masquerade](https://masquerade.site) (DDL / Torrent*)**
+**[Masquerade](https://masquerade.site) (DDL / *Torrent*)**
 
 Known repacker that focuses more on indie titles and mostly uses google drive as the main downloading option.
 *Only some Repacks have Torrent options.
