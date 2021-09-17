@@ -258,7 +258,7 @@ If a group releases a bad rip, they can release a Repack. A Repack is a fixed ve
 ### Rip   
 To extract or copy data from a cd/dvd to another, more useful (and smaller) format.  
 
-### Rom   
+### ROM   
 ROM images is used in the context of emulation for software which only runs on different hardware. These ROM images can be run on an emulator. For example, GBA rom images which are started on a GBA Emulator. Using a GBA emulator on a PC will enable the user to play GBA games on his PC.  
 
 ### Scanner   
