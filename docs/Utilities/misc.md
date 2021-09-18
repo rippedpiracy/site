@@ -15,6 +15,14 @@ description: Various tools to make your life easier.
 
 [**NoScript**](https://github.com/hackademix/noscript) - Allow/Disallow JavaScript, Flash, Java and other executable content to only run on websites of your choice.  
 
+[**SponsorBlock**](https://github.com/ajayyy/SponsorBlock) - Skip YouTube sponsorships.
+
+[**Bypass Paywalls**](https://github.com/iamadamdev/bypass-paywalls-chrome) - Bypass paywalls.
+
+[**Unpaywall**](https://unpaywall.org/products/extension) - Read journal articles for free using OpenAccess.
+
+[**ClearURLs**](https://github.com/ClearURLs/Addon) - Remove tracking elements from URLs.
+
 [**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) (Chromium) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or automatically suspend/unsuspend browser tabs to save up memory usage.  
 
 [**Search by Image**](https://github.com/dessant/search-by-image) - Quickly reverse image search on 35+ different search engines.
