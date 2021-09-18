@@ -1,63 +1,68 @@
 title: Games
-updated: 2021-09-17
-author: Helmasko#4444
 description: Where to get Games from safely and efficiently.
 
 ## General Torrent
 
 **[1337x](https://1337x.to) (Torrent)**
 
-A very popular Torrenting site which has an incredible amount of content, but also has major downsides including a bad moderation team (Not banning uploaders who uploaded malware in the past) and an incredibly unsafe Software category (Don't get Software releases from this site). **Note: Stay away from Torrents marked IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM and CorePack.**
+A very popular Torrenting site which has an incredible amount of content, but also have major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an incredibly unsafe Software category (dont get Software Releases from this site). **Note: Stay away from Torrents marked IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM, CorePack**.
 
-**[RARBG](https://rarbg.to) (Torrent)**
+**[Rarbg](https://rarbg.to) (Torrent)**
 
-A very safe site to get Games from, mostly scene releases which they automatically upload using Bots. If you use a VPN get ready to solve CAPTCHAs.
+A very safe site to get Games from, mostly Scene Releases which they have auto uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.
 
 ## Repackers
 
 **[FitGirl](https://fitgirl-repacks.site) (Torrent / DDL)**
 
-The most well known and reputable repacker out there, very active and provides torrent links with DDL mirrors. The only downside being the repacks can take a long time to install depending on your hardware.
+One of the most well known and reputable Repackers out there, very active and provides Torrent links with DDL mirrors. Only downside being the Repacks can take a long time to install depending on your hardware.
 
 **[DODI](https://dodi-repacks.site) (Torrent / DDL)**
 
-Another active repacker that provides torrent links with DDL mirrors. Usually takes shorter to install compared to FitGirl, having slightly bigger releases.
+Another active Repacker that provides Torrent links with DDL mirrors. Usually takes shorter to install compared to FitGirl while having ever so slightly bigger Releases.
 
-**[Masquerade](https://masquerade.site) (DDL / *Torrent* )**
+**[Masquerade](https://masquerade.site) (DDL / Torrent)**
 
-Known repacker that focuses more on indie titles and mostly uses google drive as the main downloading option.  
-*Only some Repacks have Torrent options.
+A known Repacker that focuses more on indie titles. Mostly uses Google Drive as the main downloading option and Torrents on his newer Releases.
 
-**[xatab](https://xatab-repack.com) (Torrent)**
+**[XATAB](https://xatab-repack.com) (Torrent)**
 
-One of the oldest and most respected Repackers that passed away recently. His site is currently reposting from other sources but his older Releases can still be found here. **RIP.**
+One of the oldest and most respected Repacker that past away recently. His site is currently reposting from other sources but his older Releases can still be found here. **RIP**
 
-## Mirrors
+## Mirrorers
 
-**[OvaGames](https://ovagames.com) (DDL / Torrent)**
+**[Ova Games](https://ovagames.com) (DDL)**
 
-A site which focuses on reuploading Repacks, P2P cracks, Scene releases and GOG rips on multiple mirrors. They take requests too.
+A site which focuses on reuploading Repacks, P2P Cracks, Scene Releases and GOG Rips to multiple hosts. They rarely include Torrent links. They take requests.
 
 **[CrackHub](https://crackhub.site) (DDL)**
 
-Another site that mainly focuses on reuploading to different hosts, they take requests. It also has an automatic Scene upload Bot which uploads to Zippyshare [here](https://scene.crackhub.site).
+Another site that mainly focuses on reuploading to different hosts, they take requests. It also has an automatic Scene upload Bot which uploads to zippyshare [found here](https://scene.crackhub.site).
 
 **[GamesDrive](https://gamesdrive.net) (DDL)**
 
-Another site that reuploads Repacks, P2P cracks and Scene Releases to various hosts.
+Another site that reuploads Repacks, P2P Cracks and Scene Releases to various hosts.
 
 ## Forums
 
-**[cs.rin.ru](https://cs.rin.ru/forum) (Torrent links / DDL)**
+**[CS.RIN.RU](https://cs.rin.ru/forum) (DDL)**
 
-Arguably the best site to download from. It's a well moderated Forum with active members. Not only good for getting Games from but also learning about different Piracy tools as well.
+Arguably the best site for Steam Piracy. It's a well moderated Forum with active members. Not only good for getting Games from, but also learning about different Cracking tools. They rarely upload torrents. Requires Sign-up.
 
-**[Torrminatorr](https://forum.torrminatorr.com) (Torrent / DDL)**
+**[Torrminatorr](https://forum.torrminatorr.com) (DDL)**
 
-Another well moderated forum with active uploaders and discussions.
+Another well moderated Forum with active uploaders and discussions that allow Scene uploads (contrary of CS.RIN.RU), GOG Rips, Retro Games and even Linux Games. Requires Sign-up.
 
 ## Misc
 
 **[Online-Fix](https://online-fix.me) (DDL / Torrent)**
 
-Any cracked game that has multiplayer (usually on Steam) you will most likely find it here done by their own cracker, 0xDeadCode. Also their site has very strong measures against Ad-Blockers.
+Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker 0xdeadc0de. Note: Their site has strong measures against Ad-blockers. Requires Sign-up.
+
+https://macdrop.net/  https://www.torrentmac.net/ https://nxmac.com/ (ill edit these for later)
+
+## Glossary 
+
+**DDL:** Direct Download, where you can download a file from a server usually by your browser.  
+**Torrent:** A decentralised Peer-to-Peer file sharing protocol that is very common when sharing Pirated Content since the file isnt on a single server that can easily be taken down. We recommend using [qBittorrent](https://www.qbittorrent.org/) as a BitTorrent client.  
+**Repacks:** Highly compressed Games that usually include all released DLCs, language packs, are pre-cracked and require minimal Piracy knowledge. Good for beginners and people that have low Internet bandwidth.

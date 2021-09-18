@@ -1,7 +1,7 @@
 title: Miscellaneous
 description: Various tools to make your life easier.
 
-# Browser extensions / Scripts
+# Browser Extensions / Scripts
 
 [**Universal-Bypass**](https://github.com/Sainan/Universal-Bypass) - Don't waste your time with compliance. Universal Bypass circumvents annoying link shorteners.
 
