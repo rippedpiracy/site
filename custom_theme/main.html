@@ -57,7 +57,7 @@
                         <p class="navtitle">{{ nav_item.title }}</p>
                         <ul>
                         {% for nav_item in nav_item.children %}
-                        <li id="{% if nav_item.active%}current{% endif %}" >
+						<li id="{% if nav_item.active%}current{% endif %}" {% if nav_item.active%}class="unselectable"{% endif %}>
                             <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{% if nav_item.active%}<img src="/pix/expand_more.svg" id="expand_icon">{% endif %}{{ nav_item.title }}</a>
                                 {% if nav_item.active%}{% include "toc.html" %}{% endif %}
                             </li>
@@ -65,7 +65,7 @@
                         </ul>
                     </li>
                 {% else %}
-                    <li id="{% if nav_item.active%}current{% endif %}">
+                    <li id="{% if nav_item.active%}current{% endif %}" {% if nav_item.active%}class="unselectable"{% endif %}>
                         <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{% if nav_item.active%}<img src="/pix/expand_more.svg" id="expand_icon">{% endif %}{{ nav_item.title }}</a>
                         {% if nav_item.active%}{% include "toc.html" %}{% endif %}
                     </li>

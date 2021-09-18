@@ -182,7 +182,6 @@ input[type="search"] {
 }
 .sidebar a.active {
     color: white;
-    .unselectable;
     background-color: var(--theme-color);
 }
 img#expand_icon {
