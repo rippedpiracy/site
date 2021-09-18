@@ -185,6 +185,9 @@ input[type="search"] {
     .unselectable;
     background-color: var(--theme-color);
 }
+/* li#current > a::before { */
+/*     content: 'pee'; */
+/* } */
 .sidebar-toggle div {
     width: 16px;
     height: 1px;

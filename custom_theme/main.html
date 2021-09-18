@@ -56,16 +56,16 @@
                         <p class="navtitle">{{ nav_item.title }}</p>
                         <ul>
                         {% for nav_item in nav_item.children %}
-                        <li id="{% if nav_item.active%}current{% endif %}" {% if nav_item.active%}onclick="collapseCurrent()"{% endif %}>
-                                <a {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{{ nav_item.title }}</a>
+                        <li id="{% if nav_item.active%}current{% endif %}" >
+                                <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{{ nav_item.title }}</a>
                                 {% if nav_item.active%}{% include "toc.html" %}{% endif %}
                             </li>
                         {% endfor %}
                         </ul>
                     </li>
                 {% else %}
-                    <li id="{% if nav_item.active%}current{% endif %}" {% if nav_item.active%}onclick="collapseCurrent()"{% endif %}>
-                        <a {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{{ nav_item.title }}</a>
+                    <li id="{% if nav_item.active%}current{% endif %}">
+                        <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{{ nav_item.title }}</a>
                         {% if nav_item.active%}{% include "toc.html" %}{% endif %}
                     </li>
                 {% endif %}
