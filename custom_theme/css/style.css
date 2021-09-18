@@ -327,7 +327,7 @@ table tr td:last-child {
 
 div.credits-container {
 	margin: auto;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
     margin-top: 2em;
 	align-self: flex-end;
 	order: 10 /* should always be at bottom */
