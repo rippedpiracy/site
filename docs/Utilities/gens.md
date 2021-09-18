@@ -1,5 +1,5 @@
-title: Generators
-description: Account Dispensers and more.
+title: Account Dispensers
+description: Account Generators and more.
 
 [**h-gen.to**](https://h-gen.to) - Account Dispenser with varying categories of accounts. Mostly reliable. 
 
@@ -15,5 +15,5 @@ description: Account Dispensers and more.
 
 [**cathook.club**](https://accgen.cathook.club/) - Actual Generator for Steam Accounts, creates a Steam alt with no games, mostly used for cheating.  
 
-[**thealtening.com**](https://thealtening.com/free/free-minecraft-alts) - Minecraft Token Generator. Needs an external app for the accounts to work, not reccomended. 
+[**thealtening.com**](https://thealtening.com/free/free-minecraft-alts) - Minecraft Token Dispenser. Needs an external app for the accounts to work, not reccomended. 
 
