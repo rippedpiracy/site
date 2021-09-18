@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{ page.meta.title }} - {{ config.site_name }}</title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+        <title>{% if not page.meta.title %}{{ page.title }}{% endif %}{% if page.meta.title %}{{ page.meta.title }}{% endif %} - {{ config.site_name }}</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
@@ -56,16 +56,16 @@
                         <p class="navtitle">{{ nav_item.title }}</p>
                         <ul>
                         {% for nav_item in nav_item.children %}
-                            <li class="{% if nav_item.active%}current{% endif %}">
-                                <a href="/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                        <li id="{% if nav_item.active%}current{% endif %}" {% if nav_item.active%}onclick="collapseCurrent()"{% endif %}>
+                                <a {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{{ nav_item.title }}</a>
                                 {% if nav_item.active%}{% include "toc.html" %}{% endif %}
                             </li>
                         {% endfor %}
                         </ul>
                     </li>
                 {% else %}
-                    <li class="{% if nav_item.active%}current{% endif %}">
-                        <a href="/{{ nav_item.url }}">{{ nav_item.title }}</a>
+                    <li id="{% if nav_item.active%}current{% endif %}" {% if nav_item.active%}onclick="collapseCurrent()"{% endif %}>
+                        <a {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{{ nav_item.title }}</a>
                         {% if nav_item.active%}{% include "toc.html" %}{% endif %}
                     </li>
                 {% endif %}

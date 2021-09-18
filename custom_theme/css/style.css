@@ -28,7 +28,6 @@
 	src: url(../fonts/Whitney700.woff) format("woff")
 }
 
-
 body {
   text-rendering: optimizeLegibility !important;
 /*  margin-bottom: 80vh; */
@@ -127,6 +126,22 @@ html {
   background: var(--theme-color); /* Gecko Browsers */
 }
 
+.nodisplay {
+    display: none;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#current {
+    cursor: pointer;
+}
+
+
 .input-wrap {
     background-color: var(--search-input-background-color);
     border-width: 1px;
@@ -162,8 +177,12 @@ input[type="search"] {
     padding-left: 12px;
     color: var(--sidebar-nav-link-color);
 }
+.sidebar a:hover {
+    color: white;
+}
 .sidebar a.active {
     color: white;
+    .unselectable;
     background-color: var(--theme-color);
 }
 .sidebar-toggle div {
