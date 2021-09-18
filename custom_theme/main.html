@@ -57,7 +57,7 @@
                         <ul>
                         {% for nav_item in nav_item.children %}
                         <li id="{% if nav_item.active%}current{% endif %}" >
-                                <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{{ nav_item.title }}</a>
+                            <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{% if nav_item.active%}<img src="/pix/expand_more.svg" id="expand_icon">{% endif %}{{ nav_item.title }}</a>
                                 {% if nav_item.active%}{% include "toc.html" %}{% endif %}
                             </li>
                         {% endfor %}
@@ -65,7 +65,7 @@
                     </li>
                 {% else %}
                     <li id="{% if nav_item.active%}current{% endif %}">
-                        <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{{ nav_item.title }}</a>
+                        <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{% if nav_item.active%}<img src="/pix/expand_more.svg" id="expand_icon">{% endif %}{{ nav_item.title }}</a>
                         {% if nav_item.active%}{% include "toc.html" %}{% endif %}
                     </li>
                 {% endif %}

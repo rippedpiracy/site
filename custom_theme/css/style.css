@@ -185,6 +185,15 @@ input[type="search"] {
     .unselectable;
     background-color: var(--theme-color);
 }
+img#expand_icon {
+    max-height: 1.2em;
+    margin-bottom: -0.22em;
+    transition-property: transform;
+    transition: all 0.2s ease-in-out;
+}
+a.active img#expand_icon {
+    transform: rotate(-90deg);
+}
 /* li#current > a::before { */
 /*     content: 'pee'; */
 /* } */

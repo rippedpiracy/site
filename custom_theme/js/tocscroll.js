@@ -11,6 +11,10 @@ $(function() {
 	myFunc(); // call initially so that there isn't everything inactive
 });
 
+function disableArrow() {
+    $('img#expand_icon').addClass('nodisplay');
+}
+
 
 function myFunc() {
 	var scrollTop = $(document).scrollTop();
@@ -28,7 +32,7 @@ function myFunc() {
 	}
     if (window.anchors.length == 0) { // if undefined, means no headers
         currentActive(true);
-        console.log("no");
+        disableArrow();
         $(window).off("scroll", myFunc);
     }
 	$('nav ul li a[href="#' + current + '"]').addClass('active');
