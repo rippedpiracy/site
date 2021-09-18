@@ -217,15 +217,21 @@ p.article-info {
     margin-bottom: 1em;
 }
 
-body:not([data-platform^="Mac"]) * {
-    scrollbar-color: hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.3) hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.1);
-    scrollbar-width: thin;
+body:not([data-platform^="Mac"]) {
+    * {
+        scrollbar-color: hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.3) hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.1);
+        scrollbar-width: thin;
 
-    ::-webkit-scrollbar-thumb {
-    background: hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.3);
-    }
-    ::-webkit-scrollbar-track {
-    background: hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.1);
+        ::-webkit-scrollbar {
+            width: $scrollbar-width;
+            height: $scrollbar-width;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.3);
+        }
+        ::-webkit-scrollbar-track {
+            background: hsla(var(--mono-hue), var(--mono-saturation), 50%, 0.1);
+        }
     }
 }
 
@@ -310,8 +316,8 @@ table tr td:last-child {
 div.credits-container {
 	margin: auto;
 	margin-bottom: 2em;
+    margin-top: 2em;
 	align-self: flex-end;
-	margin-top: auto;
 	order: 10 /* should always be at bottom */
 }
 #mkdocs-search-results {

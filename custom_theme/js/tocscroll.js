@@ -26,8 +26,9 @@ function myFunc() {
 			var current = $(anchors[i]).attr('id');
 		}
 	}
-    if (typeof current === "undefined") { // if undefined, means no headers
-        currentActive();
+    if (window.anchors.length == 0) { // if undefined, means no headers
+        currentActive(true);
+        console.log("no");
         $(window).off("scroll", myFunc);
     }
 	$('nav ul li a[href="#' + current + '"]').addClass('active');
@@ -39,7 +40,11 @@ function removeAllActive() {
     }
 }
 
-function currentActive() {
+function currentActive(override = false) {
+    if (window.anchors.length == 0 && override == false) {
+        return;
+    }
+
     var a = $("#current > a")
     if ($(a).hasClass('active')) {
         $(a).removeClass('active');
