@@ -1,7 +1,7 @@
 title: Miscellaneous
 description: Various tools to make your life easier.
 
-# Browser Extensions / Scripts
+# Browser Extensions
 
 [**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance. FastForward circumvents annoying link shorteners (Actively maintained Universal Bypass fork).
 
@@ -36,3 +36,34 @@ description: Various tools to make your life easier.
 [**Download All Images**](https://github.com/belaviyo/save-images) - Download all images from any web page you're on.
 
 [**SingleFile**](https://github.com/gildas-lormeau/SingleFile) -  Save a faithful copy of an entire web page in a single HTML file
+
+# Browser Scripts
+
+[**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/)
+
+[****]()
+
+# Useful Tools
+
+[**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
+
+[**CompactGUI**](https://github.com/ImminentFate/CompactGUI) - Transparently compresses games, programs and other folders with virtually no performance loss.
+
+[**Youtube-dlp**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the youtube downloader Youtube-dl.
+
+[**JDownloader**](https://jdownloader.org/jdownloader2) - Download manager that can boost download speeds, good for multiple simultaneous downloads.
+
+[**Internet Download Manager**](https://www.internetdownloadmanager.com/) - Download manager that can boost download speeds.
+
+[**Motrix**](https://github.com/agalwood/Motrix) - Download manager (including Torrents) that can boost download speeds.
+
+[**Free Download Manager**](https://www.freedownloadmanager.org/) - Download manager that can boost download speeds.
+
+[**Xtreme Download Manager**](https://github.com/subhra74/xdm) - Download manager that can boost download speeds.
+
+# Useful Websites
+
+[**File Hosting Wiki**](https://filehostlist.miraheze.org/wiki/Main_Page) - Wiki for Premium Leechers, Torrent Leechers
+
+
+
