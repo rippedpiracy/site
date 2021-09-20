@@ -38,11 +38,11 @@ This site has been a pretty nice source for 3DS CIA Games, you can tell from its
 
 **[hShop](https://hshop.erista.me/) (DDL)**
 
-You can easily Download 3DS games by scanning a QR code with the [FBI](https://gbatemp.net/threads/release-fbi-open-source-cia-installer.386433/) app.
+You can easily Download 3DS Games by scanning a QR code with the [FBI](https://gbatemp.net/threads/release-fbi-open-source-cia-installer.386433/) app.
 
 **[nsw2u](https://nsw2u.xyz/) (DDL)**
 
-Changes domains frequently, offering NSP files for new Switch games, with Updates included.
+Changes domains frequently, offering NSP files for new Switch Games, with Updates included.
 
 **[CDRomance](https://cdromance.com/) (DDL)**
 
