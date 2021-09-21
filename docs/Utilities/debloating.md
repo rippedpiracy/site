@@ -29,4 +29,4 @@ Way better uninstaller than Windows 10's default one, FOSS and really good for b
 
 *You can disable [**hibernation**](https://docs.microsoft.com/en-us/troubleshoot/windows-client/deployment/disable-and-re-enable-hibernation) to free as much space as your amount of RAM.*
 
-*You can also grab a ISO from TechBench **[here](https://tb.rg-adguard.net/public.php)** if you wish to reinstall Windows before doing all these steps.*
+*You can also grab an ISO from TechBench **[here](https://tb.rg-adguard.net/public.php)** if you wish to reinstall Windows before doing all these steps.*
