@@ -1,8 +1,9 @@
 title: Intro
 description: Welcome to Ripped!
 
-# Welcome to Ripped's New Trusted Sites
+# Welcome to the official Ripped website!
+**This is a collection of sites and tools that are trusted by the community.**
+
+Feel free to contribute by sending a Pull Request on our [GitHub](https://github.com/rippedpiracy/rippedpiracy.github.io/)
 
 Click on the categories in the sidebar for more information.
-
-
