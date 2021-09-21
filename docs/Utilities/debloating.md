@@ -14,7 +14,7 @@ The simplest apps to perform a quick Privacy and Security check of your Windows 
 Largest PowerShell module for Windows 10 & 11 tuning.
 
 **[Optimizer](https://github.com/hellzerg/optimizer/releases)**
-Portable utility that helps you restore your privacy and increase your security.
+Portable utility that helps you restore your Security and increase your Privacy.
 
 **[Fix-Windows-Privacy](https://modzero.github.io/fix-windows-privacy/)**
 Disables Telemetry Registry keys that may have been left over by other programs.
