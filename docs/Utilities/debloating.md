@@ -4,7 +4,7 @@ description: Make your OS lighter, faster and more secure.
 *Pro Tip: Make a Restore Point before running these apps!*
 # Debloating & Privacy
 **[TronScript](https://bmrf.org/repos/tron/)**
-Most in-depth way to clean, de-bloat, optimize and disinfect your PC. Reccomended.
+Most in-depth way to clean, de-bloat, optimize and disinfect your PC. Recommended.
 *BE SURE TO READ THE INSTRUCTIONS!*
 
 **[PrivateZilla](https://github.com/builtbybel/privatezilla) or [SharpApp](https://github.com/builtbybel/sharpapp)**
