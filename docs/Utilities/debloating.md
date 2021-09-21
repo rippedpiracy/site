@@ -7,7 +7,7 @@ description: Make your OS lighter, faster and more secure.
 Most in-depth way to clean, de-bloat, optimize and disinfect your PC. Recommended.
 *BE SURE TO READ THE INSTRUCTIONS!*
 
-**[PrivateZilla](https://github.com/builtbybel/privatezilla) or [SharpApp](https://github.com/builtbybel/sharpapp)**
+**[PrivateZilla](https://github.com/builtbybel/privatezilla)** or **[SharpApp](https://github.com/builtbybel/sharpapp)**
 The simplest apps to perform a quick Privacy and Security check of your Windows 10 OS.
 
 **[Sophia-Script](https://github.com/farag2/Sophia-Script-for-Windows)**
