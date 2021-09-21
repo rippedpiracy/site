@@ -405,10 +405,13 @@ main p {
     margin: 1em 0;
 }
 /*
-@media (
+@media
 */
+
+/*
 @media (min-width: 48em) {
   .sidebar-toggle, .sidebar-toggle-button {
     display: none;
   }
 }
+*/
