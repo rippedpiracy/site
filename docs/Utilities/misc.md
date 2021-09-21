@@ -59,7 +59,13 @@ description: Various tools to make your life easier.
 
 [**CompactGUI**](https://github.com/ImminentFate/CompactGUI) - Transparently compresses games, programs and other folders with virtually no performance loss.
 
+[**SpaceSniffer**](http://www.uderzo.it/main_products/space_sniffer/) - See exactly what's taking up space on your drives.
+
+[**pe-studio**](https://www.winitor.com/) - Helps you check for malware in apps.
+
 [**Youtube-dlp**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the youtube downloader Youtube-dl.
+
+[**Text-Grab**](https://github.com/TheJoeFin/Text-Grab) - Use OCR to grab and read text from images.
 
 [**JDownloader**](https://jdownloader.org/jdownloader2) - Download manager that can boost download speeds, good for multiple simultaneous downloads.
 
@@ -73,5 +79,15 @@ description: Various tools to make your life easier.
 
 # Useful Websites
 
+[**Spyware Neocities**](https://spyware.neocities.org/articles/) - Site which periodically analyzes apps for spying behavior.
+
 [**File Hosting Wiki**](https://filehostlist.miraheze.org/wiki/Main_Page) - Wiki for Premium Leechers, Torrent Leechers
+
+[**YtmDL Web**](https://ytmdl.deepjyoti30.dev/) - Best looking and performing online YouTube video downloader.
+
+[**Outline**](https://outline.com/) - Removes clutter from news articles.
+
+[**Steam Workshop Downloader**](https://www.steamworkshopdownloader.io/) - Download Steam Workshop items without having to own the game.
+
+[**UnshortenIt**](https://unshorten.it/) & [**Linkvertise Bypasser**](https://thebypasser.com/) - Unshorten annoying ad-links on the spot.
 
