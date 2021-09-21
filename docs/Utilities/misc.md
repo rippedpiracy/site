@@ -5,8 +5,6 @@ description: Various tools to make your life easier.
 
 [**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance. FastForward circumvents annoying link shorteners (Actively maintained Universal Bypass fork).
 
-[**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters. 
-
 [**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient Ad-Blocker for Chromium and Firefox, fast and lean. 
 
 [**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers. 
@@ -37,13 +35,25 @@ description: Various tools to make your life easier.
 
 [**SingleFile**](https://github.com/gildas-lormeau/SingleFile) -  Save a faithful copy of an entire web page in a single HTML file
 
+[**Terms of Service; Didn’t Read: Be Informed**](https://github.com/tosdr/browser-extensions) - Grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements.
+
+[**Temporary Containers**](https://github.com/stoically/temporary-containers) (Firefox) - Allows you to open tabs, websites, and links in automatically managed disposable containers. Containers isolate data websites store (cookies, storage, and more) from each other
+
+[**Cookie AutoDelete**](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) - Deletes cookies and other browsing site data as soon as the tab closes, domain changes or browser restarts.
+
 # Browser Scripts
 
-[**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/)
+[**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass Youtube's age restricted videos.
 
-[****]()
+[**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters. 
 
-# Useful Tools
+[**Mega.nz Unlimited Import**](https://pastebin.com/raw/4AXkE1yE) - Import any file/folder to your Mega Cloud without worrying about the space it takes as long as your Storage isn't full.
+
+[**CS.RIN.RU Enhanced**](https://github.com/SubZeroPL/cs-rin-ru-enhanced-mod) - Enhances the UI and the functionality of the cs.rin.ru site.
+
+[**Get Data from Steam / SteamDB / EpicDB**](https://github.com/Sak32009/GetDLCInfoFromSteamDB/) - Extracts all the information of the DLCs/Games from Steam/SteamDB/EpicDB and exports in various formats.
+
+# Useful Apps
 
 [**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
 
@@ -64,6 +74,4 @@ description: Various tools to make your life easier.
 # Useful Websites
 
 [**File Hosting Wiki**](https://filehostlist.miraheze.org/wiki/Main_Page) - Wiki for Premium Leechers, Torrent Leechers
-
-
 
