@@ -4,7 +4,7 @@ author: doggo404#0001
 description: How to rip CDs using Exact Audio Copy.
 
 ### EAC Setup Process
-This guide was made for [EAC version 1.0 beta 3](https://www.exactaudiocopy.de/) and above and will not completely work with earlier versions. Versions 0.99 or earlier should use the blowfish guide.  
+This guide was made for [EAC version 1.0 beta 3](https://www.exactaudiocopy.de/) and above and will not completely work with earlier versions.
 
 Anything with a green outline around it is a required setting. Anything orange is required but depends on your drive. Anything unmarked is optional.  
 
