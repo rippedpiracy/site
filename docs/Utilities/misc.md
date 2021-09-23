@@ -5,7 +5,7 @@ description: Various tools and apps to make your life easier.
 
 [**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance. FastForward circumvents annoying link shorteners (Actively maintained Universal Bypass fork).
 
-[**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean. 
+[**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean. Use [Fuck Fuckadblock](https://github.com/bogachenko/fuckfuckadblock) to go with it, it filters for Anti-AdBlocker popups and bypassess them if possible.
 
 [**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers. 
 
