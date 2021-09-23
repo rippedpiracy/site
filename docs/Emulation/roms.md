@@ -19,7 +19,7 @@ The /r/ROMs Megathread, with links for Popular and Arcade ROMs, visualized with 
 
 Vimm provides Torrents for larger Downloads like Wii Games, since the site's Download speed is a bit slow.
 
-**[AlvRo's Spreadsheet](https://docs.google.com/spreadsheets/d/19tAZ1KNEUZ58e-4kPJGh947alDb1oyrNpzcnCLk7DEE/pubhtml) (DDL)**
+**[AlvRo's Spreadsheet](https://docs.google.com/spreadsheets/d/19tAZ1KNEUZ58e-4kPJGh947alDb1oyrNpzcnCLk7DEE/pubhtml) & [Mirror on Google Drive](https://drive.google.com/drive/folders/1tnUrpX5X0dTite9_m6e0T4003T_NGhWe) (DDL)**
 
 Mr. AlvRo has organized all of his ROM's Download links via 1fichier in a Google Spreadsheet, for ease of browsing.
 
@@ -47,7 +47,3 @@ Changes domains frequently, offering NSP files for new Switch Games, with Update
 **[CDRomance](https://cdromance.com/) (DDL)**
 
 Site comparable to Ziperto which offers more ROMs, for different consoles, uploaded directly to the site.
-
-**[185 TBs of ROMs Collection](https://drive.google.com/drive/folders/1tnUrpX5X0dTite9_m6e0T4003T_NGhWe) (DDL)**
-
-A collection of 185 TBs of ROMs on Google Drive.
