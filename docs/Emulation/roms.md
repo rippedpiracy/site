@@ -15,7 +15,7 @@ The /r/ROMs Megathread, with links for Popular and Arcade ROMs, visualized with 
  
  The best places to get VITA, PS3, PSP, PSX Games, DLCs and more, directly from Sony's servers with no Middle-Man.
 
-**[Vimm's Lair: Vault](https://vimm.net/vault/) (DDL & Torrent)**
+**[Vimm's Lair: Vault](https://vimm.net/vault/) (DDL / Torrent)**
 
 Vimm provides Torrents for larger Downloads like Wii Games, since the site's Download speed is a bit slow.
 
