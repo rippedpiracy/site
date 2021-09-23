@@ -3,7 +3,7 @@ description: Account Generators and more.
 
 [**h-gen.to**](https://h-gen.to) - Account Dispenser with varying categories of accounts. Mostly reliable. 
 
-[**leak.sx**](https://leak.sx) - Account Leecher with lists of publicly available pastebins, go in it with an [adblocker](https://ublockorigin.com/).  
+[**leak.sx**](https://leak.sx) - Account Leecher with lists of publicly available pastebins, go in it with an [AdBlocker](https://ublockorigin.com/).  
 
 [**leak.to**](https://leak.to/forum/21-premium-accounts/) - Forum with an account leaks session, needs registration. Only get accounts and __NOTHING ELSE__.
 
