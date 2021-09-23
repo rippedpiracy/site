@@ -1,7 +1,7 @@
 title: ROMs
 description: Every type of ROM for every type of Console.
 
-*Tip: Use an Ad-Blocker while browsing all of these sites!*
+*Tip: Use an AdBlocker while browsing all of these sites!*
 
 **[ROMSPURE](https://romspure.cc/roms) (DDL)**
 
