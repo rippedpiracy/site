@@ -5,7 +5,7 @@ description: Various tools and apps to make your life easier.
 
 [**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance. FastForward circumvents annoying link shorteners (Actively maintained Universal Bypass fork).
 
-[**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean. Use [Fuck Fuckadblock](https://github.com/bogachenko/fuckfuckadblock) to go with it, it filters for Anti-AdBlocker popups and bypassess them if possible.
+[**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean. Use [fuckfuckadblock](https://github.com/bogachenko/fuckfuckadblock) to go with it, it filters for AntiAdBlocker popups and bypassess them if possible.
 
 [**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers. 
 
@@ -63,7 +63,7 @@ description: Various tools and apps to make your life easier.
 
 [**pe-studio**](https://www.winitor.com/) - Helps you check for malware in apps.
 
-[**Youtube-dlp**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the youtube downloader Youtube-dl.
+[**Youtube-dlp**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the youtube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl).
 
 [**Text-Grab**](https://github.com/TheJoeFin/Text-Grab) - Use OCR to grab and read text from images.
 
