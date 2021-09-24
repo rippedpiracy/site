@@ -46,4 +46,4 @@ Changes domains frequently, offering NSP files for new Switch Games, with Update
 
 **[CDRomance](https://cdromance.com/) (DDL)**
 
-Site comparable to Ziperto which offers more ROMs, for different consoles, uploaded directly to the site.
+Site comparable to [Ziperto](https://ziperto.com) which offers more ROMs, for different consoles, uploaded directly to the site.
