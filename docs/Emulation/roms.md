@@ -25,8 +25,8 @@ Mr. AlvRo has organized all of his ROM's Download links via 1fichier in a Google
 
 **[PortalRoms Archive](https://1fichier.com/?pptel9kppt5ay95nxfmw) (Torrent)**
 
-Before PortalRoms shut down, one of Ripped's Staff Members made a Backup of all its ROM Downloads,  
-*if you Download from these Torrents **please** seed it as long as possible.*  
+Before PortalRoms shut down, one of Ripped's Staff Members made a Backup of all its ROM Downloads.  
+*If you Download one of these Torrents **please** seed them as long as possible.*  
 
 **[Ziperto](https://www.ziperto.com) (DDL)**
 
