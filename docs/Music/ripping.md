@@ -158,7 +158,7 @@ Leave everything unchecked except the last option.
 Congrats! EAC is now properly set up! You may wish to save your settings in a profile by hitting "New" at the bottom of the screen. However, unless you're changing your settings frequently there's no need, EAC will remember all of this on next launch regardless.  
 
 
-### EAC Ripping Process
+**EAC Ripping Process**
 
 
 
