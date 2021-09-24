@@ -292,6 +292,7 @@ p.credits {
 .credits a:hover {
 	text-decoration: underline;
 }
+
 /* tables */
 table {
     border-collapse: collapse;
@@ -300,7 +301,7 @@ table {
     border: none;
 }
 table td {
-  border: 1px solid var(--base-color);
+  border: 2px solid grey;
   padding: 0.2em 0.8em;
 }
 table td {
@@ -308,21 +309,24 @@ table td {
 }
 
 table tr:first-child td {
-  border-top: 1px solid var(--base-color);
+  border-top: 1px solid grey;
 }
 
 table tr:last-child td {
-  border-bottom: 1px solid var(--base-color);
+  border-bottom: 1px solid grey;
 }
 
 table tr td:first-child {
-  border-left: 1px solid var(--base-color);
+  border-left: 1px solid grey;
 }
 
 table tr td:last-child {
-  border-right: 1px solid var(--base-color);
+  border-right: 1px solid grey;
 }
 
+tr:nth-child(even) {
+	background-color: #2f3136;
+}
 
 
 div.credits-container {
