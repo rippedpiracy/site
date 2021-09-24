@@ -411,7 +411,7 @@ main p {
 }
 
 ::-webkit-scrollbar {
-  width: 22px;
+  width: 18px;
 }
 
 ::-webkit-scrollbar-track {
@@ -420,7 +420,7 @@ main p {
 
 ::-webkit-scrollbar-thumb {
   background-color: #808080;
-  border-radius: 22px;
+  border-radius: 18px;
   border: 7px solid transparent;
   background-clip: content-box;
 }
