@@ -83,7 +83,7 @@ description: Various tools and apps to make your life easier.
 
 [**File Hosting Wiki**](https://filehostlist.miraheze.org/wiki/Main_Page) - Wiki for Premium Leechers, Torrent Leechers
 
-[**YtmDL Web**](https://ytmdl.deepjyoti30.dev/) - Best looking and performing online YouTube video downloader.
+[**YtmDL Web**](https://ytmdl.deepjyoti30.dev/) - Best looking and performing online YouTube music downloader.
 
 [**Outline**](https://outline.com/) - Removes clutter from news articles.
 
