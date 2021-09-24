@@ -1,7 +1,7 @@
 title: About
 description: About Ripped's Website.
 
-# Contributing
+## Contributing
 
 Feel free to contribute by opening a Pull Request in our [GitHub Repo](https://github.com/rippedpiracy/rippedpiracy.github.io).
 
