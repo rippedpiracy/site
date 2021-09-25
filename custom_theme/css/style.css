@@ -77,6 +77,14 @@ html {
   --code-theme-comment: #4f545c;
 }
 
+[data-theme="dark"] {
+	--theme-color: #004DAA;
+
+	--base-background-color: #181a1b;
+	--sidebar-background: #26292b;
+}
+
+
 :root {
     background-color: var(--base-background-color);
     font-family: var(--base-font-family);
@@ -295,7 +303,6 @@ tr:nth-child(even) {
 	background-color: #2f3136;
 }
 
-
 div.credits-container {
 	margin: auto;
 	margin-bottom: 1em;
@@ -396,9 +403,19 @@ main p {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #A9A9A9;
 }
+#darkmodetoggle {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+}
 /*
 @media
 */
+@media (max-width: 767px) {
+	#darkmodetoggle {
+		display: none;
+	}
+}
 
 /*
 @media (min-width: 48em) {

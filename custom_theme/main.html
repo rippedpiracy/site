@@ -2,31 +2,32 @@
 <html>
     <head>
         <title>{% if not page.meta.title %}{{ page.title }}{% endif %}{% if page.meta.title %}{{ page.meta.title }}{% endif %} - {{ config.site_name }}</title>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
-  
+
         {%- if config.theme.highlightjs %}
         <link rel="stylesheet" href="/css/hljs.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script>
         {%- endif %}
-  
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  
+
         <script>var base_url = '{{ base_url }}';</script>
 		{% if 'search' in config['plugins'] %}
         <script src="/search/main.js" defer></script>
 		{% endif %}
-  
+
         <script src="/js/tocscroll.js"></script>
-        <script src="/js/clearinput.js"></script>
+	<!--        <script src="/js/clearinput.js"></script> -->
+	<script src="/js/dark.js"></script>
         <script src="/js/nav.js"></script>
-  
+
         <!--  for embeds -->
         <meta property="og:title" content="{{ page.meta.title }}" />
-		<meta name="theme-color" content="#5468ff">
+	<meta name="theme-color" content="#5468ff">
         <meta property="og:image" content="https://rippedpiracy.github.io/pix/ripped.png" />
         <meta property="og:site_name" content="{{ config.site_name }}" />
         <meta property="og:description" content="{{ page.meta.description }}" />
@@ -100,6 +101,6 @@
             </div>
             {{ page.content }}
         </main>
+    <a id="darkmodetoggle" onclick="switchTheme()"><img src="/pix/dark_mode.svg"></a>
     </body>
 </html>
-
