@@ -22,7 +22,9 @@ if (currentTheme) {
                 document.documentElement.setAttribute("data-theme", "dark");
         }
 }
+/*
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         console.log('user prefers dark scheme, going dark');
         document.documentElement.setAttribute("data-theme", "dark");
         }
+*/
