@@ -421,7 +421,7 @@ main p {
 ::-webkit-scrollbar-thumb {
   background-color: #808080;
   border-radius: 18px;
-  border: 7px solid transparent;
+  border: 6px solid transparent;
   background-clip: content-box;
 }
 
