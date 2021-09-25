@@ -184,7 +184,7 @@ a.active img#expand_icon {
 main {
 	margin-bottom: 80vh;
 }
-main.content > h1 {
+main.content > h1, h2, h3, h4 {
 	font-weight: 600;
 }
 p.article-info {
