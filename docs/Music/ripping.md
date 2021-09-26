@@ -1,5 +1,4 @@
 title: EAC Ripping
-updated: 2021-01-24 23:02:01
 author: doggo404#0001
 description: How to rip CDs using Exact Audio Copy.
 

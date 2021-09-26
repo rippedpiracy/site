@@ -27,5 +27,5 @@ jobs:
           python-version: 3.x
 
       # Runs a single command using the runners shell
-      - run: pip install mkdocs
+      - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force

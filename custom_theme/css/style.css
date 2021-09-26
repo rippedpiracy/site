@@ -101,6 +101,15 @@ html {
 .nodisplay {
     display: none;
 }
+.small {
+    max-height: 1em;
+}
+.align-right {
+	text-align: right;
+}
+div.inline {
+	display: inline-block;
+}
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -306,7 +315,7 @@ tr:nth-child(even) {
 div.credits-container {
 	margin: auto;
 	margin-bottom: 1em;
-    margin-top: 2em;
+        margin-top: auto;
 	align-self: flex-end;
 	order: 10 /* should always be at bottom */
 }
@@ -383,6 +392,10 @@ main a:hover {
 
 main p {
     margin: 1em 0;
+}
+
+footer {
+	margin-top: 2em;
 }
 
 ::-webkit-scrollbar {

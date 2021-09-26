@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
         {%- if config.theme.highlightjs %}
         <link rel="stylesheet" href="/css/hljs.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
@@ -81,7 +83,7 @@
         <h1 class="site-name"><a class="home-link" href="/">{{ config.site_name }}</a></h1>
 
         <div class="credits-container">
-            <p class="credits"><a href="{{ config.repo_url }}">Github</a>|<a href="https://discord.gg/6qVr2aR">Discord</a></p>
+       	    <p class="credits"><a href="{{ config.repo_url }}">{{ config.repo_name }}</a>|<a href="https://discord.gg/6qVr2aR">Discord</a></p>
             <p class="credits"><b>Site Theme by Creatable</b></p>
         </div>
 
@@ -95,11 +97,17 @@
                 {% if page.meta.contributors is defined %}
                     <p class="article-info">Contributors: {{ page.meta.contributors }}</p>
                 {% endif %}
-                {% if page.meta.updated is defined %}
-                    <p class="article-info">Last updated: {{ page.meta.updated }}</p>
-                {% endif %}
             </div>
             {{ page.content }}
+	    <footer>
+		    <div class="inline">
+			    <p class="article-info">Last updated: {{ page.meta.revision_date }}</p>
+		    </div>
+		    <div style="float: right; margin-top: 0.1em;">
+			    <p class="article-info"><a href="{{ page.edit_url }}">Edit on </a><i class="fab fa-github"></i></p>
+		    </div>
+	    </footer>
+
         </main>
     <a id="darkmodetoggle" onclick="switchTheme()"><img src="/pix/dark_mode.svg"></a>
     </body>

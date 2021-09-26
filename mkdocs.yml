@@ -1,7 +1,14 @@
 site_name: Ripped
-site_url: https://rippedpiracy.github.io 
+site_url: https://rippedpiracy.github.io
+
 repo_url: "https://github.com/rippedpiracy/rippedpiracy.github.io"
-plugins: []
+repo_name: "GitHub"
+edit_uri: "blob/master/docs/"
+
+markdown_extensions:
+  - attr_list
+plugins:
+  - git-revision-date
 theme:
     name: null
     custom_dir: 'custom_theme/'

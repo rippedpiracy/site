@@ -37,7 +37,6 @@ If you would like to write a guide, include some extra metadata at the top:
 ```md
 author: (you)
 contributors: (omit this line if empty)
-updated: (last updated date, preferably in YYYY-MM-DD format)
 ```
 
 ## Discord

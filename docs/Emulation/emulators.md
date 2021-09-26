@@ -1,5 +1,4 @@
 title: Emulators
-updated: 2021-09-16 16:35:59
 author: doggo404#0001
 description: Comprehensive list of emulators.
 
