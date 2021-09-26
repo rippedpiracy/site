@@ -5,8 +5,8 @@ description: Where to get your Software safely and efficiently.
 
 **[RuTracker](https://rutracker.org) (Torrent)**
 
-RuTracker has been the go-to site for Software piracy, for more than 10+ years.  
-Everything is uploaded by members with more than decades of experience with checked uploads.  
+RuTracker has been the go-to site for Software piracy, for more than 10+ years.
+Everything is uploaded by members with more than decades of experience with checked uploads.
 
 **[m0nkrus](http://w14.monkrus.ws/) (Torrent)**
 

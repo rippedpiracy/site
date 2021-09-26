@@ -12,7 +12,7 @@ Nice place to get a pretty large list of ROMs for every type of Consoles.
 The /r/ROMs Megathread, with links for Popular and Arcade ROMs, visualized with mkdocs.
 
 **[NoPayStation](https://nopaystation.com/) & [PSNDL](https://psndl.net/) (DDL)**
- 
+
  The best places to get VITA, PS3, PSP, PSX Games, DLCs and more, directly from Sony's servers with no Middle-Man.
 
 **[Vimm's Lair: Vault](https://vimm.net/vault/) (DDL / Torrent)**
@@ -25,12 +25,12 @@ Mr. AlvRo has organized all of his ROM's Download links via 1fichier in a Google
 
 **[PortalRoms Archive](https://1fichier.com/?pptel9kppt5ay95nxfmw) (Torrent)**
 
-Before PortalRoms shut down, one of Ripped's Staff Members made a Backup of all its ROM Downloads.  
-*If you Download one of these Torrents **please** seed them as long as possible.*  
+Before PortalRoms shut down, one of Ripped's Staff Members made a Backup of all its ROM Downloads.
+*If you Download one of these Torrents **please** seed them as long as possible.*
 
 **[Ziperto](https://www.ziperto.com) (DDL)**
 
-Nice source for Nintendo and PlayStation ROMs, unfortunately only has those. 
+Nice source for Nintendo and PlayStation ROMs, unfortunately only has those.
 
 **[CiasPara3ds](https://ciaspara3ds.blogspot.com/) (DDL)**
 
