@@ -24,9 +24,9 @@ Made to intercept Network Traffic and block Spying requests even before they get
 
 **[Fix-Windows-Privacy](https://modzero.github.io/fix-windows-privacy/)**
 Disables Telemetry Registry keys that may have been left over by other programs.
-
-
-# Honorable Mentions:
+ 
+ 
+# Honorable Mentions: 
 [**Sigma-Deleter**](https://github.com/XatzClient/Sigma-Deleter)
 Deletes every trace of the Miner placed by the Sigma Minecraft Client.
 

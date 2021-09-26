@@ -61,8 +61,8 @@ Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most
 
 https://macdrop.net/  https://www.torrentmac.net/ https://nxmac.com/ (ill edit these for later)
 
-## Glossary
+## Glossary 
 
-**DDL:** Direct Download, where you can download a file from a server usually by your browser.
-**Torrent:** A decentralised Peer-to-Peer file sharing protocol that is very common when sharing Pirated Content since the file isnt on a single server that can easily be taken down. We recommend using [qBittorrent](https://www.qbittorrent.org/) as a BitTorrent client.
+**DDL:** Direct Download, where you can download a file from a server usually by your browser.  
+**Torrent:** A decentralised Peer-to-Peer file sharing protocol that is very common when sharing Pirated Content since the file isnt on a single server that can easily be taken down. We recommend using [qBittorrent](https://www.qbittorrent.org/) as a BitTorrent client.  
 **Repacks:** Highly compressed Games that usually include all released DLCs, language packs, are pre-cracked and require minimal Piracy knowledge. Good for beginners and people that have low Internet bandwidth.

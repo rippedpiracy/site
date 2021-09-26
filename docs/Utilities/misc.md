@@ -7,11 +7,11 @@ description: Various tools and apps to make your life easier.
 
 [**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean. Use [fuckfuckadblock](https://github.com/bogachenko/fuckfuckadblock) to go with it, it filters for AntiAdBlocker popups and bypassess them if possible.
 
-[**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers.
+[**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers. 
 
 [**Dark Reader**](https://github.com/darkreader/darkreader) - Dark mode for all websites.
 
-[**NoScript**](https://github.com/hackademix/noscript) - Allow/Disallow JavaScript, Flash, Java and other executable content to only run on websites of your choice.
+[**NoScript**](https://github.com/hackademix/noscript) - Allow/Disallow JavaScript, Flash, Java and other executable content to only run on websites of your choice.  
 
 [**SponsorBlock**](https://github.com/ajayyy/SponsorBlock) - Skip YouTube sponsorships.
 
@@ -21,7 +21,7 @@ description: Various tools and apps to make your life easier.
 
 [**ClearURLs**](https://github.com/ClearURLs/Addon) - Remove tracking elements from URLs.
 
-[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) (Chromium) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or automatically suspend/unsuspend browser tabs to save up memory usage.
+[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) (Chromium) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or automatically suspend/unsuspend browser tabs to save up memory usage.  
 
 [**Search by Image**](https://github.com/dessant/search-by-image) - Quickly reverse image search on 35+ different search engines.
 
@@ -45,7 +45,7 @@ description: Various tools and apps to make your life easier.
 
 [**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass Youtube's age restricted videos.
 
-[**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters.
+[**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters. 
 
 [**Mega.nz Unlimited Import**](https://pastebin.com/raw/4AXkE1yE) - Import any file/folder to your Mega Cloud without worrying about the space it takes as long as your Storage isn't full.
 
