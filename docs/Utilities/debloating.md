@@ -16,6 +16,9 @@ The simplest apps to perform a quick Privacy and Security check of your Windows 
 **[Sophia-Script](https://github.com/farag2/Sophia-Script-for-Windows)**
 Largest PowerShell module for Windows 10 & 11 tuning.
 
+**[WPD](https://wpd.app)**
+A Privacy dashboard for Windows 10 & 11.
+
 **[Optimizer](https://github.com/hellzerg/optimizer/releases)**
 Portable utility that helps you restore your Security and increase your Privacy.
 
