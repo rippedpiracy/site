@@ -9,11 +9,11 @@ As listed in the [**Scene Glossary**](https://ripped.guide/Scene/scene-glossary/
 
 That said, here's some Pre-Database sites to check for releases.
 
-**[PreDB.org](https://www.predb.org/)**
-**[PreDB.de](https://predb.de/)**
-**[PreDB.ovh](https://predb.ovh/)**
-**[PreDB.live](https://predb.live/)**
-**[PreDB.me](https://predb.me/)**
+**[PreDB.org](https://www.predb.org/)**  
+**[PreDB.de](https://predb.de/)**  
+**[PreDB.ovh](https://predb.ovh/)**  
+**[PreDB.live](https://predb.live/)**  
+**[PreDB.me](https://predb.me/)**  
 
 ## Honorable Mention
 **[CrackWatch](https://crackwatch.com/)**
