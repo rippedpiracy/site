@@ -347,7 +347,7 @@ blockquote {
 	font-style: italic;
 	font-weight: 600;
 	background: #2f3136;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 blockquote p{
 	margin: 0 !important;
