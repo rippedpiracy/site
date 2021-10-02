@@ -41,6 +41,7 @@ description: Various tools and apps to make your life easier.
 
 [**Cookie AutoDelete**](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) - Deletes cookies and other browsing site data as soon as the tab closes, domain changes or browser restarts.
 
+[**Disconnect**](https://github.com/disconnectme/disconnect) - Makes the web faster, more private, and more secure.
 # Browser Scripts
 
 [**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass Youtube's age restricted videos.
