@@ -10,15 +10,15 @@ description: Comprehensive list of emulators.
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Stella](https://stella-emu.github.io/downloads.html)|
-||[Z26](http://www.whimsey.com/z26/)|
-||[PCAE](http://pcae.vg-network.com/)|
-|Mac|[Stella](https://stella-emu.github.io/downloads.html)|
-||[Z26](http://www.whimsey.com/z26/)|
-|Android|[Ataroid](https://www.emuparadise.me/emulators/files/user/com.androidemu.atari-5-1.0.4-691.rar)|
-|Nintendo DS|[Stella DS](https://www.emuparadise.me/emulators/files/StellaDS_V12.zip)|
-|PlayStation Portable|[PSP2600](http://zx81.zx81.free.fr/serendipity/index.php?/categories/31-Atari-2600)|
-|PlayStation 3|[Stella](https://www.emuparadise.me/emulators/files/user/stella-3.3-ps3-release3-cfw-1506.rar)|
+|Windows|[Stella](https://stella-emu.github.io/downloads.html){target="_blank"}|
+||[Z26](http://www.whimsey.com/z26/){target="_blank"}|
+||[PCAE](http://pcae.vg-network.com/){target="_blank"}|
+|Mac|[Stella](https://stella-emu.github.io/downloads.html){target="_blank"}|
+||[Z26](http://www.whimsey.com/z26/){target="_blank"}|
+|Android|[Ataroid](https://www.emuparadise.me/emulators/files/user/com.androidemu.atari-5-1.0.4-691.rar){target="_blank"}|
+|Nintendo DS|[Stella DS](https://www.emuparadise.me/emulators/files/StellaDS_V12.zip){target="_blank"}|
+|PlayStation Portable|[PSP2600](http://zx81.zx81.free.fr/serendipity/index.php?/categories/31-Atari-2600){target="_blank"}|
+|PlayStation 3|[Stella](https://www.emuparadise.me/emulators/files/user/stella-3.3-ps3-release3-cfw-1506.rar){target="_blank"}|
 
 &nbsp;
 **Atari 5200**
@@ -26,7 +26,7 @@ description: Comprehensive list of emulators.
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Atari ++](http://www.xl-project.com/downloads.html)|
+|Windows|[Atari ++](http://www.xl-project.com/downloads.html){target="_blank"}|
 
 &nbsp;
 **Atari 7800**
@@ -34,7 +34,7 @@ description: Comprehensive list of emulators.
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[EMU7800](http://emu7800.sourceforge.net/)|
+|Windows|[EMU7800](http://emu7800.sourceforge.net/){target="_blank"}|
 
 &nbsp;
 **Atari Jaguar**
@@ -42,8 +42,8 @@ description: Comprehensive list of emulators.
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Virtual Jaguar](http://www.icculus.org/virtualjaguar/)|
-||[Project Tempest](http://pt.emuunlim.com/)|
+|Windows|[Virtual Jaguar](http://www.icculus.org/virtualjaguar/){target="_blank"}|
+||[Project Tempest](http://pt.emuunlim.com/){target="_blank"}|
 
 &nbsp;
 **Atari Lynx**
@@ -51,7 +51,7 @@ description: Comprehensive list of emulators.
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Handy](http://handy.sourceforge.net/download.htm)|
+|Windows|[Handy](http://handy.sourceforge.net/download.htm){target="_blank"}|
 
 &nbsp;
 **Atari ST**
@@ -59,9 +59,9 @@ description: Comprehensive list of emulators.
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Hatari](https://hatari.tuxfamily.org/)|
-|Mac|[Hatari](https://hatari.tuxfamily.org/)|
-|Linux|[Hatari](https://hatari.tuxfamily.org/)|
+|Windows|[Hatari](https://hatari.tuxfamily.org/){target="_blank"}|
+|Mac|[Hatari](https://hatari.tuxfamily.org/){target="_blank"}|
+|Linux|[Hatari](https://hatari.tuxfamily.org/){target="_blank"}|
 
 &nbsp;
 
@@ -76,22 +76,22 @@ description: Comprehensive list of emulators.
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[PJ64](http://www.pj64-emu.com/downloads/)|
-||[1964](http://www.emulation64.com/files/info/197/1964.html/)|
-||[Mupen64Plus](https://mupen64plus.org/)|
-|Mac|[PJ64](http://www.pj64-emu.com/downloads/)|
-||[1964](http://www.emulation64.com/files/info/197/1964.html/)|
-||[Mupen64Plus](https://mupen64plus.org/)|\
-|Linux|[PJ64](http://www.pj64-emu.com/downloads/)|
-||[1964](http://www.emulation64.com/files/info/197/1964.html/)|
-||[Mupen64Plus](https://mupen64plus.org/)|
-|Android|[MegaN64](https://play.google.com/store/apps/details?id=com.aspieapps.free.emulator)|
-||[Tendo64](https://play.google.com/store/apps/details?id=com.loyalgroupenterprise.tendo64android)|
-||[Mupen64Plus](https://play.google.com/store/apps/details?id=paulscode.android.mupen64plus.free)|
-||[Emulator for N64](https://play.google.com/store/apps/details?id=com.RobertApp.N64emulator)|
-|PlayStation Portable|[DaedalusX64](https://github.com/DaedalusX64/daedalus)|
-|PlayStation Vita|[DaedalusX64-vitaGL](https://github.com/Rinnegatamante/DaedalusX64-vitaGL)|
-|Nintendo 3DS|[DaedalusX64-3DS](https://github.com/masterfeizz/DaedalusX64-3DS)|
+|Windows|[PJ64](http://www.pj64-emu.com/downloads/){target="_blank"}|
+||[1964](http://www.emulation64.com/files/info/197/1964.html/){target="_blank"}|
+||[Mupen64Plus](https://mupen64plus.org/){target="_blank"}|
+|Mac|[PJ64](http://www.pj64-emu.com/downloads/){target="_blank"}|
+||[1964](http://www.emulation64.com/files/info/197/1964.html/){target="_blank"}|
+||[Mupen64Plus](https://mupen64plus.org/){target="_blank"}|\
+|Linux|[PJ64](http://www.pj64-emu.com/downloads/){target="_blank"}|
+||[1964](http://www.emulation64.com/files/info/197/1964.html/){target="_blank"}|
+||[Mupen64Plus](https://mupen64plus.org/){target="_blank"}|
+|Android|[MegaN64](https://play.google.com/store/apps/details?id=com.aspieapps.free.emulator){target="_blank"}|
+||[Tendo64](https://play.google.com/store/apps/details?id=com.loyalgroupenterprise.tendo64android){target="_blank"}|
+||[Mupen64Plus](https://play.google.com/store/apps/details?id=paulscode.android.mupen64plus.free){target="_blank"}|
+||[Emulator for N64](https://play.google.com/store/apps/details?id=com.RobertApp.N64emulator){target="_blank"}|
+|PlayStation Portable|[DaedalusX64](https://github.com/DaedalusX64/daedalus){target="_blank"}|
+|PlayStation Vita|[DaedalusX64-vitaGL](https://github.com/Rinnegatamante/DaedalusX64-vitaGL){target="_blank"}|
+|Nintendo 3DS|[DaedalusX64-3DS](https://github.com/masterfeizz/DaedalusX64-3DS){target="_blank"}|
 
 &nbsp;
 **Nintendo DS**
@@ -99,12 +99,12 @@ description: Comprehensive list of emulators.
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[DeSmuME](https://desmume.org/)|
-||[melonDS](http://melonds.kuribo64.net/downloads.php)|
-|Mac|[DeSmuME](https://desmume.org/)|
-Linux|[DeSmuME](https://desmume.org/)|
-||[melonDS](http://melonds.kuribo64.net/downloads.php)|
-|Android|[DraStic DS Emulator](https://play.google.com/store/apps/details?id=com.dsemu.drastic&hl=en)|
+|Windows|[DeSmuME](https://desmume.org/){target="_blank"}|
+||[melonDS](http://melonds.kuribo64.net/downloads.php){target="_blank"}|
+|Mac|[DeSmuME](https://desmume.org/){target="_blank"}|
+Linux|[DeSmuME](https://desmume.org/){target="_blank"}|
+||[melonDS](http://melonds.kuribo64.net/downloads.php){target="_blank"}|
+|Android|[DraStic DS Emulator](https://play.google.com/store/apps/details?id=com.dsemu.drastic&hl=en){target="_blank"}|
 
 &nbsp;
 **Nintendo 3DS**
@@ -112,9 +112,9 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Citra](https://citra-emu.org/)|
-|Mac|[Citra](https://citra-emu.org/)|
-|Linux|[Citra](https://citra-emu.org/)|
+|Windows|[Citra](https://citra-emu.org/){target="_blank"}|
+|Mac|[Citra](https://citra-emu.org/){target="_blank"}|
+|Linux|[Citra](https://citra-emu.org/){target="_blank"}|
 
 &nbsp;
 **Nintendo Entertainment System**
@@ -122,34 +122,34 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[RockNES](http://rocknes.web.fc2.com/)|
-||[Jnes](http://jabosoft.com/home)|
-||[Mesen](https://www.mesen.ca/)|
-||[My NES](https://sourceforge.net/projects/mynes/)|
-||[FCEUX](http://www.fceux.com/web/home.html)|
-||[Nestopia](https://sourceforge.net/projects/nestopia/)|
-|Android|[Nostalgia.NES](https://play.google.com/store/apps/details?id=com.nostalgiaemulators.neslite&hl=en)|
-||[NESoid](http://www.nesoid.com/)|
-|PlayStation Portable|[NesterJ](http://wololo.net/downloads/index.php/download/426)|
-|Nintendo DS|[nesDS](https://sourceforge.net/projects/nesds/)|
+|Windows|[RockNES](http://rocknes.web.fc2.com/){target="_blank"}|
+||[Jnes](http://jabosoft.com/home){target="_blank"}|
+||[Mesen](https://www.mesen.ca/){target="_blank"}|
+||[My NES](https://sourceforge.net/projects/mynes/){target="_blank"}|
+||[FCEUX](http://www.fceux.com/web/home.html){target="_blank"}|
+||[Nestopia](https://sourceforge.net/projects/nestopia/){target="_blank"}|
+|Android|[Nostalgia.NES](https://play.google.com/store/apps/details?id=com.nostalgiaemulators.neslite&hl=en){target="_blank"}|
+||[NESoid](http://www.nesoid.com/){target="_blank"}|
+|PlayStation Portable|[NesterJ](http://wololo.net/downloads/index.php/download/426){target="_blank"}|
+|Nintendo DS|[nesDS](https://sourceforge.net/projects/nesds/){target="_blank"}|
 
 &nbsp;
 **Super Nintendo Entertainment System**
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[SNES9x](http://snes9x.ipherswipsite.com/)|
-||[bSNES](https://byuu.org/emulation/bsnes/)|
-||[ZSNES](http://www.zsnes.com/)|
-||[SNESGT](http://gigo.retrogames.com/index.html)|
-|Mac|[SNES9x](http://snes9x.ipherswipsite.com/)|
-||[bSNES](https://byuu.org/emulation/bsnes/)|
-|Linux|[ZSNES](http://www.zsnes.com/)|
-||[bSNES](https://byuu.org/emulation/bsnes/)|
-|Android||[SNES9x](https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus&hl=en)|
-|Nintendo DS|[SNEmulDS](http://www.snemul.com/ds/)|
-||[SNES9x](https://code.google.com/archive/p/snes9x-euphoria/)|
-|PlayStation 3|[SNES9x](http://psx-scene.com/forums/f190/snes9x-ps3-4-4-4-fw-1-92-fw-3-15-fw-3-41-cfw-3-55-released-75378/index2.html#post698157)|
+|Windows|[SNES9x](http://snes9x.ipherswipsite.com/){target="_blank"}|
+||[bSNES](https://byuu.org/emulation/bsnes/){target="_blank"}|
+||[ZSNES](http://www.zsnes.com/){target="_blank"}|
+||[SNESGT](http://gigo.retrogames.com/index.html){target="_blank"}|
+|Mac|[SNES9x](http://snes9x.ipherswipsite.com/){target="_blank"}|
+||[bSNES](https://byuu.org/emulation/bsnes/){target="_blank"}|
+|Linux|[ZSNES](http://www.zsnes.com/){target="_blank"}|
+||[bSNES](https://byuu.org/emulation/bsnes/){target="_blank"}|
+|Android||[SNES9x](https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus&hl=en){target="_blank"}|
+|Nintendo DS|[SNEmulDS](http://www.snemul.com/ds/){target="_blank"}|
+||[SNES9x](https://code.google.com/archive/p/snes9x-euphoria/){target="_blank"}|
+|PlayStation 3|[SNES9x](http://psx-scene.com/forums/f190/snes9x-ps3-4-4-4-fw-1-92-fw-3-15-fw-3-41-cfw-3-55-released-75378/index2.html#post698157){target="_blank"}|
 
 &nbsp;
 **Nintendo Game Boy**
@@ -157,10 +157,10 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[BGB](http://bgb.bircd.org/)|
-|Android|[My Oldboy!](https://play.google.com/store/apps/details?id=com.fastemulator.gbcfree&hl=en)|
-||[Pizza Boy](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy&hl=en)|
-|Nintendo DS|[GameYob](https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/)|
+|Windows|[BGB](http://bgb.bircd.org/){target="_blank"}|
+|Android|[My Oldboy!](https://play.google.com/store/apps/details?id=com.fastemulator.gbcfree&hl=en){target="_blank"}|
+||[Pizza Boy](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy&hl=en){target="_blank"}|
+|Nintendo DS|[GameYob](https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/){target="_blank"}|
 
 &nbsp;
 **Nintendo Game Boy Color**
@@ -168,12 +168,12 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[BGB](http://bgb.bircd.org/)|
-||[TGB Dual](http://gigo.retrogames.com/download.html#tgb-dual)|
-|Android|[My Oldboy!](https://play.google.com/store/apps/details?id=com.fastemulator.gbcfree&hl=en)|
-||[Pizza Boy](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy&hl=en)|
-|Nintendo DS|[GameYob](https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/)|
-||[Lameboy](https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/)|
+|Windows|[BGB](http://bgb.bircd.org/){target="_blank"}|
+||[TGB Dual](http://gigo.retrogames.com/download.html#tgb-dual){target="_blank"}|
+|Android|[My Oldboy!](https://play.google.com/store/apps/details?id=com.fastemulator.gbcfree&hl=en){target="_blank"}|
+||[Pizza Boy](https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy&hl=en){target="_blank"}|
+|Nintendo DS|[GameYob](https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/){target="_blank"}|
+||[Lameboy](https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/){target="_blank"}|
 
 &nbsp;
 **Nintendo Gameboy Advance**
@@ -181,15 +181,15 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[mGBA](https://mgba.io/)|
-||[No$GBA](http://www.nogba.com/)|
-||[VBALink](http://vbalink.info/)|
-|Mac|[mGBA](https://mgba.io/)|
-||[Boycott Advance](http://www.bannister.org/software/ba.htm)|
-|PlayStation Portable|[UO gpSP Kai](http://wololo.net/2016/05/11/psppsvita-gba-emulator-uo-gpsp-kai-v3-4-test-4-build-225/)|
-|PlayStation Vita|[gpSP](https://docs.libretro.com/library/gpsp/)|  core in  [Retroarch](https://www.retroarch.com/index.php?page=platforms)|
-|Android|[GameBoid](https://sourceforge.net/projects/gameboid/)|
-||[My Boy!](https://play.google.com/store/apps/details?id=com.fastemulator.gbafree&hl=en)|
+|Windows|[mGBA](https://mgba.io/){target="_blank"}|
+||[No$GBA](http://www.nogba.com/){target="_blank"}|
+||[VBALink](http://vbalink.info/){target="_blank"}|
+|Mac|[mGBA](https://mgba.io/){target="_blank"}|
+||[Boycott Advance](http://www.bannister.org/software/ba.htm){target="_blank"}|
+|PlayStation Portable|[UO gpSP Kai](http://wololo.net/2016/05/11/psppsvita-gba-emulator-uo-gpsp-kai-v3-4-test-4-build-225/){target="_blank"}|
+|PlayStation Vita|[gpSP](https://docs.libretro.com/library/gpsp/){target="_blank"}|  core in  [Retroarch](https://www.retroarch.com/index.php?page=platforms)|
+|Android|[GameBoid](https://sourceforge.net/projects/gameboid/){target="_blank"}|
+||[My Boy!](https://play.google.com/store/apps/details?id=com.fastemulator.gbafree&hl=en){target="_blank"}|
 
 &nbsp;
 **Nintendo Gamecube**
@@ -197,12 +197,12 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Dolphin](https://dolphin-emu.org/)|
-||[WhineCube](http://whinecube.emulation64.com/)|
-||[SuperGCube](https://sourceforge.net/projects/supergcube/)|
-|Mac|[Dolphin](https://dolphin-emu.org/)|
-|Linux|[Dolphin](https://dolphin-emu.org/)|
-|Android|[Dolphin](https://dolphin-emulator.en.uptodown.com/android)|
+|Windows|[Dolphin](https://dolphin-emu.org/){target="_blank"}|
+||[WhineCube](http://whinecube.emulation64.com/){target="_blank"}|
+||[SuperGCube](https://sourceforge.net/projects/supergcube/){target="_blank"}|
+|Mac|[Dolphin](https://dolphin-emu.org/){target="_blank"}|
+|Linux|[Dolphin](https://dolphin-emu.org/){target="_blank"}|
+|Android|[Dolphin](https://dolphin-emulator.en.uptodown.com/android){target="_blank"}|
 
 &nbsp;
 **Nintendo Virtual Boy**
@@ -210,9 +210,9 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[vbjin](https://code.google.com/archive/p/vbjin/)|
-||[Red Dragon](http://www.planetvb.com/modules/tech/index.php?sec=emus&eid=rdragon)|
-|3DS|[r3Ddragon](https://github.com/mrdanielps/r3Ddragon)|
+|Windows|[vbjin](https://code.google.com/archive/p/vbjin/){target="_blank"}|
+||[Red Dragon](http://www.planetvb.com/modules/tech/index.php?sec=emus&eid=rdragon){target="_blank"}|
+|3DS|[r3Ddragon](https://github.com/mrdanielps/r3Ddragon){target="_blank"}|
 
 &nbsp;
 **Nintendo Wii**
@@ -220,7 +220,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Dolphin](https://dolphin-emu.org/)|
+|Windows|[Dolphin](https://dolphin-emu.org/){target="_blank"}|
 
 &nbsp;
 **Nintendo Wii U**
@@ -228,7 +228,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Cemu](http://cemu.info/)|
+|Windows|[Cemu](http://cemu.info/){target="_blank"}|
 
 &nbsp;
 
@@ -243,10 +243,10 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[PPSSPP](http://www.ppsspp.org/downloads.html)|
-|Mac|[jpcsp](http://www.ppsspp.org/downloads.html)|
-|Android|[PPSSPP](http://www.ppsspp.org/downloads.html)|
-|Playstation Vita|[Adrenaline](https://github.com/TheOfficialFloW/Adrenaline)|
+|Windows|[PPSSPP](http://www.ppsspp.org/downloads.html){target="_blank"}|
+|Mac|[jpcsp](http://www.ppsspp.org/downloads.html){target="_blank"}|
+|Android|[PPSSPP](http://www.ppsspp.org/downloads.html){target="_blank"}|
+|Playstation Vita|[Adrenaline](https://github.com/TheOfficialFloW/Adrenaline){target="_blank"}|
 
 &nbsp;
 **Sony Playstation**
@@ -254,19 +254,19 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[ePSXe](http://www.epsxe.com/)|
-||[PCSXR-PGXP](http://ngemu.com/threads/pcsxr-pgxp.186369/)|
-||[Mednafen](https://mednafen.github.io/)|
-|Mac|[PCSX-Reloaded](https://pcsxr.codeplex.com/)|
-|Linux|[ePSXe](http://www.epsxe.com/)|
-||[PCSX-Reloaded](https://pcsxr.codeplex.com/)|
-||[Mednafen](https://mednafen.github.io/)|
+|Windows|[ePSXe](http://www.epsxe.com/){target="_blank"}|
+||[PCSXR-PGXP](http://ngemu.com/threads/pcsxr-pgxp.186369/){target="_blank"}|
+||[Mednafen](https://mednafen.github.io/){target="_blank"}|
+|Mac|[PCSX-Reloaded](https://pcsxr.codeplex.com/){target="_blank"}|
+|Linux|[ePSXe](http://www.epsxe.com/){target="_blank"}|
+||[PCSX-Reloaded](https://pcsxr.codeplex.com/){target="_blank"}|
+||[Mednafen](https://mednafen.github.io/){target="_blank"}|
 ||pSX|
-|Android|[ePSXe](https://play.google.com/store/apps/details?id=com.epsxe.ePSXe)|
-||[FPse](https://play.google.com/store/apps/details?id=com.emulator.fpse)|
-|PlayStation 2|[PS2PSXe](http://psx-scene.com/forums/f292/ps2psxe-public-preview-feedback-discussions-64878/)|
-|PlayStation Vita|[Adrenaline](https://github.com/TheOfficialFloW/Adrenaline)|  with  [PSX2PSP](https://gazellegames.net/wiki.php?action=article&id=526)|  converts|
-|PlayStation Portable|[PSX2PSP](https://gazellegames.net/wiki.php?action=article&id=526)|  converts|
+|Android|[ePSXe](https://play.google.com/store/apps/details?id=com.epsxe.ePSXe){target="_blank"}|
+||[FPse](https://play.google.com/store/apps/details?id=com.emulator.fpse){target="_blank"}|
+|PlayStation 2|[PS2PSXe](http://psx-scene.com/forums/f292/ps2psxe-public-preview-feedback-discussions-64878/){target="_blank"}|
+|PlayStation Vita|[Adrenaline](https://github.com/TheOfficialFloW/Adrenaline){target="_blank"}|  with  [PSX2PSP](https://gazellegames.net/wiki.php?action=article&id=526)|  converts|
+|PlayStation Portable|[PSX2PSP](https://gazellegames.net/wiki.php?action=article&id=526){target="_blank"}|  converts|
 
 &nbsp;
 **Sony Playstation 2**
@@ -275,9 +275,9 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[PCSX2](http://pcsx2.net/)|
-|Mac|[PCSX2](http://pcsx2.net/)|
-|Linux|[PCSX2](http://pcsx2.net/)|
+|Windows|[PCSX2](http://pcsx2.net/){target="_blank"}|
+|Mac|[PCSX2](http://pcsx2.net/){target="_blank"}|
+|Linux|[PCSX2](http://pcsx2.net/){target="_blank"}|
 
 &nbsp;
 **Sony Playstation 3**
@@ -286,9 +286,9 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[RPCS3](https://rpcs3.net/)|
-|Mac|[RPCS3](https://rpcs3.net/)|
-|Linux|[RPCS3](https://rpcs3.net/)|
+|Windows|[RPCS3](https://rpcs3.net/){target="_blank"}|
+|Mac|[RPCS3](https://rpcs3.net/){target="_blank"}|
+|Linux|[RPCS3](https://rpcs3.net/){target="_blank"}|
 
 &nbsp;
 
@@ -304,9 +304,9 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-|Linux|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
+|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+|Linux|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
 
 &nbsp;
 **Sega Arcade Systems**
@@ -315,7 +315,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[TeknoParrot](https://teknogods.github.io/)|
+|Windows|[TeknoParrot](https://teknogods.github.io/){target="_blank"}|
 
 &nbsp;
 **Sega CD**
@@ -324,10 +324,10 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-|Linux|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-|Android|[MD.emu](https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu&hl=en)|
+|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+|Linux|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+|Android|[MD.emu](https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu&hl=en){target="_blank"}|
 
 &nbsp;
 **Sega Dreamcast**
@@ -336,10 +336,10 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[DreamEMU](http://www.emulator-zone.com/doc.php/dreamcast/dreamemu.html)|
-||[nulldc](https://code.google.com/archive/p/nulldc/)|
-|Linux|[nulldc](https://code.google.com/archive/p/nulldc/)|
-|Android|[Reicast](https://play.google.com/store/apps/details?id=com.reicast.emulator)|
+|Windows|[DreamEMU](http://www.emulator-zone.com/doc.php/dreamcast/dreamemu.html){target="_blank"}|
+||[nulldc](https://code.google.com/archive/p/nulldc/){target="_blank"}|
+|Linux|[nulldc](https://code.google.com/archive/p/nulldc/){target="_blank"}|
+|Android|[Reicast](https://play.google.com/store/apps/details?id=com.reicast.emulator){target="_blank"}|
 
 &nbsp;
 **Sega Game Gear**
@@ -348,10 +348,10 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-||[Regen](http://aamirm.hacking-cult.org/www/regen.html)|
-|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-||[Regen](http://aamirm.hacking-cult.org/www/regen.html)|
+|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+||[Regen](http://aamirm.hacking-cult.org/www/regen.html){target="_blank"}|
+|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+||[Regen](http://aamirm.hacking-cult.org/www/regen.html){target="_blank"}|
 
 &nbsp;
 **Sega Genesis - Sega Megadrive**
@@ -360,15 +360,15 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-||[Regen](http://aamirm.hacking-cult.org/www/regen.html)|
-||[Gens](http://www.gens.me/)|
-|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-||[Regen](http://aamirm.hacking-cult.org/www/regen.html)|
-||[Gens](http://www.gens.me/)|
-|Android|[GENSoid](http://www.gensoid.com/)|
-|PlayStation Portable|[PicoDrive](http://notaz.gp2x.de/pico.php)|
-|Nintendo DS|[jEnesisDS](http://www.workingdesign.de/projects/jenesisds.php)|
+|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+||[Regen](http://aamirm.hacking-cult.org/www/regen.html){target="_blank"}|
+||[Gens](http://www.gens.me/){target="_blank"}|
+|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+||[Regen](http://aamirm.hacking-cult.org/www/regen.html){target="_blank"}|
+||[Gens](http://www.gens.me/){target="_blank"}|
+|Android|[GENSoid](http://www.gensoid.com/){target="_blank"}|
+|PlayStation Portable|[PicoDrive](http://notaz.gp2x.de/pico.php){target="_blank"}|
+|Nintendo DS|[jEnesisDS](http://www.workingdesign.de/projects/jenesisds.php){target="_blank"}|
 
 &nbsp;
 **Sega Master System**
@@ -377,13 +377,13 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-||[Regen](http://aamirm.hacking-cult.org/www/regen.html)|
-||[Mednafen](https://mednafen.github.io/)|
-|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/)|
-||[Regen](http://aamirm.hacking-cult.org/www/regen.html)|
-||[Mednafen](https://mednafen.github.io/)|
-|Linux|[Mednafen](https://mednafen.github.io/)|
+|Windows|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+||[Regen](http://aamirm.hacking-cult.org/www/regen.html){target="_blank"}|
+||[Mednafen](https://mednafen.github.io/){target="_blank"}|
+|Mac|[Kega Fusion](http://www.carpeludum.com/kega-fusion/){target="_blank"}|
+||[Regen](http://aamirm.hacking-cult.org/www/regen.html){target="_blank"}|
+||[Mednafen](https://mednafen.github.io/){target="_blank"}|
+|Linux|[Mednafen](https://mednafen.github.io/){target="_blank"}|
 
 &nbsp;
 **Sega NAOMI**
@@ -391,9 +391,9 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[DEmul](http://demul.emulation64.com/)|
-||[GDEMU](https://gdemu.wordpress.com/)|
-||[nulldc](https://code.google.com/archive/p/nulldc/)|
+|Windows|[DEmul](http://demul.emulation64.com/){target="_blank"}|
+||[GDEMU](https://gdemu.wordpress.com/){target="_blank"}|
+||[nulldc](https://code.google.com/archive/p/nulldc/){target="_blank"}|
 
 &nbsp;
 **Sega Saturn**
@@ -401,8 +401,8 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[Yabause](https://yabause.org/)|
-||[SSF](http://segaretro.org/SSF)|
+|Windows|[Yabause](https://yabause.org/){target="_blank"}|
+||[SSF](http://segaretro.org/SSF){target="_blank"}|
 
 &nbsp;
 
@@ -417,8 +417,8 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[BeebEm](http://www.mkw.me.uk/beebem/)|
-|Mac|[BeebEm](http://www.g7jjf.com/beebemmac.htm)|
+|Windows|[BeebEm](http://www.mkw.me.uk/beebem/){target="_blank"}|
+|Mac|[BeebEm](http://www.g7jjf.com/beebemmac.htm){target="_blank"}|
 
 &nbsp;
 **Amiga**
@@ -426,10 +426,10 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[WinFellow](http://fellow.sourceforge.net/)|
-||[WinUAE](https://www.winuae.net/)|
-||[Amiga Forever (Paid software)](https://www.amigaforever.com/)|
-||[GGn Torrent](https://gazellegames.net/torrents.php?id=27408)|
+|Windows|[WinFellow](http://fellow.sourceforge.net/){target="_blank"}|
+||[WinUAE](https://www.winuae.net/){target="_blank"}|
+||[Amiga Forever (Paid software)](https://www.amigaforever.com/){target="_blank"}|
+||[GGn Torrent](https://gazellegames.net/torrents.php?id=27408){target="_blank"}|
 
 &nbsp;
 **Apple II**
@@ -437,7 +437,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[AppleWin](https://github.com/AppleWin/AppleWin)|
+|Windows|[AppleWin](https://github.com/AppleWin/AppleWin){target="_blank"}|
 
 &nbsp;
 **Bandai Wonderswan**
@@ -445,7 +445,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[oswan](https://github.com/gameblabla/oswan)|
+|Windows|[oswan](https://github.com/gameblabla/oswan){target="_blank"}|
 
 &nbsp;
 **Capcom Play System 2**
@@ -453,8 +453,8 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[WinKawaks](http://www.winkawaks.org/downloads.htm)|
-|Android|[CPSEmu](https://forum.xda-developers.com/showthread.php?t=1483303)|
+|Windows|[WinKawaks](http://www.winkawaks.org/downloads.htm){target="_blank"}|
+|Android|[CPSEmu](https://forum.xda-developers.com/showthread.php?t=1483303){target="_blank"}|
 
 &nbsp;
 **Capcom Play System 3**
@@ -462,7 +462,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[CPS3 Emulator](http://nebula.emulatronia.com/descargas.php)|
+|Windows|[CPS3 Emulator](http://nebula.emulatronia.com/descargas.php){target="_blank"}|
 
 &nbsp;
 **Commodore 64**
@@ -470,9 +470,9 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[VICE](http://vice-emu.sourceforge.net/index.html#download)|
-|Mac|[VICE](http://vice-emu.sourceforge.net/index.html#download)|
-|PlayStation Portable|[VICE](http://vice-emu.sourceforge.net/index.html#download)|
+|Windows|[VICE](http://vice-emu.sourceforge.net/index.html#download){target="_blank"}|
+|Mac|[VICE](http://vice-emu.sourceforge.net/index.html#download){target="_blank"}|
+|PlayStation Portable|[VICE](http://vice-emu.sourceforge.net/index.html#download){target="_blank"}|
 
 &nbsp;
 **NEC PC-9800 series**
@@ -480,7 +480,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Linux|[Neko Project II kai](https://github.com/AZO234/NP2kai)|
+|Linux|[Neko Project II kai](https://github.com/AZO234/NP2kai){target="_blank"}|
 
 &nbsp;
 **Neo Geo**
@@ -488,7 +488,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[NeoRageX](http://www.neoragex.fr/)|
+|Windows|[NeoRageX](http://www.neoragex.fr/){target="_blank"}|
 
 &nbsp;
 **Neo Geo Pocket**
@@ -496,7 +496,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[NeoPop](https://www.emuparadise.me/emulators/files/user/NeoPop-0.71-Win32-1.06b-1975.zip)|
+|Windows|[NeoPop](https://www.emuparadise.me/emulators/files/user/NeoPop-0.71-Win32-1.06b-1975.zip){target="_blank"}|
 
 &nbsp;
 **Panasonic 3DO**
@@ -504,8 +504,8 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 | Platform | Emulator |
 | --- | --- |
-|Windows|[4DO](http://www.fourdo.com/)|
-||[FreedO](http://www.freedo.org/)|
+|Windows|[4DO](http://www.fourdo.com/){target="_blank"}|
+||[FreedO](http://www.freedo.org/){target="_blank"}|
 
 &nbsp;
 **PC Engine - TurboGrafx16**
@@ -513,7 +513,7 @@ Linux|[DeSmuME](https://desmume.org/)|
 
 
 Windows
-[Ootake](http://www.ouma.jp/ootake/)|
+[Ootake](http://www.ouma.jp/ootake/){target="_blank"}|
 
 &nbsp;
 **PC Engine CD - Turbo Duo - TurboGrafx CD**
@@ -521,8 +521,8 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-| Windows | [Ootake](http://www.ouma.jp/ootake/)| |
-| | [Magic Engine](http://www.magicengine.com/)| |
+| Windows | [Ootake](http://www.ouma.jp/ootake/){target="_blank"}| |
+| | [Magic Engine](http://www.magicengine.com/){target="_blank"}| |
 
 &nbsp;
 # Philips CD-i
@@ -530,8 +530,8 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[CD-ice](https://www.zophar.net/cd-i/cd-ice.html)|
-||[CD-i Emulator](http://www.cdiemu.org/)|
+|Windows|[CD-ice](https://www.zophar.net/cd-i/cd-ice.html){target="_blank"}|
+||[CD-i Emulator](http://www.cdiemu.org/){target="_blank"}|
 
 &nbsp;
 **Sharp X68000**
@@ -539,7 +539,7 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[WinX68k](http://www.geocities.jp/winx68khighspeed/)|
+|Windows|[WinX68k](http://www.geocities.jp/winx68khighspeed/){target="_blank"}|
 
 &nbsp;
 **ZX Spectrum**
@@ -547,9 +547,9 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[Fuse](http://fuse-emulator.sourceforge.net/)|
-||[ZSNES](http://www.zsnes.com/)|
-||[ZX Spectrum 4](http://zxspectrum4.net/)|
+|Windows|[Fuse](http://fuse-emulator.sourceforge.net/){target="_blank"}|
+||[ZSNES](http://www.zsnes.com/){target="_blank"}|
+||[ZX Spectrum 4](http://zxspectrum4.net/){target="_blank"}|
 
 &nbsp;
 
@@ -564,9 +564,9 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[M.A.M.E.](http://mamedev.org/release.html)|
-|Linux|[M.A.M.E.](https://github.com/mamedev/mame)|
-|macOS|[M.A.M.E.](https://github.com/mamedev/mame)|
+|Windows|[M.A.M.E.](http://mamedev.org/release.html){target="_blank"}|
+|Linux|[M.A.M.E.](https://github.com/mamedev/mame){target="_blank"}|
+|macOS|[M.A.M.E.](https://github.com/mamedev/mame){target="_blank"}|
 
 &nbsp;
 **Mednafen**
@@ -574,10 +574,10 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[Mednafen](https://mednafen.github.io/releases)|
-|Linux|[Mednafen](https://mednafen.github.io/releases)|
-|macOS|[Mednafen](https://mednafen.github.io/releases)|
-|*BSD|[Mednafen](https://mednafen.github.io/releases)|
+|Windows|[Mednafen](https://mednafen.github.io/releases){target="_blank"}|
+|Linux|[Mednafen](https://mednafen.github.io/releases){target="_blank"}|
+|macOS|[Mednafen](https://mednafen.github.io/releases){target="_blank"}|
+|*BSD|[Mednafen](https://mednafen.github.io/releases){target="_blank"}|
 
 &nbsp;
 **ScummVM**
@@ -585,11 +585,11 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[ScummVM](https://www.scummvm.org/)|
-|Mac|[ScummVM](https://www.scummvm.org/)|
-|Linux|[ScummVM](https://www.scummvm.org/)|
-|Android|[ScummVM](https://play.google.com/store/apps/details?id=org.scummvm.scummvm&hl=pt_BR)|
-|PS3 / PSP / OUYA / iOS / Dreamcast / Raspberry Pie / other|[ScummVM](https://www.scummvm.org/downloads/)|
+|Windows|[ScummVM](https://www.scummvm.org/){target="_blank"}|
+|Mac|[ScummVM](https://www.scummvm.org/){target="_blank"}|
+|Linux|[ScummVM](https://www.scummvm.org/){target="_blank"}|
+|Android|[ScummVM](https://play.google.com/store/apps/details?id=org.scummvm.scummvm&hl=pt_BR){target="_blank"}|
+|PS3 / PSP / OUYA / iOS / Dreamcast / Raspberry Pie / other|[ScummVM](https://www.scummvm.org/downloads/){target="_blank"}|
 
 &nbsp;
 **higan**
@@ -597,7 +597,7 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[higan](https://byuu.org/emulation/higan/)|
+|Windows|[higan](https://byuu.org/emulation/higan/){target="_blank"}|
 
 &nbsp;
 **MEKA**
@@ -605,9 +605,9 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[MEKA](https://www.smspower.org/meka/)|
-|Mac|[MEKA](https://www.smspower.org/meka/)|
-|Linux|[MEKA](https://www.smspower.org/meka/)|
+|Windows|[MEKA](https://www.smspower.org/meka/){target="_blank"}|
+|Mac|[MEKA](https://www.smspower.org/meka/){target="_blank"}|
+|Linux|[MEKA](https://www.smspower.org/meka/){target="_blank"}|
 
 &nbsp;
 **TeknoParrot**
@@ -615,7 +615,7 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[TeknoParrot](https://teknogods.github.io/)|
+|Windows|[TeknoParrot](https://teknogods.github.io/){target="_blank"}|
 
 &nbsp;
 **OpenParrot**
@@ -623,5 +623,5 @@ Windows
 
 | Platform | Emulator |
 |---|---|
-|Windows|[OpenParrot](https://github.com/teknogods/OpenParrot)|
-||[TeknoParrotUI](https://github.com/teknogods/TeknoParrotUI)|
+|Windows|[OpenParrot](https://github.com/teknogods/OpenParrot){target="_blank"}|
+||[TeknoParrotUI](https://github.com/teknogods/TeknoParrotUI){target="_blank"}|
