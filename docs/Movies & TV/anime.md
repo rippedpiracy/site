@@ -17,8 +17,6 @@ description: Sources for your Weeb Stuff.
 
 [**A Certain Fansubber's Index**](https://docs.google.com/spreadsheets/d/1PJYwhjzLNPXV2X1np-S4rdZE4fb7pxp-QbHY1O0jH6Q/htmlview) - A big list of best Encodes for Anime.
 
-[**Yoghurt Index**](https://docs.google.com/spreadsheets/d/1ppLztIaA8c6Fer8LIUWgWN0UH0gs40WvEwU7Wtofy6k/htmlview) - A big list of best Encodes for Anime.
-
 # Misc
 
 [**Themes.moe**](https://themes.moe) - A huge collection of Ending/Opening Themes for Anime.
