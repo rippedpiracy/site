@@ -1,5 +1,4 @@
 title: Emulators
-author: doggo404#0001
 description: Comprehensive list of emulators.
 
 &nbsp;
