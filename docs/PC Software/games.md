@@ -61,7 +61,7 @@ Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most
 
 **[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com) (DDL)**
 
-Big Forums that focus on **_Adult Games_**. While F95zone mainly focuses on **_Eroges_** U18-Chan focuses more on **furry yiff games**.
+Big Forums for **_Adult Games_**. F95zone mainly focuses on **_Eroges_** while U18-Chan focuses more on **Yiff Games**.
 
 **[Nyaa](https://nyaa.si) & [Sukebei](https://sukebei.nyaa.si) (Torrent)**
 
