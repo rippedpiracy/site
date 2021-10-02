@@ -5,7 +5,9 @@ description: Scene Release Databases
 
 As listed in the [**Scene Glossary**](https://ripped.guide/Scene/scene-glossary/),
 
-> A database with all release titles. These release titles are not for download, they are just records. Apart from the release title, a record often also contains the release size, release date, and sometimes also NFO's. With commands one is able to 'check' a release.
+> A database with all release titles. These release titles are not for download, they are just records.  
+> Apart from the release title, a record often also contains the release size, release date, and sometimes also NFO's.  
+> With commands one is able to 'check' a release.
 
 That said, here's some Pre-Database sites to check for releases.
 
