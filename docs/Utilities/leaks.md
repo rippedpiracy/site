@@ -1,5 +1,7 @@
-title: Account Dispensers
+title: Leaks
 description: Account Generators and more.
+
+# Accounts  
 
 [**h-gen.to**](https://h-gen.to) - Account Dispenser with varying categories of accounts. Mostly reliable. 
 
