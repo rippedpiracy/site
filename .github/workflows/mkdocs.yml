@@ -30,4 +30,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - run: pip install -r requirements.txt
+      - name: Add target blank to all urls
+        working-directory: ./docs
+        run: ../scripts/target-blank.sh
       - run: mkdocs gh-deploy --force
