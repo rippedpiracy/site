@@ -321,7 +321,8 @@ The act of hacking a computer/pubstro which someone else has already hacked, and
 **Release**
 
 Original releases are rips of movies, programs, games and music, all released by groups specialized in creating these kinds of releases.  
-Releasegroups   
+
+**Releasegroups**  
 Groups of people who pirate and release software, music and movies.  
 
 **Remastered**
