@@ -5,7 +5,7 @@ description: Where to get Games from safely and efficiently.
 
 **[1337x](https://1337x.to) (Torrent)**
 
-A very popular Torrenting site which has an incredible amount of content, but also have major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an incredibly unsafe Software category (dont get Software Releases from this site). **Note: Stay away from Torrents marked IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM, CorePack**.
+A very popular Torrenting site which has an incredible amount of content, but also have major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an incredibly unsafe Software category (dont get Software Releases from this site). **_Note: Stay away from Torrents marked IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM, CorePack_**.
 
 **[Rarbg](https://rarbg.to) (Torrent)**
 
