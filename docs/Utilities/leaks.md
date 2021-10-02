@@ -1,5 +1,7 @@
-title: Account Dispensers
+title: Accounts & Leaks
 description: Account Generators and more.
+
+# Accounts  
 
 [**h-gen.to**](https://h-gen.to) - Account Dispenser with varying categories of accounts. Mostly reliable. 
 
@@ -17,3 +19,4 @@ description: Account Generators and more.
 
 [**thealtening.com**](https://thealtening.com/free/free-minecraft-alts) - Minecraft Token Dispenser. Needs an external app for the accounts to work, not reccomended. 
 
+# Paid Content Leaks

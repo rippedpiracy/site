@@ -5,7 +5,7 @@ description: Where to get Games from safely and efficiently.
 
 **[1337x](https://1337x.to) (Torrent)**
 
-A very popular Torrenting site which has an incredible amount of content, but also have major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an incredibly unsafe Software category (dont get Software Releases from this site). **Note: Stay away from Torrents marked IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM, CorePack**.
+A very popular Torrenting site which has an incredible amount of content, but also have major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an incredibly unsafe Software category (dont get Software Releases from this site). **_Note: Stay away from Torrents marked IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM, CorePack_**.
 
 **[Rarbg](https://rarbg.to) (Torrent)**
 
@@ -27,7 +27,7 @@ A known Repacker that focuses more on indie titles. Mostly uses Google Drive as 
 
 **[XATAB](https://xatab-repack.com) (Torrent)**
 
-One of the oldest and most respected Repacker that past away recently. His site is currently reposting from other sources but his older Releases can still be found here. **RIP**
+One of the oldest and most respected Repacker that past away recently. His site is currently reposting from other sources but his older Releases can still be found here. **RIP 196X - 2021.**
 
 ## Mirrorers
 
@@ -59,9 +59,9 @@ Another well moderated Forum with active uploaders and discussions that allow Sc
 
 Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker 0xdeadc0de. Note: Their site has strong measures against Ad-blockers. Requires Sign-up.
 
-**[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com) (DDL)**
+**[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com/a/) (DDL)**
 
-Big Forums that mainly focus on **_Adult Games and Eroge's spefically._** **F95** requires Sign-up.
+Big Forums for **_Adult Games_**. F95zone mainly focuses on **_Eroges_** while U18-Chan focuses more on **Yiff Games**.
 
 **[Nyaa](https://nyaa.si) & [Sukebei](https://sukebei.nyaa.si) (Torrent)**
 
