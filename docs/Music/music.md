@@ -12,3 +12,5 @@ description: Where to download your tunes from.
 [**Tidal-Media-Downloader**](https://github.com/yaronzz/Tidal-Media-Downloader) - Tidal downloader. **Requires a paid account**.
 
 [**RuTracker**](https://rutracker.org) - Requires Sign-up.
+
+[**streamrip**](https://github.com/nathom/streamrip) - A scriptable music downloader for Qobuz, Tidal, SoundCloud, and Deezer
