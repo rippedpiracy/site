@@ -340,10 +340,23 @@ div.credits-container {
     padding: 0;
 }
 
+blockquote {
+	margin-left: 20px;
+	border-left: 3px solid #ccc;
+	padding: 0.7em;
+	font-style: italic;
+	font-weight: 600;
+	background: #2f3136;
+	border-radius: 5px;
+}
+blockquote p{
+	margin: 0 !important;
+}
+
 pre code {
     display: block;
     overflow: auto;
-		border-radius: 5px;
+	border-radius: 5px;
     padding: 16px !important;
     margin-bottom: 0.8em;
     margin-top: 0.8em;
