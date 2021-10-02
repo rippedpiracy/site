@@ -268,7 +268,7 @@ When a releasegroup pre's a release, it will be available for other people and t
 
 **Pre-database**
 
-A database with all releasetitles. These releasetitles are not for download, they are just records. Apart from the releasetitle, a record often also contains the releasesize, releasedate, and sometimes also NFO's. With commands one is able to 'check' a release.  
+A database with all release titles. These release titles are not for download, they are just records. Apart from the release title, a record often also contains the release size, release date, and sometimes also NFO's. With commands one is able to 'check' a release.  
 
 **Pre-spam**
 
