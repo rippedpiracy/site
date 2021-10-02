@@ -23,7 +23,7 @@ Content
 
 ## Subheading
 
-here is a [link]&nbsp(https://discord.gg/6qVr2aR)
+here is a [link]​(https://discord.gg/6qVr2aR)
 
 here is *italic text*
 
