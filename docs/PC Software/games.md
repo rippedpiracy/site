@@ -65,7 +65,7 @@ Big Forums that mainly focus on **_Adult Games and Eroge's spefically._** **F95*
 
 **[Nyaa](https://nyaa.si) & [Sukebei](https://sukebei.nyaa.si) (Torrent)**
 
-Both are good sources for popular Visual Novels and Japanese Games while the latter is more for **NSFW titles**.
+Both are good sources for popular Visual Novels and Japanese Games while the latter is more for **_NSFW titles_**.
 
 
 https://macdrop.net/  https://www.torrentmac.net/ https://nxmac.com/ (ill edit these for later)
