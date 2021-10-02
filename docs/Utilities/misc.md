@@ -64,7 +64,7 @@ description: Various tools and apps to make your life easier.
 
 [**AdGuard Popup Blocker**](https://github.com/AdguardTeam/PopupBlocker) - Popup Blocker by AdGuard is a userscript that blocks all unwanted pop-up windows in different browsers.
 
-# Useful Apps
+# Useful Tools
 
 [**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
 
