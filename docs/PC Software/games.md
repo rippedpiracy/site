@@ -27,7 +27,7 @@ A known Repacker that focuses more on indie titles. Mostly uses Google Drive as 
 
 **[XATAB](https://xatab-repack.com) (Torrent)**
 
-One of the oldest and most respected Repacker that past away recently. His site is currently reposting from other sources but his older Releases can still be found here. **RIP**
+One of the oldest and most respected Repacker that past away recently. His site is currently reposting from other sources but his older Releases can still be found here. **RIP 196X - 2021.**
 
 ## Mirrorers
 
