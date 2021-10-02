@@ -10,6 +10,9 @@ Most in-depth way to clean, de-bloat, optimize and disinfect your PC. Recommende
 **[Use-Gaming-Tweaks](https://github.com/PrincessAkira/Use-Gaming-Tweaks)**
 An alternative way to make your PC as snappy as possible for Gaming. Do this on a clean ISO.
 
+**[privacy.sexy](https://privacy.sexy/)**
+Create a custom Debloating script made for your specific needs.
+
 **[PrivateZilla](https://github.com/builtbybel/privatezilla)** or **[SharpApp](https://github.com/builtbybel/sharpapp)**
 The simplest apps to perform a quick Privacy and Security check of your Windows 10 OS.
 
