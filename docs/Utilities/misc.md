@@ -66,7 +66,7 @@ description: Various tools and apps to make your life easier.
 
 # Useful Apps
 
-[**Radmin VPN**](https://www.radmin-vpn.com/) & [Hamachi]https://www.vpn.net/ & [ZeroTier](https://github.com/zerotier/ZeroTierOne) - LAN Emulators, Useful when playing a LAN supported game with a friend that is not in your local area. ZeroTier is painful to setup
+[**Radmin VPN**](https://www.radmin-vpn.com/) & [**Hamachi**]https://www.vpn.net/ & [**ZeroTier**](https://github.com/zerotier/ZeroTierOne) - LAN Emulators, Useful when playing a LAN supported game with a friend that is not in your local area. NOTE: ZeroTier is very painful to setup.
 
 [**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
 
