@@ -21,8 +21,8 @@ description: Sources for your Weeb Stuff.
 
 # Misc
 
+[**The r/AnimePiracy Wiki**](https://wiki.piracy.moe/) - Comprehensive information about everything Anime Piracy. A MUST READ if you are interested in it.
+
 [**Themes.moe**](https://themes.moe) - A huge collection of Ending/Opening Themes for Anime.
 
 [**The Anime Scene Search Engine**](https://trace.moe/) - Reverse image search engine for Anime.
-
-[**The Anime Wiki**](https://wiki.piracy.moe/) - Has useful and detailed information about Encoding, Encoders, Media Players, Torrents, and more.
