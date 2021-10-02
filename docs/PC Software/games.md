@@ -67,9 +67,6 @@ Big Forums that mainly focus on **_Adult Games and Eroge's spefically._** **F95*
 
 Both are good sources for popular Visual Novels and Japanese Games while the latter is more for **_NSFW titles_**.
 
-
-https://macdrop.net/  https://www.torrentmac.net/ https://nxmac.com/ (ill edit these for later)
-
 ## Glossary 
 
 **DDL:** Direct Download, where you can download a file from a server usually by your browser.  
