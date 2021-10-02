@@ -3,11 +3,11 @@ description: About Ripped's Website.
 
 ## Contributing
 
-Feel free to contribute by opening a Pull Request in our [GitHub Repo](https://github.com/rippedpiracy/rippedpiracy.github.io){target="_blank"}.
+Feel free to contribute by opening a Pull Request in our [GitHub Repo](https://github.com/rippedpiracy/rippedpiracy.github.io).
 
 ## Formatting
 
-This website is generated using Markdown, which you can read more about [here](https://www.markdowntutorial.com/){target="_blank"}.
+This website is generated using Markdown, which you can read more about [here](https://www.markdowntutorial.com/).
 
 In brief, here's how it works:
 
@@ -23,7 +23,7 @@ Content
 
 ## Subheading
 
-here is a [link](https://discord.gg/6qVr2aR){target="_blank"}
+here is a [link](https://discord.gg/6qVr2aR)
 
 here is *italic text*
 
@@ -41,4 +41,4 @@ contributors: (omit this line if empty)
 
 ## Discord
 
-You can join the Discord Server [here](https://discord.gg/6qVr2aR){target="_blank"}.
+You can join the Discord Server [here](https://discord.gg/6qVr2aR).

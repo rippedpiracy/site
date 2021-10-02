@@ -3,7 +3,7 @@ description: Scene Release Databases
 
 ## Wait, what is a PreDB?  
   
-As listed in the [**Scene Glossary**](https://ripped.guide/Scene/scene-glossary/){target="_blank"}, 
+As listed in the [**Scene Glossary**](https://ripped.guide/Scene/scene-glossary/), 
 
     A database with all release titles. These release titles are not for download, they are just records. 
     Apart from the release title, a record often also contains the release size, release date, and sometimes also NFO's. 
@@ -11,13 +11,13 @@ As listed in the [**Scene Glossary**](https://ripped.guide/Scene/scene-glossary/
 
 That said, here's some Pre-Database sites to check for releases.
 
-**[PreDB.org](https://www.predb.org/){target="_blank"}**  
-**[PreDB.de](https://predb.de/){target="_blank"}**  
-**[PreDB.ovh](https://predb.ovh/){target="_blank"}**  
-**[PreDB.live](https://predb.live/){target="_blank"}**  
-**[PreDB.me](https://predb.me/){target="_blank"}**  
+**[PreDB.org](https://www.predb.org/)**  
+**[PreDB.de](https://predb.de/)**  
+**[PreDB.ovh](https://predb.ovh/)**  
+**[PreDB.live](https://predb.live/)**  
+**[PreDB.me](https://predb.me/)**  
 
 ## Honorable Mention
-**[CrackWatch](https://crackwatch.com/){target="_blank"}**  
+**[CrackWatch](https://crackwatch.com/)**  
   
 Instead of being a automatic feed, Crackwatch has user-submitted releases with their only focus being Games.
