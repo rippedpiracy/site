@@ -342,7 +342,7 @@ div.credits-container {
 
 blockquote {
 	margin-left: 20px;
-	border-left: 3px solid #ccc;
+	border-left: 3px solid var(--theme-color);
 	padding: 0.7em;
 	font-style: italic;
 	font-weight: 600;
