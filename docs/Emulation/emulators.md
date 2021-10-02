@@ -187,7 +187,7 @@ Linux|[DeSmuME](https://desmume.org/){target="_blank"}|
 |Mac|[mGBA](https://mgba.io/){target="_blank"}|
 ||[Boycott Advance](http://www.bannister.org/software/ba.htm){target="_blank"}|
 |PlayStation Portable|[UO gpSP Kai](http://wololo.net/2016/05/11/psppsvita-gba-emulator-uo-gpsp-kai-v3-4-test-4-build-225/){target="_blank"}|
-|PlayStation Vita|[gpSP](https://docs.libretro.com/library/gpsp/){target="_blank"}|  core in  [Retroarch](https://www.retroarch.com/index.php?page=platforms)|
+|PlayStation Vita|[gpSP](https://docs.libretro.com/library/gpsp/){target="_blank"}|  core in  [Retroarch](https://www.retroarch.com/index.php?page=platforms){target="_blank"}|
 |Android|[GameBoid](https://sourceforge.net/projects/gameboid/){target="_blank"}|
 ||[My Boy!](https://play.google.com/store/apps/details?id=com.fastemulator.gbafree&hl=en){target="_blank"}|
 
@@ -265,7 +265,7 @@ Linux|[DeSmuME](https://desmume.org/){target="_blank"}|
 |Android|[ePSXe](https://play.google.com/store/apps/details?id=com.epsxe.ePSXe){target="_blank"}|
 ||[FPse](https://play.google.com/store/apps/details?id=com.emulator.fpse){target="_blank"}|
 |PlayStation 2|[PS2PSXe](http://psx-scene.com/forums/f292/ps2psxe-public-preview-feedback-discussions-64878/){target="_blank"}|
-|PlayStation Vita|[Adrenaline](https://github.com/TheOfficialFloW/Adrenaline){target="_blank"}|  with  [PSX2PSP](https://gazellegames.net/wiki.php?action=article&id=526)|  converts|
+|PlayStation Vita|[Adrenaline](https://github.com/TheOfficialFloW/Adrenaline){target="_blank"}|  with  [PSX2PSP](https://gazellegames.net/wiki.php?action=article&id=526){target="_blank"}|  converts|
 |PlayStation Portable|[PSX2PSP](https://gazellegames.net/wiki.php?action=article&id=526){target="_blank"}|  converts|
 
 &nbsp;

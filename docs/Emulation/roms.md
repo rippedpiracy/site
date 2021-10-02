@@ -11,7 +11,7 @@ Nice place to get a pretty large list of ROMs for every type of Consoles.
 
 The /r/ROMs Megathread, with links for Popular and Arcade ROMs, visualized with mkdocs.
 
-**[NoPayStation](https://nopaystation.com/){target="_blank"} & [PSNDL](https://psndl.net/) (DDL)**
+**[NoPayStation](https://nopaystation.com/){target="_blank"} & [PSNDL](https://psndl.net/){target="_blank"} (DDL)**
 
  The best places to get VITA, PS3, PSP, PSX Games, DLCs and more, directly from Sony's servers with no Middle-Man.
 

@@ -59,11 +59,11 @@ Another well moderated Forum with active uploaders and discussions that allow Sc
 
 Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker 0xdeadc0de. Note: Their site has strong measures against Ad-blockers. Requires Sign-up.
 
-**[F95zone](https://f95zone.to/){target="_blank"} & [U18-Chan](https://u18chan.com) (DDL)**
+**[F95zone](https://f95zone.to/){target="_blank"} & [U18-Chan](https://u18chan.com){target="_blank"} (DDL)**
 
 Big Forums that mainly focus on Adult Games and Eroge's spefically. **[F95zone](https://f95zone.to/){target="_blank"}** requires Sign-up.
 
-**[Nyaa](https://nyaa.si){target="_blank"} & [Sukebei](https://sukebei.nyaa.si) (Torrent)**
+**[Nyaa](https://nyaa.si){target="_blank"} & [Sukebei](https://sukebei.nyaa.si){target="_blank"} (Torrent)**
 
 Both are good sources for popular Visual Novels and Japanese Games while the latter is more for NSFW titles.
 
