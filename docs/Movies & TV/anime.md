@@ -9,10 +9,9 @@ description: Sources for your Weeb Stuff.
 
 [**Tokyo Toshokan**](https://www.tokyotosho.info/?cat=1) - 
 
+[**The Anime Index**](https://piracy.moe/) - Has a huge list of Streaming/Downloading sites for Anime/Hentai/Manga and more
 
 # Index
-
-[**The Anime Index**](https://piracy.moe/) - Has a huge list of Streaming/Downloading sites for Anime/Hentai/Manga and more
 
 [**A Certain Smoke's Index**](https://releases.moe) - A big list of best Encodes for Anime (by Seadex).
 
