@@ -1,7 +1,7 @@
 title: PreDBs
 description: Scene Release Databases
 
-## Wait, What is a PreDB?  
+## Wait, what is a PreDB?  
   
 As listed in the [**Scene Glossary**](https://ripped.guide/Scene/scene-glossary/), 
 
