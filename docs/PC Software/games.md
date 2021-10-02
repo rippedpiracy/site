@@ -59,7 +59,7 @@ Another well moderated Forum with active uploaders and discussions that allow Sc
 
 Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker 0xdeadc0de. Note: Their site has strong measures against Ad-blockers. Requires Sign-up.
 
-**[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com) (DDL)**
+**[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com/a/) (DDL)**
 
 Big Forums for **_Adult Games_**. F95zone mainly focuses on **_Eroges_** while U18-Chan focuses more on **Yiff Games**.
 
