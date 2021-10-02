@@ -54,6 +54,12 @@ description: Various tools and apps to make your life easier.
 
 [**Get Data from Steam / SteamDB / EpicDB**](https://github.com/Sak32009/GetDLCInfoFromSteamDB/) - Extracts all the information of the DLCs/Games from Steam/SteamDB/EpicDB and exports in various formats.
 
+[MoreCAPTCHA](https://greasyfork.org/en/scripts/31088-morecaptcha) - Speeds up solving Google reCAPTCHA challenges by shortening transition effects and providing continuous selection ability.
+
+[anti-anti-copy](https://greasyfork.org/en/scripts/7197-anti-anti-copy) - Simple script to force bypass some websites blocks which prevent you from copying text.
+
+[AdGuard Popup Blocker](https://github.com/AdguardTeam/PopupBlocker) - Popup Blocker by AdGuard is a userscript that blocks all unwanted pop-up windows in different browsers.
+
 # Useful Apps
 
 [**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
