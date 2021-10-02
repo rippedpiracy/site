@@ -16,5 +16,8 @@ Software cracked by the one and only m0nkrus, the most reliable Adobe cracker fo
 
 Forum focused on news for everything Piracy, with downloads for Software and Utilites.
 
+**[DirtyWarez](https://forum.dirtywarez.com/) (DDL)**
+
+Good forum for Software Piracy and other Warez with popular for it's requests' subdivision.
 
 ^^^ NOT DONE ^^^
