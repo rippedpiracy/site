@@ -57,7 +57,7 @@ description: Various tools and apps to make your life easier.
 
 [**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
 
-[**CompactGUI**](https://github.com/ImminentFate/CompactGUI) - Transparently compresses games, programs and other folders with virtually no performance loss.
+[**CompactGUI**](https://github.com/ImminentFate/CompactGUI) & [**Compactor**](https://github.com/Freaky/Compactor) - Transparently compresses games, programs and other folders with virtually no performance loss.
 
 [**SpaceSniffer**](http://www.uderzo.it/main_products/space_sniffer/) - See exactly what's taking up space on your drives.
 
