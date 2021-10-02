@@ -10,7 +10,7 @@ description: Various tools and apps to make your life easier.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[iplogger](https://github.com/piperun/iploggerfilter){target="_blank"} Filters any site who's only purpose is to log your IP.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Anifiltrs](https://github.com/Karmesinrot/Anifiltrs){target="_blank"} A collection of filter lists for anime streaming, manga reading, and downloading of such things. 
 
-[**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey){target="_blank"} & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers. 
+[**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey){target="_blank"} & [**Tampermonkey**](https://www.tampermonkey.net/){target="_blank"} - Browser UserScript managers. 
 
 [**Dark Reader**](https://github.com/darkreader/darkreader){target="_blank"} - Dark mode for all websites.
 
@@ -24,7 +24,7 @@ description: Various tools and apps to make your life easier.
 
 [**ClearURLs**](https://github.com/ClearURLs/Addon){target="_blank"} - Remove tracking elements from URLs.
 
-[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack){target="_blank"} (Chromium) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or automatically suspend/unsuspend browser tabs to save up memory usage.  
+[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack){target="_blank"} (Chromium) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl){target="_blank"} (Chromium) - Manually or automatically suspend/unsuspend browser tabs to save up memory usage.  
 
 [**Search by Image**](https://github.com/dessant/search-by-image){target="_blank"} - Quickly reverse image search on 35+ different search engines.
 
@@ -68,13 +68,13 @@ description: Various tools and apps to make your life easier.
 
 [**Process Hacker**](https://github.com/processhacker/processhacker){target="_blank"} - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
 
-[**CompactGUI**](https://github.com/ImminentFate/CompactGUI){target="_blank"} & [**Compactor**](https://github.com/Freaky/Compactor) - Transparently compresses games, programs and other folders with virtually no performance loss.
+[**CompactGUI**](https://github.com/ImminentFate/CompactGUI){target="_blank"} & [**Compactor**](https://github.com/Freaky/Compactor){target="_blank"} - Transparently compresses games, programs and other folders with virtually no performance loss.
 
 [**SpaceSniffer**](http://www.uderzo.it/main_products/space_sniffer/){target="_blank"} - See exactly what's taking up space on your drives.
 
 [**pe-studio**](https://www.winitor.com/){target="_blank"} - Helps you check for malware in apps.
 
-[**Youtube-dlp**](https://github.com/yt-dlp/yt-dlp){target="_blank"} - Actively maintained fork of the youtube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl).
+[**Youtube-dlp**](https://github.com/yt-dlp/yt-dlp){target="_blank"} - Actively maintained fork of the youtube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl){target="_blank"}.
 
 [**Text-Grab**](https://github.com/TheJoeFin/Text-Grab){target="_blank"} - Use OCR to grab and read text from images.
 
@@ -102,7 +102,7 @@ description: Various tools and apps to make your life easier.
 
 [**Steam Workshop Downloader**](https://www.steamworkshopdownloader.io/){target="_blank"} - Download Steam Workshop items without having to own the game.
 
-[**UnshortenIt**](https://unshorten.it/){target="_blank"} & [**Linkvertise Bypasser**](https://thebypasser.com/) - Unshorten annoying ad-links on the spot.
+[**UnshortenIt**](https://unshorten.it/){target="_blank"} & [**Linkvertise Bypasser**](https://thebypasser.com/){target="_blank"} - Unshorten annoying ad-links on the spot.
 
 [**privacytools.io**](https://privacyguides.org/){target="_blank"} - the website of r/PrivacyGuides, has good information about various security and privacy tools.
 
