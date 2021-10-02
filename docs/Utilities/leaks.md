@@ -21,5 +21,5 @@ description: Account Generators and more.
 
 # Paid Content Leaks
 
-[**Kemono**](kemono.party)
+[**Kemono**](https://kemono.party/)
 The successor to yiff.party, has Creator leaks for sites like Patreon & More which are user-submitted.
