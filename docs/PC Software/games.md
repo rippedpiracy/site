@@ -63,7 +63,7 @@ Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most
 
 A big Forum that mainly focuses on Adult Games and Eroge's spefically. Requires Sign-up.
 
-**[Nyaa](https://nyaa.si){target="_blank"} & [Sukebei](https://sukebei.nyaa.si) (Torrent)**
+**[Nyaa](https://nyaa.si){target="_blank"} & [Sukebei](https://sukebei.nyaa.si){target="_blank"} (Torrent)**
 
 Both are good sources for popular Visual Novels and Japanese Games while the latter is more for NSFW titles.
 
