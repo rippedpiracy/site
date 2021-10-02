@@ -1,5 +1,4 @@
 title: Scene Glossary
-author: doggo404#0001
 description: Definitions for common Scene words you might not get.
 **0sec**
 
