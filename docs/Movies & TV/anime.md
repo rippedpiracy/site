@@ -5,7 +5,9 @@ description: Sources for your Weeb Stuff.
 
 [**Nyaa**](https://nyaa.si/) - The Best Public Tracker to get Anime from, old releases may not be seeded very well.
 
-[**AniDex**](https://anidex.info/) - 
+[**AniDex**](https://anidex.info/) - Alternative Tracker to get Anime from, Few Releasers post exclusively here.
+
+[**AnimeTosho**](https://animetosho.org) - Collates releases from Public Trackers, and has DDL links for file attachments (Subtitles, Fonts, Chapters, Tags) 
 
 [**Tokyo Toshokan**](https://www.tokyotosho.info/?cat=1) - 
 
@@ -13,9 +15,9 @@ description: Sources for your Weeb Stuff.
 
 # Index
 
-[**A Certain Smoke's Index**](https://releases.moe) - A big list of best Encodes for Anime (by Seadex).
+[**A Certain Smoke's Index**](https://releases.moe) - A big list of best Releases for Anime (by Seadex).
 
-[**A Certain Fansubber's Index**](https://docs.google.com/spreadsheets/d/1PJYwhjzLNPXV2X1np-S4rdZE4fb7pxp-QbHY1O0jH6Q/htmlview) - A big list of best Encodes for Anime.
+[**A Certain Fansubber's Index**](https://docs.google.com/spreadsheets/d/1PJYwhjzLNPXV2X1np-S4rdZE4fb7pxp-QbHY1O0jH6Q/htmlview) - A big list of best Releases for Anime.
 
 # Misc
 
