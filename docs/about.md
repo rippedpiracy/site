@@ -29,7 +29,7 @@ here is *italic text*
 
 here is **bold text**
 
-here is **_italic and bold text**
+here is **_italic and bold text_**
 ```
 
 ## Guides
