@@ -2,6 +2,9 @@
 
 # cd to /docs first
 
+# currently breaks if you run twice
+# TODO?
+
 
 find . -type f -exec perl -pi -e 's|\[(.*?)\]\((.*?)\)|\[\1\]\(\2\){target="_blank"}|' {} \;
 
