@@ -78,6 +78,10 @@ description: Various tools and apps to make your life easier.
 
 [**Xtreme Download Manager**](https://github.com/subhra74/xdm) - Download manager that can boost download speeds.
 
+[**awesome-uploader**](https://github.com/grm34/awesome-uploader) - Mass upload to the warez scene with open-source code.
+
+[**video_decrypter**](https://github.com/CrackerCat/video_decrypter) - Decrypt video from a streaming site with MPEG-DASH Widevine DRM encryption. 
+
 # Useful Websites
 
 [**Spyware Neocities**](https://spyware.neocities.org/articles/) - Site which periodically analyzes apps for spying behavior.
@@ -92,7 +96,9 @@ description: Various tools and apps to make your life easier.
 
 [**UnshortenIt**](https://unshorten.it/) & [**Linkvertise Bypasser**](https://thebypasser.com/) - Unshorten annoying ad-links on the spot.
 
-[**simplewall**](https://www.henrypp.org/product/simplewall) Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.
+[**simplewall**](https://www.henrypp.org/product/simplewall) - Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.
 
-[**Unsee**](https://unsee.cc/) Private / Temporary Image Host
+[**Unsee**](https://unsee.cc/) - Private / Temporary Image Host
+
+
 
