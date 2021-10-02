@@ -5,10 +5,7 @@ description: Various tools and apps to make your life easier.
 
 [**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance. FastForward circumvents annoying link shorteners (Actively maintained Universal Bypass fork).
 
-[**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[fuckfuckadblock](https://github.com/bogachenko/fuckfuckadblock) Filters for blocking pop-ups and anti-adblock bypass.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[iplogger](https://github.com/piperun/iploggerfilter) Filters any site who's only purpose is to log your IP.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Anifiltrs](https://github.com/Karmesinrot/Anifiltrs) A collection of filter lists for anime streaming, manga reading, and downloading of such things. 
+[**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean. Use [fuckfuckadblock](https://github.com/bogachenko/fuckfuckadblock) to go with it, it filters for AntiAdBlocker popups and bypassess them if possible.
 
 [**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers. 
 
@@ -45,8 +42,6 @@ description: Various tools and apps to make your life easier.
 [**Cookie AutoDelete**](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) - Deletes cookies and other browsing site data as soon as the tab closes, domain changes or browser restarts.
 
 [**Disconnect**](https://github.com/disconnectme/disconnect) - Makes the web faster, more private, and more secure.
-
-
 # Browser Scripts
 
 [**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass Youtube's age restricted videos.
@@ -60,8 +55,6 @@ description: Various tools and apps to make your life easier.
 [**Get Data from Steam / SteamDB / EpicDB**](https://github.com/Sak32009/GetDLCInfoFromSteamDB/) - Extracts all the information of the DLCs/Games from Steam/SteamDB/EpicDB and exports in various formats.
 
 # Useful Apps
-
-[**Radmin VPN**](https://www.radmin-vpn.com/) & 
 
 [**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
 
@@ -91,10 +84,15 @@ description: Various tools and apps to make your life easier.
 
 [**File Hosting Wiki**](https://filehostlist.miraheze.org/wiki/Main_Page) - Wiki for Premium Leechers, Torrent Leechers
 
+[**YtmDL Web**](https://ytmdl.deepjyoti30.dev/) - Best looking and performing online YouTube music downloader.
+
 [**Outline**](https://outline.com/) - Removes clutter from news articles.
 
 [**Steam Workshop Downloader**](https://www.steamworkshopdownloader.io/) - Download Steam Workshop items without having to own the game.
 
 [**UnshortenIt**](https://unshorten.it/) & [**Linkvertise Bypasser**](https://thebypasser.com/) - Unshorten annoying ad-links on the spot.
 
-[**privacytools.io**](https://privacyguides.org/) - the website of r/PrivacyGuides, has good information about various security and privacy tools.
+[**simplewall**](https://www.henrypp.org/product/simplewall) Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.
+
+[**Unsee**](https://unsee.cc/) Private / Temporary Image Host
+
