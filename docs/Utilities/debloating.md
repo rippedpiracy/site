@@ -13,7 +13,7 @@ An alternative way to make your PC as snappy as possible for Gaming. Do this on 
 **[privacy.sexy](https://privacy.sexy/){target="_blank"}**
 Create a custom Debloating script made for your specific needs.
 
-**[PrivateZilla](https://github.com/builtbybel/privatezilla){target="_blank"}** or **[SharpApp](https://github.com/builtbybel/sharpapp)**
+**[PrivateZilla](https://github.com/builtbybel/privatezilla){target="_blank"}** or **[SharpApp](https://github.com/builtbybel/sharpapp){target="_blank"}**
 The simplest apps to perform a quick Privacy and Security check of your Windows 10 OS.
 
 **[Sophia-Script](https://github.com/farag2/Sophia-Script-for-Windows){target="_blank"}**
