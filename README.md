@@ -1,4 +1,7 @@
 # Ripped Piracy
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ebbbe02a-ed81-48ef-9e9c-d1331f881d3c/deploy-status)](https://app.netlify.com/sites/inspiring-ardinghelli-925bff/deploys)
+
 Replacement site for the #trusted-sites channel
 in the server.
 
