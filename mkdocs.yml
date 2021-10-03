@@ -5,6 +5,7 @@ repo_url: "https://github.com/rippedpiracy/rippedpiracy.github.io"
 repo_name: "GitHub"
 edit_uri: "blob/master/docs/"
 
+
 markdown_extensions:
   - attr_list
 plugins:
@@ -13,3 +14,6 @@ theme:
     name: null
     custom_dir: 'custom_theme/'
     highlightjs: true
+
+extra:
+    discord_url: "https://discord.gg/6qVr2aR"
