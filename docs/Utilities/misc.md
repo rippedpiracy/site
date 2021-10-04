@@ -64,7 +64,7 @@ description: Various tools and apps to make your life easier.
 
 # Useful Apps
 
-[**Radmin VPN**](https://www.radmin-vpn.com/) | [**Hamachi**](https://www.vpn.net/) | [**ZeroTier**](https://github.com/zerotier/ZeroTierOne) - LAN Emulators, Useful when playing a LAN supported game with a friend that is not in your local area. NOTE: ZeroTier is very painful to setup.
+[**Radmin VPN**](https://www.radmin-vpn.com/) | [**Hamachi**](https://www.vpn.net/) | [**ZeroTier**](https://github.com/zerotier/ZeroTierOne) - LAN Emulators, Useful when playing a LAN supported game with a friend that is not in your local area. **NOTE: ZeroTier is very painful to setup.**
 
 [**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
 
@@ -76,7 +76,7 @@ description: Various tools and apps to make your life easier.
 
 [**DS4Windows**](https://github.com/Ryochan7/DS4Windows) - Turns your Controller into one that all Programs can read, useful with Knockoffs or Weird ones.
 
-[**Youtube-dlp**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the youtube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl).
+[**Youtube-DLP**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the youtube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl).
 
 [**Text-Grab**](https://github.com/TheJoeFin/Text-Grab) - Use OCR to grab and read text from images.
 
@@ -94,11 +94,11 @@ description: Various tools and apps to make your life easier.
 
 # Useful Websites
 
-[**Spyware Neocities**](https://spyware.neocities.org/articles/) - Site which periodically analyzes apps for spying behavior.
+[**Spyware Neocities**](https://spyware.neocities.org/articles/) - Site which periodically analyzes apps for spying behavior and helps you mitigate it.
 
-[**File Hosting Wiki**](https://filehostlist.miraheze.org/wiki/Main_Page) - Wiki for Premium Leechers, Torrent Leechers
+[**File Hosting Wiki**](https://filehostlist.miraheze.org/wiki/Main_Page) - Wiki for Premium Leechers, Torrent Leechers and Debrids.
 
-[**YtmDL Web**](https://ytmdl.deepjyoti30.dev/) - Best looking and performing online YouTube music downloader.
+[**YtmDL Web**](https://ytmdl.deepjyoti30.dev/) - Best looking and performing Online YouTube Music Downloader, no intrusive Ads.
 
 [**Outline**](https://outline.com/) - Removes clutter from news articles.
 
@@ -106,11 +106,11 @@ description: Various tools and apps to make your life easier.
 
 [**UnshortenIt**](https://unshorten.it/) & [**Linkvertise Bypasser**](https://thebypasser.com/) - Unshorten annoying ad-links on the spot.
 
-[**privacytools.io**](https://privacyguides.org/) - the website of r/PrivacyGuides, has good information about various security and privacy tools.
+[**PrivacyGuides**](https://privacyguides.org/) - [r/PrivacyGuides](https://www.reddit.com/r/PrivacyGuides/)'s Website, has good information about various security and privacy tools.
 
-[**simplewall**](https://www.henrypp.org/product/simplewall) - Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.
+[**simplewall**](https://www.henrypp.org/product/simplewall) - Simple tool to configure  the Windows Filtering Platform (WFP) which can configure Network Activity on your PC.
 
-[**Unsee**](https://unsee.cc/) - Private / Temporary Image Host
+[**Unsee**](https://unsee.cc/) - Privately / Temporarily host your secret Images for reasons.
 
 
 
