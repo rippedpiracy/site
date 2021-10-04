@@ -16,7 +16,7 @@ Software cracked by the one and only m0nkrus, the most reliable Adobe Cracker fo
 
 **[repack.me](https://repack.me)**
 
-Has compressed Downloads for Software, with silent installs. Currently only Registered Members can Download from the site.  
+Has Compressed Downloads for Software, with silent installs. Currently only Registered Members can Download from the site.  
 Staff Members from Ripped have Accounts on the site, so just ask in the Discord for something.  
 
 **[FileCR](https://filecr.com)**
@@ -37,5 +37,5 @@ Forum focused on News for everything Piracy, with downloads for Software and Uti
 
 **[DirtyWarez](https://forum.dirtywarez.com/)**
 
-Good Forum for Software Piracy and other Warez with popular for it's Rquests section.
+Good Forum for Software Piracy and other Warez with popular for its Requests section.
 
