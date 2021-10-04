@@ -3,7 +3,7 @@ description: Various tools and apps to make your life easier.
 
 # Browser Extensions
 
-[**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance. FastForward circumvents annoying link shorteners (Actively maintained Universal Bypass fork).
+[**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance. FastForward circumvents annoying link shorteners (Actively maintained [Universal Bypass](https://github.com/Sainan/Universal-Bypass) fork).
 
 [**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[fuckfuckadblock](https://github.com/bogachenko/fuckfuckadblock) Filters for blocking pop-ups and anti-adblock bypass.  
