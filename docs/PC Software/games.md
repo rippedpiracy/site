@@ -13,6 +13,11 @@ A very popular Torrenting site which has an incredible amount of content, but al
 
 A very safe site to get Games from, mostly Scene Releases which they have auto uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.  
 
+**[RuTor](http://rutor.info) (Torrent)**
+
+An old Russian site that has plenty of content but with generally less seeders.  
+**_NOTE: Only get Games from R.G. Mechanics, Chovka, xatab and FitGirl_**.
+
 ## Repackers
 
 **[FitGirl](https://fitgirl-repacks.site) (Torrent / DDL)**
