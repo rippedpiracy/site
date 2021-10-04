@@ -36,7 +36,7 @@ A known Repacker that focuses more on indie titles. Mostly uses Google Drive as 
 
 One of the oldest and most respected Repacker that passed away recently. His site is currently reposting from other sources but his older Releases can still be found there. **RIP 196X - 2021.**
 
-## Mirrorers
+## General DDL
 
 **[Ova Games](https://ovagames.com) (DDL)**
 
