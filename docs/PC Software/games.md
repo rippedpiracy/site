@@ -37,11 +37,11 @@ One of the oldest and most respected Repacker that passed away recently. His sit
 
 **[Ova Games](https://ovagames.com) (DDL)**
 
-A site which focuses on reuploading Repacks, P2P Cracks, Scene Releases and GOG Rips to multiple hosts. They rarely include Torrent links. They take requests.
+A site which focuses on reuploading Repacks, P2P Cracks, Scene Releases and GOG Rips to multiple hosts. They rarely include Torrent links. They also take requests.
 
 **[CrackHub](https://crackhub.site) (DDL)**
 
-Another site that mainly focuses on reuploading to different hosts, they take requests. It also has an automatic Scene upload Bot which uploads to zippyshare [found here](https://scene.crackhub.site).
+Another site that mainly focuses on reuploading to different hosts, they take requests too. It also has an automatic Scene Upload Bot which uploads to Zippyshare [found here](https://scene.crackhub.site).
 
 **[GamesDrive](https://gamesdrive.net) (DDL)**
 
