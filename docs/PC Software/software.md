@@ -5,12 +5,12 @@ description: Where to get your Software safely and efficiently.
 
 **[RuTracker.org](https://rutracker.org)** / **[RuTracker.net](https://rutracker.net)** / **[RuTracker.ru](https://rutracker.ru)**
 
-The go-to site for Software Piracy, for more than 10+ years.  
+The go-to site for Software Piracy, for more than 10+ years. Requires Sign-up to search content.
 Everything is uploaded by members with more than decades of experience with checked uploads.
 
 **[m0nkrus](http://w14.monkrus.ws/)**
 
-Software cracked by the one and only m0nkrus, the most reliable Adobe cracker for many years.
+Software cracked by the one and only m0nkrus, the most reliable Adobe Cracker for many years.
 
 # DDLs
 
@@ -26,6 +26,10 @@ Has different Categories for Windows, Mac and Android Software Piracy. Offers To
 **[AudioZ](https://audioz.download/)**
 
 Focused more on Plugins and VSTs than Software, good for Video/Music Production.
+
+**[Team V.R](https://codec.kiev.ua/releases.html)** 
+
+Like AudioZ, Team V.R is more focused on Audio and Video Production, Cracking Software and Plugins for it.
 
 **[Nsane Forums](https://nsaneforums.com/)**
 
