@@ -26,3 +26,8 @@ description: Sources for your Weeb Stuff.
 [**Themes.moe**](https://themes.moe) - A huge collection of Ending/Opening Themes for Anime.
 
 [**The Anime Scene Search Engine**](https://trace.moe/) - Reverse image search engine for Anime.
+
+# to be edited
+cool client https://taiga.moe/ to track anime while watching
+
+**IRC bbots** www.puya.moe https://www.animetime.pw/ https://nibl.co.uk/bots https://subsplease.org/ https://animk.info/xdcc/
