@@ -3,7 +3,7 @@ description: Where to get your Software safely and efficiently.
 
 # Torrents
 
-**[RuTracker](https://rutracker.org)**
+**[RuTracker.org](https://rutracker.org)** / **[RuTracker.net](https://rutracker.net)** / **[RuTracker.ru](https://rutracker.ru)**
 
 The go-to site for Software Piracy, for more than 10+ years.  
 Everything is uploaded by members with more than decades of experience with checked uploads.
