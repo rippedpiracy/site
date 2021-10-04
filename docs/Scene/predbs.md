@@ -13,10 +13,10 @@ As listed in the [**Scene Glossary**](https://ripped.guide/Scene/scene-glossary/
 
 That said, here's some Pre-Database sites to check for releases.
 
+**[PreDB.live](https://predb.live/)** | 
 **[PreDB.org](https://www.predb.org/)** | 
 **[PreDB.de](https://predb.de/)** | 
-**[PreDB.ovh](https://predb.ovh/)** | 
-**[PreDB.live](https://predb.live/)** | 
+**[PreDB.ovh](https://predb.ovh/)** |  
 **[PreDB.me](https://predb.me/)** |
 **[xREL](https://www.xrel.to/releases.html#)** 
 
