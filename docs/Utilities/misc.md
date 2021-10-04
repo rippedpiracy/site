@@ -76,6 +76,8 @@ description: Various tools and apps to make your life easier.
 
 [**pe-studio**](https://www.winitor.com/) - Helps you check for malware in apps.
 
+[**DS4Windows**](https://github.com/Ryochan7/DS4Windows) - Turns your Controller into one that all Programs can read, useful with Knockoffs or Weird ones.
+
 [**Youtube-dlp**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the youtube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl).
 
 [**Text-Grab**](https://github.com/TheJoeFin/Text-Grab) - Use OCR to grab and read text from images.
