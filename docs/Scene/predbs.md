@@ -23,4 +23,4 @@ That said, here's some Pre-Database sites to check for releases.
 ## Honorable Mention
 **[CrackWatch](https://crackwatch.com/)**
 
-Instead of being a automatic feed, Crackwatch has user-submitted releases with their only focus being Games.
+Instead of being an automatic feed, Crackwatch has user-submitted Releases with their only focus being Games.
