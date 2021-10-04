@@ -5,17 +5,19 @@ description: Where to get Games from safely and efficiently.
 
 **[1337x](https://1337x.to) (Torrent)**
 
-A very popular Torrenting site which has an incredible amount of content, but also have major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an incredibly unsafe Software category (dont get Software Releases from this site). **_Note: Stay away from Torrents marked IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM, CorePack_**.
+A very popular Torrenting site which has an incredible amount of content, but also have major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an incredibly unsafe Software category (dont get Software Releases from this site). **_Note: Stay away from Torrents marked IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM, CorePack_**.  
+**_Note: 1337x has a lot of fake and mirror sites, you should only use the one we linked._**
 
 **[Rarbg](https://rarbg.to) (Torrent)**
 
-A very safe site to get Games from, mostly Scene Releases which they have auto uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.
+A very safe site to get Games from, mostly Scene Releases which they have auto uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.  
+**_Note: As this is also a very famous Torrent Tracker, only use it's original link._**
 
 ## Repackers
 
 **[FitGirl](https://fitgirl-repacks.site) (Torrent / DDL)**
 
-One of the most well known and reputable Repackers out there, very active and provides Torrent links with DDL mirrors. Only downside being the Repacks can take a long time to install depending on your hardware.
+One of the most well known and reputable Repackers out there, very active and provides Torrent links with DDL mirrors. Only downside being the Repacks can take a long time to install depending on your hardware. **_Note: FitGirl also has a lot of fake sites which spread Malware, only use the original linked here and her uploads on 1337x/etc._**
 
 **[DODI](https://dodi-repacks.site) (Torrent / DDL)**
 
