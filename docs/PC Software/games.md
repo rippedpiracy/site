@@ -7,7 +7,7 @@ description: Where to get Games from safely and efficiently.
 **[1337x](https://1337x.to) (Torrent)**
 
 A very popular Torrenting site which has an incredible amount of content, but also has major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an *incredibly* unsafe Software category.  
-**NOTE: Dont get Software Releases from this site and for Games; stay away from Torrents by IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM and CorePack.**  
+**_NOTE: Dont get Software Releases from this site and for Games; stay away from Torrents by IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM and CorePack._**  
 
 **[Rarbg](https://rarbg.to) (Torrent)**
 
@@ -43,28 +43,28 @@ Another site that mainly focuses on reuploading to different hosts, they take re
 
 **[GamesDrive](https://gamesdrive.net) (DDL)**
 
-Another site that reuploads Repacks, P2P Cracks and Scene Releases to various hosts. They take requests
+Another site that reuploads Repacks, P2P Cracks and Scene Releases to various hosts. They take requests.
 
 ## Forums
 
 **[CS.RIN.RU](https://cs.rin.ru/forum) (DDL)**
 
-Arguably the best site for Steam Piracy. It's a well moderated Forum with active members. Not only good for getting Games from, but also learning about different Cracking tools for Steam Games. **Requires Sign-up**.
+Arguably the best site for Steam Piracy. It's a well moderated Forum with active members. Not only good for getting Games from, but also learning about different Cracking tools for Steam Games. **_Requires Sign-up_**.
 
 **[Torrminatorr](https://forum.torrminatorr.com) (DDL)**
 
-Another well moderated Forum with active uploaders and discussions that allow Scene uploads (contrary of CS.RIN.RU), GOG Rips, Retro Games and even Linux Games. **Requires Sign-up**.
+Another well moderated Forum with active uploaders and discussions that allow Scene uploads (contrary of CS.RIN.RU), GOG Rips, Retro Games and even Linux Games. **_Requires Sign-up_**.
 
 ## Misc
 
 **[Online-Fix](https://online-fix.me) (DDL / Torrent)**
 
 Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker 0xdeadc0de.  
-**NOTE: Their site has strong measures against Ad-blockers. Requires Sign-up.**
+**_NOTE: Their site has strong measures against Ad-blockers. Requires Sign-up._**
 
 **[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com/a/) (DDL)**
 
-Big Forums for **_Adult Games_**. U18-Chan focuses more on **_Yiff Games_** while F95zone mainly focuses on **_Eroges_** and it **Requires Sign-up**.
+Big Forums for **_Adult Games_**. U18-Chan focuses more on **_Yiff Games_** while F95zone mainly focuses on **_Eroges_** and it **_Requires Sign-up_**.
 
 **[Nyaa](https://nyaa.si) & [Sukebei](https://sukebei.nyaa.si) (Torrent)**
 
