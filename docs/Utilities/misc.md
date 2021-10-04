@@ -64,17 +64,17 @@ description: Various tools and apps to make your life easier.
 
 # Useful Apps
 
-[**GoodbyeDPI**](https://github.com/ValdikSS/GoodbyeDPI) | [**PowerTunnel**](https://github.com/krlvm/PowerTunnel) - Simple, scalable, cross-platform and effective solutions on ISP/Government blocked Websites.  
+[**GoodbyeDPI**](https://github.com/ValdikSS/GoodbyeDPI) & [**PowerTunnel**](https://github.com/krlvm/PowerTunnel) - Simple, scalable, cross-platform and effective solutions on ISP/Government blocked Websites.  
 
 [**Radmin VPN**](https://www.radmin-vpn.com/) | [**Hamachi**](https://www.vpn.net/) | [**ZeroTier**](https://github.com/zerotier/ZeroTierOne) - LAN Emulators, Useful when playing a LAN supported game with a friend that is not in your local area. **NOTE: ZeroTier is very painful to setup.**
 
-[**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect malware (Advanced version of Task Manager).
+[**Process Hacker**](https://github.com/processhacker/processhacker) - Helps monitor system resources, debug software and detect Malware (Advanced version of Task Manager).
 
 [**CompactGUI**](https://github.com/ImminentFate/CompactGUI) & [**Compactor**](https://github.com/Freaky/Compactor) - Transparently compresses games, programs and other folders with virtually no performance loss.
 
 [**SpaceSniffer**](http://www.uderzo.it/main_products/space_sniffer/) - See exactly what's taking up space on your drives.
 
-[**pe-studio**](https://www.winitor.com/) - Helps you check for malware in apps.
+[**pe-studio**](https://www.winitor.com/) - Helps you check for Malware in apps.
 
 [**DS4Windows**](https://github.com/Ryochan7/DS4Windows) - Turns your Controller into one that all Programs can read, useful with Knockoffs or Weird ones.
 
