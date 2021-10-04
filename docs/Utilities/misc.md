@@ -64,7 +64,7 @@ description: Various tools and apps to make your life easier.
 
 # Useful Apps
 
-[**PowerTunnel**](https://github.com/krlvm/PowerTunnel) | [**GoodbyeDPI**](https://github.com/ValdikSS/GoodbyeDPI) - Simple, scalable, cross-platform and effective solutions on ISP and Government blocked Websites.  
+[**PowerTunnel**](https://github.com/krlvm/PowerTunnel) | [**GoodbyeDPI**](https://github.com/ValdikSS/GoodbyeDPI) - Simple, scalable, cross-platform and effective solutions on ISP/Government blocked Websites.  
 
 [**Radmin VPN**](https://www.radmin-vpn.com/) | [**Hamachi**](https://www.vpn.net/) | [**ZeroTier**](https://github.com/zerotier/ZeroTierOne) - LAN Emulators, Useful when playing a LAN supported game with a friend that is not in your local area. **NOTE: ZeroTier is very painful to setup.**
 
