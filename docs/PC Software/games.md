@@ -10,8 +10,7 @@ A very popular Torrenting site which has an incredible amount of content, but al
 
 **[Rarbg](https://rarbg.to) (Torrent)**
 
-A very safe site to get Games from, mostly Scene Releases which they have auto uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.  
-**_Note: As this is also a very famous Torrent Tracker, only use it's original link._**
+A very safe site to get Games from, mostly Scene Releases which they have auto uploading Bots for. If you use a VPN get ready to solve CAPTCHAs. **_Note: As this is also a very famous Torrent Tracker, only use it's original link._**
 
 ## Repackers
 
