@@ -181,6 +181,7 @@ An .img file is an image of a CD/DVD. An .img file can be burned directly on a c
 **iND**
 
 iND stands for Independent. iND is not a real group, just term to categorize users who aren't members of a releasegroup. Occasionally there are releases done by -iND.  
+
 **iNTERNAL**
 
 A release is done internal when it's released for a limited amount of people. Nowadays it's mostly used when a release is already done by another group. By adding the internal tag, the release won't be nuked.  
@@ -319,13 +320,14 @@ A recode is a previously released movie, usually filtered through TMPGenc to rem
 
 **Rehacking**
 
-The act of hacking a computer/pubstro which someone else has already hacked, and replacing his FTP-server with his own. Rehacking will often result in a ban from all FXP boards.  
+The act of hacking a computer/pubstro which someone else has already hacked, and replacing his FTP-server with his own. Rehacking will often result in a ban from all FXP boards. 
 
 **Release**
 
 Original releases are rips of movies, programs, games and music, all released by groups specialized in creating these kinds of releases.  
 
 **Releasegroups**  
+
 Groups of people who pirate and release software, music and movies.  
 
 **Remastered**
