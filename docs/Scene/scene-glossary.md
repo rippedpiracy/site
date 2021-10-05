@@ -249,6 +249,10 @@ The European video format standard.
 
 These files are able to reconstruct files that are missing from the archive when downloading via newsgroups. For example, if you have downloaded an archive that was split into 47 RAR files but one of them is missing, you could simply download a PAR file for that archive. Once you have the PAR file, you can use a tool such as SmartPAR to reconstruct the missing file.  
 
+**Paysites**
+
+FTP servers that un-officially host Scene releases. They work as Pay-to-Leech (P2L), so if someone wanted to download something off the site they would have to pay.
+
 **Peer-To-Peer**
 
 Sharing and delivery system where users who are logged are able to download files from eachother.  
