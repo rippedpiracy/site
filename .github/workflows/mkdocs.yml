@@ -38,8 +38,9 @@ jobs:
       - name: Build HTML
         run: mkdocs build
       - name: Minify
-        uses: anthonyftwang/minify-action@v1.0.1
-        working-directory: site
+        uses: pryme-svg/minify-action@v1.0.2
+        with:
+          directory: ./site
 
       - name: Setup Git User
         run: |
