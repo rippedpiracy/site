@@ -52,6 +52,8 @@ description: Various tools and apps to make your life easier.
 
 [**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass Youtube's age restricted videos.
 
+[**AdGuard Popup Blocker**](https://github.com/AdguardTeam/PopupBlocker) - Popup Blocker by AdGuard is a userscript that blocks all unwanted pop-up windows in different browsers.
+
 [**Bypass All Shortlinks**](https://greasyfork.org/en/scripts/431691-bypass-all-shortlinks) - Link bypasser, bypassess some sites other tools can't bypass.
 
 [**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters. 
@@ -60,15 +62,13 @@ description: Various tools and apps to make your life easier.
 
 [**Hcaptcha Solver**](https://greasyfork.org/en/scripts/425854-hcaptcha-solver-automatically-solves-hcaptcha-in-browser) - Automatically solves hCaptchas on websites, no user interaction required.
 
+[**MoreCAPTCHA**](https://greasyfork.org/en/scripts/31088-morecaptcha) - Speeds up solving Google reCAPTCHA challenges by shortening transition effects and providing continuous selection ability.
+
 [**Mega.nz Unlimited Import**](https://pastebin.com/raw/4AXkE1yE) - Import any file/folder to your Mega Cloud without worrying about the space it takes as long as your Storage isn't full.
 
 [**CS.RIN.RU Enhanced**](https://github.com/SubZeroPL/cs-rin-ru-enhanced-mod) - Enhances the UI and the functionality of the cs.rin.ru site.
 
 [**Get Data from Steam / SteamDB / EpicDB**](https://github.com/Sak32009/GetDLCInfoFromSteamDB/) - Extracts all the information of the DLCs/Games from Steam/SteamDB/EpicDB and exports in various formats.
-
-[**MoreCAPTCHA**](https://greasyfork.org/en/scripts/31088-morecaptcha) - Speeds up solving Google reCAPTCHA challenges by shortening transition effects and providing continuous selection ability.
-
-[**AdGuard Popup Blocker**](https://github.com/AdguardTeam/PopupBlocker) - Popup Blocker by AdGuard is a userscript that blocks all unwanted pop-up windows in different browsers.
 
 # Useful Apps
 
