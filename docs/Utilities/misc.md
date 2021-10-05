@@ -52,6 +52,8 @@ description: Various tools and apps to make your life easier.
 
 [**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass Youtube's age restricted videos.
 
+[**Bypass All Shortlinks**](https://greasyfork.org/en/scripts/431691-bypass-all-shortlinks) - Link bypasser, bypassess some sites other tools can't bypass.
+
 [**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters. 
 
 [**Mega.nz Unlimited Import**](https://pastebin.com/raw/4AXkE1yE) - Import any file/folder to your Mega Cloud without worrying about the space it takes as long as your Storage isn't full.
