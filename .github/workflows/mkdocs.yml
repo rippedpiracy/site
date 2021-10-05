@@ -24,6 +24,8 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+
+
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
@@ -35,25 +37,16 @@ jobs:
         run: ../scripts/target-blank.sh
       - name: Build HTML
         run: mkdocs build
+      - name: Minify
+        uses: anthonyftwang/minify-action@v1.0.1
+        working-directory: site
+
+      - name: Setup Git User
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Push build
         run: |
           pip install ghp-import
-          ghp-import --no-jekyll --message="Deploy $(git rev-parse --short $GITHUB_SHA)" --push --remote=origin --branch=gh-pages --no-history --force site
-  minify:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: gh-pages
-      
-      - name: Minify Action
-        uses: anthonyftwang/minify-action@v1.0.1
-        #      - name: Minify JS and CSS and HTML
-        #        uses: nizarmah/auto-minify@v2.1
-        #        with:
-        #          overwrite: true
-      - name: Auto committing minified files
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Github Action: Auto Minified JS and CSS files"
-          branch: gh-pages
+          ghp-import --no-jekyll --message="Deploy $(git rev-parse --short $GITHUB_SHA) (minified)" --push --remote=origin --branch=gh-pages --no-history --force site
