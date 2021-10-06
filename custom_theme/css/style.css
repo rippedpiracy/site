@@ -365,7 +365,7 @@ a {
     color: #fff;
 
 }
-main {
+.sidebar + main {
     margin-left: var(--sidebar-width);
 }
 main {

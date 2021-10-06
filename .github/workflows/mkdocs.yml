@@ -41,7 +41,6 @@ jobs:
         uses: pryme-svg/minify-action@v1.0.2
         with:
           directory: ./site
-
       - name: Setup Git User
         run: |
           git config --global user.name "github-actions[bot]"
