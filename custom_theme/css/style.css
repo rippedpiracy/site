@@ -367,6 +367,7 @@ a {
 }
 .sidebar + main {
     margin-left: var(--sidebar-width);
+    overflow-x: hidden;
 }
 main {
     padding: 70px;
