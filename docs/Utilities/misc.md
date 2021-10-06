@@ -1,4 +1,4 @@
-title: Utilities
+title: Miscellaneous
 description: Various tools and apps to make your life easier.
 
 # Browser Extensions
