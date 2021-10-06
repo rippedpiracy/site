@@ -26,7 +26,7 @@ function myFunc() {
 			var athird = 220;
 		}
 
-		if (scrollTop >= (anchor_tops[i] - athird) && (i == anchor_tops.length - 1 || scrollTop < anchor_tops[i+1]) {
+		if (scrollTop >= (anchor_tops[i] - athird) && (i == anchor_tops.length - 1 || scrollTop < anchor_tops[i+1])) {
 			var current = $(anchors[i]).attr('id');
 		}
 	}
