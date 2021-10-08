@@ -65,7 +65,11 @@ Another well moderated Forum with active uploaders and discussions that allow Sc
 **[Online-Fix](https://online-fix.me) (DDL / Torrent)**
 
 Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker 0xdeadc0de.  
-**_NOTE: Their site has strong measures against Ad-blockers. Requires Sign-up._**
+**_NOTE: Their site has strong measures against Ad-blockers. Requires Sign-up._**  
+
+**[GOG Games](https://gog-games.com) (DDL)**
+
+Every GOG DRM-free Game, ripped and reuploaded on Mirrors. Every installer is untouched and has a cryptographic SHA-265 key.
 
 **[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com/a/) (DDL)**
 
