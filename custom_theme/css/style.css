@@ -413,7 +413,7 @@ footer {
   background-color: #A9A9A9;
 }
 #darkmodetoggle {
-	position: absolute;
+	position: fixed;
 	top: 20px;
 	right: 15px;
 	cursor: pointer;
