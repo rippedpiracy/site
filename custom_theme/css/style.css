@@ -421,11 +421,14 @@ footer {
 /*
 @media
 */
+
+/*
 @media (max-width: 767px) {
 	#darkmodetoggle {
 		display: none;
 	}
 }
+*/
 
 /*
 @media (min-width: 48em) {
