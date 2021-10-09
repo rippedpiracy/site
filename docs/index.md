@@ -7,3 +7,5 @@ description: Welcome to Ripped!
 Feel free to contribute by sending an issue on our [**suggestions**](https://github.com/rippedpiracy/suggestions) page.
 
 Click on the categories in the sidebar for more information.
+
+*^We strongly reccomend disabling extensions like PrivacyBadger as breakages may occur.^*
