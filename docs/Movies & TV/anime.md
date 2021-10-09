@@ -3,13 +3,15 @@ description: Sources for your Weeb Stuff.
 
 # Downloads
 
-[**Nyaa**](https://nyaa.si/) - The Best Public Tracker to get Anime from, old releases may not be seeded very well.
+[**Nyaa**](https://nyaa.si/) (Torrent) - The Best Public Tracker to get Anime from, old releases may not be seeded very well.
 
-[**AnimeTosho**](https://animetosho.org) - Collates releases from Public Trackers, and has DDL links for file attachments (Subtitles, Fonts, Chapters, Tags) 
+[**AnimeTosho**](https://animetosho.org) (Torrent) - Collates releases from Public Trackers, and has DDL links for file attachments (Subtitles, Fonts, Chapters, Tags) 
 
-[**AniDex**](https://anidex.info/) - Alternative Tracker to get Anime from, Few Releasers post exclusively here.
+[**AniDex**](https://anidex.info/) (Torrent) - Alternative Tracker to get Anime from, Few Releasers post exclusively here.
 
-[**Tokyo Toshokan**](https://www.tokyotosho.info/?cat=1) - 
+[**Tokyo Toshokan**](https://www.tokyotosho.info/?cat=1) (Torrent) - 
+
+[**Nibl.co.uk Bots**]https://nibl.co.uk/bots & [**AniMK**]https://animk.info/xdcc/ (DDL - XDCC) - Sites indexing direct download Bots where you can download from them using IRC clients. Check https://wiki.piracy.moe/en/tutorials/irc for a detailed guide into XDCC
 
 [**The Anime Index**](https://piracy.moe/) - Has a huge list of Streaming/Downloading sites for Anime/Hentai/Manga and more
 
@@ -30,4 +32,4 @@ description: Sources for your Weeb Stuff.
 # to be edited
 cool client https://taiga.moe/ to track anime while watching
 
-**IRC bbots** www.puya.moe https://www.animetime.pw/ https://nibl.co.uk/bots https://subsplease.org/ https://animk.info/xdcc/
+**IRC bbots** www.puya.moe https://www.animetime.pw/  https://subsplease.org/ https://animk.info/xdcc/
