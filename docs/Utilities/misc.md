@@ -49,6 +49,7 @@ description: Various tools and apps to make your life easier.
 [**Disconnect**](https://github.com/disconnectme/disconnect) - Makes the web faster, more private, and more secure.
 
 # Browser Scripts
+**Use a Browser UserScript Manager**
 
 [**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass Youtube's age restricted videos.
 
@@ -61,6 +62,8 @@ description: Various tools and apps to make your life easier.
 [**Recaptcha Solver**](https://greasyfork.org/en/scripts/430593-recaptcha-solver-automatically-solves-recaptcha-in-browser) - Automatically solves reCAPTCHAs on websites, no user interaction required.
 
 [**Hcaptcha Solver**](https://greasyfork.org/en/scripts/425854-hcaptcha-solver-automatically-solves-hcaptcha-in-browser) - Automatically solves hCaptchas on websites, no user interaction required.
+
+[**SiteScrubber**](https://github.com/PrimePlaya24/dl-site-scrubber) - Bypass certain timers or ads and remove clutter that make it harder to download from certain DDL sites.
 
 [**MoreCAPTCHA**](https://greasyfork.org/en/scripts/31088-morecaptcha) - Speeds up solving Google reCAPTCHA challenges by shortening transition effects and providing continuous selection ability.
 
