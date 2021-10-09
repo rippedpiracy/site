@@ -25,9 +25,14 @@ description: Sources for your Weeb Stuff.
 
 [**The r/AnimePiracy Wiki**](https://wiki.piracy.moe/) - Comprehensive information about everything Anime Piracy. A MUST READ if you are interested in it.
 
-[**Themes.moe**](https://themes.moe) - A huge collection of Ending/Opening Themes for Anime.
+[**Themes.moe**](https://themes.moe) & [**Openings.moe**](https://openings.moe/) - A huge collection of Ending/Opening Themes for Anime.
+
+()[] ()[]
 
 [**The Anime Scene Search Engine**](https://trace.moe/) - Reverse image search engine for Anime.
 
-# to be edited
-cool client https://taiga.moe/ to track anime while watching
+[**Taiga**](https://github.com/erengy/taiga)(Windows) & [**Trackma**](https://github.com/z411/trackma/)(Linux) - Automatically detects the anime videos you watch on your computer and synchronizes your progress with AniList, Kitsu or MyAnimeList and more.
+
+[](https://www.senpai.moe/) (https://www.monthly.moe/)
+
+[**BECAUSE.MOE**](https://because.moe/) - Search engine to find streaming services that offer the Anime you search for. **Accurate up until May 27 2020**
