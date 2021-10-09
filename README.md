@@ -5,10 +5,10 @@
 Replacement for the [**#trusted-sites**](https://discord.com/channels/702220357834244248/752225865231761448) channel
 in the server.
 
-If you **do** suggest something, please keep note that:
-- it needs to be a safe site
-- it cannot host illegal content like company leaks
-- it cannot be a single download for something.
+If you **do** suggest something, please keep note that it:
+- needs to be a trusted and safe site
+- cannot host other illegal content like company leaks
+- cannot be a single download link for something.
 
 # How do i contribute?
 
