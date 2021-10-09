@@ -5,8 +5,6 @@
 Replacement for the [**#trusted-sites**](https://discord.com/channels/702220357834244248/752225865231761448) channel
 in the server.
 
-**If you have any sites to suggest, either make an issue with the site name or a Pull Request with the site already added.**
-
 If you **do** suggest something, please keep note that:
 - it needs to be a safe site
 - it cannot host illegal content like company leaks
