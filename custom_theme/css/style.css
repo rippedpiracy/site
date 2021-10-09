@@ -195,7 +195,7 @@ a.active img#expand_icon {
     padding: 1em;
     margin: -1em;
 }
-.sidebar, .sidebar-toggle, .sidebar + main {
+.sidebar, .sidebar-toggle, main {
     transition: all 0.35s ease-out;
 }
 main {
@@ -365,11 +365,9 @@ a {
     color: #fff;
 
 }
-.sidebar + main {
-    margin-left: var(--sidebar-width);
-    overflow-x: hidden;
-}
+
 main {
+	margin-left: var(--sidebar-width);
     padding: 70px;
 }
 h1.article-title {

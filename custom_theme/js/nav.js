@@ -1,3 +1,5 @@
+const sidebarWidth = 335;
+
 window.addEventListener('resize', checkWindowSize);
 
 // call initially
@@ -17,15 +19,22 @@ function closeOrOpen() {
 
 function openNav() {
 //  document.getElementsByClassName("sidebar")[0].style.display = "";
-    document.getElementsByClassName("sidebar")[0].style.marginLeft = "0px";
-    document.getElementsByTagName("main")[0].style.marginLeft = "335px";
+	document.getElementsByClassName("sidebar")[0].style.marginLeft = "0px";
+	if (window.innerWidth > 767) {
+		document.getElementsByTagName("main")[0].style.marginLeft = sidebarWidth + "px";
+	} else if (window.innerWidth < 768) {
+		document.getElementsByTagName("main")[0].style.transform = "translateX(335px)";
+		document.body.style.overflowX = "hidden";
+	}
     window.navOpened = true;
 }
 
 function closeNav() {
 //  document.getElementsByClassName("sidebar")[0].style.display = "none";
-    document.getElementsByClassName("sidebar")[0].style.marginLeft = "-335px";
+    document.getElementsByClassName("sidebar")[0].style.marginLeft = "-" + sidebarWidth + "px";
     document.getElementsByTagName("main")[0].style.marginLeft = "0";
+    document.getElementsByTagName("main")[0].style.transform = "";
+    document.getElementsByTagName("body")[0].style.overflowX = "";
     window.navOpened = false;
 }
 
