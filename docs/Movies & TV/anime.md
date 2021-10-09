@@ -15,7 +15,7 @@ description: Sources for your Weeb Stuff.
 
 **[The Anime Index](https://piracy.moe/) (DDL / Torrent)** - Has a huge list of Streaming/Downloading sites for Anime/Hentai/Manga and more
 
-# Index
+# Release Index
 
 [**A Certain Smoke's Index**](https://releases.moe) - A big list of best Releases for Anime (by Seadex).
 
