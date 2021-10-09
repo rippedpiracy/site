@@ -8,4 +8,4 @@ Feel free to contribute by sending an issue on our [**suggestions**](https://git
 
 Click on the categories in the sidebar for more information.
 
-*^We strongly reccomend disabling extensions like Privacy Badger as breakages may occur.^*
+**_^We strongly reccomend disabling extensions like Privacy Badger as breakages may occur.^_**
