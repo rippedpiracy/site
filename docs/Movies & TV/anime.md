@@ -11,7 +11,7 @@ description: Sources for your Weeb Stuff.
 
 **[Tokyo Toshokan](https://www.tokyotosho.info/?cat=1) (Torrent)** - 
 
-[**Nibl.co.uk Bots**](https://nibl.co.uk/bots) & [**AniMK**](https://animk.info/xdcc/) **(XDCC)** - Sites indexing IRC Bots where you can download from using IRC clients. Check [https://wiki.piracy.moe/en/tutorials/irc](https://wiki.piracy.moe/en/tutorials/irc) for a detailed guide into XDCC.
+[**Nibl.co.uk Bots**](https://nibl.co.uk/bots) & [**AniMK**](https://animk.info/xdcc/) **(XDCC)** - Sites indexing IRC Bots where you can download from using IRC clients. Check the r/AnimePiracy [wiki](https://wiki.piracy.moe/en/tutorials/irc) for a detailed guide into XDCC.
 
 **[The Anime Index](https://piracy.moe/) (DDL / Torrent)** - Has a huge list of Streaming/Downloading sites for Anime/Hentai/Manga and more
 
