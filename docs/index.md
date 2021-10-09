@@ -1,9 +1,9 @@
 title: Intro
 description: Welcome to Ripped!
 
-# Welcome to the Official Ripped Website!
-
 ![](https://i.imgur.com/3uw3BLc.png)
+
+# Welcome to the Official Ripped Website!
 
 **This is a collection of sites and tools that are trusted by the community.**
 
