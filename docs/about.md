@@ -1,13 +1,13 @@
 title: About
-description: About Ripped's Website.
+description: About this site.
 
 ## Contributing
 
-Feel free to contribute by opening a Pull Request in our [GitHub Repo](https://github.com/rippedpiracy/rippedpiracy.github.io).
+Feel free to contribute by opening an issue in our [**suggestions**](https://github.com/rippedpiracy/rippedpiracy.github.io) Github repo.
 
 ## Formatting
 
-This website is generated using Markdown, which you can read more about [here](https://www.markdowntutorial.com/).
+This website is generated using Markdown, which you can read more about [**here**](https://www.markdowntutorial.com/).
 
 In brief, here's how it works:
 
