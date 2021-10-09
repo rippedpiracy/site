@@ -6,7 +6,8 @@ description: Where to get your Movies & Shows, streamed or downloaded.
 
 # Downloading
 
-**MovieGods:** [`irc://irc.abjects.net/MOVIEGODS`](irc://irc.scenep2p.net/THE.SOURCE) (XDCC) - FIle sharing network with vast resources, mainly for movies and shows. Head to #mg-chat to download stuff.
+**MovieGods:** [irc://irc.abjects.net/MOVIEGODS](irc://irc.abjects.net/MOVIEGODS) (XDCC) - 
+FIle sharing network with vast resources, mainly for movies and shows. Head to #mg-chat to download stuff.
 
 
 (this is to not make me forget to add https://streamingcommunity.vip/ to this cuz its a nice italian site)
