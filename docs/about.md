@@ -3,7 +3,7 @@ description: About this site.
 
 ## Contributing
 
-Feel free to contribute by opening an issue in our [**suggestions**](https://github.com/rippedpiracy/rippedpiracy.github.io) Github repo.
+Feel free to contribute by opening an issue in our [**suggestions**](https://github.com/rippedpiracy/suggestions) Github repo.
 
 ## Formatting
 
