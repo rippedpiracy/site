@@ -16,3 +16,9 @@ description: Where to download your tunes from.
 [**streamrip**](https://github.com/nathom/streamrip) - A Scriptable Music Downloader for Qobuz, Tidal, SoundCloud, and Deezer. **_Requires a paid Tidal/Deezer account to download 320/FLAC._**
 
 [**SoftArchive**](https://sanet.st/music/) - SoftArchive's Music Section, has many different Albums you might not find elsewhere.
+
+[**Doujin Café Discord**](https://discord.gg/doujincafe) - The source of nearly all doujin rips online.
+
+> Doujin, Dōjin (同人): self-published creative works produced by an individual or groups of individuals.  
+
+> Dōjin music (同人音楽): Music, Fan-Arranges, Videogame Arranges, Original Works, Touhou Works
