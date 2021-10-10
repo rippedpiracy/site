@@ -431,6 +431,9 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #A9A9A9;
 }
+img {
+	max-width: 100%; /* make sure images don't overflow */
+}
 #darkmodetoggle {
 	position: fixed;
 	top: 20px;
