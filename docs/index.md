@@ -11,4 +11,4 @@ Click on the categories in the sidebar for more information.
 
 **_^We strongly reccomend disabling extensions like Privacy Badger while browsing as breakages may occur.^_**  
 
-![](https://i.imgur.com/fBcZaCz.png)
+![](https://i.imgur.com/h3WqLFs.png)
