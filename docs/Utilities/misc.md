@@ -91,7 +91,7 @@ description: Various tools and apps to make your life easier.
 
 [**DS4Windows**](https://github.com/Ryochan7/DS4Windows) - Turns your Controller into one that all Programs can read, useful with Knockoffs or Weird ones.
 
-[**Youtube-DLP**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the youtube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl).
+[**YT-DLP**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the popular youtube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl).
 
 [**Text-Grab**](https://github.com/TheJoeFin/Text-Grab) - Use OCR to grab and read text from images.
 
