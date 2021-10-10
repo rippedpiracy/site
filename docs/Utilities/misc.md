@@ -38,7 +38,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**Download All Images**](https://github.com/belaviyo/save-images) - Download all images from any web page you're on.
 
-[**SingleFile**](https://github.com/gildas-lormeau/SingleFile) -  Save a faithful copy of an entire web page in a single HTML file
+[**SingleFile**](https://github.com/gildas-lormeau/SingleFile) -  Save a faithful copy of an entire web page in a single HTML file.
 
 [**Terms of Service; Didn’t Read: Be Informed**](https://github.com/tosdr/browser-extensions) - Grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements.
 
