@@ -1,18 +1,17 @@
-var anchors;
-var anchor_tops = [];
-
 $(function() {
 	createAnchorList();
 	myFunc(); // call initially so that there isn't everything inactive
 });
 
 function createAnchorList() {
-	    window.anchors = $('body').find("h1:not('.site-name'):not('.article-title'), h2, h3, h4");
+	window.anchors = document.querySelectorAll("#content > h1, #content > h2, #content > h3, #content > h4");
+	/*
 	for (var i = 0; i < window.anchors.length; i++) {
 		window.anchor_tops.push($(window.anchors[i]).offset().top);
 	}
 	window.anchor_tops.push($(document).height());
 	window.anchor_tops.sort((a,b) => a - b);
+	*/
 }
 
 function disableArrow() {
@@ -23,6 +22,13 @@ function disableArrow() {
 function myFunc() {
 	var scrollTop = $(document).scrollTop();
     removeAllActive();
+	var anchor_tops = [];
+	for (var i = 0; i < window.anchors.length; i++) {
+		anchor_tops.push($(window.anchors[i]).offset().top);
+	}
+	anchor_tops.push($(document).height());
+	anchor_tops.sort((a,b) => a - b);
+
 	for (var i = 0; i < window.anchors.length; i++) {
 		if (i > 0) {
 			var athird = (anchor_tops[i] - anchor_tops[i-1])/3;
