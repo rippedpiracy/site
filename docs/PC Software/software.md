@@ -1,5 +1,5 @@
 title: Software
-description: List of safe sites for software.
+description: List of safe sites for Software.
 
 # Torrents
 
