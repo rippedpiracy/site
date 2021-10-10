@@ -1,5 +1,5 @@
 title: Miscellaneous
-description: Various tools and apps to make your life easier.
+description: Various Tools and Apps to make your life easier.
 
 # Browser Extensions
 
@@ -38,7 +38,7 @@ description: Various tools and apps to make your life easier.
 
 [**Download All Images**](https://github.com/belaviyo/save-images) - Download all images from any web page you're on.
 
-[**SingleFile**](https://github.com/gildas-lormeau/SingleFile) -  Save a faithful copy of an entire web page in a single HTML file
+[**SingleFile**](https://github.com/gildas-lormeau/SingleFile) -  Save a faithful copy of an entire web page in a single HTML file.
 
 [**Terms of Service; Didn’t Read: Be Informed**](https://github.com/tosdr/browser-extensions) - Grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements.
 
@@ -51,7 +51,7 @@ description: Various tools and apps to make your life easier.
 # Browser UserScripts
 **Use a Browser UserScript Manager**
 
-[**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass Youtube's age restricted videos.
+[**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass YouTube's age restricted videos.
 
 [**AdGuard Popup Blocker**](https://github.com/AdguardTeam/PopupBlocker) - Blocks all unwanted pop-up windows in different browsers.
 
@@ -89,13 +89,15 @@ description: Various tools and apps to make your life easier.
 
 [**pe-studio**](https://www.winitor.com/) - Helps you check for Malware in apps.
 
+[**HashCheck**](https://github.com/idrassi/HashCheck) & [**OpenHashTab**](https://github.com/namazso/OpenHashTab) - Convenient and efficient file hash verifier, it also integrates into Windows Shell.
+
 [**DS4Windows**](https://github.com/Ryochan7/DS4Windows) - Turns your Controller into one that all Programs can read, useful with Knockoffs or Weird ones.
 
-[**YT-DLP**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the popular youtube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl).
+[**YT-DLP**](https://github.com/yt-dlp/yt-dlp) - Actively maintained fork of the popular YouTube downloader [youtube-dl](https://github.com/ytdl-org/youtube-dl).
 
 [**Text-Grab**](https://github.com/TheJoeFin/Text-Grab) - Use OCR to grab and read text from images.
 
-[**Internet Download Manager**](https://www.internetdownloadmanager.com/) | [**JDownloader**](https://jdownloader.org/jdownloader2) | [**Motrix**](https://github.com/agalwood/Motrix) | [**Free Download Manager**](https://www.freedownloadmanager.org/) | [**Xtreme Download Manager**](https://github.com/subhra74/xdm) - Download managers that can boost download speeds. Motrix support Torrenting. Jdownloader is best for downloading multiiple files simultaneously.
+[**Internet Download Manager**](https://www.internetdownloadmanager.com/) | [**JDownloader**](https://jdownloader.org/jdownloader2) | [**Motrix**](https://github.com/agalwood/Motrix) | [**Free Download Manager**](https://www.freedownloadmanager.org/) | [**Xtreme Download Manager**](https://github.com/subhra74/xdm) - Download managers that can boost download speeds. Motrix supports Torrenting and Jdownloader is best for downloading multiple files simultaneously.
 
 [**video_decrypter**](https://github.com/CrackerCat/video_decrypter) - Decrypt video from a streaming site with MPEG-DASH Widevine DRM encryption. 
 
