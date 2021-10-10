@@ -7,7 +7,7 @@ As listed in the [**Scene Glossary**](https://ripped.guide/Scene/scene-glossary/
 
 > A database with all release titles. These release titles are not for download, they are just records.
 
-> Apart from the release title, a record often also contains the release size, release date, and sometimes also NFO's.
+> Apart from the release title, a record often also contains the release size, release date, and sometimes also NFOs.
 
 > With commands one is able to 'check' a release.
 
@@ -23,4 +23,4 @@ That said, here's some Pre-Database sites to check for releases.
 ## Honorable Mention
 **[CrackWatch](https://crackwatch.com/)**
 
-Instead of being an automatic feed, Crackwatch has user-submitted Releases with their only focus being Games. **_Currently Offline_**.
+Instead of being an automatic feed, CrackWatch has user-submitted Releases with their only focus being Games. **_Currently Offline_**.
