@@ -14,6 +14,8 @@ theme:
     name: null
     custom_dir: 'custom_theme/'
     highlightjs: true
+    static_templates:
+            - 404.html
 
 extra:
     discord_url: "https://discord.gg/6qVr2aR"
