@@ -25,7 +25,7 @@
         <script src="/js/tocscroll.js"></script>
 	<!--        <script src="/js/clearinput.js"></script> -->
 	<script src="/js/dark.js"></script>
-        <script src="/js/nav.js"></script>
+	<script src="/js/nav.js"></script>
 
         <!--  for embeds -->
         <meta property="og:title" content="{{ page.meta.title }}" />
@@ -37,13 +37,14 @@
     </head>
     <body>
 
-        <button class="sidebar-toggle" onclick="closeOrOpen()">
+        <main>
+        <button id="sidebar-toggle" onclick="closeOrOpen()">
             <div></div>
             <div></div>
             <div></div>
         </button>
 
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
 
             {% if 'search' in config['plugins'] %}
 
@@ -88,7 +89,7 @@
         </div>
 
         </aside>
-        <main class="content" id="content">
+	<section id="content" class="normal">
             <div class="article-info-container">
                 <h1 class="article-title">{{ page.meta.title }}</h1>
                 {% if page.meta.author is defined %}
@@ -103,10 +104,11 @@
 		    <div class="inline">
 			    <p class="article-info">Last updated: {{ page.meta.revision_date }}</p>
 		    </div>
-		    <!-- <div style="float: right; margin-top: 0.1em;">
+		    <div style="float: right; margin-top: 0.1em;">
 			    <p class="article-info"><a href="{{ page.edit_url }}" target="_blank">Edit on </a><i class="fab fa-github"></i></p>
 		    </div>
 	    </footer>-->
+	</section>
 
         </main>
     <a id="darkmodetoggle" onclick="switchTheme()"><img src="/pix/dark_mode.svg"></a>

@@ -2,14 +2,18 @@ var anchors;
 var anchor_tops = [];
 
 $(function() {
-    window.anchors = $('body').find("h1:not('.site-name'):not('.article-title'), h2, h3, h4");
+	createAnchorList();
+	myFunc(); // call initially so that there isn't everything inactive
+});
+
+function createAnchorList() {
+	    window.anchors = $('body').find("h1:not('.site-name'):not('.article-title'), h2, h3, h4");
 	for (var i = 0; i < window.anchors.length; i++) {
-		window.anchor_tops.push(Math.trunc($(anchors[i]).offset().top));
+		window.anchor_tops.push($(window.anchors[i]).offset().top);
 	}
 	window.anchor_tops.push($(document).height());
 	window.anchor_tops.sort((a,b) => a - b);
-	myFunc(); // call initially so that there isn't everything inactive
-});
+}
 
 function disableArrow() {
     $('img#expand_icon').addClass('nodisplay');

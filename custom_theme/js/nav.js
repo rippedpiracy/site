@@ -7,10 +7,8 @@ $(function() {
     checkWindowSize();
 })
 
-var navOpened;
-
 function closeOrOpen() {
-    if (window.navOpened == false) {
+    if (window.navOpen == false) {
         openNav();
     } else {
         closeNav();
@@ -19,40 +17,39 @@ function closeOrOpen() {
 
 function openNav() {
 //  document.getElementsByClassName("sidebar")[0].style.display = "";
-	document.getElementsByClassName("sidebar")[0].style.marginLeft = "0px";
+	document.getElementById("sidebar").className = '';
 	if (window.innerWidth > 767) {
-		document.getElementsByTagName("main")[0].style.marginLeft = sidebarWidth + "px";
+		document.getElementById("content").className = "normal";
 	} else if (window.innerWidth < 768) {
-		document.getElementsByTagName("main")[0].style.transform = "translateX(335px)";
-		document.body.style.overflowX = "hidden";
+		document.getElementById("content").className = "mobileopen";
+	//	document.body.style.overflowX = "hidden";
 	}
-    window.navOpened = true;
+    window.navOpen = true;
 }
 
 function closeNav() {
 //  document.getElementsByClassName("sidebar")[0].style.display = "none";
-    document.getElementsByClassName("sidebar")[0].style.marginLeft = "-" + sidebarWidth + "px";
-    document.getElementsByTagName("main")[0].style.marginLeft = "0";
-    document.getElementsByTagName("main")[0].style.transform = "";
-    document.getElementsByTagName("body")[0].style.overflowX = "";
-    window.navOpened = false;
+    document.getElementById("sidebar").className = "collapsed";
+    document.getElementById("content").className = "collapsed";
+//    document.body.style.overflowX = "";
+    window.navOpen = false;
 }
 
 function checkWindowSize() {
-    // if navOpened is undefined, we need to do extra checks
+    // if navOpen is undefined, we need to do extra checks
     if (typeof window.navOpen === 'undefined') {
-        if (window.innerWidth < 747) {
+        if (window.innerWidth < 767) {
             closeNav();
             window.navOpen = false;
         } else {
             window.navOpen = true;
         }
     } else {
-        if (navOpen == false && window.innerWidth >= 747) {
+        if (navOpen == false && window.innerWidth >= 767) {
             openNav();
             window.navOpen = true;
         }
-        if (navOpen == true && window.innerWidth < 747) {
+        if (navOpen == true && window.innerWidth < 767) {
             closeNav();
             window.navOpen = false;
         }

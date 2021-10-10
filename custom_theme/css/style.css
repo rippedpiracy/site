@@ -140,28 +140,28 @@ input[type="search"] {
     font-size: 14px;
     line-height: 1.5;
 }
-.sidebar input::placeholder {
+#sidebar input::placeholder {
     color: gray;
 }
-.sidebar ul {
+#sidebar ul {
     list-style-type: none;
 }
-.sidebar li:not(:last-child) {
+#sidebar li:not(:last-child) {
    margin-bottom: 5px;
 }
-.sidebar li > a {
+#sidebar li > a {
     border-radius: 5px;
     display: block;
 }
-.sidebar a {
+#sidebar a {
     padding: 8px ;
     padding-left: 12px;
     color: #b9bbbe;
 }
-.sidebar a:hover {
+#sidebar a:hover {
     color: white;
 }
-.sidebar a.active {
+#sidebar a.active {
     color: white;
     background-color: var(--theme-color);
 }
@@ -177,13 +177,13 @@ a.active img#expand_icon {
 /* li#current > a::before { */
 /*     content: 'pee'; */
 /* } */
-.sidebar-toggle div {
+#sidebar-toggle div {
     width: 16px;
     height: 1px;
     background-color: #fff;
     margin: 6px 0;
 }
-.sidebar-toggle {
+#sidebar-toggle {
     cursor: pointer;
     position: fixed;
     top: 16px;
@@ -195,13 +195,16 @@ a.active img#expand_icon {
     padding: 1em;
     margin: -1em;
 }
-.sidebar, .sidebar-toggle, main {
+#sidebar, #sidebar-toggle, #content{
     transition: all 0.35s ease-out;
 }
-main {
+#content {
 	margin-bottom: 80vh;
 }
-main.content > h1, h2, h3, h4 {
+main {
+	overflow-x: hidden;
+}
+section#content > h1, h2, h3, h4 {
 	font-weight: 600;
 }
 p.article-info {
@@ -212,7 +215,7 @@ p.article-info {
     margin-bottom: 1em;
 }
 
-.sidebar {
+#sidebar {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -237,11 +240,11 @@ p.navtitle {
 ul.toc {
     margin-left: 1.5rem;
 }
-.sidebar > h1 .home-link {
+#sidebar > h1 .home-link {
     color: #fff;
     font-weight: bold;
 }
-.sidebar > h1 {
+#sidebar > h1 {
     margin: 1.5rem 0 0;
     font-weight: 500;
     text-align: center;
@@ -356,35 +359,53 @@ code {
     font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
     font-size: 0.95rem;
 }
-main h3 {
+#content h3 {
     margin: 0.5em 0;
 }
 
 a {
     text-decoration: none;
     color: #fff;
-
 }
 
-main {
-	margin-left: var(--sidebar-width);
+#content {
     padding: 70px;
 }
+/* main and sidebar open and collapsed styles */
+#content.normal {
+	margin-left: var(--sidebar-width);
+}
+#content.collapsed {
+	margin-left: 0;
+}
+#content.mobileopen {
+	transform: translateX(335px);
+	position: sticky;
+	left: 0;
+}
+#content.mobileclosed {
+	margin-left: 0;
+}
+#sidebar.collapsed {
+	margin-left: calc(var(--sidebar-width) * -1);
+}
+/* end main styles */
+
 h1.article-title {
     text-decoration: underline;
     margin-bottom: 0.35em;
     font-weight: 500 !important;
 }
 
-main a {
+#content a {
     color: #00aff4;
 }
 
-main a:hover {
+#content a:hover {
     text-decoration: underline;
 }
 
-main p {
+#content p {
     margin: 1em 0;
 }
 
