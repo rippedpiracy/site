@@ -97,7 +97,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**Text-Grab**](https://github.com/TheJoeFin/Text-Grab) - Use OCR to grab and read text from images.
 
-[**Internet Download Manager**](https://www.internetdownloadmanager.com/) | [**JDownloader**](https://jdownloader.org/jdownloader2) | [**Motrix**](https://github.com/agalwood/Motrix) | [**Free Download Manager**](https://www.freedownloadmanager.org/) | [**Xtreme Download Manager**](https://github.com/subhra74/xdm) - Download managers that can boost download speeds. Motrix support Torrenting. Jdownloader is best for downloading multiiple files simultaneously.
+[**Internet Download Manager**](https://www.internetdownloadmanager.com/) | [**JDownloader**](https://jdownloader.org/jdownloader2) | [**Motrix**](https://github.com/agalwood/Motrix) | [**Free Download Manager**](https://www.freedownloadmanager.org/) | [**Xtreme Download Manager**](https://github.com/subhra74/xdm) - Download managers that can boost download speeds. Motrix supports Torrenting and Jdownloader is best for downloading multiple files simultaneously.
 
 [**video_decrypter**](https://github.com/CrackerCat/video_decrypter) - Decrypt video from a streaming site with MPEG-DASH Widevine DRM encryption. 
 
