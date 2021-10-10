@@ -199,7 +199,7 @@ a.active img#expand_icon {
     transition: all 0.35s ease-out;
 }
 #content {
-	margin-bottom: 60vh;
+	margin-bottom: 80vh;
 }
 main {
 	overflow-x: hidden;
