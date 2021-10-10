@@ -53,17 +53,17 @@ description: Various tools and apps to make your life easier.
 
 [**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass Youtube's age restricted videos.
 
-[**AdGuard Popup Blocker**](https://github.com/AdguardTeam/PopupBlocker) - Popup Blocker by AdGuard is a userscript that blocks all unwanted pop-up windows in different browsers.
+[**AdGuard Popup Blocker**](https://github.com/AdguardTeam/PopupBlocker) - Blocks all unwanted pop-up windows in different browsers.
+
+[**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters. 
 
 [**Bypass All Shortlinks**](https://greasyfork.org/en/scripts/431691-bypass-all-shortlinks) - Link bypasser, bypassess some sites other tools can't bypass.
 
-[**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters. 
+[**SiteScrubber**](https://github.com/PrimePlaya24/dl-site-scrubber) - Bypass certain timers or ads and remove clutter that make it harder to download from certain DDL sites.
 
 [**Recaptcha Solver**](https://greasyfork.org/en/scripts/430593-recaptcha-solver-automatically-solves-recaptcha-in-browser) - Automatically solves reCAPTCHAs on websites, no user interaction required.
 
 [**Hcaptcha Solver**](https://greasyfork.org/en/scripts/425854-hcaptcha-solver-automatically-solves-hcaptcha-in-browser) - Automatically solves hCaptchas on websites, no user interaction required.
-
-[**SiteScrubber**](https://github.com/PrimePlaya24/dl-site-scrubber) - Bypass certain timers or ads and remove clutter that make it harder to download from certain DDL sites.
 
 [**MoreCAPTCHA**](https://greasyfork.org/en/scripts/31088-morecaptcha) - Speeds up solving Google reCAPTCHA challenges by shortening transition effects and providing continuous selection ability.
 
