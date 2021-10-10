@@ -444,6 +444,12 @@ img {
 @media
 */
 
+@media (max-width: 767px) {
+	pre code {
+		font-size: 0.95em;
+	}
+}
+
 /*
 @media (max-width: 767px) {
 	#darkmodetoggle {
