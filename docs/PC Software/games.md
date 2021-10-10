@@ -1,5 +1,5 @@
 title: Games
-description: Where to get Games from safely and efficiently.
+description: Safe sources of games.
 
 ## General Torrent
 **NOTE: Some of these sites have fake and mirror sites, you should only use the ones we linked.**
@@ -81,9 +81,13 @@ Both are good sources for popular Visual Novels and Japanese Games while the lat
  
 > **DDL:** Direct Download, where you can download a file from a server usually done your browser.    
 
+<<<<<<< Updated upstream
 > &nbsp;
   
 > **Torrent:** A decentralised Peer-to-Peer file sharing protocol that is very common when sharing Pirated Content since the file isnt on a single server that can easily be taken down. We recommend using [qBittorrent](https://www.qbittorrent.org/) as a BitTorrent client.   
+=======
+## Glossary
+>>>>>>> Stashed changes
 
 > &nbsp;
 

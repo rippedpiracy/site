@@ -1,15 +1,15 @@
 title: Anime
-description: Sources for your Weeb Stuff.
+description: Comprehensive list of sites for downloading and streaming anime.
 
 # Downloads
 
 **[Nyaa](https://nyaa.si/) (Torrent)** - The Best Public Tracker to get Anime from, old releases may not be seeded very well.
 
-**[AnimeTosho](https://animetosho.org) (Torrent)** - Collates releases from Public Trackers, and has DDL links for file attachments (Subtitles, Fonts, Chapters, Tags) 
+**[AnimeTosho](https://animetosho.org) (Torrent)** - Collates releases from Public Trackers, and has DDL links for file attachments (Subtitles, Fonts, Chapters, Tags)
 
 **[AniDex](https://anidex.info/) (Torrent)** - Alternative Tracker to get Anime from, Few Releasers post exclusively here.
 
-**[Tokyo Toshokan](https://www.tokyotosho.info/?cat=1) (Torrent)** - 
+**[Tokyo Toshokan](https://www.tokyotosho.info/?cat=1) (Torrent)** -
 
 [**Nibl.co.uk Bots**](https://nibl.co.uk/bots) & [**AniMK**](https://animk.info/xdcc/) **(XDCC)** - Sites indexing IRC Bots where you can download from using IRC clients. Check the [r/AnimePiracy wiki](https://wiki.piracy.moe/en/tutorials/irc) for a detailed guide into XDCC.
 

@@ -1,6 +1,5 @@
 title: EAC Ripping
-author: doggo404#0001
-description: How to rip CDs using Exact Audio Copy.
+description: EAC setup and ripping guide.
 
 ### EAC Setup Process
 This guide was made for [EAC version 1.0 beta 3](https://www.exactaudiocopy.de/) and above and will not completely work with earlier versions.

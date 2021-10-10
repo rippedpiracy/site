@@ -1,5 +1,5 @@
 title: ROMs
-description: Every type of ROM for every type of Console.
+description: List of sites that host ROMs.
 
 *Tip: Use an AdBlocker while browsing all of these sites!*
 

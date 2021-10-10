@@ -1,5 +1,5 @@
 title: Software
-description: Where to get your Software safely and efficiently.
+description: List of safe sites for software.
 
 # Torrents
 
@@ -27,7 +27,7 @@ Has different Categories for Windows, Mac and Android Software Piracy. Offers To
 
 Focused more on Plugins and VSTs than Software, good for Video/Music Production.
 
-**[Team V.R](https://codec.kiev.ua/releases.html)** 
+**[Team V.R](https://codec.kiev.ua/releases.html)**
 
 Like AudioZ, Team V.R is more focused on Audio and Video Production, Cracking Software and Plugins for it.
 
@@ -38,4 +38,3 @@ Forum focused on News for everything Piracy, with downloads for Software and Uti
 **[DirtyWarez](https://forum.dirtywarez.com/)**
 
 Good Forum for Software Piracy and other Warez with popular for its Requests section.
-
