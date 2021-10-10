@@ -256,7 +256,7 @@ p.credits {
     text-align: center;
 }
 .credits a {
-	color: #00aff4;
+	color: #00aff4 !important;
 }
 .credits a:hover {
 	text-decoration: underline;
