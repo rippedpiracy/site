@@ -1,5 +1,5 @@
 title: Games
-description: Safe sources of games.
+description: Safe sources for Games.
 
 ## General Torrent
 **NOTE: Some of these sites have fake and mirror sites, you should only use the ones we linked.**
