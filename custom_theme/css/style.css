@@ -446,7 +446,7 @@ img {
 
 @media (max-width: 767px) {
 	pre code {
-		font-size: 0.88em;
+		font-size: 12px;
 	}
 }
 
