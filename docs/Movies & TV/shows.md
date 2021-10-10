@@ -1,5 +1,5 @@
 title: Movies & Shows
-description: List of sited to stream and download TV shows and movies.
+description: List of sites to stream and download TV shows and movies.
 
 # Streaming
 
