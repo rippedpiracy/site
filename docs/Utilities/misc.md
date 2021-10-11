@@ -30,7 +30,9 @@ description: Tools and Apps to make your life easier.
 
 [**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) (Chromium) | [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or Automatically suspend/unsuspend Tabs to save up Memory usage.  
 
-[**Search by Image**](https://github.com/dessant/search-by-image) - Quickly reverse image search on 35+ different search engines.
+[**Search by Image**](https://github.com/dessant/search-by-image) - Quickly reverse image search on 35+ different search engines.  
+
+[**Buster**](https://github.com/dessant/buster) - CAPTCHA solver extension for humans.  
 
 [**HTTPS Everywhere**](https://github.com/EFForg/https-everywhere) - Encrypts your communications with many websites that offer HTTPS but still allow unencrypted connections.
 
