@@ -1,5 +1,6 @@
 title: Scene Glossary
 description: Definitions for common Scene terminology.
+
 **0sec**
 
 As in 0sec access to a release. It means someone has access to a release immediately after it's pred.  
