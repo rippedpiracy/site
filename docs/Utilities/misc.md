@@ -76,7 +76,7 @@ description: Various Tools and Apps to make your life easier.
 
 # Useful Apps
 
-[**GoodbyeDPI**](https://github.com/ValdikSS/GoodbyeDPI) & [**PowerTunnel**](https://github.com/krlvm/PowerTunnel) - Simple, scalable, cross-platform and effective solutions on ISP/Government blocked Websites.  
+[**GoodbyeDPI**](https://github.com/ValdikSS/GoodbyeDPI) | [**PowerTunnel**](https://github.com/krlvm/PowerTunnel) - Simple, scalable, cross-platform and effective solutions on ISP/Government blocked Websites.  
 
 [**Radmin VPN**](https://www.radmin-vpn.com/) | [**Hamachi**](https://www.vpn.net/) | [**ZeroTier**](https://github.com/zerotier/ZeroTierOne) - LAN Emulators, Useful when playing a LAN supported game with a friend that is not in your local area. **_NOTE: ZeroTier can be difficult to setup._**
 
@@ -114,7 +114,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**Steam Workshop Downloader**](https://www.steamworkshopdownloader.io/) - Download Steam Workshop items without having to own the game.
 
-[**UnshortenIt**](https://unshorten.it/) & [**Linkvertise Bypasser**](https://thebypasser.com/) - Unshorten annoying ad-links on the spot.
+[**UnshortenIt**](https://unshorten.it/) | [**Linkvertise Bypasser**](https://thebypasser.com/) - Unshorten annoying ad-links on the spot.
 
 [**PrivacyGuides**](https://privacyguides.org/) - [r/PrivacyGuides](https://www.reddit.com/r/PrivacyGuides/)'s Website, has good information about various security and privacy tools.
 
