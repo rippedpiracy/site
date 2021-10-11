@@ -17,7 +17,7 @@ description: Tools and Apps to make your life easier.
 [**Dark Reader**](https://github.com/darkreader/darkreader) - Dark/Light mode for all websites.
 
 [**NoScript**](https://github.com/hackademix/noscript) - Allow/Disallow JavaScript, Flash, Java and other executable Content to only run on websites of your choice.  
-**NOTE: Difficult to setup for the Average User.**
+**_NOTE: Difficult to setup for the Average User._**
 
 [**SponsorBlock**](https://github.com/ajayyy/SponsorBlock) - Skip YouTube Sponsorships & Shoutouts.
 
