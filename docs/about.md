@@ -7,7 +7,7 @@ Feel free to contribute by opening an issue in our [**suggestions**](https://git
 
 ## Formatting
 
-This website is generated using Markdown, which you can read more about [**here**](https://www.markdowntutorial.com/).
+This website is generated using mkdocs & Markdown, you can learn more about the latter [**here**](https://www.markdowntutorial.com/).
 
 In brief, here's how it works:
 
@@ -34,7 +34,7 @@ here is **_italic and bold text_**
 
 ## Guides
 
-If you would like to write a guide, include some extra metadata at the top:
+For Guides, you may include some extra metadata at the top:
 
 ```md
 author: (you)
