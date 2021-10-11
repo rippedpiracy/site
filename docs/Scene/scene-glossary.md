@@ -2,15 +2,15 @@ title: Scene Glossary
 description: Definitions for common Scene terminology.
 **0sec**
 
-As in 0sec access to a release. Means someone has access to a release immediately after it's pred.  
+As in 0sec access to a release. It Means someone has access to a release immediately after it's pred.  
 
 **0hour**
 
-As in 0hour access to a release. Means someone has access to a release within an hour after it was pred.  
+As in 0hour access to a release. It means someone has access to a release within an hour after it was pred.  
 
 **0day [1]**
 
-As in 0day access to a release. Means someone has access to a release within a day after it was pred.  
+As in 0day access to a release. It means someone has access to a release within a day after it was pred.  
 
 **0day [2]**
 
@@ -38,7 +38,7 @@ A release group can be an affiliate at a site. This means that they will pre the
 
 **AIO**
 
-AIO stands for All-In-One, means an all-in-one software pack. For example  Microsoft Office, which contains Word, Frontpage, Publisher, Access etc.  
+AIO stands for All-In-One, meaning an all-in-one software pack. For example  Microsoft Office, which contains Word, Frontpage, Publisher, Access etc.  
 
 **ANSI art**
 
@@ -58,7 +58,7 @@ Bitrate or Bit Rate is the average number of bits that one second of video or au
 
 **BitTorrent**
 
-A special kind of p2p system. It uses a central location which coodinates the downloads but it doesn't host any downloads. The download itself consists of several pieces offered by various users. Such a coordinated group is called a torrent.  
+A special kind of Peer-to-Peer system. It uses a central location which coodinates the downloads but it doesn't host any downloads. The download itself consists of several pieces offered by various users. Such a coordinated group is called a torrent.  
 
 **Blu-Ray**
 
@@ -66,7 +66,7 @@ Blu-ray Disc is a next-generation optical disc format meant for high definition 
 
 **BNC**
 
-BNC stands for bouncer. A bouncer is server through which an user can connect to an irc server. This way other users on the irc server can't see his/her real ip.  
+BNC stands for bouncer. A bouncer is a server through which a user can connect to an IRC server. This way other users on the IRC server can't see his/her real IP address.  
 
 **Buffer Overflow**
 
