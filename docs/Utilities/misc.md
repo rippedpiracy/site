@@ -32,8 +32,6 @@ description: Tools and Apps to make your life easier.
 
 [**Search by Image**](https://github.com/dessant/search-by-image) - Quickly reverse image search on 35+ different search engines.
 
-[**Buster**](https://github.com/dessant/buster) - CAPTCHA solver extension for humans.
-
 [**HTTPS Everywhere**](https://github.com/EFForg/https-everywhere) - Encrypts your communications with many websites that offer HTTPS but still allow unencrypted connections.
 
 [**Decentraleyes**](https://git.synz.io/Synzvato/decentraleyes) - Emulates Content Delivery Networks to improve online privacy. It intercepts traffic, finds supported resources locally, and injects them into the environment.
@@ -53,7 +51,7 @@ description: Tools and Apps to make your life easier.
 [**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) | [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers.  
 
 # Browser UserScripts
-<sub>**You need a Browser UserScript Manager.**</sub>
+<sub>*You need a Browser UserScript Manager.*</sub>
 
 [**YouTube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass YouTube's age restricted videos.
 
