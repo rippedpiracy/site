@@ -32,7 +32,7 @@ description: Tools and Apps to make your life easier.
 
 [**Search by Image**](https://github.com/dessant/search-by-image) - Quickly reverse image search on 35+ different search engines.  
 
-[**Buster**](https://github.com/dessant/buster) - CAPTCHA solver extension for humans.  
+[**Buster**](https://github.com/dessant/buster) - reCAPTCHA solver extension for humans.  
 
 [**HTTPS Everywhere**](https://github.com/EFForg/https-everywhere) - Encrypts your communications with many websites that offer HTTPS but still allow unencrypted connections.
 
