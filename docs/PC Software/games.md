@@ -44,7 +44,7 @@ A site which focuses on reuploading Repacks, P2P Cracks, Scene Releases and GOG 
 
 **[CrackHub](https://crackhub.site) (DDL)**
 
-Another site that mainly focuses on reuploading to different hosts, they take requests too. It also has an automatic Scene Upload Bot which uploads to Zippyshare [found here](https://scene.crackhub.site).
+Another site that mainly focuses on reuploading to different hosts, they take requests too. It also has an automatic Scene Upload Bot which uploads to Zippyshare found [here](https://scene.crackhub.site).
 
 **[GamesDrive](https://gamesdrive.net) (DDL)**
 
