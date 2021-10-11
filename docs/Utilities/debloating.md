@@ -28,6 +28,6 @@ description: Make your OS lighter, faster and more secure.
 
 **[BCUninstaller](https://www.bcuninstaller.com/)** - Way better Uninstaller than Windows's default one, really good for Bulk Uninstalling.
 
-<sub>*You can disable [**hibernation**](https://docs.microsoft.com/en-us/troubleshoot/windows-client/deployment/disable-and-re-enable-hibernation) to free as much space as your amount of RAM.*
+<sub>*Disable [**hibernation**](https://docs.microsoft.com/en-us/troubleshoot/windows-client/deployment/disable-and-re-enable-hibernation) to free as much space as your amount of RAM.*</sub>
 
-*You can also grab an ISO from TechBench [**here**](https://tb.rg-adguard.net/public.php) if you wish to reinstall Windows before doing all these steps.*</sub>
+<sub>*You can also grab an ISO from TechBench [**here**](https://tb.rg-adguard.net/public.php) if you wish to reinstall Windows before doing all these steps.*</sub>
