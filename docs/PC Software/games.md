@@ -2,16 +2,17 @@ title: Games
 description: Safe sources for Games.
 
 ## General Torrent
-**<sub>Some of these sites have fake and mirror sites, you should only use the ones we linked.</sub>**
+**NOTE: Some of these sites have fake and mirror sites, you should only use the ones we linked.**
 
 **[1337x](https://1337x.to) (Torrent)**
 
 A very popular Torrenting site which has an incredible amount of content, but also has major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an *incredibly* unsafe Software category.  
 **_NOTE: Do not get Software Releases from this site. Stay away from Torrents by IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM and CorePack._**  
 
-**[Rarbg](https://rarbg.to) (Torrent)**
+**[RARBG](https://rarbg.to) (Torrent)**
 
 A very safe site to get Games from, mostly Scene Releases which they have auto uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.  
+<sub>psst. check the misc section for captcha bypasses.
 
 **[RuTor](http://rutor.info) (Torrent)**
 
@@ -73,7 +74,7 @@ Every GOG DRM-free Game, ripped and reuploaded on Mirrors. Every installer is un
 
 **[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com/a/) (DDL)**
 
-Big Forums for **_Adult Games_**. U18-Chan focuses more on **_Yiff Games_** while F95zone mainly focuses on **_Eroges_**. **_They both require Sign-up_**.
+Big Forums for **_Adult Games_**. U18-Chan focuses more on **_Yiff Games_** while F95zone mainly focuses on **_Eroges_**. **_They both require you to Sign-up_**.
 
 **[Nyaa](https://nyaa.si) & [Sukebei](https://sukebei.nyaa.si) (Torrent)**
 
