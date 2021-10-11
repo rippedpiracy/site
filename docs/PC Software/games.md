@@ -2,7 +2,7 @@ title: Games
 description: Safe sources for Games.
 
 ## General Torrent
-**NOTE: Some of these sites have fake and mirror sites, you should only use the ones we linked.**
+**<sub>Some of these sites have fake and mirror sites, you should only use the ones we linked.</sub>**
 
 **[1337x](https://1337x.to) (Torrent)**
 
