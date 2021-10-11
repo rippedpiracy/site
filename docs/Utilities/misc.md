@@ -27,7 +27,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**ClearURLs**](https://github.com/ClearURLs/Addon) - Remove tracking elements from URLs.
 
-[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) (Chromium) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or automatically suspend/unsuspend browser tabs to save up memory usage.  
+[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) (Chromium) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or Automatically suspend/unsuspend Tabs to save up Memory usage.  
 
 [**Search by Image**](https://github.com/dessant/search-by-image) - Quickly reverse image search on 35+ different search engines.
 
