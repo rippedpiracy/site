@@ -27,7 +27,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**ClearURLs**](https://github.com/ClearURLs/Addon) - Remove tracking elements from URLs.
 
-[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) (Chromium) & [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or Automatically suspend/unsuspend Tabs to save up Memory usage.  
+[**The Great Suspender**](https://github.com/aciidic/thegreatsuspender-notrack) (Chromium) | [**Tabs Outliner**](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) (Chromium) - Manually or Automatically suspend/unsuspend Tabs to save up Memory usage.  
 
 [**Search by Image**](https://github.com/dessant/search-by-image) - Quickly reverse image search on 35+ different search engines.
 
@@ -49,7 +49,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**Disconnect**](https://github.com/disconnectme/disconnect) - Makes the web faster, more private, and more secure.
 
-[**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers.  
+[**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) | [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers.  
 
 # Browser UserScripts
 <sub>**You need a Browser UserScript Manager.**</sub>
@@ -64,7 +64,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**SiteScrubber**](https://github.com/PrimePlaya24/dl-site-scrubber) - Skip certain Timers or Ads and remove clutter that make it harder to download from certain DDL sites.
 
-[**reCAPTCHA Solver**](https://greasyfork.org/en/scripts/430593-recaptcha-solver-automatically-solves-recaptcha-in-browser) & [**hCAPTCHA Solver**](https://greasyfork.org/en/scripts/425854-hcaptcha-solver-automatically-solves-hcaptcha-in-browser) - Automatically solves reCAPTCHAs and hCAPTCHAs on websites, no user interaction required.
+[**reCAPTCHA Solver**](https://greasyfork.org/en/scripts/430593-recaptcha-solver-automatically-solves-recaptcha-in-browser) | [**hCAPTCHA Solver**](https://greasyfork.org/en/scripts/425854-hcaptcha-solver-automatically-solves-hcaptcha-in-browser) - Automatically solves reCAPTCHAs and hCAPTCHAs on websites, no user interaction required.
 
 [**MoreCAPTCHA**](https://greasyfork.org/en/scripts/31088-morecaptcha) - Speeds up solving Google reCAPTCHA challenges by shortening transition effects and providing continuous selection ability.
 
@@ -84,13 +84,13 @@ description: Various Tools and Apps to make your life easier.
 
 [**AutoRuns**](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) - See what programs are configured to startup automatically when your system boots and you login.
 
-[**CompactGUI**](https://github.com/ImminentFate/CompactGUI) & [**Compactor**](https://github.com/Freaky/Compactor) - Transparently compresses games, programs and other folders with virtually no performance loss.
+[**CompactGUI**](https://github.com/ImminentFate/CompactGUI) | [**Compactor**](https://github.com/Freaky/Compactor) - Transparently compresses games, programs and other folders with virtually no performance loss.
 
 [**SpaceSniffer**](http://www.uderzo.it/main_products/space_sniffer/) - See exactly what's taking up space on your drives.
 
 [**pe-studio**](https://www.winitor.com/) - Helps you check for Malware in apps.
 
-[**HashCheck**](https://github.com/idrassi/HashCheck) & [**OpenHashTab**](https://github.com/namazso/OpenHashTab) - Convenient and efficient file hash verifier, it also integrates into Windows Shell.
+[**HashCheck**](https://github.com/idrassi/HashCheck) | [**OpenHashTab**](https://github.com/namazso/OpenHashTab) - Convenient and efficient file hash verifier, it also integrates into Windows Shell.
 
 [**DS4Windows**](https://github.com/Ryochan7/DS4Windows) - Turns your Controller into one that all Programs can read, useful with Knockoffs or Weird ones.
 
