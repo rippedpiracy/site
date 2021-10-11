@@ -3,6 +3,8 @@ description: Various Tools and Apps to make your life easier.
 
 # Browser Extensions
 
+<sub>We reccomend coupling these Extensions with [**Firefox Developer Edition**](https://www.mozilla.org/en-US/firefox/developer/) or [**Ungoogled Chromium**](https://github.com/Eloston/ungoogled-chromium).</sub>
+  
 [**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance, FastForward circumvents link shorteners (An actively maintained [Universal-Bypass](https://github.com/Sainan/Universal-Bypass) fork).
 
 [**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean.  
@@ -39,7 +41,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**SingleFile**](https://github.com/gildas-lormeau/SingleFile) -  Save a faithful copy of an entire web page in a single HTML file.
 
-[**Terms of Service; Didn’t Read: Be Informed**](https://github.com/tosdr/browser-extensions) - Grades websites based on their Terms of Service agreements and Privacy Policies. It also gives short summaries of those agreements.
+[**ToS;DR**](https://github.com/tosdr/browser-extensions) - Grades websites based on their Terms of Service agreements and Privacy Policies. It also gives short summaries of those agreements.
 
 [**Temporary Containers**](https://github.com/stoically/temporary-containers) (Firefox) - Allows you to open tabs, websites, and links in automatically managed disposable containers. Containers isolate data websites store (cookies, storage, and more) from each other
 
