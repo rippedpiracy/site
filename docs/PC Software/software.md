@@ -1,9 +1,9 @@
 title: Software
-description: List of safe sites for Software.
+description: List of safe and trusted sites for Software.
 
 # Torrents
 
-**[RuTracker.org](https://rutracker.org)** / **[RuTracker.net](https://rutracker.net)** / **[RuTracker.ru](https://rutracker.ru)**
+**[RuTracker.org](https://rutracker.org)** | **[RuTracker.net](https://rutracker.net)** | **[RuTracker.ru](https://rutracker.ru)**
 
 The go-to site for Software Piracy, for more than 10+ years. Requires Sign-up to search content.
 Everything is uploaded by members with more than decades of experience with checked uploads.
@@ -16,8 +16,8 @@ Software cracked by the one and only m0nkrus, the most reliable Adobe Cracker fo
 
 **[repack.me](https://repack.me)**
 
-Has Compressed Downloads for Software, with silent installs. Currently only Registered Members can Download from the site.  
-Staff Members from Ripped have Accounts on the site, so just ask in the Discord for something.  
+Has compressed Downloads for Software, with silent installs. Currently only Registered Members can download from the site.  
+<sub>Staff Members from Ripped have Accounts on the site, so just ask in the Discord for something.</sub>  
 
 **[FileCR](https://filecr.com)**
 
