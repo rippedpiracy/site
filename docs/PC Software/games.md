@@ -79,7 +79,7 @@ Big Forums for **_Adult Games_**. U18-Chan focuses more on **_Yiff Games_** whil
 
 Both are good sources for popular Visual Novels and Japanese Games while the latter is more for **_NSFW titles_**.
  
-> **DDL:** Direct Download, where you can download a file from a server usually done your browser.    
+> **DDL:** Direct Download, where you can download a file from a server usually done through your Browser.    
 
 > &nbsp;
   
