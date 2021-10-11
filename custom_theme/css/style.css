@@ -195,7 +195,8 @@ a.active img#expand_icon {
     padding: 1em;
     margin: -1em;
 }
-#sidebar, #sidebar-toggle, #content{
+/* #sidebar, #sidebar-toggle, #content*/
+* {
     transition: all 0.35s ease-out;
 }
 #content {
