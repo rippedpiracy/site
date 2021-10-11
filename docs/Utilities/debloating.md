@@ -3,7 +3,7 @@ description: Make your OS lighter, faster and more secure.
 
 *Pro Tip: Make a Restore Point before running these apps!*
 # Debloating & Privacy
-**[TronScript](https://bmrf.org/repos/tron/)** - Most efficient and quick way to clean, De-bloat, optimize and disinfect your PC, recommended.
+**[TronScript](https://bmrf.org/repos/tron/)** - Most efficient and quick way to clean, De-bloat, optimize and disinfect your PC, recommended.  
 *BE SURE TO READ THE INSTRUCTIONS!*
 
 **[Use-Gaming-Tweaks](https://github.com/PrincessAkira/Use-Gaming-Tweaks)** - An alternative way to make your PC as snappy as possible for Gaming. Do this on a clean ISO.
