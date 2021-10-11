@@ -23,4 +23,4 @@ description: Sources for Leaks, Account Generators and more.
 
 # Paid Content Leaks
 
-[**Kemono**](https://kemono.party/) - The successor to yiff.party, has Leaks for sites like Patreon and more which are user-submitted with a automated process.
+[**Kemono**](https://kemono.party/) - The successor to yiff.party, has Leaks for sites like Patreon and more which are user-submitted with an automated process.
