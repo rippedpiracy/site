@@ -1,5 +1,5 @@
 title: Emulators
-description: Comprehensive list of emulators.
+description: Comprehensive list of Emulators.
 
 &nbsp;
 # Atari
