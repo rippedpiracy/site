@@ -10,7 +10,8 @@ Everything is uploaded by members with more than decades of experience with chec
 
 **[m0nkrus](https://w14.monkrus.ws/)**
 
-Software cracked by the one and only m0nkrus, the most reliable Adobe Cracker for many years.
+Software cracked by the one and only m0nkrus, the most reliable Adobe Cracker for many years.  
+You can mostly find Adobe Products and Autodesk Software.
 
 # DDLs
 
