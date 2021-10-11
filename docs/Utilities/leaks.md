@@ -11,9 +11,9 @@ description: Sources for Leaks, Account Generators and more.
 
 [**leak.to**](https://leak.to/forum/21-premium-accounts/) - Forum with an Account Leaks session, needs registration. Only get Accounts and __NOTHING ELSE__.
 
-[**cracked.to**](https://cracked.to/Forum-Accounts) & [**nulled.to**](https://nulled.to/forum/43-accounts/) - Same exact principles as [**leak.to**](https://leak.to/forum/21-premium-accounts/), just a Forum. 
+[**cracked.to**](https://cracked.to/Forum-Accounts) | [**nulled.to**](https://nulled.to/forum/43-accounts/) - Same exact principles as [**leak.to**](https://leak.to/forum/21-premium-accounts/), just a Forum. 
 
-[**leakzone.net**](https://leakzone.net/Forum-Accounts) & [**crackx.to**](https://crackx.to/Forum-Accounts) Less popular Forums, same rules as the others mostly. 
+[**leakzone.net**](https://leakzone.net/Forum-Accounts) | [**crackx.to**](https://crackx.to/Forum-Accounts) Less popular Forums, same rules as the others mostly. 
 
 [**s1ck.pw**](https://s1ck.pw/dispenser.php) - No-Hassles Dispenser, gives out many different Accounts as soon as you visit the page.  
 
