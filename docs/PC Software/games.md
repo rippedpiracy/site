@@ -17,7 +17,7 @@ A very safe site to get Games from, mostly Scene Releases which they have Auto U
 **[RuTor](http://rutor.info) (Torrent)**
 
 An old Russian site that has plenty of content but with generally less seeders.  
-**_NOTE: Only get Games from R.G. Mechanics, Chovka, xatab and FitGirl_**.
+**_NOTE: Only get Games from R.G. Mechanics, Chovka, XATAB and FitGirl_**.
 
 ## Repackers
 
