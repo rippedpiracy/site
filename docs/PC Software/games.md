@@ -73,7 +73,7 @@ Every GOG DRM-free Game, ripped and reuploaded on Mirrors. Every installer is un
 
 **[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com/a/) (DDL)**
 
-Big Forums for **_Adult Games_**. U18-Chan focuses more on **_Yiff Games_** while F95zone mainly focuses on **_Eroges_**. **_Requires Sign-up_**.
+Big Forums for **_Adult Games_**. U18-Chan focuses more on **_Yiff Games_** while F95zone mainly focuses on **_Eroges_**. **_They both require Sign-up_**.
 
 **[Nyaa](https://nyaa.si) & [Sukebei](https://sukebei.nyaa.si) (Torrent)**
 
