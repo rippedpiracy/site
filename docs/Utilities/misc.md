@@ -58,7 +58,7 @@ description: Tools and Apps to make your life easier.
 
 [**AdGuard Popup Blocker**](https://github.com/AdguardTeam/PopupBlocker) - Blocks all unwanted pop-up windows in different browsers.
 
-[**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters. 
+[**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses Ad counters. 
 
 [**Bypass All Shortlinks**](https://greasyfork.org/en/scripts/431691-bypass-all-shortlinks) - Link Bypasser, bypassess some sites other tools can't bypass.
 
