@@ -3,7 +3,7 @@ description: List of safe and trusted sites for Software.
 
 # Torrents
 
-**[RuTracker.org](https://rutracker.org)** | **[RuTracker.net](https://rutracker.net)** | **[RuTracker.ru](https://rutracker.ru)**
+**[RuTracker.org](https://rutracker.org)** | **[RuTracker.net](https://rutracker.net)** | **[RuTracker.nl](https://rutracker.nl)** | **[RuTracker.ru](https://rutracker.ru)**
 
 The go-to site for Software Piracy, for more than 10+ years. Requires Sign-up to search content.
 Everything is uploaded by members with more than decades of experience with checked uploads.
