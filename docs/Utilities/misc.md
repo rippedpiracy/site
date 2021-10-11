@@ -6,21 +6,22 @@ description: Various Tools and Apps to make your life easier.
 [**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance, FastForward circumvents link shorteners (An actively maintained [Universal-Bypass](https://github.com/Sainan/Universal-Bypass) fork).
 
 [**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[fuckfuckadblock](https://github.com/bogachenko/fuckfuckadblock) Filters for blocking pop-ups and anti-adblock bypass.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[fuckfuckadblock](https://github.com/bogachenko/fuckfuckadblock) Filters for blocking pop-ups and anti-adblock bypass.</sub>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[iplogger](https://github.com/piperun/iploggerfilter) Filters any site who's only purpose is to log your IP.</sub>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Anifiltrs](https://github.com/Karmesinrot/Anifiltrs) A collection of filter lists for anime streaming, manga reading, and downloading of such things.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Web Annoyances Ultralist](https://github.com/yourduskquibbles/webannoyances) Fix and remove annoying web elements such as sticky headers, floating boxes etc.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Filter Stalker](https://rentry.co/FilterStalker) A collection of Filter Lists by **@LukeThighStalker**. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[Anifiltrs](https://github.com/Karmesinrot/Anifiltrs) A collection of filter lists for Anime streaming, Manga reading, and downloading of other Japanese media.</sub>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[Web Annoyances Ultralist](https://github.com/yourduskquibbles/webannoyances) Fix and remove annoying web elements such as sticky headers, floating boxes etc.</sub>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[Filter Stalker](https://rentry.co/FilterStalker) A collection of Filter Lists by **@LukeThighStalker**.</sub> 
 
 [**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers. 
 
-[**Dark Reader**](https://github.com/darkreader/darkreader) - Dark mode for all websites.
+[**Dark Reader**](https://github.com/darkreader/darkreader) - Dark/Light mode for all websites.
 
-[**NoScript**](https://github.com/hackademix/noscript) - Allow/Disallow JavaScript, Flash, Java and other executable content to only run on websites of your choice.  
+[**NoScript**](https://github.com/hackademix/noscript) - Allow/Disallow JavaScript, Flash, Java and other executable Content to only run on websites of your choice.
+**NOTE: Difficult to setup for the Average User.**
 
-[**SponsorBlock**](https://github.com/ajayyy/SponsorBlock) - Skip YouTube sponsorships.
+[**SponsorBlock**](https://github.com/ajayyy/SponsorBlock) - Skip YouTube Sponsorships & Shoutouts.
 
-[**Bypass Paywalls**](https://github.com/iamadamdev/bypass-paywalls-chrome) - Bypass paywalls.
+[**Bypass Paywalls**](https://github.com/iamadamdev/bypass-paywalls-chrome) - Bypass News Article paywalls.
 
 [**Unpaywall**](https://unpaywall.org/products/extension) - Read journal articles for free using OpenAccess.
 
@@ -36,11 +37,11 @@ description: Various Tools and Apps to make your life easier.
 
 [**Decentraleyes**](https://git.synz.io/Synzvato/decentraleyes) - Emulates Content Delivery Networks to improve online privacy. It intercepts traffic, finds supported resources locally, and injects them into the environment.
 
-[**Download All Images**](https://github.com/belaviyo/save-images) - Download all images from any web page you're on.
+[**Download All Images**](https://github.com/belaviyo/save-images) - Download all images from any webpage you're on.
 
 [**SingleFile**](https://github.com/gildas-lormeau/SingleFile) -  Save a faithful copy of an entire web page in a single HTML file.
 
-[**Terms of Service; Didn’t Read: Be Informed**](https://github.com/tosdr/browser-extensions) - Grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements.
+[**Terms of Service; Didn’t Read: Be Informed**](https://github.com/tosdr/browser-extensions) - Grades websites based on their Terms of Service agreements and Privacy Policies. It also gives short summaries of those agreements.
 
 [**Temporary Containers**](https://github.com/stoically/temporary-containers) (Firefox) - Allows you to open tabs, websites, and links in automatically managed disposable containers. Containers isolate data websites store (cookies, storage, and more) from each other
 
@@ -49,7 +50,7 @@ description: Various Tools and Apps to make your life easier.
 [**Disconnect**](https://github.com/disconnectme/disconnect) - Makes the web faster, more private, and more secure.
 
 # Browser UserScripts
-**Use a Browser UserScript Manager**
+<sub>**Use a Browser UserScript Manager**</sub>
 
 [**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass YouTube's age restricted videos.
 
@@ -61,9 +62,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**SiteScrubber**](https://github.com/PrimePlaya24/dl-site-scrubber) - Bypass certain timers or ads and remove clutter that make it harder to download from certain DDL sites.
 
-[**Recaptcha Solver**](https://greasyfork.org/en/scripts/430593-recaptcha-solver-automatically-solves-recaptcha-in-browser) - Automatically solves reCAPTCHAs on websites, no user interaction required.
-
-[**Hcaptcha Solver**](https://greasyfork.org/en/scripts/425854-hcaptcha-solver-automatically-solves-hcaptcha-in-browser) - Automatically solves hCaptchas on websites, no user interaction required.
+[**reCAPTCHA Solver**](https://greasyfork.org/en/scripts/430593-recaptcha-solver-automatically-solves-recaptcha-in-browser) & [**hCAPTCHA Solver**](https://greasyfork.org/en/scripts/425854-hcaptcha-solver-automatically-solves-hcaptcha-in-browser) - Automatically solves reCAPTCHAs and hCAPTCHAs on websites, no user interaction required.
 
 [**MoreCAPTCHA**](https://greasyfork.org/en/scripts/31088-morecaptcha) - Speeds up solving Google reCAPTCHA challenges by shortening transition effects and providing continuous selection ability.
 
@@ -97,7 +96,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**Text-Grab**](https://github.com/TheJoeFin/Text-Grab) - Use OCR to grab and read text from images.
 
-[**IDM**](https://www.internetdownloadmanager.com/) | [**JDownloader**](https://jdownloader.org/jdownloader2) | [**Motrix**](https://github.com/agalwood/Motrix) | [**FDM**](https://www.freedownloadmanager.org/) | [**XDM**](https://github.com/subhra74/xdm) - Download Managers that can boost download speeds. Motrix supports Torrenting while JDownloader is best for downloading multiple files simultaneously.
+[**IDM**](https://www.internetdownloadmanager.com/) | [**JD2**](https://jdownloader.org/jdownloader2) | [**Motrix**](https://github.com/agalwood/Motrix) | [**FDM**](https://www.freedownloadmanager.org/) | [**XDM**](https://github.com/subhra74/xdm) - Download Managers that can boost download speeds. Motrix supports Torrenting, while JDownloader2 is best for downloading multiple files simultaneously.
 
 [**video_decrypter**](https://github.com/CrackerCat/video_decrypter) - Decrypt video from a streaming site with MPEG-DASH Widevine DRM encryption. 
 
@@ -117,7 +116,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**PrivacyGuides**](https://privacyguides.org/) - [r/PrivacyGuides](https://www.reddit.com/r/PrivacyGuides/)'s Website, has good information about various security and privacy tools.
 
-[**simplewall**](https://www.henrypp.org/product/simplewall) - Simple tool to configure  the Windows Filtering Platform (WFP) which can configure Network Activity on your PC.
+[**simplewall**](https://www.henrypp.org/product/simplewall) - Simple tool to configure the Windows Filtering Platform (WFP) which can configure Network Activity on your PC.
 
 [**Unsee**](https://unsee.cc/) - Privately / Temporarily host your secret Images for reasons.
 
