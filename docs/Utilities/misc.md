@@ -1,5 +1,5 @@
 title: Miscellaneous
-description: Various Tools and Apps to make your life easier.
+description: Tools and Apps to make your life easier.
 
 # Browser Extensions
 
