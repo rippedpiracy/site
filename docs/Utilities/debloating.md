@@ -1,7 +1,7 @@
 title: Debloating Windows
 description: Make your OS lighter, faster and more secure.
 
-*Pro Tip: Make a Restore Point before running these apps!*
+<sub>*Pro Tip: Make a Restore Point before running these apps!*</sub>
 # Debloating & Privacy
 **[TronScript](https://bmrf.org/repos/tron/)** - Most efficient and quick way to clean, De-bloat, optimize and disinfect your PC, recommended.  
 *BE SURE TO READ THE INSTRUCTIONS!*
