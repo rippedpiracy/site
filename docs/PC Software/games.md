@@ -12,7 +12,7 @@ A very popular Torrenting site which has an incredible amount of content, but al
 **[RARBG](https://rarbg.to) (Torrent)**
 
 A very safe site to get Games from, mostly Scene Releases which they have Auto Uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.  
-<sub>psst. check the misc section for captcha bypasses.
+<sub>psst. check the misc page for captcha bypasses.</sub>
 
 **[RuTor](http://rutor.info) (Torrent)**
 
