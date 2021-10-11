@@ -9,10 +9,10 @@ description: Tools and Apps to make your life easier.
 [**FastForward**](https://github.com/FastForwardTeam/FastForward) - Don't waste your time with compliance, FastForward circumvents link shorteners (An actively maintained [Universal-Bypass](https://github.com/Sainan/Universal-Bypass) fork).
 
 [**uBlock Origin**](https://github.com/gorhill/uBlock) - An efficient AdBlocker for Chromium and Firefox, fast and lean.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[fuckfuckadblock](https://github.com/bogachenko/fuckfuckadblock) Filters for blocking pop-ups and anti-adblock bypass.</sub>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[fuckfuckadblock](https://github.com/bogachenko/fuckfuckadblock) Filters for blocking Pop-ups and Anti-AdBlock bypasses.</sub>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[iplogger](https://github.com/piperun/iploggerfilter) Filters any site who's only purpose is to log your IP.</sub>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[Anifiltrs](https://github.com/Karmesinrot/Anifiltrs) A collection of filter lists for Anime streaming, Manga reading, and downloading of other Japanese media.</sub>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[Web Annoyances Ultralist](https://github.com/yourduskquibbles/webannoyances) Fix and remove annoying web elements such as sticky headers, floating boxes etc.</sub>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[Web Annoyances Ultralist](https://github.com/yourduskquibbles/webannoyances) Fix and remove annoying web elements such as sticky headers, floating boxes, etc.</sub>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[Filter Stalker](https://rentry.co/FilterStalker) A collection of Filter Lists by **@LukeThighStalker**.</sub> 
 
 [**Dark Reader**](https://github.com/darkreader/darkreader) - Dark/Light mode for all websites.
