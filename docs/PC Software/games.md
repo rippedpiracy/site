@@ -70,7 +70,7 @@ Any Cracked Game that has Multiplayer unlocked (usually on Steam) you will most 
 
 **[GOG Games](https://gog-games.com) (DDL)**
 
-Every GOG DRM-free Game, ripped and reuploaded on Mirrors. Every installer is untouched and has a cryptographic SHA-265 key.
+Every GOG DRM-free Game, ripped and reuploaded on Mirrors. Every installer is untouched and has a cryptographic SHA-265 key from GOG.
 
 **[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com/a/) (DDL)**
 
