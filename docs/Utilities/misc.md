@@ -54,15 +54,15 @@ description: Various Tools and Apps to make your life easier.
 # Browser UserScripts
 <sub>**You need a Browser UserScript Manager.**</sub>
 
-[**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass YouTube's age restricted videos.
+[**YouTube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass YouTube's age restricted videos.
 
 [**AdGuard Popup Blocker**](https://github.com/AdguardTeam/PopupBlocker) - Blocks all unwanted pop-up windows in different browsers.
 
 [**AdsBypasser**](https://github.com/adsbypasser/adsbypasser) - FastForward alternative, bypasses ad counters. 
 
-[**Bypass All Shortlinks**](https://greasyfork.org/en/scripts/431691-bypass-all-shortlinks) - Link bypasser, bypassess some sites other tools can't bypass.
+[**Bypass All Shortlinks**](https://greasyfork.org/en/scripts/431691-bypass-all-shortlinks) - Link Bypasser, bypassess some sites other tools can't bypass.
 
-[**SiteScrubber**](https://github.com/PrimePlaya24/dl-site-scrubber) - Bypass certain timers or ads and remove clutter that make it harder to download from certain DDL sites.
+[**SiteScrubber**](https://github.com/PrimePlaya24/dl-site-scrubber) - Skip certain Timers or Ads and remove clutter that make it harder to download from certain DDL sites.
 
 [**reCAPTCHA Solver**](https://greasyfork.org/en/scripts/430593-recaptcha-solver-automatically-solves-recaptcha-in-browser) & [**hCAPTCHA Solver**](https://greasyfork.org/en/scripts/425854-hcaptcha-solver-automatically-solves-hcaptcha-in-browser) - Automatically solves reCAPTCHAs and hCAPTCHAs on websites, no user interaction required.
 
@@ -100,7 +100,7 @@ description: Various Tools and Apps to make your life easier.
 
 [**IDM**](https://www.internetdownloadmanager.com/) | [**JD2**](https://jdownloader.org/jdownloader2) | [**Motrix**](https://github.com/agalwood/Motrix) | [**FDM**](https://www.freedownloadmanager.org/) | [**XDM**](https://github.com/subhra74/xdm) - Download Managers that can boost download speeds. Motrix supports Torrenting, while JDownloader2 is best for downloading multiple files simultaneously.
 
-[**video_decrypter**](https://github.com/CrackerCat/video_decrypter) - Decrypt video from a streaming site with MPEG-DASH Widevine DRM encryption. 
+[**video_decrypter**](https://github.com/CrackerCat/video_decrypter) - Decrypt Video from Streaming sites that have MPEG-DASH Widevine DRM encryption. 
 
 # Useful Websites
 
