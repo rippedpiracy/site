@@ -50,7 +50,7 @@ description: Various Tools and Apps to make your life easier.
 [**Disconnect**](https://github.com/disconnectme/disconnect) - Makes the web faster, more private, and more secure.
 
 # Browser UserScripts
-<sub>**Use a Browser UserScript Manager**</sub>
+<sub>**You need a Browser UserScript Manager.**</sub>
 
 [**Youtube Age Bypass**](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/) - Bypass YouTube's age restricted videos.
 
