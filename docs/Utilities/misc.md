@@ -12,8 +12,6 @@ description: Various Tools and Apps to make your life easier.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[Web Annoyances Ultralist](https://github.com/yourduskquibbles/webannoyances) Fix and remove annoying web elements such as sticky headers, floating boxes etc.</sub>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>[Filter Stalker](https://rentry.co/FilterStalker) A collection of Filter Lists by **@LukeThighStalker**.</sub> 
 
-[**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers. 
-
 [**Dark Reader**](https://github.com/darkreader/darkreader) - Dark/Light mode for all websites.
 
 [**NoScript**](https://github.com/hackademix/noscript) - Allow/Disallow JavaScript, Flash, Java and other executable Content to only run on websites of your choice.
@@ -48,6 +46,8 @@ description: Various Tools and Apps to make your life easier.
 [**Cookie AutoDelete**](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) - Deletes cookies and other browsing site data as soon as the tab closes, domain changes or browser restarts.
 
 [**Disconnect**](https://github.com/disconnectme/disconnect) - Makes the web faster, more private, and more secure.
+
+[**ViolentMonkey**](https://github.com/violentmonkey/violentmonkey) & [**Tampermonkey**](https://www.tampermonkey.net/) - Browser UserScript managers.  
 
 # Browser UserScripts
 <sub>**You need a Browser UserScript Manager.**</sub>
