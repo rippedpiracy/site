@@ -1,8 +1,8 @@
 title: Games
-description: Safe sources for Games.
+description: List of safe and trusted sites for Games.
 
 ## General Torrent
-**NOTE: Some of these sites have fake and mirror sites, you should only use the ones we linked.**
+**NOTE: Some of these sites have Fake and Mirror sites, you should only use the ones we linked.**
 
 **[1337x](https://1337x.to) (Torrent)**
 
@@ -11,7 +11,7 @@ A very popular Torrenting site which has an incredible amount of content, but al
 
 **[RARBG](https://rarbg.to) (Torrent)**
 
-A very safe site to get Games from, mostly Scene Releases which they have Auto Uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.  
+A very safe site to get Games from, mostly Scene Releases which they have Auto Uploading Bots for. If you use a VPN get ready to solve reCAPTCHAs.  
 <sub>psst. check the misc page for captcha bypasses.</sub>
 
 **[RuTor](http://rutor.info) (Torrent)**
@@ -45,7 +45,7 @@ A site which focuses on re-uploading Repacks, P2P Cracks, Scene Releases and GOG
 
 **[CrackHub](https://crackhub.site) (DDL)**
 
-Another site that mainly focuses on re-uploading to different hosts, they take requests too. It also has an Automatic Scene Uploading Bot which Uploads to Zippyshare found [here](https://scene.crackhub.site).
+Another site that mainly focuses on re-uploading to different hosts, they take requests too. It also has an Automatic Scene Uploading Bot which Uploads to Zippyshare, found [here](https://scene.crackhub.site).
 
 **[GamesDrive](https://gamesdrive.net) (DDL)**
 
@@ -65,7 +65,7 @@ Another well moderated Forum with active Uploaders and discussions that allow Sc
 
 **[Online-Fix](https://online-fix.me) (DDL / Torrent)**
 
-Any Cracked Game that has Multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker 0xdeadc0de.  
+Any Cracked Game that has Multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker, 0xdeadc0de.  
 **_NOTE: Their site has strong measures against Ad-blockers. Requires Sign-up._**  
 
 **[GOG Games](https://gog-games.com) (DDL)**
