@@ -11,7 +11,7 @@ A very popular Torrenting site which has an incredible amount of content, but al
 
 **[RARBG](https://rarbg.to) (Torrent)**
 
-A very safe site to get Games from, mostly Scene Releases which they have auto uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.  
+A very safe site to get Games from, mostly Scene Releases which they have Auto Uploading Bots for. If you use a VPN get ready to solve CAPTCHAs.  
 <sub>psst. check the misc section for captcha bypasses.
 
 **[RuTor](http://rutor.info) (Torrent)**
@@ -23,11 +23,11 @@ An old Russian site that has plenty of content but with generally less seeders.
 
 **[FitGirl](https://fitgirl-repacks.site) (Torrent / DDL)**
 
-One of the most well known and reputable Repacker out there, very active and provides Torrent links with DDL mirrors. Only downside being the Repacks can take a long time to install depending on your hardware. Mostly uploads on 1337x.to, RuTor.info, Tapocheck.net and some DDL mirrors that will be linked on her site.
+One of the most well known and reputable Repacker out there, very active and provides Torrent links with DDL mirrors. Only downside being the Repacks can take a long time to install depending on your hardware. Mostly Uploads on 1337x.to, RuTor.info, Tapocheck.net and some DDL mirrors that will be linked on her site.
 
 **[DODI](https://dodi-repacks.site) (Torrent / DDL)**
 
-Another active Repacker that provides Torrent links with DDL mirrors. Usually takes less to install compared to FitGirl, while having ever so slightly larger Releases. Other than DDL Mirrors on his site, he uploads on 1337x.
+Another active Repacker that provides Torrent links with DDL mirrors. Usually takes less to install compared to FitGirl, while having ever so slightly larger Releases. Other than DDL Mirrors on his site, he Uploads on 1337x.
 
 **[Masquerade](https://masquerade.site) (DDL / Torrent)**
 
@@ -41,15 +41,15 @@ One of the oldest and most respected Repacker that passed away recently. His sit
 
 **[Ova Games](https://ovagames.com) (DDL)**
 
-A site which focuses on reuploading Repacks, P2P Cracks, Scene Releases and GOG Rips to various hosts. They rarely include Torrent links. Takes requests too.
+A site which focuses on re-uploading Repacks, P2P Cracks, Scene Releases and GOG Rips to various hosts. They rarely include Torrent links. Takes requests too.
 
 **[CrackHub](https://crackhub.site) (DDL)**
 
-Another site that mainly focuses on reuploading to different hosts, they take requests too. It also has an automatic Scene Upload Bot which uploads to Zippyshare found [here](https://scene.crackhub.site).
+Another site that mainly focuses on re-uploading to different hosts, they take requests too. It also has an automatic Scene Uploading Bot which Uploads to Zippyshare found [here](https://scene.crackhub.site).
 
 **[GamesDrive](https://gamesdrive.net) (DDL)**
 
-Another site that reuploads Repacks, P2P Cracks and Scene Releases to various hosts. They take requests.
+Another site that re-uploads Repacks, P2P Cracks and Scene Releases to various hosts. They take requests.
 
 ## Forums
 
@@ -59,7 +59,7 @@ Arguably the best site for Steam Piracy. It's a well moderated Forum with active
 
 **[Torrminatorr](https://forum.torrminatorr.com) (DDL)**
 
-Another well moderated Forum with active uploaders and discussions that allow Scene uploads (contrary of CS.RIN.RU), GOG Rips, Retro Games and even Linux Games. **_Requires Sign-up_**.
+Another well moderated Forum with active Uploaders and discussions that allow Scene Uploads (contrary of CS.RIN.RU), GOG Rips, Retro Games and even Linux Games. **_Requires Sign-up_**.
 
 ## Misc
 
@@ -70,7 +70,7 @@ Any Cracked Game that has Multiplayer unlocked (usually on Steam) you will most 
 
 **[GOG Games](https://gog-games.com) (DDL)**
 
-Every GOG DRM-free Game, ripped and reuploaded on Mirrors. Every installer is untouched and has a cryptographic SHA-265 key from GOG.
+Every GOG DRM-free Game, ripped and re-uploaded on Mirrors. Every installer is untouched and has a cryptographic SHA-265 key from GOG.
 
 **[F95zone](https://f95zone.to/) & [U18-Chan](https://u18chan.com/a/) (DDL)**
 
