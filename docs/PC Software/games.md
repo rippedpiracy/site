@@ -7,7 +7,7 @@ description: Safe sources for Games.
 **[1337x](https://1337x.to) (Torrent)**
 
 A very popular Torrenting site which has an incredible amount of content, but also has major downsides including a bad moderation team in general (not banning uploaders who have uploaded Malware in the past) and an *incredibly* unsafe Software category.  
-**_NOTE: Dont get Software Releases from this site and for Games; stay away from Torrents by IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM and CorePack._**  
+**_NOTE: Do not get Software Releases from this site. Stay away from Torrents by IGGGAMES, xGIROx, Seyter, Qoob, nosTEAM and CorePack._**  
 
 **[Rarbg](https://rarbg.to) (Torrent)**
 
@@ -26,11 +26,11 @@ One of the most well known and reputable Repacker out there, very active and pro
 
 **[DODI](https://dodi-repacks.site) (Torrent / DDL)**
 
-Another active Repacker that provides Torrent links with DDL mirrors. Usually takes shorter to install compared to FitGirl while having ever so slightly bigger Releases. Other than DDL mirrors on his site, he uploads on 1337x.to.
+Another active Repacker that provides Torrent links with DDL mirrors. Usually takes less to install compared to FitGirl, while having ever so slightly larger Releases. Other than DDL Mirrors on his site, he uploads on 1337x.
 
 **[Masquerade](https://masquerade.site) (DDL / Torrent)**
 
-A known Repacker that focuses more on indie titles. Mostly uses Google Drive as the main downloading option and Torrents on his newer Releases.
+A known Repacker that focuses more on Indie titles. Mostly uses Google Drive as the main downloading option and Torrents on his newer Releases.
 
 **[XATAB](https://xatab-repack.com) (Torrent)**
 
@@ -40,7 +40,7 @@ One of the oldest and most respected Repacker that passed away recently. His sit
 
 **[Ova Games](https://ovagames.com) (DDL)**
 
-A site which focuses on reuploading Repacks, P2P Cracks, Scene Releases and GOG Rips to various hosts. They rarely include Torrent links. They also take requests.
+A site which focuses on reuploading Repacks, P2P Cracks, Scene Releases and GOG Rips to various hosts. They rarely include Torrent links. Takes requests too.
 
 **[CrackHub](https://crackhub.site) (DDL)**
 
@@ -64,7 +64,7 @@ Another well moderated Forum with active uploaders and discussions that allow Sc
 
 **[Online-Fix](https://online-fix.me) (DDL / Torrent)**
 
-Any Cracked Game that have multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker 0xdeadc0de.  
+Any Cracked Game that has Multiplayer unlocked (usually on Steam) you will most likely find it here done by their own internal Cracker 0xdeadc0de.  
 **_NOTE: Their site has strong measures against Ad-blockers. Requires Sign-up._**  
 
 **[GOG Games](https://gog-games.com) (DDL)**
