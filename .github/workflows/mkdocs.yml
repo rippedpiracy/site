@@ -34,7 +34,7 @@ jobs:
       # Runs a single command using the runners shell
       - run: pip install -r requirements.txt
       - name: Remove extra README
-        run: rm ./docs/README.md
+        run: rm ./docs/README.md || echo "nope"
       - name: Add target blank to all urls
         working-directory: ./docs
         run: ../scripts/target-blank.sh
