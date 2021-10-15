@@ -9,7 +9,7 @@ description: Sources for Leaks, Account Generators and more.
 
 [**leak.sx**](https://leak.sx) - Account Leecher with lists of publicly available Pastebins, browse it using an [AdBlocker](https://ublockorigin.com/).  
 
-[**leak.to**](https://leak.to/forum/21-premium-accounts/) - Forum with an Account Leaks session, needs registration. Only get Accounts and __NOTHING ELSE__.  
+[**leak.to**](https://leak.to/forum/21-premium-accounts/) - Forum with an Account Leaks session, **_needs Sign-Up._** Only get Accounts and __NOTHING ELSE__.  
 <sub>psst. you might need to like and reply to a post to get access to the content.</sub>
 
 [**cracked.to**](https://cracked.to/Forum-Accounts) | [**nulled.to**](https://nulled.to/forum/43-accounts/) - Same exact principles as [**leak.to**](https://leak.to/forum/21-premium-accounts/), just a Forum. 
