@@ -1,9 +1,9 @@
 site_name: Ripped
 site_url: https://ripped.guide
 
-repo_url: "https://github.com/rippedpiracy/rippedpiracy.github.io"
+repo_url: "https://github.com/rippedpiracy/docs"
 repo_name: "GitHub"
-edit_uri: "blob/master/docs/"
+edit_uri: "blob/master/"
 
 
 markdown_extensions:
