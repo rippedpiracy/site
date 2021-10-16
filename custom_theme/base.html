@@ -108,7 +108,7 @@
         </aside>
         <section id="content" class="normal">
             <div class="article-info-container">
-		{% if page %}
+		{% if page and page.meta.no_show_title is not defined %}
                   <h1 class="article-title">{{ page.meta.title }}</h1>
 		{% endif %}
                 {% if page and page.meta.author is defined %}
