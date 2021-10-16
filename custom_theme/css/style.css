@@ -419,11 +419,11 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsla(, , 50%, 0.3) hsla(113, 0%, 50%, 0.1);
+  background: hsla(113, 0%, 50%, 0.1);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsla(, , 50%, 0.3) hsla(113, 0%, 50%, 0.3);
+  background: hsla(113, 0%, 50%, 0.3);
   border-radius: 50vw;
 /*  border: 6px solid transparent;*/
   background-clip: content-box;
