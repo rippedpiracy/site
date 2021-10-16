@@ -437,7 +437,7 @@ footer {
   background-color: #A9A9A9;
 }
 /* scrollbar for firefox */
-* {
+#sidebar {
 	scrollbar-width: thin;
 	scrollbar-color: hsla(113, 0%, 50%, 0.3) hsla(113, 0%, 50%, 0.1);
 }
