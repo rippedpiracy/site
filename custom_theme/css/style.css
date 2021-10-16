@@ -450,6 +450,18 @@ img {
 	right: 15px;
 	cursor: pointer;
 }
+#darkmodetoggle:before {
+	content: "Dark Mode";
+	opacity: 0;
+	position: absolute;
+	left: -80px;
+	top: 1px;
+	transition: all 0.2s;
+}
+#darkmodetoggle:hover:before {
+    opacity: 1;
+}
+
 /*
 @media
 */
