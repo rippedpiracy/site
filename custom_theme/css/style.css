@@ -177,12 +177,15 @@ a.active img#expand_icon {
 /* li#current > a::before { */
 /*     content: 'pee'; */
 /* } */
+
+/*
 #sidebar-toggle div {
     width: 16px;
     height: 1px;
     background-color: #fff;
     margin: 6px 0;
 }
+*/
 #sidebar-toggle {
     cursor: pointer;
     position: fixed;
@@ -443,7 +446,7 @@ img {
 }
 #darkmodetoggle {
 	position: fixed;
-	top: 20px;
+	top: 16px;
 	right: 15px;
 	cursor: pointer;
 }
