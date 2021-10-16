@@ -121,14 +121,14 @@
             {%- endblock %}
 
         <footer>
+	{% if page and page.meta.no_show_footer is not defined %}
             <div class="inline">
-	    	{% if page %}
                 <p class="article-info">Last updated: {{ page.meta.revision_date }}</p>
-		{% endif %}
             </div>
             <div style="float: right; margin-top: 0.1em;">
                 <p class="article-info"><a href="{{ page.edit_url }}" target="_blank">Edit on </a><i class="fab fa-github"></i></p>
             </div>
+	{% endif %}
         </footer>
 
     </section>
