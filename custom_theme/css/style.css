@@ -458,8 +458,10 @@ img {
 	top: 1px;
 	transition: all 0.2s;
 }
-#darkmodetoggle:hover:before {
-    opacity: 1;
+@media (hover: hover) and (pointer: fine) {
+	#darkmodetoggle:hover:before {
+	    opacity: 1;
+	}
 }
 
 /*
