@@ -415,7 +415,7 @@ footer {
 }
 
 ::-webkit-scrollbar {
-  width: 18px;
+	width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -423,14 +423,19 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #808080;
-  border-radius: 18px;
+  background: hsla(113, 0%, 50%, 0.3) hsla(113, 0%, 50%, 0.1);
+  border-radius: 50vw;
   border: 6px solid transparent;
   background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #A9A9A9;
+}
+/* scrollbar for firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: hsla(113, 0%, 50%, 0.3) hsla(113, 0%, 50%, 0.1);
 }
 img {
 	max-width: 100%; /* make sure images don't overflow */
