@@ -1,10 +1,12 @@
 const sidebarWidth = 335;
 
+var width = $(window).width(), height = $(window).height();
+
 window.addEventListener('resize', checkWindowSize);
 
 // call initially
 $(function() {
-    checkWindowSize();
+    checkWindowSize(true);
 })
 
 function closeOrOpen() {
@@ -35,23 +37,31 @@ function closeNav() {
     window.navOpen = false;
 }
 
-function checkWindowSize() {
-    // if navOpen is undefined, we need to do extra checks
-    if (typeof window.navOpen === 'undefined') {
-        if (window.innerWidth < 767) {
-            closeNav();
-            window.navOpen = false;
-        } else {
-            window.navOpen = true;
-        }
-    } else {
-        if (navOpen == false && window.innerWidth >= 767) {
-            openNav();
-            window.navOpen = true;
-        }
-        if (navOpen == true && window.innerWidth < 767) {
-            closeNav();
-            window.navOpen = false;
-        }
-    }
+function checkWindowSize(override=false) {
+	if(($(window).width() != width || $(window).height() != height) || override == true) {
+		width = $(window).width(), height = $(window).height();
+
+		// if navOpen is undefined, we need to do extra checks
+		if (typeof window.navOpen === 'undefined') {
+			if (window.innerWidth < 767) {
+				closeNav();
+				window.navOpen = false;
+			console.log("closing");
+			} else {
+				window.navOpen = true;
+			}
+		} else {
+			if (navOpen == false && window.innerWidth >= 767) {
+				openNav();
+				window.navOpen = true;
+			console.log("opening");
+			}
+			if (navOpen == true && window.innerWidth < 767) {
+				closeNav();
+				window.navOpen = false;
+			console.log("closing");
+			}
+		}
+	}
+
 }
