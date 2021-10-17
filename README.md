@@ -12,4 +12,4 @@ If you **do** suggest something, please keep note that it:
 
 # How do i contribute?
 
-Easily head over to the [**suggestions**](https://github.com/rippedpiracy/suggestions) repo and make an issue.
+Easily head over to the [**docs**](https://github.com/rippedpiracy/docs) repo and make an issue.
