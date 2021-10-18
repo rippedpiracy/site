@@ -24,6 +24,9 @@ function openNav() {
 		document.getElementById("content").className = "normal";
 	} else if (window.innerWidth < 768) {
 		document.getElementById("content").className = "mobileopen";
+		document.getElementById("content").onclick = function(event) {
+			closeOrOpen();
+		}
 	//	document.body.style.overflowX = "hidden";
 	}
     window.navOpen = true;
@@ -33,6 +36,9 @@ function closeNav() {
 //  document.getElementsByClassName("sidebar")[0].style.display = "none";
     document.getElementById("sidebar").className = "collapsed";
     document.getElementById("content").className = "collapsed";
+	if (document.getElementById("content").onclick != null) {
+		document.getElementById("content").onclick = null;
+	}
 //    document.body.style.overflowX = "";
     window.navOpen = false;
 }
@@ -46,7 +52,6 @@ function checkWindowSize(override=false) {
 			if (window.innerWidth < 767) {
 				closeNav();
 				window.navOpen = false;
-			console.log("closing");
 			} else {
 				window.navOpen = true;
 			}
@@ -54,12 +59,10 @@ function checkWindowSize(override=false) {
 			if (navOpen == false && window.innerWidth >= 767) {
 				openNav();
 				window.navOpen = true;
-			console.log("opening");
 			}
 			if (navOpen == true && window.innerWidth < 767) {
 				closeNav();
 				window.navOpen = false;
-			console.log("closing");
 			}
 		}
 	}
