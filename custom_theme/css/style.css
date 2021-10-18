@@ -278,9 +278,11 @@ table td {
   border: 2px solid grey;
   padding: 0.2em 0.8em;
 }
+/* who the fuck put this here
 table td {
 	width: 50%;
 }
+*/
 
 table tr:first-child td {
   border-top: 1px solid grey;
@@ -444,6 +446,9 @@ footer {
 }
 img {
 	max-width: 100%; /* make sure images don't overflow */
+}
+a.contributor img {
+	max-width: 100px;
 }
 #darkmodetoggle {
 	position: fixed;
