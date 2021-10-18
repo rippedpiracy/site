@@ -37,6 +37,7 @@ body {
 
 html {
     scroll-behavior: smooth; /* smooooth scroll */
+    -webkit-overflow-scrolling: touch; /* smooth ios */
 }
 
 *, html {
