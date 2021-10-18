@@ -447,9 +447,23 @@ footer {
 img {
 	max-width: 100%; /* make sure images don't overflow */
 }
+
+/* github contributors */
+table.contributors-github, td {
+	text-align: center;
+}
 a.contributor img {
 	max-width: 100px;
 }
+@media (max-width: 767px) {
+	a.contributor img {
+		max-width: 50px;
+	}
+	table.contributors-github td {
+		padding: 4px;
+	}
+}
+
 #darkmodetoggle {
 	position: fixed;
 	top: 16px;
