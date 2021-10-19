@@ -166,6 +166,9 @@ input[type="search"] {
     color: white;
     background-color: var(--theme-color);
 }
+#sidebar {
+	overflow-y: scroll;
+}
 img#expand_icon {
     max-height: 1.2em;
     margin-bottom: -0.22em;
