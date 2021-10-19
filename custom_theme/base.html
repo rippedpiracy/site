@@ -68,31 +68,32 @@
             {% endif %}
 
 
+			
+			{%- block site_nav %}
+				{%- if nav|length>1 %}
+					<!-- Main navigation -->
+					<ul id="navigation">
+					{%- for nav_item in nav %}
+						{%- if nav_item.children %}
+							<li id="{% if nav_item.active %}current{% endif %}">
+								<p class="navtitle">{{ nav_item.title }}</p>
 
-        {% if nav|length>1 %}
-            <ul id="navigation">
-            {% for nav_item in nav %}
-                {% if nav_item.children %}
-                    <li>
-                        <p class="navtitle">{{ nav_item.title }}</p>
-                        <ul>
-                        {% for nav_item in nav_item.children %}
-                        <li id="{% if nav_item.active%}current{% endif %}" {% if nav_item.active%}class="unselectable"{% endif %}>
-                            <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{% if nav_item.active%}<img src="/pix/expand_more.svg" id="expand_icon">{% endif %}{{ nav_item.title }}</a>
-                                {% if nav_item.active%}{% include "toc.html" %}{% endif %}
-                            </li>
-                        {% endfor %}
-                        </ul>
-                    </li>
-                {% else %}
-                    <li id="{% if nav_item.active%}current{% endif %}" {% if nav_item.active%}class="unselectable"{% endif %}>
-                        <a {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="/{{ nav_item.url }}"{% endif %}>{% if nav_item.active%}<img src="/pix/expand_more.svg" id="expand_icon">{% endif %}{{ nav_item.title }}</a>
-                        {% if nav_item.active%}{% include "toc.html" %}{% endif %}
-                    </li>
-                {% endif %}
-            {% endfor %}
-            </ul>
-        {% endif %}
+								<ul>
+								{%- for nav_item in nav_item.children %}
+									{% include "nav-sub.html" %}
+								{%- endfor %}
+								</ul>
+							</li>
+						{%- else %}
+							<li id="{% if nav_item.active %}current{% endif %}">
+								<a {% if not nav_item.active%}href="{{ nav_item.url|url }}"{% endif %} {% if nav_item.active%}onclick="collapseCurrent()"{% endif %}>{% if nav_item.active%}<img src="/pix/expand_more.svg" id="expand_icon">{% endif %}{{ nav_item.title }}</a>
+								{% if nav_item.active%}{% include "toc.html" %}{% endif %}
+							</li>
+						{%- endif %}
+					{%- endfor %}
+					</ul>
+				{%- endif %}
+			{%- endblock %}
 
 
         <h1 class="site-name"><a class="home-link" href="/">{{ config.site_name }}</a></h1>
