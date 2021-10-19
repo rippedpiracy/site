@@ -122,6 +122,17 @@ div.inline {
 #current {
     cursor: pointer;
 }
+li.nested {
+	padding-left: 14px;
+}
+/*
+li.nested p.navtitle {
+	color: #d5e8f2;
+}
+*/
+li.nested a.navtitle {
+	color: #828a97 !important;
+}
 
 
 .input-wrap {
@@ -244,6 +255,7 @@ div.search {
 }
 p.navtitle {
     padding-bottom: 3px;
+	color: #fff;
 }
 ul.toc {
     margin-left: 1.5rem;
