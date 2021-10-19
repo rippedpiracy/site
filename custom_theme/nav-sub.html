@@ -1,6 +1,7 @@
 {%- if not nav_item.children %}
-	<li>
-		<a class="navtitle" href="{{ nav_item.url|url }}" id="{% if nav_item.active %}current{% endif %}">{{ nav_item.title }}</a>
+	<li {% if nav_item.active %}id="current"{% endif %}>
+			<a class="navtitle" {% if nav_item.active%}onclick="collapseCurrent()"{% endif %} {% if not nav_item.active%}href="{{ nav_item.url|url }}{% endif %}">{% if nav_item.active%}<img src="/pix/expand_more.svg" id="expand_icon">{% endif %}{{ nav_item.title }}</a>
+		{% if nav_item.active%}{% include "toc.html" %}{% endif %}
 	</li>
 {%- else %}
 	<li class="nested">
