@@ -457,7 +457,7 @@ a.contributor img {
 }
 table.contributors-github {
 	display: block;
-	overflow-y: scroll;
+	overflow-x: scroll;
 }
 @media (max-width: 767px) {
 	a.contributor img {
