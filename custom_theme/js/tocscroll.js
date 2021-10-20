@@ -33,7 +33,7 @@ function myFunc() {
 		if (i > 0) {
 			var athird = (anchor_tops[i] - anchor_tops[i-1])/3;
 		} else {
-			var athird = 220;
+			var athird = 520;
 		}
 
 		if (scrollTop >= (anchor_tops[i] - athird) && (i == anchor_tops.length - 1 || scrollTop < anchor_tops[i+1])) {

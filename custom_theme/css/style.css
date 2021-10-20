@@ -152,6 +152,9 @@ input[type="search"] {
     font-size: 14px;
     line-height: 1.5;
 }
+#sidebar {
+	overscroll-behavior: contain;
+}
 #sidebar input::placeholder {
     color: gray;
 }
