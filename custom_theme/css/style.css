@@ -153,7 +153,7 @@ input[type="search"] {
     line-height: 1.5;
 }
 #sidebar {
-	overscroll-behavior-y: contain;
+	overscroll-behavior: contain;
 }
 #sidebar input::placeholder {
     color: gray;
