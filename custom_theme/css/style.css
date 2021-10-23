@@ -531,3 +531,20 @@ table.contributors-github {
   }
 }
 */
+
+/* what if somebody wants to print idk */
+@media print {
+	html {
+		color: #000 !important;
+	}
+
+	.sidebar, #sidebar-toggle, #darkmodetoggle{
+		display: none !important;
+	}
+	#content {
+		margin-left: 0 !important;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+}
