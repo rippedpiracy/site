@@ -124,10 +124,10 @@
         <footer>
 	{% if page and page.meta.no_show_footer is not defined %}
             <div class="inline">
-                <p class="article-info">Last updated: {{ page.meta.revision_date }}</p>
+				<b><p class="article-info">Last updated: {{ page.meta.revision_date }}</p></b>
             </div>
             <div style="float: right; margin-top: 0.1em;">
-                <p class="article-info"><a href="{{ page.edit_url }}" target="_blank">Contribute on </a><i class="fab fa-github"></i></p>
+				<b><p class="article-info"><a href="{{ page.edit_url }}" target="_blank">Contribute on </a><i class="fab fa-github"></i></p></b>
             </div>
 	{% endif %}
         </footer>
