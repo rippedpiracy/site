@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         {%- block site_meta %}
           <meta charset="utf-8">
@@ -55,7 +55,7 @@
     <body>
 
         <main>
-        <button id="sidebar-toggle" onclick="closeOrOpen()">
+        <button aria-label="Sidebar Toggle" id="sidebar-toggle" onclick="closeOrOpen()" alt="Sidebar Toggle">
 		<img src="/pix/menu_icon.svg">
         </button>
 
@@ -99,7 +99,7 @@
         <h1 class="site-name"><a class="home-link" href="/">{{ config.site_name }}</a></h1>
 
         <div class="credits-container">
-        <p class="credits"><a href="{{ config.repo_url }}" target="_blank">{{ config.repo_name }}</a>|<a href="{{ config.extra.discord_url }}">Discord</a></p>
+        <p class="credits"><a href="{{ config.repo_url }}" target="_blank" rel="noreferrer">{{ config.repo_name }}</a>|<a href="{{ config.extra.discord_url }}">Discord</a></p>
 		<!--        <p class="credits"><a href="{{ config.extra.discord_url }}">Discord</a></p> -->
 		<p class="credits"><b>Site Theme by Creatable</b></p>
         </div>
@@ -135,6 +135,6 @@
     </section>
 
         </main>
-    <a id="darkmodetoggle" onclick="switchTheme()"><img src="/pix/dark_mode.svg"></a>
+    <a id="darkmodetoggle" onclick="switchTheme()"><img src="/pix/dark_mode.svg" alt="Dark Mode Toggle"></a>
     </body>
 </html>
