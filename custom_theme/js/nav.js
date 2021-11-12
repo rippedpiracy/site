@@ -4,6 +4,24 @@ var width = $(window).width(), height = $(window).height();
 
 window.addEventListener('resize', checkWindowSize);
 
+// disable swipe navigation safari
+//if (window.safari) {
+//  history.pushState(null, null, location.href);
+//  window.onpopstate = function(event) {
+//      history.go(1);
+//  };
+//}
+
+$(document)
+	.on('swiperight', function(e){
+		if (window.navOpen == false) {
+			openNav();
+	}})
+	.on('swipeleft', function(e) {
+		if (window.navOpen == true) {
+			closeNav();
+	}})
+
 // call initially
 $(function() {
     checkWindowSize(true);
