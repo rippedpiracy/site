@@ -2,6 +2,8 @@ const sidebarWidth = 335;
 
 var width = $(window).width(), height = $(window).height();
 
+$.event.special.swipe.horizontalDistanceThreshold = width/2;
+
 window.addEventListener('resize', checkWindowSize);
 
 // disable swipe navigation safari
