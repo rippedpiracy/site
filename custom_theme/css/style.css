@@ -396,6 +396,11 @@ a {
 #content {
     padding: 70px;
 }
+@media (max-width: 767px) {
+	#content {
+		padding: 70px 30px;
+	}
+}
 /* main and sidebar open and collapsed styles */
 #content.normal {
 	margin-left: var(--sidebar-width);
