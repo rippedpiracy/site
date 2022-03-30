@@ -9,7 +9,7 @@ edit_uri: "blob/master/"
 markdown_extensions:
   - attr_list
 plugins:
-  - git-revision-date
+  - git-revision-date-localized
   - github-contributors:
         repository: 'rippedpiracy/docs'
         contributorsFile: "./docs/contributors.txt"
