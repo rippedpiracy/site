@@ -1,3 +1,3 @@
-window.onload = function() {
-	document.getElementById('mkdocs-search-query').value = '';
-}
+window.addEventListener("load", () => {
+  document.getElementById("mkdocs-search-query").value = "";
+});

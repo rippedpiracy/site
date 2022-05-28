@@ -1,70 +1,57 @@
-const sidebarWidth = 335;
+let lastWinDimensions = {
+  width: window.innerWidth,
+  height: window.innerHeight,
+};
 
-var width = $(window).width(), height = $(window).height();
-
-window.addEventListener('resize', checkWindowSize);
+window.addEventListener("resize", checkWindowSize);
 
 // call initially
-$(function() {
-    checkWindowSize(true);
-})
+window.addEventListener("load", () => checkWindowSize(true));
 
 function closeOrOpen() {
-    if (window.navOpen == false) {
-        openNav();
-    } else {
-        closeNav();
-    }
+  if (window.navOpen) closeNav();
+  else openNav();
 }
 
 function openNav() {
-//  document.getElementsByClassName("sidebar")[0].style.display = "";
-	document.getElementById("sidebar").className = '';
-	if (window.innerWidth > 767) {
-		document.getElementById("content").className = "normal";
-	} else if (window.innerWidth < 768) {
-		document.getElementById("content").className = "mobileopen";
-		document.getElementById("content").onclick = function(event) {
-			closeOrOpen();
-		}
-	//	document.body.style.overflowX = "hidden";
-	}
-    window.navOpen = true;
+  document.getElementById("sidebar").className = "";
+  const content = document.getElementById("content");
+  const isOnMobile = window.innerWidth <= 767;
+  content.className = isOnMobile ? "mobileopen" : "normal";
+
+  if (isOnMobile) content.onclick = () => closeOrOpen();
+
+  window.navOpen = true;
 }
 
 function closeNav() {
-//  document.getElementsByClassName("sidebar")[0].style.display = "none";
-    document.getElementById("sidebar").className = "collapsed";
-    document.getElementById("content").className = "collapsed";
-	if (document.getElementById("content").onclick != null) {
-		document.getElementById("content").onclick = null;
-	}
-//    document.body.style.overflowX = "";
-    window.navOpen = false;
+  document.getElementById("sidebar").className = "collapsed";
+  const content = document.getElementById("content");
+  content.className = "collapsed";
+  content.onclick = null;
+
+  window.navOpen = false;
 }
 
-function checkWindowSize(override=false) {
-	if(($(window).width() != width || $(window).height() != height) || override == true) {
-		width = $(window).width(), height = $(window).height();
+function checkWindowSize(override = false) {
+  if (
+    window.innerWidth !== lastWinDimensions.width ||
+    window.innerHeight !== lastWinDimensions.height ||
+    override
+  ) {
+    lastWinDimensions = {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    };
 
-		// if navOpen is undefined, we need to do extra checks
-		if (typeof window.navOpen === 'undefined') {
-			if (window.innerWidth < 767) {
-				closeNav();
-				window.navOpen = false;
-			} else {
-				window.navOpen = true;
-			}
-		} else {
-			if (navOpen == false && window.innerWidth >= 767) {
-				openNav();
-				window.navOpen = true;
-			}
-			if (navOpen == true && window.innerWidth < 767) {
-				closeNav();
-				window.navOpen = false;
-			}
-		}
-	}
-
+    const isOnMobile = window.innerWidth < 767;
+    // if navOpen is undefined, we need to do extra checks
+    if (window.navOpen === undefined) {
+      if (isOnMobile) closeNav();
+      else window.navOpen = true;
+    } else {
+      if (!navOpen && !isOnMobile) openNav();
+      if (navOpen && isOnMobile) closeNav();
+    }
+  }
 }
