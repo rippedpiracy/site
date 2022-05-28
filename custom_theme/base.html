@@ -124,7 +124,9 @@
         <footer>
 	{% if page and page.meta.no_show_footer is not defined %}
             <div class="inline">
-				<b><p class="article-info">Last updated: {{ page.meta.revision_date }}</p></b>
+		{% if page.meta.git_revision_date_localized %}
+		<b><p class="article-info">Last updated: {{ page.meta.git_revision_date_localized }}</p></b>
+		{% endif %}
             </div>
             <div style="float: right; margin-top: 0.1em;">
 				<b><p class="article-info"><a href="{{ page.edit_url }}" target="_blank">Contribute on </a><i class="fab fa-github"></i></p></b>
