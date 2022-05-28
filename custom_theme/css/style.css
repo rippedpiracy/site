@@ -396,7 +396,7 @@ a.active #expand_icon {
   cursor: pointer;
 }
 #darkmodetoggle:before {
-  content: "Dark Mode";
+  content: "AMOLED Mode";
   opacity: 0;
   position: absolute;
   left: -80px;
