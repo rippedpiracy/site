@@ -10,7 +10,7 @@ markdown_extensions:
   - attr_list
 plugins:
   - git-revision-date-localized:
-      type: datetime
+      type: date
   - github-contributors:
         repository: 'rippedpiracy/docs'
         contributorsFile: "./docs/contributors.txt"

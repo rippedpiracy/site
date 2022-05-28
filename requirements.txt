@@ -1,5 +1,4 @@
 mkdocs
 mkdocs-git-revision-date-localized-plugin
-mkdocs-git-revision-date-plugin
 mkdocs-git-committers-plugin
 mkdocs-github-contributors-plugin>=0.1.3
