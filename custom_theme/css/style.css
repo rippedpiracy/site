@@ -499,6 +499,10 @@ table.contributors-github {
   pre code {
     font-size: 12px;
   }
+  #sidebar-toggle, 
+  #darkmodetoggle {
+    position: absolute;
+  }
 }
 
 /* what if somebody wants to print idk */
