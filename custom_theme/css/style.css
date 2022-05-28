@@ -79,9 +79,9 @@ html {
 }
 
 [data-theme="dark"] {
-	--theme-color: #000;
+	--theme-color: #004DAA;
 
-	--base-background-color: #181a1b;
+	--base-background-color: #000;
 	--sidebar-background: #26292b;
 }
 
