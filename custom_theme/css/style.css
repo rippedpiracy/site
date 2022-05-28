@@ -370,7 +370,7 @@ p.credits {
 div.credits-container {
   margin: auto;
   margin-bottom: 1em;
-  margin-top: auto;
+  margin-top: 1em;
   align-self: flex-end;
   order: 10; /* should always be at bottom */
 }
