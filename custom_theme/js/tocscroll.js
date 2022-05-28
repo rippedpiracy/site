@@ -1,85 +1,66 @@
-$(function() {
-	createAnchorList();
-	myFunc(); // call initially so that there isn't everything inactive
-});
+const createAnchorList = () =>
+  (window.anchors = Array.from(
+    document.querySelectorAll(
+      "#content > h1, #content > h2, #content > h3, #content > h4"
+    )
+  ));
 
-function createAnchorList() {
-	window.anchors = document.querySelectorAll("#content > h1, #content > h2, #content > h3, #content > h4");
-	/*
-	for (var i = 0; i < window.anchors.length; i++) {
-		window.anchor_tops.push($(window.anchors[i]).offset().top);
-	}
-	window.anchor_tops.push($(document).height());
-	window.anchor_tops.sort((a,b) => a - b);
-	*/
-}
+const disableArrow = () =>
+  document.querySelector("img#expand_icon").classList.add("nodisplay");
 
-function disableArrow() {
-    $('img#expand_icon').addClass('nodisplay');
-}
+function scrollListener() {
+  const scrollTop = window.scrollY;
+  removeAllActive();
 
+  const anchor_tops = window.anchors.map((a) => a.offsetTop);
+  anchor_tops.push(document.body.offsetHeight);
+  anchor_tops.sort((a, b) => a - b);
 
-function myFunc() {
-	var scrollTop = $(document).scrollTop();
-    removeAllActive();
-	var anchor_tops = [];
-	for (var i = 0; i < window.anchors.length; i++) {
-		anchor_tops.push($(window.anchors[i]).offset().top);
-	}
-	anchor_tops.push($(document).height());
-	anchor_tops.sort((a,b) => a - b);
+  let current;
+  // i have no idea what this is doing, have fun! -- sink
+  for (let i = 0; i < window.anchors.length; i++) {
+    const athird = i > 0 ? (anchor_tops[i] - anchor_tops[i - 1]) / 3 : 520;
 
-	for (var i = 0; i < window.anchors.length; i++) {
-		if (i > 0) {
-			var athird = (anchor_tops[i] - anchor_tops[i-1])/3;
-		} else {
-			var athird = 520;
-		}
+    if (
+      scrollTop >= anchor_tops[i] - athird &&
+      (i === anchor_tops.length - 1 || scrollTop < anchor_tops[i + 1])
+    )
+      current = $(anchors[i]).attr("id");
+  }
 
-		if (scrollTop >= (anchor_tops[i] - athird) && (i == anchor_tops.length - 1 || scrollTop < anchor_tops[i+1])) {
-			var current = $(anchors[i]).attr('id');
-		}
-	}
-    if (window.anchors.length == 0) { // if undefined, means no headers
-        currentActive(true);
-        disableArrow();
-        $(window).off("scroll", myFunc);
-    }
-	$('nav ul li a[href="#' + current + '"]').addClass('active');
+  if (window.anchors.length === 0) {
+    // if undefined, means no headers
+    currentActive(true);
+    disableArrow();
+    window.removeEventListener("scroll", scrollListener);
+  }
+
+  document
+    .querySelector('nav ul li a[href="#' + current + '"]')
+    .classList.add("active");
 }
 
 function removeAllActive() {
-    for (var i = 0; i < window.anchors.length; i++) {
-		$('nav ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('active');
-    }
+  for (let i = 0; i < window.anchors.length; i++)
+    document
+      .querySelector('nav ul li a[href="#' + $(anchors[i]).attr("id") + '"]')
+      .classList.remove("active");
 }
 
 function currentActive(override = false) {
-    if (window.anchors.length == 0 && override == false) {
-        return;
-    }
-
-    var a = $("#current > a")
-    if ($(a).hasClass('active')) {
-        $(a).removeClass('active');
-    } else {
-        $(a).addClass('active');
-    }
+  if (!(window.anchors.length === 0 && !override))
+    document.querySelector("#current > a").classList.toggle("active");
 }
 
-
+// noinspection JSUnusedGlobalSymbols - used in some of the html templates
 function collapseCurrent() {
-    var e = $( "#current ul.toc" );
-    if ($(e).hasClass("nodisplay")) {
-        $(e).removeClass("nodisplay");
-    } else {
-        $(e).addClass("nodisplay");
-    }
-    currentActive();
+  document.querySelector("#current ul.toc").classList.toggle("nodisplay");
+  currentActive();
 }
 
+window.addEventListener("load", () => {
+  createAnchorList();
+  scrollListener(); // call initially so that there isn't everything inactive
+});
 
-//$(window).scroll(function(){
-//   myFunc();
-//});
-$(window).scroll(myFunc);
+window.addEventListener("scroll", scrollListener);

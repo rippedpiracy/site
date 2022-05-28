@@ -79,7 +79,7 @@ html {
   --code-theme-comment: var(--light-grey);
 }
 
-[data-theme="dark"] {
+:root.dark {
   --base-background-color: #000;
   --sidebar-background: none;
   --sidebar-border: var(--light-grey);
@@ -118,6 +118,7 @@ div.inline {
 .unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  /*noinspection CssUnknownProperty*/
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -283,9 +284,17 @@ input[type="search"] {
   padding: var(--sidebar-padding);
   overflow-y: auto;
   overscroll-behavior: contain;
+  --m-left: 0;
+  margin-left: var(--m-left);
+}
+@media (max-width: 767px) {
+  #sidebar {
+    margin-left: unset;
+    transform: translateX(var(--m-left));
+  }
 }
 #sidebar.collapsed {
-  margin-left: calc(var(--sidebar-width) * -1);
+  --m-left: calc(var(--sidebar-width) * -1);
 }
 
 #sidebar input::placeholder {
@@ -466,7 +475,9 @@ table.contributors-github {
   background-color: #a9a9a9;
 }
 * {
+  /*noinspection CssUnknownProperty*/
   scrollbar-width: thin;
+  /*noinspection CssUnknownProperty*/
   scrollbar-color: hsla(113, 0%, 50%, 0.3) hsla(113, 0%, 50%, 0.1);
 }
 /* END SCROLLBARS */
@@ -514,7 +525,6 @@ table.contributors-github {
     display: none !important;
   }
   #content {
-    margin-left: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
   }
