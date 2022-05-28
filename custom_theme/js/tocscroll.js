@@ -25,7 +25,7 @@ function scrollListener() {
       scrollTop >= anchor_tops[i] - athird &&
       (i === anchor_tops.length - 1 || scrollTop < anchor_tops[i + 1])
     )
-      current = $(anchors[i]).attr("id");
+      current = anchors[i].id;
   }
 
   if (window.anchors.length === 0) {
@@ -43,7 +43,7 @@ function scrollListener() {
 function removeAllActive() {
   for (let i = 0; i < window.anchors.length; i++)
     document
-      .querySelector('nav ul li a[href="#' + $(anchors[i]).attr("id") + '"]')
+      .querySelector('nav ul li a[href="#' + anchors[i].id + '"]')
       .classList.remove("active");
 }
 

@@ -14,19 +14,18 @@
         {%- endblock %}
 
         {%- block styles %}
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-  
           <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
 
           {%- if config.theme.highlightjs %}
           <link rel="stylesheet" href="/css/hljs.css">
-          <script src="/js/highlight.min.js"></script>
-          <script>hljs.highlightAll();</script>
+	      <script type="module">
+	          // ?bundle because otherwise you make >200 reqs to fetch hljs LMAO
+		      import hljs from "https://cdn.esm.sh/highlight.js?bundle";
+		      hljs.highlightAll();
+	      </script>
           {%- endif %}
 
         {%- endblock %}
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <script>var base_url = '{{ base_url }}';</script>
         {% if 'search' in config['plugins'] %}
@@ -43,7 +42,7 @@
 
 	{% if page %}
           <meta name="description" content="{{ page.meta.description }}">
-  
+
           <meta property="og:title" content="{{ page.meta.title }}" />
           <meta property="og:image" content="https://ptpimg.me/3p9y75.png" />
           <meta property="og:site_name" content="{{ config.site_name }}" />
@@ -68,7 +67,7 @@
             {% endif %}
 
 
-			
+
 			{%- block site_nav %}
 				{%- if nav|length>1 %}
 					<!-- Main navigation -->
@@ -129,7 +128,12 @@
 		{% endif %}
             </div>
             <div style="float: right; margin-top: 0.1em;">
-				<b><p class="article-info"><a href="{{ page.edit_url }}" target="_blank">Contribute on </a><i class="fab fa-github"></i></p></b>
+				<p class="article-info">
+					<a href="{{ page.edit_url }}" target="_blank">
+						<strong>Contribute on</strong>
+						<img src="/pix/github.svg" alt="Github"/>
+					</a>
+				</p>
             </div>
 	{% endif %}
         </footer>
