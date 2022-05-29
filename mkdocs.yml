@@ -8,6 +8,7 @@ edit_uri: "blob/master/"
 
 markdown_extensions:
   - attr_list
+  - codehilite
 plugins:
   - git-revision-date-localized:
       type: date
@@ -20,7 +21,6 @@ plugins:
 theme:
     name: null
     custom_dir: 'custom_theme/'
-    highlightjs: true
     static_templates:
             - 404.html
 

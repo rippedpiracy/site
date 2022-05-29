@@ -15,17 +15,7 @@
 
         {%- block styles %}
           <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
-
-          {%- if config.theme.highlightjs %}
-          <link rel="stylesheet" href="/css/hljs.css">
-	      <script type="module">
-		      import prism from "https://cdn.esm.sh/prismjs";
-		      import "https://cdn.esm.sh/prismjs/components/prism-yaml" // frontmatter blocks
-		      import "https://cdn.esm.sh/prismjs/components/prism-markdown"
-		      prism.highlightAll()
-	      </script>
-          {%- endif %}
-
+          <link rel="stylesheet" href="/css/codehilite.css">
         {%- endblock %}
 
         <script>var base_url = '{{ base_url }}';</script>
