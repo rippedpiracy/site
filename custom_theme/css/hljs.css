@@ -1,62 +1,63 @@
-pre code.hljs {
+@import url(https://cdn.esm.sh/prismjs/themes/prism-okaidia.css);
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
     display: block;
     overflow-x: auto;
     padding: 1em;
-}
-code.hljs {
-    padding: 3px 5px;
-}
-.hljs {
-    color: #e3e5e8;
     background: #2f3136;
 }
-/*.hljs ::selection {
-    color: #504945;
-}*/
-.hljs-comment {
+
+pre code[class*="language-"] {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*
+.token.comment {
     color: #4f54c;
 }
-.hljs-tag {
+.token.tag {
     color: #bdae93;
 }
-.hljs-operator, .hljs-punctuation, .hljs-subst {
+.token.operator, .token.punctuation, .token.subst {
     color: #d5c4a1;
 }
-.hljs-operator {
+.token.operator {
     opacity: .7;
 }
-.hljs-bullet, .hljs-deletion, .hljs-name, .hljs-selector-tag, .hljs-template-variable, .hljs-variable {
+.token.bullet, .token.deletion, .token.name, .token.selector-tag, .token.template-variable, .token.variable {
     color: #fb4934;
 }
-.hljs-attr, .hljs-link, .hljs-literal, .hljs-number, .hljs-symbol, .hljs-variable.constant_ {
+.token.attr, .token.link, .token.literal, .token.number, .token.symbol, .token.variable.constant_ {
     color: #fe8019;
 }
-.hljs-class .hljs-title, .hljs-title, .hljs-title.class_ {
+.token.class .token.title, .token.title, .token.title.class_ {
     color: #fabd2f;
 }
-.hljs-strong {
+.token.strong {
     font-weight: 700;
     color: #fabd2f;
 }
-.hljs-addition, .hljs-code, .hljs-string, .hljs-title.class_.inherited__ {
+.token.addition, .token.code, .token.string, .token.title.class_.inherited__ {
     color: #b8bb26;
 }
-.hljs-built_in, .hljs-doctag, .hljs-keyword.hljs-atrule, .hljs-quote, .hljs-regexp {
+.token.built_in, .token.doctag, .token.keyword.atrule, .token.quote, .token.regexp {
     color: #8ec07c;
 }
-.hljs-attribute, .hljs-function .hljs-title, .hljs-section, .hljs-title.function_, .ruby .hljs-property {
+.token.attribute, .token.function .token.title, .token.section, .token.title.function_, .ruby .token.property {
     color: #83a598;
 }
-.diff .hljs-meta, .hljs-keyword, .hljs-template-tag, .hljs-type {
+.diff .token.meta, .token.keyword, .token.template-tag, .token.type {
     color: #d3869b;
 }
-.hljs-emphasis {
+.token.emphasis {
     color: #d3869b;
     font-style: italic;
 }
-.hljs-meta, .hljs-meta .hljs-keyword, .hljs-meta .hljs-string {
+.token.meta, .token.meta .token.keyword, .token.meta .token.string {
     color: #d65d0e;
 }
-.hljs-meta .hljs-keyword, .hljs-meta-keyword {
+.token.meta .token.keyword, .token.meta-keyword {
     font-weight: 700;
 }
+*/
