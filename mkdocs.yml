@@ -16,6 +16,7 @@ plugins:
         repository: 'rippedpiracy/docs'
         contributorsFile: "./docs/contributors.txt"
         excludedIds:
+          - 19270622
           - 41898282
           - 90579530
 theme:
