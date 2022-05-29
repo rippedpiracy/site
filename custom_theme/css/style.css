@@ -81,7 +81,7 @@ html {
 
 :root.dark {
   --base-background-color: #000;
-  --sidebar-background: none;
+  --sidebar-background: #000;
   --sidebar-border: var(--light-grey);
 
   --active-bg: none;
@@ -169,15 +169,7 @@ img {
 #content.normal {
   margin-left: var(--sidebar-width);
 }
-#content.collapsed {
-  margin-left: 0;
-}
-#content.mobileopen {
-  transform: translateX(335px);
-  position: sticky;
-  left: 0;
-}
-#content.mobileclosed {
+#content.collapsed, #content.mobile {
   margin-left: 0;
 }
 
@@ -284,6 +276,7 @@ input[type="search"] {
   padding: var(--sidebar-padding);
   overflow-y: auto;
   overscroll-behavior: contain;
+  z-index: 1; /* on mobile, the sidebar renders on top of the content. */
   --m-left: 0;
   margin-left: var(--m-left);
 }
@@ -291,10 +284,13 @@ input[type="search"] {
   #sidebar {
     margin-left: unset;
     transform: translateX(var(--m-left));
+    /* on mobile, just give it that extra 3d special sauce */
+    box-shadow: 10px 0 15px 0 #0004;
   }
 }
 #sidebar.collapsed {
   --m-left: calc(var(--sidebar-width) * -1);
+  box-shadow: none;
 }
 
 #sidebar input::placeholder {
