@@ -286,6 +286,7 @@ input[type="search"] {
 
 @media (max-width: 767px) {
   #sidebar {
+    --m-left: calc(var(--sidebar-width) * -1);
     margin-left: unset;
     transform: translateX(var(--m-left));
   }
@@ -517,7 +518,7 @@ table.contributors-github {
     color: #000 !important;
   }
 
-  .sidebar,
+  #sidebar,
   #sidebar-toggle,
   #darkmodetoggle {
     display: none !important;
