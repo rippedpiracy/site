@@ -159,18 +159,15 @@ img {
 
 #content {
   margin-bottom: 4.5rem;
-  padding: 70px;
+  padding: 70px 30px;
 }
-@media (max-width: 767px) {
+@media (min-width: 767px) { /* desktop only */
   #content {
-    padding: 70px 30px;
+    padding: 70px;
   }
-}
-#content.normal {
-  margin-left: var(--sidebar-width);
-}
-#content.collapsed, #content.mobile {
-  margin-left: 0;
+  #content.open {
+    margin-left: var(--sidebar-width);
+  }
 }
 
 h1.article-title {
@@ -280,17 +277,23 @@ input[type="search"] {
   --m-left: 0;
   margin-left: var(--m-left);
 }
+#sidebar.open {
+  --m-left: 0;
+}
+#sidebar.closed { /* for desktop */
+  --m-left: calc(var(--sidebar-width) * -1);
+}
+
 @media (max-width: 767px) {
   #sidebar {
     margin-left: unset;
     transform: translateX(var(--m-left));
+    --m-left: calc(var(--sidebar-width) * -1);
+  }
+  #sidebar.open {
     /* on mobile, just give it that extra 3d special sauce */
     box-shadow: 10px 0 15px 0 #0004;
   }
-}
-#sidebar.collapsed {
-  --m-left: calc(var(--sidebar-width) * -1);
-  box-shadow: none;
 }
 
 #sidebar input::placeholder {

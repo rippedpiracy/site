@@ -1,7 +1,4 @@
-let lastWinDimensions = {
-  width: window.innerWidth,
-  height: window.innerHeight,
-};
+let lastW, lastH;
 
 window.addEventListener("resize", checkWindowSize);
 
@@ -14,41 +11,33 @@ function closeOrOpen() {
 }
 
 function openNav() {
-  document.getElementById("sidebar").className = "";
+  document.getElementById("sidebar").className = "open";
   const content = document.getElementById("content");
-  const isOnMobile = window.innerWidth <= 767;
-  content.className = isOnMobile ? "mobile" : "normal";
+  content.className = "open";
 
-  if (isOnMobile) content.onclick = () => closeOrOpen();
+  // if is on mobile
+  if (window.innerWidth <= 767) content.onclick = () => closeOrOpen();
 
   window.navOpen = true;
 }
 
 function closeNav() {
-  document.getElementById("sidebar").className = "collapsed";
+  document.getElementById("sidebar").className = "closed";
   const content = document.getElementById("content");
-  content.className = "collapsed";
+  content.className = "";
   content.onclick = null;
 
   window.navOpen = false;
 }
 
 function checkWindowSize(override = false) {
-  if (
-    window.innerWidth !== lastWinDimensions.width ||
-    window.innerHeight !== lastWinDimensions.height ||
-    override
-  ) {
-    lastWinDimensions = {
-      width: window.innerWidth,
-      height: window.innerHeight,
-    };
+  if (window.innerWidth !== lastW || window.innerHeight !== lastH || override) {
+    lastW = window.innerWidth;
+    lastH = window.innerHeight;
 
     const isOnMobile = window.innerWidth < 767;
-    // if navOpen is undefined, we need to do extra checks
     if (window.navOpen === undefined) {
-      if (isOnMobile) closeNav();
-      else window.navOpen = true;
+      if (!isOnMobile) window.navOpen = true;
     } else {
       if (!navOpen && !isOnMobile) openNav();
       if (navOpen && isOnMobile) closeNav();
