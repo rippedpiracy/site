@@ -1,14 +1,20 @@
 /* BEGIN FONTS */
-@font-face {
-  font-family: Whitney;
-  font-weight: 300;
-  src: url(../fonts/Whitney300.woff) format("woff");
-}
-
-@font-face {
+@font-face { /* Regular */
   font-family: Whitney;
   font-weight: 400;
   src: url(../fonts/Whitney400.woff) format("woff");
+}
+
+@font-face { /* Bold */
+  font-family: Whitney;
+  font-weight: 700;
+  src: url(../fonts/Whitney700.woff) format("woff");
+}
+
+/*@font-face {
+  font-family: Whitney;
+  font-weight: 300;
+  src: url(../fonts/Whitney300.woff) format("woff");
 }
 
 @font-face {
@@ -21,13 +27,7 @@
   font-family: Whitney;
   font-weight: 600;
   src: url(../fonts/Whitney600.woff) format("woff");
-}
-
-@font-face {
-  font-family: Whitney;
-  font-weight: 700;
-  src: url(../fonts/Whitney700.woff) format("woff");
-}
+}*/
 /* END FONTS */
 
 /* BEGIN GENERIC UTILITY TWEAKS */
@@ -288,7 +288,6 @@ input[type="search"] {
   #sidebar {
     margin-left: unset;
     transform: translateX(var(--m-left));
-    --m-left: calc(var(--sidebar-width) * -1);
   }
   #sidebar.open {
     /* on mobile, just give it that extra 3d special sauce */
