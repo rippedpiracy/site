@@ -1,3 +1,5 @@
 venv/
 site
 .idea
+# hljs should not be committed to the repo
+*.bundle.js

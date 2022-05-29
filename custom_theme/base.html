@@ -18,9 +18,12 @@
 
           {%- if config.theme.highlightjs %}
           <link rel="stylesheet" href="/css/hljs.css">
-	      <script type="module">
+	      <script type="module" defer>
 	          // ?bundle because otherwise you make >200 reqs to fetch hljs LMAO
-		      import hljs from "https://cdn.esm.sh/highlight.js?bundle";
+	          // test to see if this is or is not faster - if it isnt notably faster this is going
+	          // from local testing, skypack is not faster, other CDNs do not work.
+	          // import hljs from "https://cdn.esm.sh/highlight.js?bundle";
+		      import hljs from "/js/highlight.bundle.js";
 		      hljs.highlightAll();
 	      </script>
           {%- endif %}
