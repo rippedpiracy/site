@@ -17,7 +17,7 @@ function openNav() {
   document.getElementById("sidebar").className = "";
   const content = document.getElementById("content");
   const isOnMobile = window.innerWidth <= 767;
-  content.className = isOnMobile ? "mobileopen" : "normal";
+  content.className = isOnMobile ? "mobile" : "normal";
 
   if (isOnMobile) content.onclick = () => closeOrOpen();
 
