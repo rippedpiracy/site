@@ -38,9 +38,6 @@ jobs:
       - name: Add target blank to all urls
         working-directory: ./docs
         run: ../scripts/target-blank.sh
-      - name: Download latest Highlight.JS
-        working-directory: ./scripts
-        run: ./update-hljs.sh
       - name: Build HTML
         run: mkdocs build
       - name: Minify
