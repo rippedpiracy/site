@@ -195,6 +195,7 @@ footer {
 p.article-info {
   font-size: small;
   margin: 0;
+  line-height: 1.8;
 }
 .article-info-container {
   margin-bottom: 1em;
