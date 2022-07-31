@@ -1,6 +1,6 @@
 # Ripped Piracy
 
-Replacement for the [**#trusted-sites**](https://discord.com/channels/702220357834244248/950073829722587206) channel in the server (RIP).
+Replacement for the [**#trusted-sites**](https://discord.com/channels/702220357834244248/950073829722587206) channel in the Ripped Discord (RIP).
 
 If you **do** suggest something, please keep note that it:
 - needs to be a trusted and safe site.
