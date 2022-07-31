@@ -1,8 +1,3 @@
-User-agent: Googlebot
-Disallow: /
-User-agent: googlebot-image
-Disallow: /
 User-agent: *
-Disallow: /
-Disallow: /
+Allow: /
 Sitemap: https://ripped.guide/sitemap.xml
