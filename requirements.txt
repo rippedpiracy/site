@@ -1,5 +1,5 @@
 mkdocs
 mkdocs-git-revision-date-localized-plugin
-mkdocs-git-committers-plugin
+mkdocs-git-committers-plugin-2
 mkdocs-github-contributors-plugin>=0.1.3
 pygments
