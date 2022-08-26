@@ -12,6 +12,7 @@ markdown_extensions:
 plugins:
   - git-authors
   - ezlinks
+  - search
   - git-revision-date-localized:
       type: date
   - github-contributors:
