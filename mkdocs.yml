@@ -10,9 +10,7 @@ markdown_extensions:
   - attr_list
   - codehilite
 plugins:
-  - git-authors
   - ezlinks
-  - search
   - git-revision-date-localized:
       type: date
   - github-contributors:
