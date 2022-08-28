@@ -162,6 +162,7 @@ img {
   margin-bottom: 4.5rem;
   padding: 70px 30px;
 }
+
 @media (min-width: 767px) { /* desktop only */
   #content {
     padding: 70px;
@@ -171,6 +172,14 @@ img {
   }
 }
 
+@media (min-width: 1920px) { /* 1080p and bigger only! */
+  #logo {
+    float: left;
+  }
+  #banner {
+    margin-top: 165px
+}
+  
 h1.article-title {
   text-decoration: underline;
   margin-bottom: 0.35em;
