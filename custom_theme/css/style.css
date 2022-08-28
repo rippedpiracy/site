@@ -155,7 +155,7 @@ a {
 
 img {
   max-width: 40rem; /* make sure images don't overflow */
-  max-height: 40rem)
+  max-height: 40rem;
 }
 
 #content {
