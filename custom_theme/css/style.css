@@ -154,7 +154,8 @@ a {
 }
 
 img {
-  max-width: 100%; /* make sure images don't overflow */
+  max-width: calc(vw - 75%); /* make sure images don't overflow */
+  max-height: calc(vw - 75%)
 }
 
 #content {
