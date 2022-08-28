@@ -154,7 +154,7 @@ a {
 }
 
 img {
-  max-width: 40rem; /* make sure images don't overflow */
+  max-width: min(40rem, 100%); /* make sure images don't overflow */
   max-height: 40rem;
 }
 
