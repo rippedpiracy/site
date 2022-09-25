@@ -32,4 +32,4 @@ jobs:
           REMOTE_URL: ${{ secrets.REMOTE_URL }}
           REMOTE_TOKEN: ${{ secrets.REMOTE_TOKEN }}
         run: |
-           git push "https://git:$REMOTE_TOKEN@$REMOTE_URL" --all
+           git push "https://git:$REMOTE_TOKEN@$REMOTE_URL" --all --force
