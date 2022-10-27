@@ -276,8 +276,8 @@ input[type="search"] {
 #sidebar {
   display: flex;
   flex-direction: column;
-  height: 100dvh;
   height: 100vh;
+  height: 100dvh;
   width: var(--sidebar-width);
   background: var(--sidebar-background);
   border-right: 1px solid var(--sidebar-border);
