@@ -40,10 +40,6 @@ jobs:
         run: ../scripts/target-blank.sh
       - name: Build HTML
         run: mkdocs build
-      - name: Minify
-        uses: pryme-svg/minify-action@v1.0.3
-        with:
-          directory: ./site
       - name: Setup Git User
         run: |
           git config --global user.name "github-actions[bot]"
