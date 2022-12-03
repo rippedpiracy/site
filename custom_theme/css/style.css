@@ -126,6 +126,7 @@ div.inline {
 }
 #current {
   cursor: pointer;
+  user-select: none;
 }
 li.nested {
   padding-left: 14px;
