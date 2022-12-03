@@ -205,6 +205,9 @@ p.article-info {
   margin: 0;
   line-height: 1.8;
 }
+p.article-info img{
+  margin-bottom: 0.2rem
+}
 .article-info-container {
   margin-bottom: 1em;
 }
