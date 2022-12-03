@@ -130,9 +130,6 @@ div.inline {
 li.nested {
   padding-left: 14px;
 }
-li.nested a.navtitle {
-  color: #828a97 !important;
-}
 
 main {
   overflow-x: hidden;
