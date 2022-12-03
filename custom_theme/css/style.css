@@ -411,6 +411,7 @@ a.active #expand_icon {
   top: 16px;
   right: 15px;
   cursor: pointer;
+  user-select: none;
 }
 #darkmodetoggle:before {
   content: "AMOLED Mode";
