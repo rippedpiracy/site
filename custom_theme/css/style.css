@@ -378,6 +378,7 @@ p.credits {
   font-size: small;
   width: 100%;
   text-align: center;
+  user-select: none;
 }
 .credits a {
   color: #00aff4 !important;
