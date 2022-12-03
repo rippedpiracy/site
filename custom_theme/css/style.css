@@ -450,6 +450,7 @@ td {
 }
 a.contributor img {
   max-width: 100px;
+  user-select: none;
 }
 table.contributors-github {
   display: block;
@@ -458,6 +459,7 @@ table.contributors-github {
 @media (max-width: 767px) {
   a.contributor img {
     max-width: 50px;
+    user-select: none;
   }
   table.contributors-github td {
     padding: 4px;
