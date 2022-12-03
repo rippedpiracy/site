@@ -126,6 +126,7 @@ div.inline {
 }
 #current {
   cursor: pointer;
+  user-select: none;
 }
 li.nested {
   padding-left: 14px;
@@ -327,7 +328,6 @@ input[type="search"] {
 #sidebar a:hover,
 #sidebar a.active {
   color: white;
-  user-select: none;
 }
 #sidebar a.active {
   background: var(--active-bg);
