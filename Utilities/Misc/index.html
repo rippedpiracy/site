@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+          <meta charset="utf-8">
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+          <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+	  
+          <title>Miscellaneous - Ripped</title>
+	  
+          <link rel="stylesheet" href="../../css/style.css">
+          <link rel="stylesheet" href="/css/codehilite.css">
+
+        <script>var base_url = '../..';</script>
+        
+
+        <script src="/js/tocscroll.js"></script>
+        <!--        <script src="/js/clearinput.js"></script> -->
+        <script src="/js/dark.js"></script>
+        <script src="/js/nav.js"></script>
+
+        <!--  for embeds -->
+        <meta name="theme-color" content="#5468ff">
+
+	
+          <meta name="description" content="Tools and Apps to make your life easier.">
+
+          <meta property="og:title" content="Miscellaneous" />
+          <meta property="og:image" content="https://github.com/rippedpiracy/site/raw/master/custom_theme/pix/ripped.png" />
+          <meta property="og:site_name" content="Ripped" />
+          <meta property="og:description" content="Tools and Apps to make your life easier." />
+	
+    <!-- end meta tags -->
+
+    </head>
+    <body>
+
+        <main>
+        <button aria-label="Sidebar Toggle" id="sidebar-toggle" onclick="closeOrOpen()" alt="Sidebar Toggle">
+		<img src="/pix/menu_icon.svg" alt="Sidebar Toggle">
+        </button>
+
+        <aside id="sidebar">
+
+            
+					<!-- Main navigation -->
+					<ul id="navigation">
+							<li id="">
+								<a href="../.." >Home</a>
+								
+							</li>
+							<li id="">
+								<a href="../../About/" >About</a>
+								
+							</li>
+							<li id="">
+								<p class="navtitle">Audio</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Audio/Music/">Music</a>
+		
+	</li>
+									
+	<li class="nested">
+		<p class="navtitle">Ripping</p>
+		<ul>
+			
+	<li >
+			<a class="navtitle"  href="../../Audio/Ripping/EAC/">EAC Ripping (CD)</a>
+		
+	</li>
+		</ul>
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Emulation</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Emulation/Emulators/">Emulators</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Emulation/ROMs/">ROMs</a>
+		
+	</li>
+									
+	<li class="nested">
+		<p class="navtitle">Bemani</p>
+		<ul>
+			
+	<li >
+			<a class="navtitle"  href="../../Emulation/Bemani/Links/">Useful Resources</a>
+		
+	</li>
+		</ul>
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Literature</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Literature/Manga/">Manga</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Literature/e-Books/">e-Books</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Mobile</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Mobile/Android/">Android</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Mobile/iOS/">iOS</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">PC Software</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../PC-Software/Games/">Games</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../PC-Software/Software/">Software</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Scene</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Scene/PTs/">Private Trackers</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Scene/PreDBs/">PreDBs</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Scene/Scene-Glossary/">Scene Glossary</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">TV</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../TV/Anime/">Anime</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../TV/Shows/">Movies & Shows</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="current">
+								<p class="navtitle">Utilities</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../Debloating/">De-bloating Windows</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../Leaks/">Accounts & Leaks</a>
+		
+	</li>
+									
+	<li id="current">
+			<a class="navtitle" onclick="collapseCurrent()" ><img src="/pix/expand_more.svg" id="expand_icon" alt="Expand More">Miscellaneous</a>
+		        <nav id="tocnav">
+            <div class="container">
+                <ul class="toc">
+                    
+                        <li><a href="#browser-extensions">Browser Extensions</a></li>
+                        
+                    
+                        <li><a href="#browser-userscripts">Browser UserScripts</a></li>
+                        
+                    
+                        <li><a href="#useful-apps">Useful Apps</a></li>
+                        
+                    
+                        <li><a href="#useful-websites">Useful Websites</a></li>
+                        
+                    
+                        <li><a href="#informational">Informational</a></li>
+                        
+                    
+                </ul>
+            </div>
+        </nav>
+	</li>
+								</ul>
+							</li>
+					</ul>
+
+
+        <h1 class="site-name"><a class="home-link" href="/">Ripped</a></h1>
+
+        <div class="credits-container">
+        <p class="credits"><b><a href="https://github.com/rippedpiracy/docs" target="_blank" rel="noreferrer">GitHub</a>|<a href="https://discord.gg/6qVr2aR">Discord</a></b></p>
+		<p class="credits"><b>Site Theme by Creatable</b></p>
+        </div>
+
+        </aside>
+        <section id="content" class="open">
+            <div class="article-info-container">
+		
+                  <h1 class="article-title">Miscellaneous</h1>
+		
+                
+                
+            </div>
+                <h1 id="browser-extensions">Browser Extensions</h1>
+<p><sub>We recommend coupling these Extensions &amp; UserScripts with <a href="https://www.mozilla.org/en-US/firefox/developer/" target="_blank"><strong>Firefox Developer Edition</strong></a> or <a href="https://github.com/Eloston/ungoogled-chromium" target="_blank"><strong>Ungoogled Chromium</strong></a>.</sub></p>
+<p><a href="https://fastforward.team" target="_blank"><strong>FastForward</strong></a> - Don't waste your time with compliance, FastForward circumvents link shorteners. <br />
+<em><small>Actively maintained fork of the now inactive <a href="https://github.com/Sainan/Universal-Bypass" target="_blank">Universal-Bypass</a>.</small></em></p>
+<p><a href="https://github.com/gorhill/uBlock" target="_blank"><strong>uBlock Origin</strong></a> - An efficient AdBlocker for Chromium and Firefox, fast and lean.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rentry.co/FilterStalker" target="_blank">Filter Stalker</a> - A collection of Filter lists by <strong>LukeThighStalker</strong>.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/bogachenko/fuckfuckadblock" target="_blank">fuckfuckadblock</a> - Filters for blocking Pop-ups and Anti-AdBlocks.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/piperun/iploggerfilter" target="_blank">iplogger</a> - Filters any site who's only purpose is to log your IP.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Karmesinrot/Anifiltrs" target="_blank">Anifiltrs</a> - A collection of Filter lists for Anime Streaming, Manga reading, and Downloading of other Japanese Media.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/yourduskquibbles/webannoyances" target="_blank">Web Annoyances Ultralist</a> - Fix and remove annoying web elements such as sticky headers, floating boxes, etc.</p>
+<p><a href="https://docs.clearurls.xyz/" target="_blank"><strong>ClearURLs</strong></a> - Remove Tracking elements from URLs.</p>
+<p><a href="https://noscript.net/" target="_blank"><strong>NoScript</strong></a> - Allow/Disallow JavaScript, Flash, Java and other executable Content to only run on websites of your choice.<br />
+<strong><em>Can be difficult to setup for the Average User.</em></strong><br />
+<a href="https://privacybadger.org/" target="_blank"><strong>Privacy Badger</strong></a> - Automatically analyze and block Trackers.<br />
+<a href="https://www.localcdn.org/" target="_blank"><strong>LocalCDN</strong></a> | <a href="https://decentraleyes.org/" target="_blank"><strong>Decentraleyes</strong></a> - Emulates Content Delivery Networks to improve online Privacy. It intercepts traffic, finds supported resources locally, and injects them into the environment instead of fetching them from external services like Google or other CDNs. LocalCDN is the recommended extension for Firefox but it may break some sites.<br />
+<em><small><a href="https://codeberg.org/nobody/LocalCDN#installation" target="_blank">Links</a> for installing LocalCDN on Firefox for Mobile and Chromium Browsers.</small></em><br />
+<a href="https://disconnect.me/disconnect" target="_blank"><strong>Disconnect</strong></a> - Visualize and block the invisible websites that track your Search and Browsing History.    </p>
+<p><a href="https://tosdr.org/downloads" target="_blank"><strong>ToS;DR</strong></a> - Grades websites based on their Terms of Service agreements and Privacy Policies. It also gives short summaries of those agreements. Has a website too that allows searching through its database <a href="https://tosdr.org/" target="_blank">here</a>.</p>
+<p><a href="https://chrome.google.com/webstore/detail/the-marvellous-suspender/noogafoofpebimajpfpamcfhoaifemoa" target="_blank"><strong>The Marvellous Suspender (<span style="color:red">Chromium</span>)</strong></a> &amp; <a href="https://github.com/dvalter/ff-thegreatsuspender" target="_blank"><strong>The Great Suspender (<span style="color:red">Firefox</span>)</strong></a> | <a href="https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl" target="_blank"><strong>Tabs Outliner (<span style="color:red">Chromium</span>)</strong></a> - Manually / Automatically suspend/unsuspend Tabs to save up RAM usage.  </p>
+<p><a href="https://github.com/dessant/search-by-image" target="_blank"><strong>Search by Image</strong></a> - Quickly &amp; Efficiently Reverse Image Search on 35+ different Search Engines.<br />
+<a href="https://add0n.com/save-images.html" target="_blank"><strong>Download All Images</strong></a> - Download all Images from any web page you're on.</p>
+<p><a href="https://github.com/dessant/buster" target="_blank"><strong>Buster</strong></a> - reCAPTCHA solver extension for Humans.  </p>
+<p><a href="https://github.com/dessant/web-archives" target="_blank"><strong>Web Archives</strong></a> - Makes it easy to view archived and cached versions of web pages.</p>
+<p><a href="https://github.com/gildas-lormeau/SingleFile" target="_blank"><strong>SingleFile</strong></a> &amp; <a href="https://github.com/gildas-lormeau/SingleFileZ" target="_blank"><strong>SingleFileZ</strong></a> -  Save a full copy of an entire web page in a single HTML file. SingleFileZ saves pages slightly differently so that the downloaded .html file can be opened as an archive.</p>
+<p><a href="https://add0n.com/useragent-switcher.html" target="_blank"><strong>UserAgent-Switcher</strong></a> - A highly configurable User-Agent Switcher that can spoof per hostname, per window, per container (Firefox only), or randomly from an array.</p>
+<p><a href="https://github.com/stoically/temporary-containers" target="_blank"><strong>Temporary Containers (<span style="color:red">Firefox</span>)</strong></a> - Allows you to open tabs, websites, and links in automatically managed disposable containers. Containers isolate data websites store (cookies, storage, and more) from each other.<br />
+<a href="https://github.com/Cookie-AutoDelete/Cookie-AutoDelete" target="_blank"><strong>Cookie AutoDelete</strong></a> - Deletes cookies and other browsing site data as soon as a Browser Tab closes, domain changes or browser restarts.</p>
+<p><a href="https://add0n.com/allow-right-click.html" target="_blank"><strong>Allow Right Click</strong></a> - Re-enable right clicking on sites that disable it.</p>
+<p><a href="https://www.downthemall.org/" target="_blank"><strong>DownThemAll!</strong></a> | <a href="https://setvisible.github.io/DownZemAll/" target="_blank"><strong>DownZemAll!</strong></a> - DownThemAll is a mass download manager directly built inside the Browser, whereas DownZemAll is a fork of DownThemAll with more features but a required desktop client for it to function. They are mostly used for site scraping (such as images).<br />
+<a href="https://sasrip.sas41.com/Home/MediaReaper" target="_blank"><strong>Media Reaper</strong></a> - Easily download videos and audio files from any site that youtube-dl supports, found <a href="https://ytdl-org.github.io/youtube-dl/supportedsites.html" target="_blank">here</a>.</p>
+<p><a href="https://violentmonkey.github.io" target="_blank"><strong>ViolentMonkey</strong></a> | <a href="https://www.tampermonkey.net" target="_blank"><strong>Tampermonkey</strong></a> - Browser UserScript Managers, used for loading in Userscripts that work similar to Browser Extensions.<br />
+<em><small>We do not recommend using <a href="https://www.greasespot.net" target="_blank">GreaseMonkey</a> as there is evidence that it has tracked its users, its compatibility isn't great, and it's not very actively maintained.</small></em><br />
+<a href="https://add0n.com/stylus.html" target="_blank"><strong>Stylus</strong></a> - Browser UserStyles Manager, used for loading CSS files for customising the appearance of webpages.</p>
+<p><a href="https://sponsor.ajay.app/" target="_blank"><strong>SponsorBlock</strong></a> - Skip YouTube Sponsorships &amp; Shoutouts.<br />
+<a href="https://returnyoutubedislike.com/" target="_blank"><strong>Return YouTube Dislike</strong></a> - Unhides the dislike count on Youtube.</p>
+<h1 id="browser-userscripts">Browser UserScripts</h1>
+<p><sub><strong>Requires a Browser UserScript Manager, such as <a href="https://violentmonkey.github.io" target="_blank">ViolentMonkey</a>.</strong></sub></p>
+<p><a href="https://github.com/AdguardTeam/PopupBlocker" target="_blank"><strong>AdGuard Popup Blocker</strong></a> - Blocks all unwanted Pop-up windows in different Browsers.</p>
+<p><a href="https://github.com/adsbypasser/adsbypasser" target="_blank"><strong>AdsBypasser</strong></a> - FastForward alternative, bypasses count-downs. <br />
+<a href="https://greasyfork.org/en/scripts/431691-bypass-all-shortlinks" target="_blank"><strong>Bypass All Shortlinks</strong></a> - Shortlink Bypasser, bypassess some sites other tools can't bypass.<br />
+<a href="https://github.com/PrimePlaya24/dl-site-scrubber" target="_blank"><strong>SiteScrubber</strong></a> - Skip certain Timers or Ads and remove clutter that make it harder to Download from certain DDL sites.</p>
+<p><a href="https://openuserjs.org/scripts/nokeya/Direct_links_out" target="_blank"><strong>Direct links out</strong></a> - Skips redirection pages and removes redirect tracking from urls</p>
+<p><a href="https://greasyfork.org/en/scripts/31088-morecaptcha" target="_blank"><strong>MoreCAPTCHA</strong></a> - Speeds up solving Google reCAPTCHA challenges by shortening transition effects and providing continuous selection ability.</p>
+<p><a href="https://pastebin.com/raw/4AXkE1yE" target="_blank"><strong>Mega.nz Unlimited Import</strong></a> - Import any file/folder to your Mega Cloud without worrying about the space it takes as long as your Storage isn't full.</p>
+<p><a href="https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/" target="_blank"><strong>YouTube Age Bypass</strong></a> - Bypass YouTube's Age restricted videos.</p>
+<p><a href="https://greasyfork.org/en/scripts/33005-direct-download-from-google-play/" target="_blank"><strong>Direct Download from Google Play</strong></a> - Adds APK-DL, APKPure, APKCombo, APKPremier, APKMirror and Evozi download buttons to Google Play Store when browsing apps, allowing the download of the APK.</p>
+<h1 id="useful-apps">Useful Apps</h1>
+<p><a href="https://7-zip.org/" target="_blank"><strong>7-Zip</strong></a> | <a href="https://www.win-rar.com/" target="_blank"><strong>WinRAR</strong></a> | <a href="https://github.com/M2Team/NanaZip" target="_blank"><strong>NanaZip</strong></a> - File archivers, can pack and unpack many archive types such as 7z, rar, zip. NanaZip is a fork of 7-Zip with added functionality and better support for Windows 11.</p>
+<p><a href="https://www.diskanalyzer.com/" target="_blank"><strong>WizTree</strong></a> | <a href="http://www.uderzo.it/main_products/space_sniffer/" target="_blank"><strong>SpaceSniffer</strong></a> - See exactly what's taking up space on your drives. </p>
+<p><a href="https://processhacker.sourceforge.io/" target="_blank"><strong>Process Hacker</strong></a> - Helps monitor system resources, debug software and detect Malware, advanced version of Task Manager.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/processhacker/plugins-extra" target="_blank">plugins-extra</a> - Incomplete and potentially buggy plugins that are not included with Process Hacker by default.  <br />
+<a href="https://www.winitor.com/" target="_blank"><strong>pe-studio</strong></a> - Spots artifacts of executables in order to aid in Malware Analysis.<br />
+<a href="https://cuckoosandbox.org/" target="_blank"><strong>Cuckoo Sandbox</strong></a> - An advanced, extremely modular, and 100% FOSS automated Malware Analysis system.</p>
+<p><strong><a href="https://github.com/ValdikSS/GoodbyeDPI" target="_blank">GoodByeDPI</a></strong> &amp; <strong><a href="https://github.com/mguludag/GUI-for-GoodbyeDPI" target="_blank">GoodByeDPI GUI</a></strong> | <strong><a href="https://github.com/krlvm/PowerTunnel" target="_blank">PowerTunnel</a></strong> &amp; <strong><a href="https://github.com/krlvm/PowerTunnel-Android" target="_blank">PowerTunnel for Android</a></strong> - Simple, scalable, cross-platform and effective solutions on Government blocked Websites. An alternative to using VPNs to unblock sites.<br />
+<em><small>For GoodByeDPI GUI to work you will have to disable "Settings &gt; Software Settings &gt; Auto Check Updates" and relaunch the app.</small></em></p>
+<p><a href="https://www.internetdownloadmanager.com/" target="_blank"><strong>IDM</strong></a> | <a href="https://jdownloader.org/jdownloader2" target="_blank"><strong>JD2</strong></a> | <a href="https://xtremedownloadmanager.com/" target="_blank"><strong>XDM</strong></a> | <a href="https://motrix.app/" target="_blank"><strong>Motrix</strong></a> | <a href="https://www.freedownloadmanager.org/" target="_blank"><strong>FDM</strong></a> - Download Managers that can boost Download speeds. Motrix and FDM support Torrenting, XDM is best for capturing downloads from your Browser, and JD2 is best for downloading multiple files simultaneously.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/meowcateatrat/elephant" target="_blank">Elephant</a> - Adds YT-DLP support to FDM, meaning it can download from all <a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md" target="_blank">these</a> sites.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/ZediAlreadyTaken/guides/-/blob/main/jdownloader2.md" target="_blank">JDownloader 2 Guide</a> - A guide for setting up JDownloader 2.</p>
+<p><a href="https://github.com/yt-dlp/yt-dlp" target="_blank"><strong>YT-DLP</strong></a> - Can download from over 1500 sites including: Crunchyroll, Funimation, SoundCloud, Bandcamp, PornHub and more. <a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md" target="_blank">Link</a> to all supported sites.<br />
+<em><small>Actively maintained fork of the popular YouTube Downloader <a href="https://ytdl-org.github.io/youtube-dl/" target="_blank">youtube-dl</a> with more functionality.</small></em><br />
+<a href="https://stacher.io/" target="_blank"><strong>Stacher</strong></a> - A modern YouTube Downloader, also a front-end/GUI for <a href="https://ytdl-org.github.io/youtube-dl/" target="_blank">youtube-dl</a>.<br />
+<a href="https://www.tubedigger.com/index.html" target="_blank"><strong>TubeDigger</strong></a> - Advanced Media Downloader, have wider support for capturing and downloading media.<br />
+<a href="https://www.redfox.bz/anystream.html" target="_blank"><strong>AnyStream</strong></a> - Netflix, Amazon Prime, Hulu, HBOmax and Disney+ Downloader, officially supports up to 1080p. <br />
+<a href="https://www.flixicam.com/" target="_blank"><strong>FlixiCam</strong></a> - Netflix &amp; Amazon Prime Downloader. </p>
+<p><a href="https://streamlink.github.io/" target="_blank"><strong>Streamlink</strong></a> - Allows video streams from various services such as Twitch and Youtube into a video player, like VLC.<br />
+<em><small>Actively maintained fork of the now inactive <a href="https://livestreamer.io/" target="_blank">Livestreamer</a>.</small></em></p>
+<p><a href="https://github.com/ImminentFate/CompactGUI" target="_blank"><strong>CompactGUI</strong></a> | <a href="https://github.com/Freaky/Compactor" target="_blank"><strong>Compactor</strong></a> - Transparently compresses games, programs and other folders with virtually no performance loss. </p>
+<p><a href="https://github.com/xCryptic/MegaKeep" target="_blank"><strong>MegaKeep</strong></a> - Log into multiple mega.nz accounts to keep files from being deleted.</p>
+<p><a href="https://www.henrypp.org/product/simplewall" target="_blank"><strong>simplewall</strong></a> - Simple tool to configure the Windows Filtering Platform (WFP) which can configure Network Activity on your PC.</p>
+<p><a href="https://github.com/TheJoeFin/Text-Grab" target="_blank"><strong>Text-Grab</strong></a> - Use OCR to grab and read text from images. </p>
+<p><a href="https://github.com/idrassi/HashCheck" target="_blank"><strong>HashCheck</strong></a> | <a href="https://github.com/namazso/OpenHashTab" target="_blank"><strong>OpenHashTab</strong></a> &amp; <a href="https://www.ov2.eu/programs/rapidcrc-unicode" target="_blank"><strong>RapidCRC Unicode</strong></a> - Convenient and Efficient File Hash checkers and verifiers, they also integrate into Windows Shell.</p>
+<p><a href="https://github.com/chromeflashdevs/Chrome-Flash-Edition/releases" target="_blank"><strong>Chrome Flash Edition</strong></a> - A version of Google Chrome that doesn't update, so Flash still works with it.<br />
+<em><small><b>This is very outdated and vulnerable to attacks. Do <u>NOT</u> use this as a main Browser!</b></small></em></p>
+<p><a href="https://kdeconnect.kde.org/" target="_blank"><strong>KDE Connect</strong></a> - Powerful application to integrate your phone with your computer and vice-versa allowing sharing files and more.</p>
+<p><a href="https://kdenlive.org/en/" target="_blank"><strong>Kdenlive</strong></a> - Open source free video editor.</p>
+<p><a href="https://obsproject.com/" target="_blank"><strong>Open Broadcaster Software (OBS)</strong></a> - Open source application for streaming and recording.</p>
+<h1 id="useful-websites">Useful Websites</h1>
+<p><a href="https://web.archive.org/" target="_blank"><strong>Internet Archive</strong></a> | <a href="https://archive.today/" target="_blank"><strong>Webpage archive</strong></a> - Sites that host archived versions of other sites. You can archive any site you want too.</p>
+<p><a href="https://www.virustotal.com/" target="_blank"><strong>VirusTotal</strong></a> - Quickly sends the File you want to Analyze through various popular Anti-Malware scaners.<br />
+<a href="https://analyze.intezer.com/" target="_blank"><strong>Intezer Analyze</strong></a> | <a href="https://www.hybrid-analysis.com/" target="_blank"><strong>Hybrid Analysis</strong></a> | <a href="https://www.joesandbox.com/" target="_blank"><strong>Joe Sandbox</strong></a> | <a href="https://manalyzer.org/" target="_blank"><strong>Manalyzer</strong></a> | <a href="https://yomi.yoroi.company/" target="_blank"><strong>YOMI</strong></a> | <a href="https://www.filescan.io/" target="_blank"><strong>FileScan</strong></a> | <a href="https://any.run" target="_blank"><strong>Any.run</strong></a> - Virus Scanners that check for Malicious Files by Sandboxing and logging their behavior.<br />
+<strong><em>Some may require Sign-Up.</em></strong>  </p>
+<p><a href="https://haveibeenpwned.com/" target="_blank"><strong>Have I Been Pwned</strong></a> - Check if your email or phone number is in a data breach.</p>
+<p><a href="https://unshorten.it/" target="_blank"><strong>UnshortenIt</strong></a> | <a href="https://thebypasser.com/" target="_blank"><strong>Linkvertise Bypasser</strong></a> - Unshorten annoying Ad-links on the spot.</p>
+<p><a href="https://unsee.cc/" target="_blank"><strong>Unsee</strong></a> - Privately / Temporarily host your secret Images for reasons.</p>
+<p><a href="https://jstrieb.github.io/link-lock" target="_blank"><strong>Link Lock</strong></a> - Password-protect URLs using AES in the Browser and the ability to create hidden bookmarks without a Browser extension.</p>
+<p><a href="https://urlscan.io/" target="_blank"><strong>urlscan</strong></a> - Allows you to see a Image preview of a Potentially Unsafe Website without actually visiting it yourself.</p>
+<p><a href="https://jstrieb.github.io/urlpages/" target="_blank"><strong>URL Pages</strong></a> - Create and view web pages stored entirely in the URL.</p>
+<h1 id="informational">Informational</h1>
+<p><a href="https://spyware.neocities.org/articles/" target="_blank"><strong>Spyware Watchdog</strong></a> - Site which periodically analyzes apps for spying behavior and helps you mitigate it.</p>
+<p><a href="https://filehostlist.miraheze.org/wiki/Main_Page" target="_blank"><strong>File Hosting Wiki</strong></a> - Wiki for Premium Leechers, Torrent Leechers and Debrids.</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1ijfqfLrJWLUVBfJZ_YalVpstWsjw-JGzkvMd6u2jqEk/edit?usp=sharing" target="_blank"><strong>VPN Comparison Table</strong></a> - <a href="https://vpn.reddit.com" target="_blank">r/VPN</a>'s Google Spreadsheet that compares various popular VPNs, ranking the best ones for your needs.  </p>
+<p><a href="https://privacyguides.org/" target="_blank"><strong>PrivacyGuides</strong></a> - <a href="https://PrivacyGuides.reddit.com" target="_blank">r/PrivacyGuides</a>'s Website, has good information about various Security and Privacy Tools.<br />
+<a href="https://www.reddit.com/r/privacy/wiki/index" target="_blank"><strong>r/Privacy Wiki</strong></a> - A Privacy Wiki by <a href="https://privacy.reddit.com" target="_blank">r/Privacy</a>.</p>
+<p><a href="https://rtech.support/" target="_blank"><strong>TechSupport Wiki</strong></a> - <a href="https://techsupport.reddit.com" target="_blank">r/TechSupport</a>'s Wiki that has some useful Tech Guides.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rtech.support/books/safety-and-security/page/malware-guide" target="_blank">Malware Removal Guide</a> - Guide that may help you remove Malware.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rtech.support/books/safety-and-security/page/ransomware" target="_blank">Ransomware Mitigation Guide</a> - Helps to mitigate and prevent a Ransomware attack.  </p>
+<p><a href="https://www.videohelp.com/software" target="_blank"><strong>Video Software Downloads</strong></a> - Indexes many Video/Audio and other Media Ripping/Recording/Encoding tools.<br />
+<em><small>A <a href="https://www.videohelp.com/guides" target="_blank">Guides</a> section is also available with walkthroughs on various uses of these Tools.</small></em></p>
+<p><a href="https://luong-komorebi.github.io/Awesome-Linux-Software" target="_blank"><strong>Awesome Linux Software</strong></a> &amp; <a href="https://www.fossmint.com/awesome-linux-software" target="_blank"><strong>Awesome Linux Software v2</strong></a> - A collection of Linux applications and tools for any Users/Developers.</p>
+<p><a href="https://www.reddit.com/r/Piracy/wiki/megathread" target="_blank"><strong>r/Piracy</strong></a> - The <a href="https://piracy.reddit.com" target="_blank">r/Piracy</a> Megathread. <strong>No longer maintained.</strong><br />
+<a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/index/" target="_blank"><strong>r/FREEMEDIAHECKYEAH</strong></a> - A Wiki by the FMHY community, they also have a <a href="https://fmhy.tk/guides" target="_blank">guides</a> section.<br />
+<a href="https://weboasis.app/" target="_blank"><strong>WebOasis</strong></a> - An index of plenty of useful sites and apps, also has a forum <a href="https://chat.weboasis.app/home" target="_blank">here</a>. <strong>R.I.P Webby.</strong><br />
+<strong>Do <u>NOT</u> use any of these Wikis for Software/Game sites. Use ours instead.</strong></p>
+
+        <footer>
+	
+            <div class="inline">
+		
+		<b><p class="article-info">Last updated: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 10, 2023</span></p></b>
+		
+            </div>
+            <div style="float: right; margin-top: 0.1em;">
+				<p class="article-info">
+					<a href="https://github.com/rippedpiracy/docs/blob/master/Utilities/Misc.md" target="_blank">
+						<strong>Contribute on</strong>
+						<img src="/pix/github.svg" alt="Github"/>
+					</a>
+				</p>
+            </div>
+	
+        </footer>
+
+    </section>
+
+        </main>
+    <a id="darkmodetoggle" onclick="switchTheme()"><img src="/pix/dark_mode.svg" alt="Dark Mode Toggle"></a>
+    </body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+          <meta charset="utf-8">
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+          <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+	  
+          <title>Android - Ripped</title>
+	  
+          <link rel="stylesheet" href="../../css/style.css">
+          <link rel="stylesheet" href="/css/codehilite.css">
+
+        <script>var base_url = '../..';</script>
+        
+
+        <script src="/js/tocscroll.js"></script>
+        <!--        <script src="/js/clearinput.js"></script> -->
+        <script src="/js/dark.js"></script>
+        <script src="/js/nav.js"></script>
+
+        <!--  for embeds -->
+        <meta name="theme-color" content="#5468ff">
+
+	
+          <meta name="description" content="List of useful Android mobile apps.">
+
+          <meta property="og:title" content="Android" />
+          <meta property="og:image" content="https://github.com/rippedpiracy/site/raw/master/custom_theme/pix/ripped.png" />
+          <meta property="og:site_name" content="Ripped" />
+          <meta property="og:description" content="List of useful Android mobile apps." />
+	
+    <!-- end meta tags -->
+
+    </head>
+    <body>
+
+        <main>
+        <button aria-label="Sidebar Toggle" id="sidebar-toggle" onclick="closeOrOpen()" alt="Sidebar Toggle">
+		<img src="/pix/menu_icon.svg" alt="Sidebar Toggle">
+        </button>
+
+        <aside id="sidebar">
+
+            
+					<!-- Main navigation -->
+					<ul id="navigation">
+							<li id="">
+								<a href="../.." >Home</a>
+								
+							</li>
+							<li id="">
+								<a href="../../About/" >About</a>
+								
+							</li>
+							<li id="">
+								<p class="navtitle">Audio</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Audio/Music/">Music</a>
+		
+	</li>
+									
+	<li class="nested">
+		<p class="navtitle">Ripping</p>
+		<ul>
+			
+	<li >
+			<a class="navtitle"  href="../../Audio/Ripping/EAC/">EAC Ripping (CD)</a>
+		
+	</li>
+		</ul>
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Emulation</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Emulation/Emulators/">Emulators</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Emulation/ROMs/">ROMs</a>
+		
+	</li>
+									
+	<li class="nested">
+		<p class="navtitle">Bemani</p>
+		<ul>
+			
+	<li >
+			<a class="navtitle"  href="../../Emulation/Bemani/Links/">Useful Resources</a>
+		
+	</li>
+		</ul>
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Literature</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Literature/Manga/">Manga</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Literature/e-Books/">e-Books</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="current">
+								<p class="navtitle">Mobile</p>
+
+								<ul>
+									
+	<li id="current">
+			<a class="navtitle" onclick="collapseCurrent()" ><img src="/pix/expand_more.svg" id="expand_icon" alt="Expand More">Android</a>
+		        <nav id="tocnav">
+            <div class="container">
+                <ul class="toc">
+                    
+                        <li><a href="#browsers">Browsers</a></li>
+                        
+                    
+                        <li><a href="#privacy">Privacy</a></li>
+                        
+                    
+                        <li><a href="#file-managers">File Managers</a></li>
+                        
+                    
+                        <li><a href="#videomusic">Video/Music</a></li>
+                        
+                    
+                        <li><a href="#torrenting">Torrenting</a></li>
+                        
+                    
+                        <li><a href="#mods">Mods</a></li>
+                        
+                    
+                        <li><a href="#miscellaneous">Miscellaneous</a></li>
+                        
+                    
+                </ul>
+            </div>
+        </nav>
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../iOS/">iOS</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">PC Software</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../PC-Software/Games/">Games</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../PC-Software/Software/">Software</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Scene</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Scene/PTs/">Private Trackers</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Scene/PreDBs/">PreDBs</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Scene/Scene-Glossary/">Scene Glossary</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">TV</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../TV/Anime/">Anime</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../TV/Shows/">Movies & Shows</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Utilities</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Utilities/Debloating/">De-bloating Windows</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Utilities/Leaks/">Accounts & Leaks</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Utilities/Misc/">Miscellaneous</a>
+		
+	</li>
+								</ul>
+							</li>
+					</ul>
+
+
+        <h1 class="site-name"><a class="home-link" href="/">Ripped</a></h1>
+
+        <div class="credits-container">
+        <p class="credits"><b><a href="https://github.com/rippedpiracy/docs" target="_blank" rel="noreferrer">GitHub</a>|<a href="https://discord.gg/6qVr2aR">Discord</a></b></p>
+		<p class="credits"><b>Site Theme by Creatable</b></p>
+        </div>
+
+        </aside>
+        <section id="content" class="open">
+            <div class="article-info-container">
+		
+                  <h1 class="article-title">Android</h1>
+		
+                
+                
+            </div>
+                <h2 id="browsers">Browsers</h2>
+<p><a href="https://play.google.com/store/apps/details?id=org.mozilla.fenix" target="_blank"><strong>Firefox Nightly</strong></a> | <a href="https://f-droid.org/en/packages/org.mozilla.fennec_fdroid" target="_blank"><strong>Fennec</strong></a> - Developmental and current version of Firefox that allows the ability to use more add-ons other than just the curated list.<br />
+<a href="https://blog.mozilla.org/addons/2020/09/29/expanded-extension-support-in-firefox-for-android-nightly/" target="_blank">Guide</a> for adding extensions to Firefox.</p>
+<p><a href="https://kiwibrowser.com/" target="_blank"><strong>Kiwi Browser</strong></a> - Chromium-based Web Browser that supports extensions.</p>
+<h2 id="privacy">Privacy</h2>
+<p><a href="https://github.com/krlvm/PowerTunnel-Android" target="_blank"><strong>PowerTunnel</strong></a> - Powerful and extensible proxy server with anti-censorship functionality for Android.</p>
+<p><a href="https://adaway.org/" target="_blank"><strong>AdAway</strong></a> - Open source mobile ad-blocker with a focus on privacy.
+<strong>Benefits from having Root access.</strong>  </p>
+<h2 id="file-managers">File Managers</h2>
+<p><a href="https://mixplorer.com/" target="_blank"><strong>MiXplorer</strong></a> - Fully-featured Android file manager that supports multiple cloud storages and server protocols.</p>
+<p><a href="https://x0b.github.io/docs/" target="_blank"><strong>RCX</strong></a> - Android port of <a href="https://rclone.org/" target="_blank">Rclone</a> that can connect to supported cloud providers.</p>
+<h2 id="videomusic">Video/Music</h2>
+<p><a href="https://xmanagerapp.com/" target="_blank"><strong>xManager</strong></a> - Manage and install all versions of the Spotify app, unlocking Premium features such as No-Ads and skips.</p>
+<p><a href="https://dentex.github.io/" target="_blank"><strong>Dentex YouTube Downloader</strong></a> - Allows users to download YouTube videos and extract/convert audio.</p>
+<p><a href="https://github.com/jackBonadies/SeekerAndroid" target="_blank"><strong>Seeker</strong></a> - Unofficial Soulseek client for Android.</p>
+<p><a href="https://github.com/JunkFood02/Seal" target="_blank"><strong>Seal</strong></a> - Video/Audio downloader for yt-dlp <a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md" target="_blank">supported video platforms</a>.</p>
+<p><a href="https://github.com/mpv-android/mpv-android" target="_blank"><strong>MPV-Android</strong></a> - A free media player that supports a wide variety of media file formats, audio and video codecs, and subtitle types.</p>
+<h2 id="torrenting">Torrenting</h2>
+<p><a href="https://www.nzb360.com/" target="_blank"><strong>nzb360</strong></a> (Paid) | <a href="https://www.lunasea.app/" target="_blank"><strong>LunaSea</strong></a> - Usenet/Torrent managers. Useful for those who utilize seedboxes.</p>
+<h2 id="mods">Mods</h2>
+<p><a href="https://github.com/revanced/revanced-manager" target="_blank"><strong>ReVanced</strong></a> - Android app patcher that provides patches to popular apps such as YouTube.</p>
+<p><a href="https://github.com/Aliucord/Aliucord" target="_blank"><strong>Aliucord</strong></a> - Plugin-based Discord mod for Android.<br />
+<em><small>Note that Aliucord only supports versions </em><em>before the React Native update</em><em> (all versions before 126.21). There is a rewrite of the mod for the newer versions called <a href="https://github.com/Aliucord/AliucordRN" target="_blank">AliucordRN</a>, but it is a work in progress.</small></em></p>
+<h2 id="miscellaneous">Miscellaneous</h2>
+<p><a href="https://www.luckypatchers.com/" target="_blank"><strong>Lucky Patcher</strong></a> - Android app modifier, can be used to cheat, hack or crack Software. </p>
+
+        <footer>
+	
+            <div class="inline">
+		
+		<b><p class="article-info">Last updated: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 29, 2022</span></p></b>
+		
+            </div>
+            <div style="float: right; margin-top: 0.1em;">
+				<p class="article-info">
+					<a href="https://github.com/rippedpiracy/docs/blob/master/Mobile/Android.md" target="_blank">
+						<strong>Contribute on</strong>
+						<img src="/pix/github.svg" alt="Github"/>
+					</a>
+				</p>
+            </div>
+	
+        </footer>
+
+    </section>
+
+        </main>
+    <a id="darkmodetoggle" onclick="switchTheme()"><img src="/pix/dark_mode.svg" alt="Dark Mode Toggle"></a>
+    </body>
+</html>

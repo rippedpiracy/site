@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+          <meta charset="utf-8">
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+          <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+	  
+          <title>Emulators - Ripped</title>
+	  
+          <link rel="stylesheet" href="../../css/style.css">
+          <link rel="stylesheet" href="/css/codehilite.css">
+
+        <script>var base_url = '../..';</script>
+        
+
+        <script src="/js/tocscroll.js"></script>
+        <!--        <script src="/js/clearinput.js"></script> -->
+        <script src="/js/dark.js"></script>
+        <script src="/js/nav.js"></script>
+
+        <!--  for embeds -->
+        <meta name="theme-color" content="#5468ff">
+
+	
+          <meta name="description" content="Comprehensive list of Emulators.">
+
+          <meta property="og:title" content="Emulators" />
+          <meta property="og:image" content="https://github.com/rippedpiracy/site/raw/master/custom_theme/pix/ripped.png" />
+          <meta property="og:site_name" content="Ripped" />
+          <meta property="og:description" content="Comprehensive list of Emulators." />
+	
+    <!-- end meta tags -->
+
+    </head>
+    <body>
+
+        <main>
+        <button aria-label="Sidebar Toggle" id="sidebar-toggle" onclick="closeOrOpen()" alt="Sidebar Toggle">
+		<img src="/pix/menu_icon.svg" alt="Sidebar Toggle">
+        </button>
+
+        <aside id="sidebar">
+
+            
+					<!-- Main navigation -->
+					<ul id="navigation">
+							<li id="">
+								<a href="../.." >Home</a>
+								
+							</li>
+							<li id="">
+								<a href="../../About/" >About</a>
+								
+							</li>
+							<li id="">
+								<p class="navtitle">Audio</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Audio/Music/">Music</a>
+		
+	</li>
+									
+	<li class="nested">
+		<p class="navtitle">Ripping</p>
+		<ul>
+			
+	<li >
+			<a class="navtitle"  href="../../Audio/Ripping/EAC/">EAC Ripping (CD)</a>
+		
+	</li>
+		</ul>
+	</li>
+								</ul>
+							</li>
+							<li id="current">
+								<p class="navtitle">Emulation</p>
+
+								<ul>
+									
+	<li id="current">
+			<a class="navtitle" onclick="collapseCurrent()" ><img src="/pix/expand_more.svg" id="expand_icon" alt="Expand More">Emulators</a>
+		        <nav id="tocnav">
+            <div class="container">
+                <ul class="toc">
+                    
+                        <li><a href="#atari">Atari</a></li>
+                        
+                    
+                        <li><a href="#nintendo">Nintendo</a></li>
+                        
+                    
+                        <li><a href="#playstation">PlayStation</a></li>
+                        
+                    
+                        <li><a href="#sega">Sega</a></li>
+                        
+                    
+                        <li><a href="#retro-other">Retro - Other</a></li>
+                        
+                    
+                        <li><a href="#philips-cd-i">Philips CD-i</a></li>
+                        
+                    
+                        <li><a href="#multi-platform-arcade">Multi-Platform &amp; Arcade</a></li>
+                        
+                    
+                </ul>
+            </div>
+        </nav>
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../ROMs/">ROMs</a>
+		
+	</li>
+									
+	<li class="nested">
+		<p class="navtitle">Bemani</p>
+		<ul>
+			
+	<li >
+			<a class="navtitle"  href="../Bemani/Links/">Useful Resources</a>
+		
+	</li>
+		</ul>
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Literature</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Literature/Manga/">Manga</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Literature/e-Books/">e-Books</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Mobile</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Mobile/Android/">Android</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Mobile/iOS/">iOS</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">PC Software</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../PC-Software/Games/">Games</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../PC-Software/Software/">Software</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Scene</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Scene/PTs/">Private Trackers</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Scene/PreDBs/">PreDBs</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Scene/Scene-Glossary/">Scene Glossary</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">TV</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../TV/Anime/">Anime</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../TV/Shows/">Movies & Shows</a>
+		
+	</li>
+								</ul>
+							</li>
+							<li id="">
+								<p class="navtitle">Utilities</p>
+
+								<ul>
+									
+	<li >
+			<a class="navtitle"  href="../../Utilities/Debloating/">De-bloating Windows</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Utilities/Leaks/">Accounts & Leaks</a>
+		
+	</li>
+									
+	<li >
+			<a class="navtitle"  href="../../Utilities/Misc/">Miscellaneous</a>
+		
+	</li>
+								</ul>
+							</li>
+					</ul>
+
+
+        <h1 class="site-name"><a class="home-link" href="/">Ripped</a></h1>
+
+        <div class="credits-container">
+        <p class="credits"><b><a href="https://github.com/rippedpiracy/docs" target="_blank" rel="noreferrer">GitHub</a>|<a href="https://discord.gg/6qVr2aR">Discord</a></b></p>
+		<p class="credits"><b>Site Theme by Creatable</b></p>
+        </div>
+
+        </aside>
+        <section id="content" class="open">
+            <div class="article-info-container">
+		
+                  <h1 class="article-title">Emulators</h1>
+		
+                
+                
+            </div>
+                <p><sub>Check out the <a href="https://emulation.gametechwiki.com/" target="_blank">/emugen/ Wiki</a> for more info about emulators.</sub>
+&nbsp;</p>
+<h1 id="atari">Atari</h1>
+<p><strong>Atari 2600</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://stella-emu.github.io/downloads.html" target="_blank">Stella</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.whimsey.com/z26/" target="_blank">Z26</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://pcae.vg-network.com/" target="_blank">PCAE</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://sourceforge.net/projects/maria7800.berlios/" target="_blank">Maria</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://stella-emu.github.io/downloads.html" target="_blank">Stella</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.whimsey.com/z26/" target="_blank">Z26</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://www.emuparadise.me/emulators/files/user/com.androidemu.atari-5-1.0.4-691.rar" target="_blank">Ataroid</a></td>
+</tr>
+<tr>
+<td>Nintendo DS</td>
+<td><a href="https://www.emuparadise.me/emulators/files/StellaDS_V12.zip" target="_blank">Stella DS</a></td>
+</tr>
+<tr>
+<td>PlayStation Portable</td>
+<td><a href="http://zx81.zx81.free.fr/serendipity/index.php?/categories/31-Atari-2600" target="_blank">PSP2600</a></td>
+</tr>
+<tr>
+<td>PlayStation 3</td>
+<td><a href="https://www.emuparadise.me/emulators/files/user/stella-3.3-ps3-release3-cfw-1506.rar" target="_blank">Stella</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Atari 5200</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.xl-project.com/downloads.html" target="_blank">Atari ++</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Atari 7800</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://sourceforge.net/projects/maria7800.berlios/" target="_blank">Maria</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Atari Jaguar</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.icculus.org/virtualjaguar/" target="_blank">Virtual Jaguar</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://pt.emuunlim.com/" target="_blank">Project Tempest</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Atari Lynx</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://handy.sourceforge.net/download.htm" target="_blank">Handy</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Atari ST</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://hatari.tuxfamily.org/" target="_blank">Hatari</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://hatari.tuxfamily.org/" target="_blank">Hatari</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://hatari.tuxfamily.org/" target="_blank">Hatari</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<h1 id="nintendo">Nintendo</h1>
+<p><strong>Nintendo 64</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.pj64-emu.com/downloads/" target="_blank">PJ64</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.emulation64.com/files/info/197/1964.html/" target="_blank">1964</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://mupen64plus.org/" target="_blank">Mupen64Plus</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://www.pj64-emu.com/downloads/" target="_blank">PJ64</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.emulation64.com/files/info/197/1964.html/" target="_blank">1964</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://mupen64plus.org/" target="_blank">Mupen64Plus</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="http://www.pj64-emu.com/downloads/" target="_blank">PJ64</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.emulation64.com/files/info/197/1964.html/" target="_blank">1964</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://mupen64plus.org/" target="_blank">Mupen64Plus</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.aspieapps.free.emulator" target="_blank">MegaN64</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://play.google.com/store/apps/details?id=com.loyalgroupenterprise.tendo64android" target="_blank">Tendo64</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://play.google.com/store/apps/details?id=paulscode.android.mupen64plus.free" target="_blank">Mupen64Plus</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://play.google.com/store/apps/details?id=com.RobertApp.N64emulator" target="_blank">Emulator for N64</a></td>
+</tr>
+<tr>
+<td>PlayStation Portable</td>
+<td><a href="https://github.com/DaedalusX64/daedalus" target="_blank">DaedalusX64</a></td>
+</tr>
+<tr>
+<td>PlayStation Vita</td>
+<td><a href="https://github.com/Rinnegatamante/DaedalusX64-vitaGL" target="_blank">DaedalusX64-vitaGL</a></td>
+</tr>
+<tr>
+<td>Nintendo 3DS</td>
+<td><a href="https://github.com/masterfeizz/DaedalusX64-3DS" target="_blank">DaedalusX64-3DS</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo DS</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://desmume.org/" target="_blank">DeSmuME</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://melonds.kuribo64.net/downloads.php" target="_blank">melonDS</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://desmume.org/" target="_blank">DeSmuME</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://desmume.org/" target="_blank">DeSmuME</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://melonds.kuribo64.net/downloads.php" target="_blank">melonDS</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.dsemu.drastic&amp;hl=en" target="_blank">DraStic DS Emulator</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo 3DS</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://citra-emu.org/" target="_blank">Citra</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://citra-emu.org/" target="_blank">Citra</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://citra-emu.org/" target="_blank">Citra</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo Entertainment System</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://rocknes.web.fc2.com/" target="_blank">RockNES</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://jabosoft.com/home" target="_blank">Jnes</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://www.mesen.ca/" target="_blank">Mesen</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.fceux.com/web/home.html" target="_blank">FCEUX</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://sourceforge.net/projects/nestopia/" target="_blank">Nestopia</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.nostalgiaemulators.neslite&amp;hl=en" target="_blank">Nostalgia.NES</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.nesoid.com/" target="_blank">NESoid</a></td>
+</tr>
+<tr>
+<td>PlayStation Portable</td>
+<td><a href="http://wololo.net/downloads/index.php/download/426" target="_blank">NesterJ</a></td>
+</tr>
+<tr>
+<td>Nintendo DS</td>
+<td><a href="https://sourceforge.net/projects/nesds/" target="_blank">nesDS</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Super Nintendo Entertainment System</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://snes9x.ipherswipsite.com/" target="_blank">SNES9x</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://byuu.org/emulation/bsnes/" target="_blank">bSNES</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.zsnes.com/" target="_blank">ZSNES</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://gigo.retrogames.com/index.html" target="_blank">SNESGT</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://snes9x.ipherswipsite.com/" target="_blank">SNES9x</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://byuu.org/emulation/bsnes/" target="_blank">bSNES</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="http://www.zsnes.com/" target="_blank">ZSNES</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://byuu.org/emulation/bsnes/" target="_blank">bSNES</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td></td>
+</tr>
+<tr>
+<td>Nintendo DS</td>
+<td><a href="http://www.snemul.com/ds/" target="_blank">SNEmulDS</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://code.google.com/archive/p/snes9x-euphoria/" target="_blank">SNES9x</a></td>
+</tr>
+<tr>
+<td>PlayStation 3</td>
+<td><a href="http://psx-scene.com/forums/f190/snes9x-ps3-4-4-4-fw-1-92-fw-3-15-fw-3-41-cfw-3-55-released-75378/index2.html#post698157" target="_blank">SNES9x</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo Game Boy</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://bgb.bircd.org/" target="_blank">BGB</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.fastemulator.gbcfree&amp;hl=en" target="_blank">My Oldboy!</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy&amp;hl=en" target="_blank">Pizza Boy</a></td>
+</tr>
+<tr>
+<td>Nintendo DS</td>
+<td><a href="https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/" target="_blank">GameYob</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo Game Boy Color</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://bgb.bircd.org/" target="_blank">BGB</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://gigo.retrogames.com/download.html#tgb-dual" target="_blank">TGB Dual</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.fastemulator.gbcfree&amp;hl=en" target="_blank">My Oldboy!</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy&amp;hl=en" target="_blank">Pizza Boy</a></td>
+</tr>
+<tr>
+<td>Nintendo DS</td>
+<td><a href="https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/" target="_blank">GameYob</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/" target="_blank">Lameboy</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo Gameboy Advance</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://mgba.io/" target="_blank">mGBA</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.nogba.com/" target="_blank">No$GBA</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://vbalink.info/" target="_blank">VBALink</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://mgba.io/" target="_blank">mGBA</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.bannister.org/software/ba.htm" target="_blank">Boycott Advance</a></td>
+</tr>
+<tr>
+<td>PlayStation Portable</td>
+<td><a href="http://wololo.net/2016/05/11/psppsvita-gba-emulator-uo-gpsp-kai-v3-4-test-4-build-225/" target="_blank">UO gpSP Kai</a></td>
+</tr>
+<tr>
+<td>PlayStation Vita</td>
+<td><a href="https://docs.libretro.com/library/gpsp/" target="_blank">gpSP</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://sourceforge.net/projects/gameboid/" target="_blank">GameBoid</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://play.google.com/store/apps/details?id=com.fastemulator.gbafree&amp;hl=en" target="_blank">My Boy!</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo Gamecube</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://dolphin-emu.org/" target="_blank">Dolphin</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://whinecube.emulation64.com/" target="_blank">WhineCube</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://sourceforge.net/projects/supergcube/" target="_blank">SuperGCube</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://dolphin-emu.org/" target="_blank">Dolphin</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://dolphin-emu.org/" target="_blank">Dolphin</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://dolphin-emu.org/" target="_blank">Dolphin</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo Virtual Boy</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://code.google.com/archive/p/vbjin/" target="_blank">vbjin</a></td>
+</tr>
+<tr>
+<td>PSP / PS3 / Wii / 3DS / Wii U / Switch</td>
+<td><a href="https://github.com/libretro/beetle-vb-libretro" target="_blank">Mednafen</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo Wii</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://dolphin-emu.org/" target="_blank">Dolphin</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://dolphin-emu.org/" target="_blank">Dolphin</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://dolphin-emu.org/" target="_blank">Dolphin</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://dolphin-emu.org/" target="_blank">Dolphin</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo Wii U</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://cemu.info/" target="_blank">Cemu</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Nintendo Switch</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://pineappleea.github.io/" target="_blank">Yuzu EA</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://yuzu-emu.org/" target="_blank">Yuzu</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://ryujinx.org/" target="_blank">Ryujinx</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://pineappleea.github.io/" target="_blank">Yuzu EA</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://yuzu-emu.org/" target="_blank">Yuzu</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://ryujinx.org/" target="_blank">Ryujinx</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://github.com/skyline-emu/skyline" target="_blank">Skyline</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<h1 id="playstation">PlayStation</h1>
+<p><strong>PlayStation Portable</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.ppsspp.org/downloads.html" target="_blank">PPSSPP</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://www.ppsspp.org/downloads.html" target="_blank">jpcsp</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="http://www.ppsspp.org/downloads.html" target="_blank">PPSSPP</a></td>
+</tr>
+<tr>
+<td>Playstation Vita</td>
+<td><a href="https://github.com/TheOfficialFloW/Adrenaline" target="_blank">Adrenaline</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sony Playstation</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://github.com/stenzek/duckstation/" target="_blank">Duckstation</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.epsxe.com/" target="_blank">ePSXe</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://ngemu.com/threads/pcsxr-pgxp.186369/" target="_blank">PCSXR-PGXP</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://mednafen.github.io/" target="_blank">Mednafen</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://pcsxr.codeplex.com/" target="_blank">PCSX-Reloaded</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://github.com/stenzek/duckstation/" target="_blank">Duckstation</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.epsxe.com/" target="_blank">ePSXe</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://pcsxr.codeplex.com/" target="_blank">PCSX-Reloaded</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://mednafen.github.io/" target="_blank">Mednafen</a></td>
+</tr>
+<tr>
+<td></td>
+<td>pSX</td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://github.com/stenzek/duckstation/" target="_blank">Duckstation</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://play.google.com/store/apps/details?id=com.epsxe.ePSXe" target="_blank">ePSXe</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://play.google.com/store/apps/details?id=com.emulator.fpse" target="_blank">FPse</a></td>
+</tr>
+<tr>
+<td>PlayStation 2</td>
+<td><a href="http://psx-scene.com/forums/f292/ps2psxe-public-preview-feedback-discussions-64878/" target="_blank">PS2PSXe</a></td>
+</tr>
+<tr>
+<td>PlayStation Vita</td>
+<td><a href="https://github.com/TheOfficialFloW/Adrenaline" target="_blank">Adrenaline</a></td>
+</tr>
+<tr>
+<td>PlayStation Portable</td>
+<td><a href="https://gazellegames.net/wiki.php?action=article&amp;id=526" target="_blank">PSX2PSP</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sony Playstation 2</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://pcsx2.net/" target="_blank">PCSX2</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://pcsx2.net/" target="_blank">PCSX2</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="http://pcsx2.net/" target="_blank">PCSX2</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sony Playstation 3</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://rpcs3.net/" target="_blank">RPCS3</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://rpcs3.net/" target="_blank">RPCS3</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://rpcs3.net/" target="_blank">RPCS3</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<h1 id="sega">Sega</h1>
+<p><strong>Sega 32X</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sega Arcade Systems</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://teknogods.github.io/" target="_blank">TeknoParrot</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sega CD</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu&amp;hl=en" target="_blank">MD.emu</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sega Dreamcast</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://github.com/flyinghead/flycast" target="_blank">flycast</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://redream.io/" target="_blank">redream</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.emulator-zone.com/doc.php/dreamcast/dreamemu.html" target="_blank">DreamEMU</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://code.google.com/archive/p/nulldc/" target="_blank">nulldc</a></td>
+</tr>
+<tr>
+<td>MacOS</td>
+<td><a href="https://github.com/flyinghead/flycast" target="_blank">flycast</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://redream.io/" target="_blank">redream</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://code.google.com/archive/p/nulldc/" target="_blank">nulldc</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://redream.io/" target="_blank">redream</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.reicast.emulator" target="_blank">Reicast</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sega Game Gear</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://aamirm.hacking-cult.org/www/regen.html" target="_blank">Regen</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://aamirm.hacking-cult.org/www/regen.html" target="_blank">Regen</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sega Genesis - Sega Megadrive</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://aamirm.hacking-cult.org/www/regen.html" target="_blank">Regen</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.gens.me/" target="_blank">Gens</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://aamirm.hacking-cult.org/www/regen.html" target="_blank">Regen</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.gens.me/" target="_blank">Gens</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="http://www.gensoid.com/" target="_blank">GENSoid</a></td>
+</tr>
+<tr>
+<td>PlayStation Portable</td>
+<td><a href="http://notaz.gp2x.de/pico.php" target="_blank">PicoDrive</a></td>
+</tr>
+<tr>
+<td>Nintendo DS</td>
+<td><a href="http://www.workingdesign.de/projects/jenesisds.php" target="_blank">jEnesisDS</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sega Master System</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://aamirm.hacking-cult.org/www/regen.html" target="_blank">Regen</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://mednafen.github.io/" target="_blank">Mednafen</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://aamirm.hacking-cult.org/www/regen.html" target="_blank">Regen</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://mednafen.github.io/" target="_blank">Mednafen</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://mednafen.github.io/" target="_blank">Mednafen</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sega NAOMI</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://demul.emulation64.com/" target="_blank">DEmul</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://gdemu.wordpress.com/" target="_blank">GDEMU</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://code.google.com/archive/p/nulldc/" target="_blank">nulldc</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sega Saturn</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://yabause.org/" target="_blank">Yabause</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://segaretro.org/SSF" target="_blank">SSF</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<h1 id="retro-other">Retro - Other</h1>
+<p><strong>Acorn BBC Micro</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.mkw.me.uk/beebem/" target="_blank">BeebEm</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://www.g7jjf.com/beebemmac.htm" target="_blank">BeebEm</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Amiga</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://fellow.sourceforge.net/" target="_blank">WinFellow</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://www.winuae.net/" target="_blank">WinUAE</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://www.amigaforever.com/" target="_blank">Amiga Forever (Paid software)</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://gazellegames.net/torrents.php?id=27408" target="_blank">GGn Torrent</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Apple II</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://github.com/AppleWin/AppleWin" target="_blank">AppleWin</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Bandai Wonderswan</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://github.com/gameblabla/oswan" target="_blank">oswan</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Capcom Play System 2</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.winkawaks.org/downloads.htm" target="_blank">WinKawaks</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://forum.xda-developers.com/showthread.php?t=1483303" target="_blank">CPSEmu</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Capcom Play System 3</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://nebula.emulatronia.com/descargas.php" target="_blank">CPS3 Emulator</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Commodore 64</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://vice-emu.sourceforge.net/index.html#download" target="_blank">VICE</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="http://vice-emu.sourceforge.net/index.html#download" target="_blank">VICE</a></td>
+</tr>
+<tr>
+<td>PlayStation Portable</td>
+<td><a href="http://vice-emu.sourceforge.net/index.html#download" target="_blank">VICE</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>NEC PC-9800 series</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linux</td>
+<td><a href="https://github.com/AZO234/NP2kai" target="_blank">Neko Project II kai</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Neo Geo</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.neoragex.fr/" target="_blank">NeoRageX</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Neo Geo Pocket</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://www.emuparadise.me/emulators/files/user/NeoPop-0.71-Win32-1.06b-1975.zip" target="_blank">NeoPop</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Panasonic 3DO</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.fourdo.com/" target="_blank">4DO</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.freedo.org/" target="_blank">FreedO</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>PC Engine - TurboGrafx16</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.ouma.jp/ootake/" target="_blank">Ootake</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>PC Engine CD - Turbo Duo - TurboGrafx CD</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://www.ouma.jp/ootake/" target="_blank">Ootake</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.magicengine.com/" target="_blank">Magic Engine</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h1 id="philips-cd-i">Philips CD-i</h1>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://www.zophar.net/cd-i/cd-ice.html" target="_blank">CD-ice</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.cdiemu.org/" target="_blank">CD-i Emulator</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Sharp X68000</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://mijet.eludevisibility.org/XM6%20Pro-68k/XM6%20Pro-68k.html" target="_blank">XM6 Pro-68k</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>ZX Spectrum</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://fuse-emulator.sourceforge.net/" target="_blank">Fuse</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://www.zsnes.com/" target="_blank">ZSNES</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://zxspectrum4.net/" target="_blank">ZX Spectrum 4</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<h1 id="multi-platform-arcade">Multi-Platform &amp; Arcade</h1>
+<p><strong>M.A.M.E. - Multiple Arcade Machine Emulator</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="http://mamedev.org/release.html" target="_blank">M.A.M.E.</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://github.com/mamedev/mame" target="_blank">M.A.M.E.</a></td>
+</tr>
+<tr>
+<td>macOS</td>
+<td><a href="https://github.com/mamedev/mame" target="_blank">M.A.M.E.</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>Mednafen</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://mednafen.github.io/releases" target="_blank">Mednafen</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://mednafen.github.io/releases" target="_blank">Mednafen</a></td>
+</tr>
+<tr>
+<td>macOS</td>
+<td><a href="https://mednafen.github.io/releases" target="_blank">Mednafen</a></td>
+</tr>
+<tr>
+<td>*BSD</td>
+<td><a href="https://mednafen.github.io/releases" target="_blank">Mednafen</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>ScummVM</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://www.scummvm.org/" target="_blank">ScummVM</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://www.scummvm.org/" target="_blank">ScummVM</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://www.scummvm.org/" target="_blank">ScummVM</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://play.google.com/store/apps/details?id=org.scummvm.scummvm&amp;hl=pt_BR" target="_blank">ScummVM</a></td>
+</tr>
+<tr>
+<td>PS3 / PSP / OUYA / iOS / Dreamcast / Raspberry Pie / other</td>
+<td><a href="https://www.scummvm.org/downloads/" target="_blank">ScummVM</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>higan</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://github.com/higan-emu/higan" target="_blank">higan</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>MEKA</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://www.smspower.org/meka/" target="_blank">MEKA</a></td>
+</tr>
+<tr>
+<td>Mac</td>
+<td><a href="https://www.smspower.org/meka/" target="_blank">MEKA</a></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><a href="https://www.smspower.org/meka/" target="_blank">MEKA</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>TeknoParrot</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://teknogods.github.io/" target="_blank">TeknoParrot</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;
+<strong>OpenParrot</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Emulator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><a href="https://github.com/teknogods/OpenParrot" target="_blank">OpenParrot</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://github.com/teknogods/TeknoParrotUI" target="_blank">TeknoParrotUI</a></td>
+</tr>
+</tbody>
+</table>
+
+        <footer>
+	
+            <div class="inline">
+		
+		<b><p class="article-info">Last updated: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 2, 2023</span></p></b>
+		
+            </div>
+            <div style="float: right; margin-top: 0.1em;">
+				<p class="article-info">
+					<a href="https://github.com/rippedpiracy/docs/blob/master/Emulation/Emulators.md" target="_blank">
+						<strong>Contribute on</strong>
+						<img src="/pix/github.svg" alt="Github"/>
+					</a>
+				</p>
+            </div>
+	
+        </footer>
+
+    </section>
+
+        </main>
+    <a id="darkmodetoggle" onclick="switchTheme()"><img src="/pix/dark_mode.svg" alt="Dark Mode Toggle"></a>
+    </body>
+</html>
