@@ -3,7 +3,7 @@ site_url: https://ripped.guide
 
 repo_url: "https://github.com/rippedpiracy/docs"
 repo_name: "GitHub"
-edit_uri: "blob/master/"
+edit_uri: "docs/blob/master/"
 
 
 markdown_extensions:
