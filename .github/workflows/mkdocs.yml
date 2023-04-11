@@ -48,4 +48,4 @@ jobs:
       - name: Push build
         run: |
           pip install ghp-import
-          ghp-import --no-jekyll --message="Deploy $(git rev-parse --short $GITHUB_SHA) (minified)" --push --remote=origin --branch=gh-pages --no-history --force site
+          ghp-import --no-jekyll --message="Deploy $(git rev-parse --short $GITHUB_SHA)" --push --remote=origin --branch=gh-pages --no-history --force site
