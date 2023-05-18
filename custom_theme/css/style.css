@@ -180,19 +180,8 @@ h1.article-title {
 }
 
 footer {
-  margin-top: 1em;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
+  margin-top: 2em;
 }
-
-.icons {
-  height: 40px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
 
 p.article-info {
   font-size: small;
