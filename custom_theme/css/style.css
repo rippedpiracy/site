@@ -393,11 +393,11 @@ a.active #expand_icon {
 }
 /* END EXPAN ICON */
 
-/* BEGIN DARK TOGGLE */
+/* BEGIN TOP-RIGHT ICONS */
 #darkmodetoggle {
   position: fixed;
   top: 16px;
-  right: 15px;
+  right: 70px;
   cursor: pointer;
   user-select: none;
 }
@@ -413,7 +413,28 @@ a.active #expand_icon {
 #darkmodetoggle:hover:before {
   opacity: 1;
 }
-/* END DARK TOGGLE */
+
+#ico-disc {
+  top: 18px;
+  right: 41px;
+  cursor: pointer;
+  user-select: none;
+  height: 20px;
+  width: 25px;
+  display: block;
+  position: fixed;
+}
+#ico-gh img {
+  top: 18px;
+  right: 15px;
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+  position: fixed;
+  height: 19px;
+}
+
+/* END TOP-RIGHT ICONS */
 
 /* BEGIN TABLES */
 table {
