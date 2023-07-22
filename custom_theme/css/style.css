@@ -3,14 +3,12 @@
   font-family: Whitney;
   font-weight: 400;
   src: url(../fonts/Whitney400.woff) format("woff");
-  font-display: swap;
 }
 
 @font-face { /* Bold */
   font-family: Whitney;
   font-weight: 700;
   src: url(../fonts/Whitney700.woff) format("woff");
-  font-display: swap;
 }
 
 /* END FONTS */
