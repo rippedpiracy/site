@@ -35,9 +35,8 @@ function scrollListener() {
     window.removeEventListener("scroll", scrollListener);
   }
 
-  document
-    .querySelector('nav ul li a[href="#' + current + '"]')
-    .classList.add("active");
+let elem = document.querySelector('nav ul li a[href="#' + current + '"]');
+if (elem) elem.classList.add("active");
 }
 
 function removeAllActive() {
