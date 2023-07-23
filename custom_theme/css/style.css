@@ -365,7 +365,7 @@ p.navtitle {
   color: #fff;
   font-weight: 600;
 }
-a.navtitle {
+li {
   font-weight: 500;
 }
 ul.toc {
