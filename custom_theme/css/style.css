@@ -5,6 +5,12 @@
   src: url(../fonts/Whitney400.woff) format("woff");
 }
 
+@font-face { /* Slight-Bold */
+  font-family: Whitney;
+  font-weight: 500;
+  src: url(../fonts/Whitney500.woff) format("woff");
+}
+
 @font-face { /* Semi-Bold */
   font-family: Whitney;
   font-weight: 600;
@@ -358,6 +364,9 @@ p.navtitle {
   padding-bottom: 3px;
   color: #fff;
   font-weight: 600;
+}
+a.navtitle {
+  font-weight: 500;
 }
 ul.toc {
   margin-left: 1.5rem;
