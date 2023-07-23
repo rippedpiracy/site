@@ -5,6 +5,12 @@
   src: url(../fonts/Whitney400.woff) format("woff");
 }
 
+@font-face { /* Semi-Bold */
+  font-family: Whitney;
+  font-weight: 600;
+  src: url(../fonts/Whitney600.woff) format("woff");
+}
+
 @font-face { /* Bold */
   font-family: Whitney;
   font-weight: 700;
@@ -322,6 +328,7 @@ input[type="search"] {
 #sidebar a.active {
   background: var(--active-bg);
   border-color: var(--active-border);
+  font-weight: 600;
 }
 
 /* sidebar toggler */
@@ -350,6 +357,7 @@ div.search {
 p.navtitle {
   padding-bottom: 3px;
   color: #fff;
+  font-weight: 600;
 }
 ul.toc {
   margin-left: 1.5rem;
