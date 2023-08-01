@@ -11,6 +11,10 @@ markdown_extensions:
   - codehilite
 plugins:
   - ezlinks
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+          remove_comments: true
   - git-revision-date-localized:
       type: date
   - github-contributors:
