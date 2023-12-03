@@ -160,7 +160,7 @@ img {
 }
 
 #logo {
-  aspect-ratio: 1;
+  aspect-ratio: 1.3;
 }
 
 @media (min-width: 767px) { /* desktop only */
@@ -168,19 +168,22 @@ img {
     margin-left: var(--sidebar-width);
   }
   #logo {
-    aspect-ratio: 1.3 !important;
+    aspect-ratio: 1 !important;
   }
 }
 
-@media (min-width: 1920px) { /* 1080p and bigger only! */
-  #logo {
-    float: left;
-  }
+@media(min-width:1920px) {
   #banner {
-    margin-top: 165px;
+    margin-top:165px
   }
   #content {
-    padding: 70px;
+    padding:70px
+  }
+}
+
+@media(min-width:1921px) {
+  #logo {
+    float:left
   }
 }
   
