@@ -163,6 +163,9 @@ img {
   #content.open {
     margin-left: var(--sidebar-width);
   }
+  #logo {
+    aspect-ratio: 1.3 !important;
+  }
 }
 
 @media (min-width: 1920px) { /* 1080p and bigger only! */
