@@ -170,15 +170,15 @@ img {
 }
 
 @media(min-width:1920px) {
-  #banner {
-    margin-top:165px
-  }
   #content {
     padding:70px
   }
 }
 
 @media(min-width:1921px) {
+  #banner {
+    margin-top:165px
+  }
   #logo {
     float:left
   }
