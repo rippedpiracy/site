@@ -159,6 +159,10 @@ img {
   padding: 70px 30px;
 }
 
+#logo {
+  aspect-ratio: 1;
+}
+
 @media (min-width: 767px) { /* desktop only */
   #content.open {
     margin-left: var(--sidebar-width);
