@@ -213,6 +213,7 @@ p.article-info {
 }
 p.article-info img{
   margin-bottom: -0.2rem
+  margin-left: 0.1rem;
 }
 .article-info-container {
   margin-bottom: 1em;
