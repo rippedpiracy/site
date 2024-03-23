@@ -8,6 +8,6 @@ If you **do** suggest something, please keep note that it:
 - cannot be a single download link.
 - has to be hosted on the clearnet.
 
-# How do i contribute?
+# How do I contribute?
 
 Easily head over to the [**docs**](https://github.com/rippedpiracy/docs) repo and make an issue or a Pull Request.
