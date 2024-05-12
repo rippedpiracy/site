@@ -114,6 +114,19 @@ html {
 div.inline {
   display: inline-block;
 }
+.js-disabled {
+  position: absolute;
+  left: 22.8em;
+  top: 1.2em;
+  color: red;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: var(--theme-color);
+  padding: 8px;
+  z-index: 10;
+  text-shadow: 2px 2px 3px black;
+}
 .unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -314,6 +327,12 @@ input[type="search"] {
   #sidebar.open {
     /* on mobile, just give it that extra 3d special sauce */
     box-shadow: 10px 0 15px 0 #0004;
+  }
+  .js-disabled {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 12px;
   }
 }
 
@@ -578,4 +597,8 @@ table.contributors-github {
     padding: 0 !important;
     margin: 0 !important;
   }
+}
+
+noscript #darkmodetoggle {
+  display: none;
 }
