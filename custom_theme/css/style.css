@@ -56,7 +56,7 @@ html {
 
   --sidebar-background: #2f3136;
   --sidebar-border: transparent;
-  --sidebar-width: 335px;
+  --sidebar-width: 300px;
   --sidebar-padding: 0 25px;
 
   --active-bg: var(--theme-color);
