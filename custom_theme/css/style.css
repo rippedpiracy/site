@@ -115,17 +115,18 @@ div.inline {
   display: inline-block;
 }
 .js-disabled {
-  position: absolute;
-  left: 22.8em;
-  top: 1.2em;
-  color: red;
-  border-style: solid;
-  border-radius: 5px;
-  border-width: 1px;
-  border-color: var(--theme-color);
-  padding: 8px;
-  z-index: 10;
-  text-shadow: 2px 2px 3px black;
+  position:absolute;
+  left:26em;
+  top:1.2em;
+  color:red;
+  border-style:solid;
+  border-radius:5px;
+  border-width:1px;
+  border-color:var(--theme-color);
+  padding:8px;
+  z-index:10;
+  text-shadow:2px 2px 3px #000;
+  font-size: 14px;
 }
 .unselectable {
   -webkit-touch-callout: none;
@@ -329,10 +330,15 @@ input[type="search"] {
     box-shadow: 10px 0 15px 0 #0004;
   }
   .js-disabled {
+    top: 0.2em;
     left: 50%;
+    width: 50%;
     transform: translateX(-50%);
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
+  }
+  .js-disabled::after {
+  content: "You cannot open the sidebar.";
   }
 }
 
