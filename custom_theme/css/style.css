@@ -121,7 +121,7 @@ div.inline {
   color:red;
   border-style:solid;
   border-radius:5px;
-  border-width:1px;
+  border-width:2px;
   border-color:var(--theme-color);
   padding:8px;
   z-index:10;
@@ -303,7 +303,7 @@ input[type="search"] {
   height: 100dvh;
   width: var(--sidebar-width);
   background: var(--sidebar-background);
-  border-right: 1px solid var(--sidebar-border);
+  border-right: 2px solid var(--sidebar-border);
   position: fixed;
   padding: var(--sidebar-padding);
   overflow-y: auto;
