@@ -303,7 +303,7 @@ input[type="search"] {
   height: 100dvh;
   width: var(--sidebar-width);
   background: var(--sidebar-background);
-  border-right: 2px solid var(--sidebar-border);
+  border-right: 1px solid var(--sidebar-border);
   position: fixed;
   padding: var(--sidebar-padding);
   overflow-y: auto;
@@ -359,7 +359,7 @@ input[type="search"] {
   padding: 8px;
   padding-left: 12px;
   color: #b9bbbe;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 #sidebar a:hover,
 #sidebar a.active {
