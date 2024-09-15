@@ -25,6 +25,7 @@ plugins:
           - 41898282
           - 90579530
           - 69554869
+          - 17099837
 theme:
     name: null
     custom_dir: 'custom_theme/'
