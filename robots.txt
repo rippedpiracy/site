@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://ripped.guide/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
