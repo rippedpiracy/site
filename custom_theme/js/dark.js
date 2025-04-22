@@ -1,10 +1,13 @@
+const themeKey = "theme";
+const darkClass = "dark";
+
+// Apply stored theme on load
+document.documentElement.classList.toggle(
+  darkClass,
+  localStorage.getItem(themeKey) === darkClass
+);
+
 function switchTheme() {
-  const currentIsDark = document.documentElement.classList.contains("dark");
-  localStorage.setItem("theme", currentIsDark ? "light" : "dark");
-
-  document.documentElement.classList.toggle("dark");
+  const isDark = document.documentElement.classList.toggle(darkClass);
+  localStorage.setItem(themeKey, isDark ? darkClass : "light");
 }
-
-// Get the current theme from local storage
-if (localStorage.getItem("theme") === "dark")
-  document.documentElement.classList.add("dark");
