@@ -65,35 +65,9 @@ function collapseCurrent() {
   currentActive();
 }
 
-// Highlight immediately when clicking a TOC link
-function setupTOCClickListeners() {
-  const links = document.querySelectorAll("nav ul li a");
-  links.forEach(link => {
-    link.addEventListener("click", (event) => {
-      const targetId = link.getAttribute("href").substring(1);
-      const target = document.getElementById(targetId);
-
-      if (target) {
-        event.preventDefault(); // prevent default anchor behavior
-
-        // Scroll to section
-        window.scrollTo({
-          top: target.offsetTop,
-          behavior: "smooth"
-        });
-
-        // Highlight immediately
-        removeAllActive();
-        link.classList.add("active");
-      }
-    });
-  });
-}
-
 window.addEventListener("load", () => {
   createAnchorList();
   scrollListener(); // Initial check
-  setupTOCClickListeners(); // Setup click-to-highlight
 });
 
 window.addEventListener("scroll", scrollListener);
