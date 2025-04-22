@@ -6,60 +6,94 @@ const createAnchorList = () =>
   ));
 
 const disableArrow = () =>
-  document.querySelector("img#expand_icon").classList.add("nodisplay");
+  document.querySelector("img#expand_icon")?.classList.add("nodisplay");
 
 function scrollListener() {
   const scrollTop = window.scrollY;
   removeAllActive();
 
-  const anchor_tops = window.anchors.map((a) => a.offsetTop);
-  anchor_tops.push(document.body.offsetHeight);
-  anchor_tops.sort((a, b) => a - b);
+  const anchorTops = window.anchors.map((a) => a.offsetTop);
+  anchorTops.push(document.body.offsetHeight); // Handle edge case at bottom
 
-  let current;
-  // i have no idea what this is doing, have fun! -- sink
+  let current = null;
   for (let i = 0; i < window.anchors.length; i++) {
-    const athird = i > 0 ? (anchor_tops[i] - anchor_tops[i - 1]) / 3 : 520;
-
+    const athird = i > 0 ? (anchorTops[i] - anchorTops[i - 1]) / 3 : 520;
     if (
-      scrollTop >= anchor_tops[i] - athird &&
-      (i === anchor_tops.length - 1 || scrollTop < anchor_tops[i + 1])
-    )
-      current = anchors[i].id;
+      scrollTop >= anchorTops[i] - athird &&
+      (i === anchorTops.length - 1 || scrollTop < anchorTops[i + 1])
+    ) {
+      current = window.anchors[i].id;
+    }
   }
 
-  if (window.anchors.length === 0) {
-    // if undefined, means no headers
+  // Handle bottom of page explicitly to ensure last item is highlighted
+  if (
+    window.anchors.length > 0 &&
+    window.innerHeight + window.scrollY >= document.body.offsetHeight - 5
+  ) {
+    current = window.anchors[window.anchors.length - 1].id;
+  }
+
+  if (!current && window.anchors.length === 0) {
     currentActive(true);
     disableArrow();
     window.removeEventListener("scroll", scrollListener);
+    return;
   }
 
-let elem = document.querySelector('nav ul li a[href="#' + current + '"]');
-if (elem) elem.classList.add("active");
+  const elem = document.querySelector(`nav ul li a[href="#${CSS.escape(current)}"]`);
+  if (elem) elem.classList.add("active");
 }
 
 function removeAllActive() {
-  for (let i = 0; i < window.anchors.length; i++)
-    document
-      .querySelector('nav ul li a[href="#' + anchors[i].id + '"]')
-      .classList.remove("active");
+  for (let i = 0; i < window.anchors.length; i++) {
+    const link = document.querySelector(
+      `nav ul li a[href="#${CSS.escape(window.anchors[i].id)}"]`
+    );
+    if (link) link.classList.remove("active");
+  }
 }
 
 function currentActive(override = false) {
-  if (!(window.anchors.length === 0 && !override))
-    document.querySelector("#current > a").classList.toggle("active");
+  if (!(window.anchors.length === 0 && !override)) {
+    document.querySelector("#current > a")?.classList.toggle("active");
+  }
 }
 
-// noinspection JSUnusedGlobalSymbols - used in some of the html templates
 function collapseCurrent() {
-  document.querySelector("#current ul.toc").classList.toggle("nodisplay");
+  document.querySelector("#current ul.toc")?.classList.toggle("nodisplay");
   currentActive();
+}
+
+// Highlight immediately when clicking a TOC link
+function setupTOCClickListeners() {
+  const links = document.querySelectorAll("nav ul li a");
+  links.forEach(link => {
+    link.addEventListener("click", (event) => {
+      const targetId = link.getAttribute("href").substring(1);
+      const target = document.getElementById(targetId);
+
+      if (target) {
+        event.preventDefault(); // prevent default anchor behavior
+
+        // Scroll to section
+        window.scrollTo({
+          top: target.offsetTop,
+          behavior: "smooth"
+        });
+
+        // Highlight immediately
+        removeAllActive();
+        link.classList.add("active");
+      }
+    });
+  });
 }
 
 window.addEventListener("load", () => {
   createAnchorList();
-  scrollListener(); // call initially so that there isn't everything inactive
+  scrollListener(); // Initial check
+  setupTOCClickListeners(); // Setup click-to-highlight
 });
 
 window.addEventListener("scroll", scrollListener);
