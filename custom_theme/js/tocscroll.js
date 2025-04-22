@@ -9,11 +9,16 @@ const disableArrow = () =>
   document.querySelector("img#expand_icon")?.classList.add("nodisplay");
 
 function scrollListener() {
+  if (!window.anchors || !Array.isArray(window.anchors)) {
+    createAnchorList();
+    if (!window.anchors.length) return;
+  }
+
   const scrollTop = window.scrollY;
   removeAllActive();
 
   const anchorTops = window.anchors.map((a) => a.offsetTop);
-  anchorTops.push(document.body.offsetHeight); // Handle edge case at bottom
+  anchorTops.push(document.body.offsetHeight); // For scroll-to-bottom edge case
 
   let current = null;
   for (let i = 0; i < window.anchors.length; i++) {
@@ -26,14 +31,15 @@ function scrollListener() {
     }
   }
 
-  // Handle bottom of page explicitly to ensure last item is highlighted
+  // Force-highlight last section when at bottom of page
   if (
-    window.anchors.length > 0 &&
-    window.innerHeight + window.scrollY >= document.body.offsetHeight - 5
+    window.innerHeight + scrollTop >= document.body.offsetHeight - 5 &&
+    window.anchors.length > 0
   ) {
     current = window.anchors[window.anchors.length - 1].id;
   }
 
+  // Handle no anchors (fail-safe)
   if (!current && window.anchors.length === 0) {
     currentActive(true);
     disableArrow();
@@ -46,6 +52,11 @@ function scrollListener() {
 }
 
 function removeAllActive() {
+  if (!window.anchors || !Array.isArray(window.anchors)) {
+    createAnchorList();
+    if (!window.anchors.length) return;
+  }
+
   for (let i = 0; i < window.anchors.length; i++) {
     const link = document.querySelector(
       `nav ul li a[href="#${CSS.escape(window.anchors[i].id)}"]`
