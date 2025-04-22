@@ -36,10 +36,14 @@
           <meta name="description" content="{{ page.meta.description }}" />
 	  <meta name="twitter:card" content="summary" />
           <meta property="og:title" content="{{ page.meta.title }}" />
-          <meta property="og:image" content="https://cdn.jsdelivr.net/gh/rippedpiracy/site/custom_theme/pix/ripped.png" />
+          <meta property="og:image" itemprop="image" content="https://cdn.jsdelivr.net/gh/rippedpiracy/site/custom_theme/pix/ripped.png" />
+	  <meta property="og:image:type" content="image/png">
+	  <meta property="og:image:width" content="300">
+	  <meta property="og:image:height" content="300">
           <meta property="og:site_name" content="{{ config.site_name }}" />
           <meta property="og:description" content="{{ page.meta.description }}" />
 	  <meta property="og:type" content="website" />
+	  <meta property="og:url" content="{{ config.site_url }}">
 	{% endif %}
     <!-- end meta tags -->
 
@@ -56,6 +60,14 @@
         	<p><strong>JavaScript is disabled!</strong> Functionality is affected.</p>
 	    </div>
 	</noscript>
+
+	<link itemprop="thumbnailUrl" href="https://cdn.jsdelivr.net/gh/rippedpiracy/site/custom_theme/pix/ripped.png">
+
+	<span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+	<link itemprop="url" href="https://cdn.jsdelivr.net/gh/rippedpiracy/site/custom_theme/pix/ripped.png">
+	</span>
+
+	    
         <main>
         <button aria-label="Sidebar Toggle" id="sidebar-toggle" onclick="closeOrOpen()" alt="Sidebar Toggle">
 		<img src="/pix/menu_icon.svg" alt="Sidebar Toggle" width="24" height="24">
