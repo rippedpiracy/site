@@ -1,4 +1,4 @@
-# Ripped Piracy
+# Ripped.guide
 
 Replacement for the #trusted-sites channel in the [Ripped Discord](https://discord.ripped.guide).
 
