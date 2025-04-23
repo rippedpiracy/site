@@ -538,7 +538,7 @@ a.active #expand_icon {
 #darkmodetoggle {
   position: absolute;
   top: 16px;
-  right: 70px;
+  right: 80px;
   cursor: pointer;
   user-select: none;
 }
@@ -564,7 +564,7 @@ html.dark #darkmodetoggle::before {
 
 #ico-disc {
   top: 18px;
-  right: 41px;
+  right: 46px;
   cursor: pointer;
   user-select: none;
   height: 20px;
