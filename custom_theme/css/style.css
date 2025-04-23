@@ -418,6 +418,7 @@ input[type="search"] {
   outline: none;
   width: 50px;
   height: 50px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #sidebar-toggle img {
