@@ -84,7 +84,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-:focus {
+:focus-visible {
   outline: 3px solid var(--link-color);
   border-radius: 5px;
   transition: none;
