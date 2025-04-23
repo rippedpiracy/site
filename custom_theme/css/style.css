@@ -94,6 +94,7 @@ html {
   --base-background-color: #000;
   --sidebar-background: #000;
   --toggle-color: #101010;
+  --link-color: #3387ea;
   --sidebar-border: var(--light-grey);
 
   --active-bg: none;
