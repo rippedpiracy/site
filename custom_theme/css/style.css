@@ -654,22 +654,33 @@ table.contributors-github {
 }
 
 @media (max-width: 767px) {
+  
   a.contributor img {
-    max-width: 50px;
+    max-width: 65px;
     user-select: none;
   }
 
   table.contributors-github td {
     padding: 4px;
   }
+  
     thead {
     display: none;
   }
 
+  table {
+    margin-left: calc(-50vw + 50%); /* Move table to the left to escape the margin */
+    margin-right: calc(-50vw + 50%); /* Move table to the right to escape the margin */
+    padding: 0 !important;
+    width: 100vw;
+  }
+  
   tbody {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 cells per row */
+    gap: 0; /* Adjust grid gap between cells */
   }
+  
   td {
     display: block;
     border: none !important;
