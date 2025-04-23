@@ -253,12 +253,12 @@ p.article-info img {
 
 blockquote {
   margin-left: 20px;
-  border-left: 3px solid var(--theme-color);
+  border-left: 4px solid var(--theme-color);
   padding: 0.7em;
   font-style: italic;
   font-weight: 600;
   background: #2f3136;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 blockquote p {
