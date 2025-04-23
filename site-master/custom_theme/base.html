@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> {%- block site_meta %}
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0"> {%- endblock %} {%- block htmltitle %} {% if page %} <title> {% if not page.meta.title %} {{ page.title }} {% endif %} {% if page.meta.title %} {{ page.meta.title }} {% endif %} - {{ config.site_name }}
+        </title> {% endif %} {%- endblock %} {%- block styles %}
+        <link rel="stylesheet" href="{{ 'css/style.css' | url }}">
+        <link rel="stylesheet" href="/css/codehilite.css"> {%- endblock %} <script>
+            var base_url = '{{ base_url }}';
+        </script> {% if 'search' in config['plugins'] %} <script src="/search/main.js" defer></script> {% endif %} <script src="/js/tocscroll.js"></script>
+        <!-- <script src="/js/clearinput.js"></script> -->
+        <script src="/js/dark.js"></script>
+        <meta name="theme-color" content="#5468ff"> {% if page %}
+        <meta name="description" content="{{ page.meta.description }}" />
+        <meta name="twitter:card" content="summary" />
+        <meta property="og:title" content="{{ page.meta.title }}" />
+        <meta property="og:image" content="https://cdn.jsdelivr.net/gh/rippedpiracy/site/custom_theme/pix/ripped.png" />
+        <meta property="og:site_name" content="{{ config.site_name }}" />
+        <meta property="og:description" content="{{ page.meta.description }}" /> {% endif %}
+        <!-- end meta tags -->
+    </head>
+    <body>
+        <noscript>
+            <style>
+                #darkmodetoggle {
+                    display: none;
+                }
+            </style>
+            <div class="js-disabled">
+                <p>
+                    <strong>JavaScript is disabled!</strong> Functionality is affected.
+                </p>
+            </div>
+        </noscript>
+        <main>
+            <input type="checkbox" id="sidebar-checkbox" hidden checked>
+            <label for="sidebar-checkbox" aria-label="Sidebar Toggle" id="sidebar-toggle" class="toggle-btn">
+                <img src="/pix/menu_icon.svg" alt="Sidebar Toggle" width="24" height="24">
+            </label>
+            <aside id="sidebar"> {% if 'search' in config['plugins'] %} {% include "search-modal.html" %} {% endif %} {%- block site_nav %} {%- if nav|length > 1 %} <ul id="navigation"> {%- for nav_item in nav %} {%- if nav_item.children %} <li id="{% if nav_item.active %}current{% endif %}">
+                        <p class="navtitle">{{ nav_item.title }}</p>
+                        <ul> {%- for nav_item in nav_item.children %} {% include "nav-sub.html" %} {%- endfor %} </ul>
+                    </li> {%- else %} <li id="{% if nav_item.active %}current{% endif %}">
+                        <a {% if not nav_item.active %}href="{{ nav_item.url|url }}" {% endif %} {% if nav_item.active %}onclick="collapseCurrent()" {% endif %}> {% if nav_item.active %} <img src="/pix/expand_more.svg" id="expand_icon"> {% endif %} {{ nav_item.title }}
+                        </a> {% if nav_item.active %} {% include "toc.html" %} {% endif %}
+                    </li> {%- endif %} {%- endfor %} </ul> {%- endif %} {%- endblock %} <h1 class="site-name">
+                    <a class="home-link" href="/">{{ config.site_name }}</a>
+                </h1>
+                <div class="credits-container">
+                    <p class="credits">
+                        <b>
+                            <a href="{{ config.repo_url }}" target="_blank" rel="noreferrer">{{ config.repo_name }}</a> | <a href="{{ config.extra.discord_url }}">Discord</a>
+                        </b>
+                    </p>
+                </div>
+            </aside>
+            <section id="content">
+                <div class="article-info-container"> {% if page and page.meta.no_show_title is not defined %} <h1 class="article-title">{{ page.meta.title }}</h1> {% endif %} {% if page and page.meta.author is defined %} <p class="article-info">Author: {{ page.meta.author }}</p> {% endif %} {% if page and page.meta.contributors is defined %} <p class="article-info">Contributors: {{ page.meta.contributors }}</p> {% endif %} </div> {%- block content %} {{ page.content }} {%- endblock %} <footer> {% if page and page.meta.no_show_footer is not defined %} <div class="inline"> {% if page.meta.git_revision_date_localized %} <b>
+                            <p class="article-info">Last updated: {{ page.meta.git_revision_date_localized }}</p>
+                        </b> {% endif %} </div>
+                    <div style="float: right; margin-top: 0.1em;">
+                        <p class="article-info">
+                            <a href="{{ page.edit_url }}" target="_blank">
+                                <strong>Contribute on</strong>
+                                <img src="/pix/github.svg" alt="Github" />
+                            </a>
+                        </p>
+                    </div> {% endif %}
+                </footer>
+            </section>
+        </main>
+        <a id="darkmodetoggle" onclick="switchTheme()">
+            <img src="/pix/dark_mode.svg" alt="Dark Mode Toggle" width="24" height="24">
+        </a>
+        <a id="ico-disc" href="https://discord.ripped.guide">
+            <img src="/pix/discord.svg" alt="Discord" width="25" height="19">
+        </a>
+        <a id="ico-gh" href="https://github.com/rippedpiracy/">
+            <img src="/pix/github.svg" alt="GitHub" width="19" height="19">
+        </a>
+    </body>
+</html>

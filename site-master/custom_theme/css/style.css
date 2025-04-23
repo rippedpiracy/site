@@ -41,8 +41,10 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: all 0.35s ease-in-out;
+  transition: all 0.3s;
+  /*noinspection CssUnknownProperty*/
   scrollbar-width: thin;
+  /*noinspection CssUnknownProperty*/
   scrollbar-color: hsla(113, 0%, 50%, 0.3) hsla(113, 0%, 50%, 0.1);
 }
 /* END GENERIC UTILITY TWEAKS */
@@ -53,7 +55,6 @@ html {
   --mono-saturation: 0%;
   --base-color: #e3e5e8;
   --theme-color: #5468ff;
-  --link-color: #00aff4;
   --light-grey: #4f545c;
 
   --base-font-family: Whitney;
@@ -62,7 +63,6 @@ html {
 
   --sidebar-background: #2f3136;
   --sidebar-border: transparent;
-  --toggle-color: #2f3136;
   --sidebar-width: 300px;
   --sidebar-padding: 0 25px;
 
@@ -81,19 +81,11 @@ html {
   --code-theme-comment: var(--light-grey);
 
   --contributors-even-color: #2f3136;
-  -webkit-tap-highlight-color: transparent;
-}
-
-:focus {
-  outline: 3px solid var(--link-color);
-  border-radius: 5px;
-  transition: none;
 }
 
 :root.dark {
   --base-background-color: #000;
   --sidebar-background: #000;
-  --toggle-color: #101010;
   --sidebar-border: var(--light-grey);
 
   --active-bg: none;
@@ -220,7 +212,7 @@ h1.article-title {
 }
 
 #content a {
-  color: var(--link-color);
+  color: #00aff4;
 }
 
 #content a:hover {
@@ -276,7 +268,6 @@ pre code {
   margin-top: 0.8em;
   hyphens: none;
 }
-
 code:not([class^="lang"]) {
   margin: 0 0.15em;
   white-space: pre-wrap;
@@ -285,7 +276,6 @@ code:not([class^="lang"]) {
   background: #18191c;
   color: #fff;
 }
-
 code {
   font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT",
     "Andale Mono", "Lucida Console", "DejaVu Sans Mono",
@@ -330,19 +320,9 @@ input[type="search"] {
   z-index: 1; /* on mobile, the sidebar renders on top of the content. */
   margin-left: var(--m-left);
   transform: translateX(var(--m-left));
+  transition: transform 0.3s;
   --m-left: calc(var(--sidebar-width) * -1);
 }
-
-@media (max-width: 500px) {
-  body:has(#sidebar-checkbox:not(:checked)) #darkmodetoggle,
-  body:has(#sidebar-checkbox:not(:checked)) #ico-disc,
-  body:has(#sidebar-checkbox:not(:checked)) #ico-gh {
-    opacity: 0;
-    visibility: hidden;
-    transition: all .2s linear;
-  }
-}
-
 
 @media (max-width: 767px) {
   #sidebar {
@@ -355,27 +335,10 @@ input[type="search"] {
     margin-left: 0 !important;
   }
 
-  #sidebar-checkbox:checked ~ #sidebar {
-    --m-left: calc(var(--sidebar-width) * -1) !important;
-    box-shadow: none !important;
-  }
-
-  #sidebar-checkbox:not(:checked) ~ #sidebar {
-    --m-left: 0 !important;
-    box-shadow: 10px 0 15px 0 #0004;
-  }
-
-  #sidebar-checkbox:checked ~ #content,
-  #sidebar-checkbox:not(:checked) ~ #content {
-    margin-left: 0 !important;
-  }
-
-  #sidebar-checkbox:checked + label#sidebar-toggle {
-    left: var(--toggle-offset) !important;
-  }
-
-  #sidebar-checkbox:not(:checked) + label#sidebar-toggle {
-    left: calc(var(--sidebar-width) + var(--toggle-offset)) !important;
+  body:has(#sidebar-checkbox:checked) #darkmodetoggle,
+  body:has(#sidebar-checkbox:checked) #ico-disc,
+  body:has(#sidebar-checkbox:checked) #ico-gh {
+    display: none !important;
   }
 }
 
@@ -414,25 +377,26 @@ input[type="search"] {
   font-weight: 600;
 }
 
+/* sidebar toggler */
 #sidebar-toggle {
+  cursor: pointer;
   position: fixed;
-  top: var(--toggle-offset);
-  left: var(--toggle-offset);
+  top: 25px;
+  left: calc(var(--sidebar-width) + 25px);
   z-index: 7;
-  background: var(--toggle-color);
+  background: var(--sidebar-background);
+  outline: none;
   border: none;
   margin: -1em;
   border-radius: 15px;
-  cursor: pointer;
-  outline: none;
   width: 50px;
   height: 50px;
 }
 
 #sidebar-toggle img {
-  margin: 13px;
+  position: relative;
+  top: -4px;
   user-select: none;
-  max-width: unset;
 }
 
 #sidebar-checkbox {
@@ -444,6 +408,7 @@ input[type="search"] {
 }
 
 #content {
+  transition: margin-left 0.3s;
   margin-left: 0;
 }
 
@@ -453,6 +418,20 @@ input[type="search"] {
 
 :root {
   --toggle-offset: 25px;
+}
+
+label[for="sidebar-checkbox"]#sidebar-toggle {
+  position: fixed;
+  top: var(--toggle-offset);
+  left: var(--toggle-offset);
+  z-index: 7;
+  background: var(--sidebar-background);
+  border: none;
+  padding: 1em;
+  margin: -1em;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: left 0.3s;
 }
 
 #sidebar-checkbox:checked + label[for="sidebar-checkbox"]#sidebar-toggle {
@@ -486,7 +465,6 @@ ul.toc {
 #sidebar > h1 .home-link {
   color: #fff;
   font-weight: bold;
-  user-select: none;
 }
 
 #sidebar > h1 {
@@ -504,8 +482,7 @@ p.credits {
 }
 
 .credits a {
-  color: var(--link-color) !important;
-  padding-left: 8px !important;
+  color: #00aff4 !important;
 }
 
 .credits a:hover {
@@ -536,7 +513,7 @@ a.active #expand_icon {
 
 /* BEGIN TOP-RIGHT ICONS */
 #darkmodetoggle {
-  position: absolute;
+  position: fixed;
   top: 16px;
   right: 70px;
   cursor: pointer;
@@ -551,15 +528,10 @@ a.active #expand_icon {
   top: 2px;
   width: max-content;
   transition-duration: 0.2s;
-  pointer-events: none;
 }
 
 #darkmodetoggle:hover:before {
   opacity: 1;
-}
-
-html.dark #darkmodetoggle::before {
-  content: "Dark Mode";
 }
 
 #ico-disc {
@@ -570,7 +542,7 @@ html.dark #darkmodetoggle::before {
   height: 20px;
   width: 25px;
   display: block;
-  position: absolute;
+  position: fixed;
 }
 
 #ico-gh img {
@@ -579,7 +551,7 @@ html.dark #darkmodetoggle::before {
   cursor: pointer;
   user-select: none;
   display: inline-block;
-  position: absolute;
+  position: fixed;
   height: 19px;
 }
 /* END TOP-RIGHT ICONS */
