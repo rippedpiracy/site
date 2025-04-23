@@ -549,10 +549,15 @@ a.active #expand_icon {
   top: 2px;
   width: max-content;
   transition-duration: 0.2s;
+  pointer-events: none;
 }
 
 #darkmodetoggle:hover:before {
   opacity: 1;
+}
+
+html.dark #darkmodetoggle::before {
+  content: "Dark Mode";
 }
 
 #ico-disc {
