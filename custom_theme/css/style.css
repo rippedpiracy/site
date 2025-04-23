@@ -41,7 +41,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: all 0.3s;
+  transition: all 0.35s ease-in-out;
   scrollbar-width: thin;
   scrollbar-color: hsla(113, 0%, 50%, 0.3) hsla(113, 0%, 50%, 0.1);
 }
@@ -328,7 +328,6 @@ input[type="search"] {
   z-index: 1; /* on mobile, the sidebar renders on top of the content. */
   margin-left: var(--m-left);
   transform: translateX(var(--m-left));
-  transition: transform 0.4s ease-out;
   --m-left: calc(var(--sidebar-width) * -1);
 }
 
@@ -421,7 +420,6 @@ input[type="search"] {
   margin: -1em;
   border-radius: 15px;
   cursor: pointer;
-  transition: left 0.4s ease-out;
   outline: none;
   width: 50px;
   height: 50px;
@@ -442,7 +440,6 @@ input[type="search"] {
 }
 
 #content {
-  transition: margin-left 0.4s ease-out;
   margin-left: 0;
 }
 
