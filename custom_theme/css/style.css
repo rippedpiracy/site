@@ -754,6 +754,18 @@ table.contributors-github {
   }
 }
 
+/* mobile only text */
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+}
+
 /* what if somebody wants to print idk */
 @media print {
   html {
