@@ -42,9 +42,7 @@ html {
   margin: 0;
   padding: 0;
   transition: all 0.3s;
-  /*noinspection CssUnknownProperty*/
   scrollbar-width: thin;
-  /*noinspection CssUnknownProperty*/
   scrollbar-color: hsla(113, 0%, 50%, 0.3) hsla(113, 0%, 50%, 0.1);
 }
 /* END GENERIC UTILITY TWEAKS */
@@ -268,6 +266,7 @@ pre code {
   margin-top: 0.8em;
   hyphens: none;
 }
+
 code:not([class^="lang"]) {
   margin: 0 0.15em;
   white-space: pre-wrap;
@@ -276,6 +275,7 @@ code:not([class^="lang"]) {
   background: #18191c;
   color: #fff;
 }
+
 code {
   font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT",
     "Andale Mono", "Lucida Console", "DejaVu Sans Mono",
@@ -320,9 +320,18 @@ input[type="search"] {
   z-index: 1; /* on mobile, the sidebar renders on top of the content. */
   margin-left: var(--m-left);
   transform: translateX(var(--m-left));
-  transition: transform 0.3s;
+  transition: transform 0.4s ease-out;
   --m-left: calc(var(--sidebar-width) * -1);
 }
+
+@media (max-width: 500px) {
+  body:has(#sidebar-checkbox:not(:checked)) #darkmodetoggle,
+  body:has(#sidebar-checkbox:not(:checked)) #ico-disc,
+  body:has(#sidebar-checkbox:not(:checked)) #ico-gh {
+    display: none !important;
+  }
+}
+
 
 @media (max-width: 767px) {
   #sidebar {
@@ -335,10 +344,27 @@ input[type="search"] {
     margin-left: 0 !important;
   }
 
-  body:has(#sidebar-checkbox:checked) #darkmodetoggle,
-  body:has(#sidebar-checkbox:checked) #ico-disc,
-  body:has(#sidebar-checkbox:checked) #ico-gh {
-    display: none !important;
+  #sidebar-checkbox:checked ~ #sidebar {
+    --m-left: calc(var(--sidebar-width) * -1) !important;
+    box-shadow: none !important;
+  }
+
+  #sidebar-checkbox:not(:checked) ~ #sidebar {
+    --m-left: 0 !important;
+    box-shadow: 10px 0 15px 0 #0004;
+  }
+
+  #sidebar-checkbox:checked ~ #content,
+  #sidebar-checkbox:not(:checked) ~ #content {
+    margin-left: 0 !important;
+  }
+
+  #sidebar-checkbox:checked + label#sidebar-toggle {
+    left: var(--toggle-offset) !important;
+  }
+
+  #sidebar-checkbox:not(:checked) + label#sidebar-toggle {
+    left: calc(var(--sidebar-width) + var(--toggle-offset)) !important;
   }
 }
 
@@ -377,18 +403,19 @@ input[type="search"] {
   font-weight: 600;
 }
 
-/* sidebar toggler */
 #sidebar-toggle {
-  cursor: pointer;
   position: fixed;
-  top: 25px;
-  left: calc(var(--sidebar-width) + 25px);
+  top: var(--toggle-offset);
+  left: var(--toggle-offset);
   z-index: 7;
   background: var(--sidebar-background);
-  outline: none;
   border: none;
+  padding: 1em;
   margin: -1em;
   border-radius: 15px;
+  cursor: pointer;
+  transition: left 0.4s ease-out;
+  outline: none;
   width: 50px;
   height: 50px;
 }
@@ -408,7 +435,7 @@ input[type="search"] {
 }
 
 #content {
-  transition: margin-left 0.3s;
+  transition: margin-left 0.4s ease-out;
   margin-left: 0;
 }
 
@@ -418,20 +445,6 @@ input[type="search"] {
 
 :root {
   --toggle-offset: 25px;
-}
-
-label[for="sidebar-checkbox"]#sidebar-toggle {
-  position: fixed;
-  top: var(--toggle-offset);
-  left: var(--toggle-offset);
-  z-index: 7;
-  background: var(--sidebar-background);
-  border: none;
-  padding: 1em;
-  margin: -1em;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: left 0.3s;
 }
 
 #sidebar-checkbox:checked + label[for="sidebar-checkbox"]#sidebar-toggle {
@@ -465,6 +478,7 @@ ul.toc {
 #sidebar > h1 .home-link {
   color: #fff;
   font-weight: bold;
+  user-select: none;
 }
 
 #sidebar > h1 {
@@ -483,6 +497,7 @@ p.credits {
 
 .credits a {
   color: #00aff4 !important;
+  padding-left: 8px !important;
 }
 
 .credits a:hover {
@@ -513,7 +528,7 @@ a.active #expand_icon {
 
 /* BEGIN TOP-RIGHT ICONS */
 #darkmodetoggle {
-  position: fixed;
+  position: absolute;
   top: 16px;
   right: 70px;
   cursor: pointer;
@@ -542,7 +557,7 @@ a.active #expand_icon {
   height: 20px;
   width: 25px;
   display: block;
-  position: fixed;
+  position: absolute;
 }
 
 #ico-gh img {
@@ -551,7 +566,7 @@ a.active #expand_icon {
   cursor: pointer;
   user-select: none;
   display: inline-block;
-  position: fixed;
+  position: absolute;
   height: 19px;
 }
 /* END TOP-RIGHT ICONS */
