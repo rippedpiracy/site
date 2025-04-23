@@ -52,17 +52,17 @@ html {
   --mono-hue: 113;
   --mono-saturation: 0%;
   --base-color: #e3e5e8;
-  --theme-color: #5468ff;
-  --link-color: #00aff4;
+  --theme-color: #5865f2;
+  --link-color: #72b1fc;
   --light-grey: #4f545c;
 
   --base-font-family: Whitney;
   --base-font-weight: 500;
-  --base-background-color: #36393f;
+  --base-background-color: #323339;
 
-  --sidebar-background: #2f3136;
+  --sidebar-background: #2c2d32;
   --sidebar-border: transparent;
-  --toggle-color: #2f3136;
+  --toggle-color: #2c2d32;
   --sidebar-width: 300px;
   --sidebar-padding: 0 25px;
 
