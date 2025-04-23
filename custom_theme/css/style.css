@@ -264,6 +264,11 @@ blockquote {
 blockquote p {
   margin: 0 !important;
 }
+
+html.dark blockquote {
+  background: #131416;
+}
+
 /* END GENERAL STYLING */
 
 /* BEGIN CODEBLOCKS */
