@@ -335,7 +335,9 @@ input[type="search"] {
   body:has(#sidebar-checkbox:not(:checked)) #darkmodetoggle,
   body:has(#sidebar-checkbox:not(:checked)) #ico-disc,
   body:has(#sidebar-checkbox:not(:checked)) #ico-gh {
-    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s linear;
   }
 }
 
