@@ -87,6 +87,7 @@ html {
 
 :focus-visible, a.contributor:focus b {
   outline: 3px solid var(--link-color);
+  outline-offset: 2px;
   border-radius: 5px;
   transition: none;
 }
@@ -338,6 +339,10 @@ input[type="search"] {
   margin-left: var(--m-left);
   transform: translateX(var(--m-left));
   --m-left: calc(var(--sidebar-width) * -1);
+}
+
+#sidebar a:focus-visible {
+  outline-offset: 0px !important;
 }
 
 @media (max-width: 500px) {
