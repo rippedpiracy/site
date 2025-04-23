@@ -53,6 +53,7 @@ html {
   --mono-saturation: 0%;
   --base-color: #e3e5e8;
   --theme-color: #5865f2;
+  --selection-color: #0078d7;
   --link-color: #72b1fc;
   --light-grey: #4f545c;
 
@@ -112,11 +113,11 @@ html {
 }
 
 ::selection {
-  background: var(--theme-color); /* WebKit/Blink Browsers */
+  background: var(--selection-color); /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: var(--theme-color); /* Gecko Browsers */
+  background: var(--selection-color); /* Gecko Browsers */
 }
 
 .nodisplay {
