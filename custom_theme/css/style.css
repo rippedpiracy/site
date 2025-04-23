@@ -140,7 +140,7 @@ div.inline {
 .js-disabled {
   position: absolute;
   left: 26em;
-  top: 1.2em;
+  top: 15px;
   color: red;
   border-style: solid;
   border-radius: 5px;
