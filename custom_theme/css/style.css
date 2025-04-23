@@ -488,6 +488,9 @@ li {
   font-weight: 500;
 }
 
+ul {
+  margin-left: 15px;
+}
 ul.toc {
   margin-left: 1.5rem;
 }
