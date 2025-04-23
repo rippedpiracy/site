@@ -45,6 +45,12 @@
 	  <meta property="og:type" content="website" />
 	  <meta property="og:url" content="{{ config.site_url }}">
 	{% endif %}
+
+	{% if page.url == "" %}
+            <link rel="preload" as="image" href="/img/rippedtransparent-cropped.svg" type="image/svg+xml">
+	    <link rel="preload" as="image" href="/img/ripped_banner.svg" type="image/svg+xml">
+        {% endif %}
+	    
     <!-- end meta tags -->
 
     </head>
