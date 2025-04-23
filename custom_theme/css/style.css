@@ -662,6 +662,29 @@ table.contributors-github {
   table.contributors-github td {
     padding: 4px;
   }
+    thead {
+    display: none;
+  }
+
+  tbody {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cells per row */
+  }
+  td {
+    display: block;
+    border: none !important;
+    box-sizing: border-box;
+    padding-top: 1.5rem !important;
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--base-background-color) !important;;
+  }
+
+  /* Remove gaps when the last row has fewer than 3 cells */
+  tr:last-child td:nth-child(3n+1) {
+    grid-column: span 3;
+  }
 }
 /* END TABLES */
 
