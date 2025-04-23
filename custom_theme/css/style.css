@@ -85,7 +85,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-:focus-visible {
+:focus-visible, a.contributor:focus b {
   outline: 3px solid var(--link-color);
   border-radius: 5px;
   transition: none;
@@ -622,6 +622,15 @@ table.contributors-github, td {
 a.contributor img {
   max-width: 100px;
   user-select: none;
+}
+
+/* Remove the default focus outline */
+a.contributor:focus {
+  outline: none;
+}
+
+a.contributor:focus b {
+  outline-offset: 2px;
 }
 
 table.contributors-github {
