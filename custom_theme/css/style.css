@@ -205,6 +205,9 @@ img {
   #content {
     padding: 70px 100px;
   }
+  .js-disabled {
+    left: 400px
+  }
 }
 
 @media (min-width: 1921px) {
