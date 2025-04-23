@@ -62,6 +62,7 @@ html {
 
   --sidebar-background: #2f3136;
   --sidebar-border: transparent;
+  --toggle-color: #2f3136;
   --sidebar-width: 300px;
   --sidebar-padding: 0 25px;
 
@@ -92,6 +93,7 @@ html {
 :root.dark {
   --base-background-color: #000;
   --sidebar-background: #000;
+  --toggle-color: #101010;
   --sidebar-border: var(--light-grey);
 
   --active-bg: none;
@@ -417,7 +419,7 @@ input[type="search"] {
   top: var(--toggle-offset);
   left: var(--toggle-offset);
   z-index: 7;
-  background: var(--sidebar-background);
+  background: var(--toggle-color);
   border: none;
   margin: -1em;
   border-radius: 15px;
