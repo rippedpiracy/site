@@ -541,7 +541,7 @@ a.active #expand_icon {
 /* BEGIN TOP-RIGHT ICONS */
 #darkmodetoggle {
   position: absolute;
-  top: 16px;
+  top: 22px;
   right: 80px;
   cursor: pointer;
   user-select: none;
@@ -567,7 +567,7 @@ html.dark #darkmodetoggle::before {
 }
 
 #ico-disc {
-  top: 18px;
+  top: 24px;
   right: 46px;
   cursor: pointer;
   user-select: none;
@@ -578,7 +578,7 @@ html.dark #darkmodetoggle::before {
 }
 
 #ico-gh img {
-  top: 18px;
+  top: 24px;
   right: 15px;
   cursor: pointer;
   user-select: none;
