@@ -377,6 +377,10 @@ input[type="search"] {
   #sidebar-checkbox:not(:checked) + label#sidebar-toggle {
     left: calc(var(--sidebar-width) + var(--toggle-offset)) !important;
   }
+  /* When #sidebar-checkbox is checked, hide the ::before pseudo-element of #darkmodetoggle */
+  body:has(#sidebar-checkbox:not(:checked)) #darkmodetoggle::before {
+    display: none;
+  }
 }
 
 #sidebar input::placeholder {
