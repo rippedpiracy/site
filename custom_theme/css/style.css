@@ -636,6 +636,7 @@ table.contributors-github, td {
 a.contributor img {
   max-width: 100px;
   user-select: none;
+  border-radius: 50%;
 }
 
 /* Remove the default focus outline */
