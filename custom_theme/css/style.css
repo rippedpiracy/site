@@ -507,6 +507,7 @@ li {
 ul {
   margin-left: 15px;
 }
+
 ul.toc {
   margin-left: 1.5rem;
 }
@@ -515,6 +516,8 @@ ul.toc {
   color: #fff;
   font-weight: bold;
   user-select: none;
+  bottom: 6px;
+  position: relative;
 }
 
 #sidebar > h1 {
