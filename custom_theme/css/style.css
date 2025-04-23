@@ -754,7 +754,7 @@ table.contributors-github {
   }
 }
 
-/* mobile only text */
+/* mobile and pc only text */
 
 .mobile-only {
   display: none;
@@ -762,6 +762,16 @@ table.contributors-github {
 
 @media (max-width: 768px) {
   .mobile-only {
+    display: block;
+  }
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .desktop-only {
     display: block;
   }
 }
