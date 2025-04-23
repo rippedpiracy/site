@@ -766,12 +766,12 @@ table.contributors-github {
   }
 }
 
-.desktop-only {
+.pc-only {
   display: none;
 }
 
 @media (min-width: 769px) {
-  .desktop-only {
+  .pc-only {
     display: block;
   }
 }
