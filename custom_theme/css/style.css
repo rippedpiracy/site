@@ -53,6 +53,7 @@ html {
   --mono-saturation: 0%;
   --base-color: #e3e5e8;
   --theme-color: #5468ff;
+  --link-color: #00aff4;
   --light-grey: #4f545c;
 
   --base-font-family: Whitney;
@@ -80,6 +81,12 @@ html {
 
   --contributors-even-color: #2f3136;
   -webkit-tap-highlight-color: transparent;
+}
+
+:focus {
+  outline: 2px solid var(--link-color);
+  border-radius: 5px;
+  transition: none;
 }
 
 :root.dark {
@@ -211,7 +218,7 @@ h1.article-title {
 }
 
 #content a {
-  color: #00aff4;
+  color: var(--link-color);
 }
 
 #content a:hover {
@@ -497,7 +504,7 @@ p.credits {
 }
 
 .credits a {
-  color: #00aff4 !important;
+  color: var(--link-color) !important;
   padding-left: 8px !important;
 }
 
