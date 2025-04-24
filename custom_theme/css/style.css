@@ -380,7 +380,6 @@ input[type="search"] {
 /* Fade in again (when screen goes back to larger than 367px) */
 @media (min-width: 368px) {
   label[for="sidebar-checkbox"]#sidebar-toggle {
-    transition: 0.45s ease-in-out !important;
     animation: fadeBack 0.45s ease-in-out forwards;
   }
 }
