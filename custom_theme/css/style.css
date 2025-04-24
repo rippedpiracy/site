@@ -411,6 +411,15 @@ input[type="search"] {
     left: calc(var(--sidebar-width) + var(--toggle-offset)) !important;
   }
 
+  /* When #sidebar-checkbox is checked, hide the ::before pseudo-element of #darkmodetoggle */
+  body:has(#sidebar-checkbox:not(:checked)) #darkmodetoggle::before {
+    display: none;
+  }
+  
+  .js-disabled {
+   left: 70px
+  }
+
   .sidebar-overlay {
     display: none;
   }
