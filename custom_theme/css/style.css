@@ -352,6 +352,7 @@ input[type="search"] {
   label[for="sidebar-checkbox"]#sidebar-toggle {
     position: fixed !important;
     transition: 0.45s ease-in-out !important;
+    animation: fadeOutIn2 0.45s ease-in-out forwards;
   }
 
   #sidebar {
@@ -369,23 +370,19 @@ input[type="search"] {
     background: transparent !important;
   }
 
-  /* fade in and out to avoid the home text */
-  
+  /* fade in and out to avoid the home text */  
   #sidebar-checkbox:checked + .toggle-btn {
     animation: fadeOutIn 0.45s ease-in-out forwards;
   }
-
-  @keyframes fadeOutIn {
-   0%   { opacity: 1; }
-   8%   { opacity: 0.6; }   /* Smooth start of fade out */
-   16%  { opacity: 0.3; }   /* Keep fading smoothly */
-   24%  { opacity: 0; }     /* Fully transparent early */
-   60%  { opacity: 0; }     /* Stay hidden for a bit */
-   80%  { opacity: 0.3; }   /* Start fading back in smoothly */
-   90%  { opacity: 0.7; }   /* Almost visible */
-   100% { opacity: 1; }     /* Fully visible */
-  }
   
+}
+
+/* Fade in again (when screen goes back to larger than 367px) */
+@media (min-width: 368px) {
+  label[for="sidebar-checkbox"]#sidebar-toggle {
+    transition: 0.45s ease-in-out !important;
+    animation: fadeBack 0.45s ease-in-out forwards;
+  }
 }
 
 @media (max-width: 500px) {
@@ -844,3 +841,37 @@ table.contributors-github {
     margin: 0 !important;
   }
 }
+
+/* Keyframes */
+
+@keyframes fadeBack {
+ 0%   { opacity: 1; }
+ 8%   { opacity: 0.5; }   /* Smooth start of fade out */
+ 16%  { opacity: 0; }   /* Keep fading smoothly */
+ 24%  { opacity: 0; }     /* Fully transparent early */
+ 60%  { opacity: 0; }     /* Stay hidden for a bit */
+ 80%  { opacity: 0; }   /* Start fading back in smoothly */
+ 90%  { opacity: 0.5; }   /* Almost visible */
+ 100% { opacity: 1; }     /* Fully visible */
+}
+@keyframes fadeOutIn {
+ 0%   { opacity: 1; }
+ 8%   { opacity: 0.6; }   /* Smooth start of fade out */
+ 16%  { opacity: 0.3; }   /* Keep fading smoothly */
+ 24%  { opacity: 0; }     /* Fully transparent early */
+ 60%  { opacity: 0; }     /* Stay hidden for a bit */
+ 80%  { opacity: 0.3; }   /* Start fading back in smoothly */
+ 90%  { opacity: 0.7; }   /* Almost visible */
+ 100% { opacity: 1; }     /* Fully visible */
+}
+@keyframes fadeOutIn2 {
+ 0%   { opacity: 1; }
+ 8%   { opacity: 0.5; }   /* Smooth start of fade out */
+ 16%  { opacity: 0; }   /* Keep fading smoothly */
+ 24%  { opacity: 0; }     /* Fully transparent early */
+ 60%  { opacity: 0; }     /* Stay hidden for a bit */
+ 80%  { opacity: 0; }   /* Start fading back in smoothly */
+ 90%  { opacity: 0.5; }   /* Almost visible */
+ 100% { opacity: 1; }     /* Fully visible */
+}
+
