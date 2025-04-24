@@ -348,7 +348,7 @@ input[type="search"] {
   outline-offset: 0px !important;
 }
 
-@media (max-width: 368px) {
+@media (max-width: 367px) {
   label[for="sidebar-checkbox"]#sidebar-toggle {
     position: fixed !important;
     transition: 0.5s ease-in-out !important;
