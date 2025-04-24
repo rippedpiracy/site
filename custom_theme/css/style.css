@@ -337,6 +337,7 @@ input[type="search"] {
   position: fixed;
   padding: var(--sidebar-padding);
   overflow-y: auto;
+  transition: all 0.3s ease-in-out;
   overscroll-behavior: contain;
   z-index: 1; /* on mobile, the sidebar renders on top of the content. */
   margin-left: var(--m-left);
