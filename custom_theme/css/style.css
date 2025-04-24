@@ -348,6 +348,24 @@ input[type="search"] {
   outline-offset: 0px !important;
 }
 
+@media (max-width: 364px) {
+  label[for="sidebar-checkbox"]#sidebar-toggle {
+    position: fixed !important;
+    transition: 0.5s ease-in-out !important;
+  }
+
+  #sidebar-checkbox:checked + label[for="sidebar-checkbox"]#sidebar-toggle,
+  #sidebar-checkbox:not(:checked) + label[for="sidebar-checkbox"]#sidebar-toggle {
+    top: var(--toggle-offset)  !important;
+    left: var(--toggle-offset) !important;
+    transform: none            !important;
+  }
+
+  #sidebar-checkbox:not(:checked) + label[for="sidebar-checkbox"]#sidebar-toggle {
+    background: transparent !important;
+  }
+}
+
 @media (max-width: 500px) {
   body:has(#sidebar-checkbox:not(:checked)) #darkmodetoggle,
   body:has(#sidebar-checkbox:not(:checked)) #ico-disc,
@@ -358,12 +376,12 @@ input[type="search"] {
   }
 }
 
-
 @media (max-width: 767px) {
   #sidebar {
     --m-left: calc(var(--sidebar-width) * -1);
     margin-left: unset;
     transform: translateX(var(--m-left));
+    z-index: 6;
   }
   
   #sidebar-checkbox:checked ~ #content {
@@ -392,16 +410,19 @@ input[type="search"] {
   #sidebar-checkbox:not(:checked) + label#sidebar-toggle {
     left: calc(var(--sidebar-width) + var(--toggle-offset)) !important;
   }
-  
-  /* When #sidebar-checkbox is checked, hide the ::before pseudo-element of #darkmodetoggle */
-  body:has(#sidebar-checkbox:not(:checked)) #darkmodetoggle::before {
+
+  .sidebar-overlay {
     display: none;
   }
-  
-  .js-disabled {
-   left: 70px
+
+  #sidebar-checkbox:not(:checked) ~ .sidebar-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: transparent;
+    z-index: 5;
+    cursor: default;
   }
-  
 }
 
 #sidebar input::placeholder {
