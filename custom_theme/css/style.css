@@ -337,7 +337,6 @@ input[type="search"] {
   position: fixed;
   padding: var(--sidebar-padding);
   overflow-y: auto;
-  transition: all 0.3s ease-in-out;
   overscroll-behavior: contain;
   z-index: 1; /* on mobile, the sidebar renders on top of the content. */
   margin-left: var(--m-left);
@@ -353,6 +352,10 @@ input[type="search"] {
   label[for="sidebar-checkbox"]#sidebar-toggle {
     position: fixed !important;
     transition: 0.5s ease-in-out !important;
+  }
+
+  #sidebar {
+    transition: all 0.3s ease-in-out;
   }
 
   #sidebar-checkbox:checked + label[for="sidebar-checkbox"]#sidebar-toggle,
