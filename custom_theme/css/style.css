@@ -368,6 +368,22 @@ input[type="search"] {
   #sidebar-checkbox:not(:checked) + label[for="sidebar-checkbox"]#sidebar-toggle {
     background: transparent !important;
   }
+
+  /* fade in and out to avoid the home text */
+  
+  #sidebar-checkbox:checked + .toggle-btn {
+    animation: fadeOutIn 0.35s ease-in-out forwards;
+  }
+
+  @keyframes fadeOutIn {
+    0%   { opacity: 1; }
+    10%  { opacity: 0.5; }  /* Start fading out even earlier */
+    20%  { opacity: 0; }     /* Full opacity 0 even earlier */
+    60%  { opacity: 0; }     /* Hold opacity 0 */
+    90%  { opacity: 0.5; }   /* Start fading in slightly later */
+    100% { opacity: 1; }     /* Fully fade in */
+  }
+  
 }
 
 @media (max-width: 500px) {
