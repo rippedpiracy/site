@@ -65,7 +65,7 @@ html {
   --sidebar-border: transparent;
   --toggle-color: #2c2d32;
   --sidebar-width: 300px;
-  --sidebar-padding: 0 25px;
+  --sidebar-padding: 0 25px 0 26px;
 
   --active-bg: var(--theme-color);
   --active-border: transparent;
