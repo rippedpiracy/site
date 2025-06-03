@@ -348,6 +348,24 @@ input[type="search"] {
   outline-offset: 0px !important;
 }
 
+@media (max-width: 364px) {
+  label[for="sidebar-checkbox"]#sidebar-toggle {
+    position: fixed !important;
+    transition: 0.5s ease-in-out !important;
+  }
+
+  #sidebar-checkbox:checked + label[for="sidebar-checkbox"]#sidebar-toggle,
+  #sidebar-checkbox:not(:checked) + label[for="sidebar-checkbox"]#sidebar-toggle {
+    top: var(--toggle-offset)  !important;
+    left: var(--toggle-offset) !important;
+    transform: none            !important;
+  }
+
+  #sidebar-checkbox:not(:checked) + label[for="sidebar-checkbox"]#sidebar-toggle {
+    background: transparent !important;
+  }
+}
+
 @media (max-width: 500px) {
   body:has(#sidebar-checkbox:not(:checked)) #darkmodetoggle,
   body:has(#sidebar-checkbox:not(:checked)) #ico-disc,
