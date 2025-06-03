@@ -65,7 +65,7 @@ html {
   --sidebar-border: transparent;
   --toggle-color: #2c2d32;
   --sidebar-width: 300px;
-  --sidebar-padding: 0 25px;
+  --sidebar-padding: 0 26px 0 25px;
 
   --active-bg: var(--theme-color);
   --active-border: transparent;
@@ -346,6 +346,24 @@ input[type="search"] {
 
 #sidebar a:focus-visible {
   outline-offset: 0px !important;
+}
+
+@media (max-width: 364px) {
+  label[for="sidebar-checkbox"]#sidebar-toggle {
+    position: fixed !important;
+    transition: 0.5s ease-in-out !important;
+  }
+
+  #sidebar-checkbox:checked + label[for="sidebar-checkbox"]#sidebar-toggle,
+  #sidebar-checkbox:not(:checked) + label[for="sidebar-checkbox"]#sidebar-toggle {
+    top: var(--toggle-offset)  !important;
+    left: var(--toggle-offset) !important;
+    transform: none            !important;
+  }
+
+  #sidebar-checkbox:not(:checked) + label[for="sidebar-checkbox"]#sidebar-toggle {
+    background: transparent !important;
+  }
 }
 
 @media (max-width: 500px) {
