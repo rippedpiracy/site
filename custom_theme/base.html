@@ -30,12 +30,12 @@
 	<script src="/js/nav.js"></script>
 
         <!--  for embeds -->
-        <meta name="theme-color" content="#5468ff">
+        <meta name="theme-color" content="#5865f2">
 
 	{% if page %}
           <meta name="description" content="{{ page.meta.description }}" />
 	  <meta name="twitter:card" content="summary" />
-          <meta property="og:title" content="{{ page.meta.title }}" />
+          <meta property="og:title" translate="no" content="{{ page.meta.title }}" />
           <meta property="og:image" itemprop="image" content="https://cdn.jsdelivr.net/gh/rippedpiracy/site/custom_theme/pix/ripped.png" />
 	  <meta property="og:image:type" content="image/png">
 	  <meta property="og:image:width" content="300">
@@ -80,7 +80,7 @@
 	    <img src="/pix/menu_icon.svg" alt="Sidebar Toggle">
 	</label>
 
-        <aside id="sidebar">
+        <aside id="sidebar" class="notranslate">
 
             {% if 'search' in config['plugins'] %}
 
