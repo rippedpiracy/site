@@ -15,7 +15,7 @@
 
     function handleSwipe() {
       const swipeDistance = touchEndX - touchStartX;
-      const minSwipe = 75;
+      const minSwipe = 100;
 
       if (swipeDistance > minSwipe) {
         checkbox.checked = false;
