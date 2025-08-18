@@ -57,7 +57,7 @@ html {
   --link-color: #72b1fc;
   --light-grey: #4f545c;
 
-  --base-font-family: "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --base-font-family: "Whitney", -apple-system, "Segoe UI", Roboto, "Ubuntu", sans-serif;
   --base-font-weight: 500;
   --base-background-color: #323339;
 
