@@ -127,25 +127,18 @@ html {
   navigation: auto;
 }
 
-::view-transition-group(*) {
-  animation-duration: .33s;
-}
-
-::view-transition-old(root) {
-  animation: .33s ease-in both leave;
-}
-
+::view-transition-old(root),
 ::view-transition-new(root) {
-  animation: .33s ease-in both enter;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  ::view-transition-group(*) {
-    animation-duration: 0s;
-  }
+body {
+  view-transition-name: page;
 }
 
 /* END SMOOTH PAGE TRANSITION */
+
 .nodisplay {
   display: none;
 }
