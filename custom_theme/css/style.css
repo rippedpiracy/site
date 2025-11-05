@@ -121,6 +121,31 @@ html {
   background: var(--selection-color); /* Gecko Browsers */
 }
 
+/* BEGIN SMOOTH PAGE TRANSITION */
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-group(*) {
+  animation-duration: .33s;
+}
+
+::view-transition-old(root) {
+  animation: .33s ease-in both leave;
+}
+
+::view-transition-new(root) {
+  animation: .33s ease-in both enter;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*) {
+    animation-duration: 0s;
+  }
+}
+
+/* END SMOOTH PAGE TRANSITION */
 .nodisplay {
   display: none;
 }
