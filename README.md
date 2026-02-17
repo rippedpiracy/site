@@ -11,3 +11,24 @@ If you **do** suggest something, please keep note that it:
 # How do i contribute?
 
 Easily head over to the [**docs**](https://github.com/rippedpiracy/docs) repo and make an issue or a Pull Request.
+
+# Local Development
+
+Clone the repository:
+
+```
+git clone --recurse-submodules https://github.com/rippedpiracy/
+```
+
+If you have already cloned without submodules, fetch them:
+
+```
+git submodule update --init --remote --recursive
+```
+
+We used to have a GitHub action that updated the `docs` submodule, but took it out due to history clutter. Ensure your local copy is up to date with the latest `docs` commit:
+
+```
+git submodule update --remote
+```
+
