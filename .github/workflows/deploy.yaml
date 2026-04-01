@@ -15,6 +15,7 @@ jobs:
   deploy:
     permissions:
       deployments: write
+      contents: write
 
     if: github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
 
@@ -22,13 +23,13 @@ jobs:
     name: Deploy
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Site
+        uses: actions/checkout@v4
         with:
-          submodules: recursive
-          fetch-depth: 0
+          fetch-depth: 1
 
-      - name: Update Submodules to Latest
-        run: git submodule update --remote --recursive
+      - name: Fetch Documentation
+        run: git clone --depth 1 https://github.com/rippedpiracy/docs pages
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4

@@ -13,10 +13,13 @@ jobs:
     name: Recrawl
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Site
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          fetch-depth: 1
+
+      - name: Fetch Documentation
+        run: git clone --depth 1 https://github.com/rippedpiracy/docs pages
 
       - name: Request recrawl
         uses: algolia/algoliasearch-crawler-github-actions@v1

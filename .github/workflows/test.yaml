@@ -15,10 +15,13 @@ jobs:
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Site
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          fetch-depth: 1
+
+      - name: Fetch Documentation
+        run: git clone --depth 1 https://github.com/rippedpiracy/docs pages
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
@@ -40,10 +43,13 @@ jobs:
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Site
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          fetch-depth: 1
+
+      - name: Fetch Documentation
+        run: git clone --depth 1 https://github.com/rippedpiracy/docs pages
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
@@ -51,7 +57,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v4
         with:
-          node-version: 23
+          node-version: 24
           cache: pnpm
 
       - name: Install dependencies
@@ -70,10 +76,13 @@ jobs:
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Site
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          fetch-depth: 1
+
+      - name: Fetch Documentation
+        run: git clone --depth 1 https://github.com/rippedpiracy/docs pages
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
@@ -81,7 +90,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v4
         with:
-          node-version: 23
+          node-version: 24
           cache: pnpm
 
       - name: Install dependencies
