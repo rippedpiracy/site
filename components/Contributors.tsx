@@ -8,21 +8,28 @@ const ROLES: Record<number, string> = {
   90912935: "Documentation",
 };
 
+interface Contributor {
+  id: number;
+  login: string;
+  avatar_url: string;
+  html_url: string;
+}
+
 export default function Contributors() {
   const {
     data: contributors,
     error,
     isLoading,
-  } = useSWR("https://api.github.com/repos/rippedpiracy/docs/contributors", fetcher);
+  } = useSWR<Contributor[]>("https://api.github.com/repos/rippedpiracy/docs/contributors", fetcher);
 
   if (error) return <div>Failed to load contributors</div>;
   if (isLoading || !contributors) return <div>Loading contributors...</div>;
 
-  const filtered = Array.isArray(contributors) ? contributors.filter((c: any) => !blacklist.includes(c.id)) : [];
+  const filtered = Array.isArray(contributors) ? contributors.filter((c) => !blacklist.includes(c.id)) : [];
 
   return (
     <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-      {filtered.map((user: any) => (
+      {filtered.map((user) => (
         <a
           key={user.id}
           href={user.html_url}
