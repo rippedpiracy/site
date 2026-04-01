@@ -108,8 +108,14 @@ export default function Code({ children, className, file, ...props }: CodeProps)
         }: {
           className: string;
           tokens: Token[][];
-          getLineProps: (options: { line: Token[]; key: number }) => React.HTMLAttributes<HTMLElement>;
-          getTokenProps: (options: { token: Token; key: number }) => React.HTMLAttributes<HTMLElement>;
+          getLineProps: (options: {
+            line: Token[];
+            key: number;
+          }) => React.HTMLAttributes<HTMLElement> & { key?: React.Key };
+          getTokenProps: (options: {
+            token: Token;
+            key: number;
+          }) => React.HTMLAttributes<HTMLElement> & { key?: React.Key };
         }) => (
           <pre
             className={classNames(

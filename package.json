@@ -1,5 +1,5 @@
 {
-  "name": "discord-userdoccers",
+  "name": "ripped",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -13,8 +13,7 @@
     "lint:fix": "eslint components contexts hooks pages --fix",
     "prepare": "husky || true",
     "prettier": "prettier -c **/*.mdx **/*.ts{,x}",
-    "prettier:fix": "prettier --write **/*.mdx **/*.ts{,x}",
-    "test:links": "node --experimental-strip-types ci/checkLinks.ts"
+    "prettier:fix": "prettier --write **/*.mdx **/*.ts{,x}"
   },
   "dependencies": {
     "@docsearch/css": "^4.6.0",

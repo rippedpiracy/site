@@ -133,7 +133,7 @@ export default defineConfig({
           "@type": "WebSite",
           "url": baseUrl,
           "name": siteName,
-          "alternateName": ["Userdoccers"],
+          "alternateName": ["Ripped"],
         },
         !isBase && {
           "@context": "https://schema.org",

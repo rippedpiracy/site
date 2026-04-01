@@ -140,11 +140,9 @@ export class TypescriptGenerator {
   private typeToString(type: TypeInfo, onlyFirstWord = false, isInArray = false): string {
     if (type.array) {
       if (type.array.length === 1) {
-        // arrays in userdoccers are defined as array[T]
         const inner = this.typeToString(type.array[0], onlyFirstWord, true);
         return `${inner}[]`;
       } else if (type.array.length > 1) {
-        // tuples in userdoccers are defined as array[T1, T2, ...]
         const inner = type.array
           .map((i) => this.typeToString(i, onlyFirstWord, true))
           .map((i) => this.typeMapper(i))

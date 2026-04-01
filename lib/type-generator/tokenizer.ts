@@ -52,11 +52,9 @@ export class TypeInfo {
       const parts = innerContent.split(/,(?![^\[]*\])/);
 
       if (parts.length > 1) {
-        // tuples in userdoccers are defined as array[T1, T2, ...]
         this.array = parts.map((part) => new TypeInfo(part.trim().split(" ")));
         this.type = undefined;
       } else {
-        // arrays in userdoccers are defined as array[T]
         const innerType = new TypeInfo(parts[0].trim().split(" "));
         this.array = [innerType];
         this.type = undefined;

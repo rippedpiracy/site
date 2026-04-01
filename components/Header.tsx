@@ -27,7 +27,13 @@ export default function Header() {
         />
       </Link>
 
-      {!isHome && <img src="/img/rippedtransparent-cropped.svg" className="absolute left-1/2 -translate-x-1/2 h-8 invert dark:invert-0 amoled:invert-0 pointer-events-none" alt="The Ripped Guide" />}
+      {!isHome && (
+        <img
+          src="/img/rippedtransparent-cropped.svg"
+          className="amoled:invert-0 pointer-events-none absolute left-1/2 h-8 -translate-x-1/2 invert dark:invert-0"
+          alt="Ripped"
+        />
+      )}
 
       <div className="flex items-center gap-2">
         <SocialLinks />

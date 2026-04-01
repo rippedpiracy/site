@@ -31,8 +31,21 @@ async function walk(path: string, filter: (file: string) => boolean): Promise<st
 }
 
 const root = join(process.cwd(), "pages");
-const files = [...(await walk(root, (file) => (file.endsWith(".mdx") || file.endsWith(".md")) && !basename(file).startsWith("_") && basename(file) !== "README.mdx"))]
-  .map((file) => file.slice(root.length + 1).replace(/\.mdx?$/, "").replaceAll(sep, "/"))
+const files = [
+  ...(await walk(
+    root,
+    (file) =>
+      (file.endsWith(".mdx") || file.endsWith(".md")) &&
+      !basename(file).startsWith("_") &&
+      basename(file) !== "README.mdx",
+  )),
+]
+  .map((file) =>
+    file
+      .slice(root.length + 1)
+      .replace(/\.mdx?$/, "")
+      .replaceAll(sep, "/"),
+  )
   .sort((a, b) => a.split("/").length - b.split("/").length);
 
 // SITEMAP
@@ -53,8 +66,6 @@ const sitemap = generateSiteMap(files);
 
 await writeFile(join(process.cwd(), "public", "sitemap.xml"), sitemap);
 
-
-
 // NAVIGATION LINKS
 
 interface Page {
@@ -64,6 +75,7 @@ interface Page {
   subLinks: any[];
   sort: number;
   icon: string | null;
+  description: string | null;
 }
 
 const navigationLinks: Record<string, { name: string | null; items?: Record<string, Page>; pages: Page[] }> = {};
@@ -90,9 +102,8 @@ for (const file of files) {
       .trim()
       .split("\n")
       .find((line) => line.startsWith("#"))
-      ?.replace(/^#+\s*/, "").trim();
-
-
+      ?.replace(/^#+\s*/, "")
+      .trim();
 
   navigationLinks[section] ??= {
     name: section ? section.replaceAll("-", " ").replace(/(^\w|\s\w)/g, (m) => m.toUpperCase()) : null,
@@ -108,6 +119,7 @@ for (const file of files) {
     subLinks: [],
     sort: parsed.data.sort ?? 99999,
     icon: parsed.data.icon ?? null,
+    description: parsed.data.description ?? null,
   };
   const page = sectionList.items![link];
 
@@ -144,8 +156,6 @@ for (const file of files) {
     console.error(`Invalid data.sublinks in /${file}`);
   }
 }
-
-
 
 // SORTING NAVBAR
 

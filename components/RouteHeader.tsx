@@ -2,7 +2,7 @@ import classNames from "@lib/classnames";
 import React, { useRef } from "react";
 import { resolveUrlVariables } from "@lib/endpoints";
 import IconBadge from "./IconBadge";
-import { getNormalisedText, H3 } from "./mdx/Heading";
+import { H3 } from "./mdx/Heading";
 import { WarningIcon } from "./mdx/icons/WarningIcon";
 import { RobotIcon } from "./mdx/icons/RobotIcon";
 import { WrenchIcon } from "./mdx/icons/WrenchIcon";
@@ -70,7 +70,6 @@ export default function RouteHeader({
   deprecated,
   supportsBot,
 }: RouteHeaderProps) {
-  const anchor = getNormalisedText(children);
   const routeTitle = getRawText(children).toLowerCase();
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -85,9 +84,7 @@ export default function RouteHeader({
     >
       <H3 className="mb-0" useAnchor={false} useCopy={false}>
         {/* NOTE: this margin is a hack cause the font sucks */}
-        <span className="mb-px">
-          {children}
-        </span>
+        <span className="mb-px">{children}</span>
         <span className="ml-2 flex items-center gap-2">
           {supportsBot ? (
             <IconBadge href="/resources/application" tooltip="Supports bot users" icon={RobotIcon} />

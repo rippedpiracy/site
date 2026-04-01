@@ -3,7 +3,6 @@ import React, { isValidElement, ReactNode } from "react";
 import HyperlinkIcon from "../icons/Hyperlink";
 import TickIcon from "../icons/Tick";
 
-
 export function getNormalisedText(node: ReactNode): string {
   if (typeof node === "string") {
     return node.toLowerCase().replaceAll(" ", "-");

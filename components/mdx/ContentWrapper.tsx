@@ -14,9 +14,7 @@ export default function ContentWrapper({ children }: ContentWrapperProps) {
       <Header />
       <div className="h-16 xl:hidden" />
       <main className="desktop-content-left-pad desktop-content-max w-full p-4 sm:px-6 sm:pt-0 sm:pb-6 lg:px-10 lg:pb-10">
-        <article className="m-auto mt-0 xl:mt-4 xl:pt-6">
-          {children}
-        </article>
+        <article className="m-auto mt-0 xl:mt-4 xl:pt-6">{children}</article>
       </main>
     </div>
   );
