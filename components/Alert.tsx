@@ -6,7 +6,7 @@ import { CircleInformationIcon } from "./mdx/icons/CircleInformationIcon";
 type AlertType = "danger" | "warn" | "info";
 
 function getIcon(type: AlertType) {
-  const iconClasses = "float-left mr-2 h-6 w-6 mb-2 mt-2 shrink-0";
+  const iconClasses = "mr-3 h-6 w-6 shrink-0";
 
   switch (type) {
     case "danger":
@@ -19,7 +19,7 @@ function getIcon(type: AlertType) {
 }
 
 function getClasses(type: AlertType) {
-  return classNames("block flex items-start my-4 px-2 border-2 rounded-lg overflow-auto [&_p]:mb-2 [&_p]:mt-2", {
+  return classNames("flex items-start my-4 px-4 py-3 border-2 rounded-lg overflow-auto", {
     "bg-red-100 border-[#f03f42] dark:bg-[#41373d] amoled:bg-black amoled:border-[#f03f42]/50": type === "danger",
     "bg-yellow-100 border-[#eeb132] dark:bg-[#3f3b39] amoled:bg-black amoled:border-[#eeb132]/50": type === "warn",
     "bg-blue-100 border-[#00a9fa] dark:bg-[#323c4a] amoled:bg-black amoled:border-[#00a9fa]/50": type === "info",
@@ -43,8 +43,8 @@ export default function Alert({ type, children, style }: AlertProps) {
       })}
       style={style}
     >
-      {icon}
-      <div>{children}</div>
+      <div className="flex pt-0.5">{icon}</div>
+      <div className="flex-1 text-sm sm:text-base leading-tight sm:leading-normal">{children}</div>
     </aside>
   );
 }
