@@ -170,4 +170,4 @@ jobs:
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
           site-url: "https://ripped.guide/"
-          crawler-name: "ripped-guide"
+          crawler-name: "ripped"
