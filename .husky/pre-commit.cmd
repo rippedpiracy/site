@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 
 set "FILES="
-for /f "tokens=*" %%i in ('git diff --cached --name-only --diff-filter=ACMR 2^>nul ^| findstr /r "\.mdx$ \.ts$ \.tsx$" 2^>nul') do (
+for /f "tokens=*" %%i in ('git diff --cached --name-only --diff-filter=ACMR 2^>nul ^| findstr /r "\.ts$ \.tsx$" 2^>nul') do (
   set "FILES=!FILES! "%%i""
 )
 

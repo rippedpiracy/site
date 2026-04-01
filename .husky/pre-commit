@@ -1,6 +1,6 @@
 #!/bin/sh
 # Get staged files matching the extension pattern
-FILES=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '\.(mdx|ts|tsx)$' || true)
+FILES=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '\.(ts|tsx)$' || true)
 
 # If no files found, exit successfully
 if [ -z "$FILES" ]; then

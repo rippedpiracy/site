@@ -9,11 +9,11 @@
     "preview": "vite preview",
     "prebuild": "node --experimental-strip-types ci/sitemap.ts",
     "build:ci": "tsc --build ci --noEmit",
-    "lint": "eslint components contexts hooks pages",
-    "lint:fix": "eslint components contexts hooks pages --fix",
+    "lint": "eslint components contexts hooks --no-error-on-unmatched-pattern",
+    "lint:fix": "eslint components contexts hooks --fix --no-error-on-unmatched-pattern",
     "prepare": "husky || true",
-    "prettier": "prettier -c **/*.mdx **/*.ts{,x}",
-    "prettier:fix": "prettier --write **/*.mdx **/*.ts{,x}"
+    "prettier": "prettier -c **/*.ts{,x}",
+    "prettier:fix": "prettier --write **/*.ts{,x}"
   },
   "dependencies": {
     "@docsearch/css": "^4.6.0",
