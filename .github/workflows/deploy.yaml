@@ -27,6 +27,9 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Update Submodules to Latest
+        run: git submodule update --remote --recursive
+
       - name: Install pnpm
         uses: pnpm/action-setup@v4
 
@@ -60,7 +63,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy --branch ${{ github.event_name == 'pull_request_target' && format('pr-{0}', github.event.number) || github.ref_name }}
+          command: pages deploy dist --project-name ripped --branch ${{ github.event_name == 'pull_request_target' && format('pr-{0}', github.event.number) || github.ref_name }}
 
       - name: Notify Deployment
         uses: actions/github-script@v7
@@ -138,10 +141,9 @@ jobs:
               .addRaw(
                 `# ${environment} Deployment
 
-            | Name                           | Result                  |
-            | ------------------------------ | ----------------------- |
-            | **Last commit:**               | ${deploymentRef}        |
-            | **${environment} URL**:        | ${DEPLOYMENT_URL}       |
-            | **Branch ${environment} URL**: | ${DEPLOYMENT_ALIAS_URL} |`,
+            | Name                | Result           |
+            | ------------------- | ---------------- |
+            | **Last commit:**    | ${deploymentRef} |
+            | **Deployment URL**: | ${DEPLOYMENT_URL} |`,
               )
               .write();
