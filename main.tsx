@@ -6,7 +6,7 @@ import "./stylesheets/prism.css";
 import "./stylesheets/youtube.css";
 
 import { ViteReactSSG } from "vite-react-ssg";
-import { createBrowserRouter, Outlet, RouteObject } from "react-router-dom";
+import { createBrowserRouter, Outlet, RouteObject, ScrollRestoration } from "react-router-dom";
 import routes from "~react-pages";
 
 import classNames from "@lib/classnames";
@@ -112,6 +112,7 @@ function App() {
             <OnThisPage />
           </div>
           <Footer />
+          <ScrollRestoration />
         </MenuContext.Provider>
       </ThemeProvider>
     </>
