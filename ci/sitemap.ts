@@ -37,7 +37,7 @@ const root = join(process.cwd(), "pages");
 try {
   await stat(root);
 } catch (e) {
-  console.log("📂 Pages directory missing. Fetching latest documentation...");
+  console.log("📂 Pages directory missing. Fetching latest docs...");
   execSync("git clone --depth 1 https://github.com/rippedpiracy/docs pages", { stdio: "inherit" });
 }
 
@@ -47,7 +47,7 @@ const files = [
     (file) =>
       (file.endsWith(".mdx") || file.endsWith(".md")) &&
       !basename(file).startsWith("_") &&
-      basename(file) !== "README.mdx",
+      !basename(file).toLowerCase().startsWith("readme"),
   )),
 ]
   .map((file) =>
