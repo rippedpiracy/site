@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Fetch Documentation
+      - name: Fetch Docs
         run: git clone --depth 1 https://github.com/rippedpiracy/docs pages
 
       - name: Install pnpm
@@ -34,6 +34,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Fetch Docs & Generate Sitemap
+        run: pnpm run prebuild
 
       - name: Run ESLint
         run: pnpm run lint
@@ -48,7 +51,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Fetch Documentation
+      - name: Fetch Docs
         run: git clone --depth 1 https://github.com/rippedpiracy/docs pages
 
       - name: Install pnpm
@@ -62,6 +65,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Fetch Docs & Generate Sitemap
+        run: pnpm run prebuild
 
       - name: Run Prettier
         run: pnpm run prettier:fix
@@ -81,7 +87,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Fetch Documentation
+      - name: Fetch Docs
         run: git clone --depth 1 https://github.com/rippedpiracy/docs pages
 
       - name: Install pnpm
@@ -95,6 +101,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Fetch Docs & Generate Sitemap
+        run: pnpm run prebuild
 
       - name: TypeScript type check
         run: pnpm exec tsc --noEmit

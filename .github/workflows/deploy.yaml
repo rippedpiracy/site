@@ -28,9 +28,6 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Fetch Documentation
-        run: git clone --depth 1 https://github.com/rippedpiracy/docs pages
-
       - name: Install pnpm
         uses: pnpm/action-setup@v4
 
@@ -56,7 +53,11 @@ jobs:
             git switch "pull/${{ github.event.number }}/head"
           fi
 
-          pnpm build
+      - name: Fetch Docs & Generate Sitemap
+        run: pnpm run prebuild
+
+      - name: Build site
+        run: pnpm run build
 
       - name: Deploy Site
         id: deploy
@@ -148,3 +149,25 @@ jobs:
             | **Deployment URL**: | ${DEPLOYMENT_URL} |`,
               )
               .write();
+
+  algolia:
+    name: Algolia DocSearch
+    needs: deploy
+    if: github.ref == 'refs/heads/master' && success()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Request recrawl
+        uses: algolia/algoliasearch-crawler-github-actions@v1
+        id: crawler_push
+        with:
+          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
+          crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
+          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
+          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
+          site-url: "https://ripped.guide/"
+          crawler-name: "ripped"

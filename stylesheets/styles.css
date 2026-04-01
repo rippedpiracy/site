@@ -302,3 +302,17 @@ input::-webkit-calendar-picker-indicator {
 .sidebar-fade.closed {
   @apply opacity-0 pointer-events-none;
 }
+.animate-pop-in {
+  animation: popIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}

@@ -36,7 +36,7 @@ export const Tabs: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           </button>
         ))}
       </div>
-      <div className="py-2">{tabs[activeTab]}</div>
+      <div className="text-text-light dark:text-text-dark py-2">{tabs[activeTab]}</div>
     </div>
   );
 };

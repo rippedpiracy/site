@@ -29,13 +29,17 @@ export default function Contributors() {
 
   return (
     <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-      {filtered.map((user) => (
+      {filtered.map((user, index) => (
         <a
           key={user.id}
           href={user.html_url}
           target="_blank"
           rel="noopener noreferrer"
-          className="group flex items-center gap-3 rounded-lg border border-black/5 bg-black/[0.02] p-2 transition-all duration-300 hover:border-black/10 hover:bg-black/[0.05] hover:shadow-sm dark:border-white/5 dark:bg-white/5 dark:hover:border-white/10 dark:hover:bg-white/10"
+          className="animate-pop-in group flex items-center gap-3 rounded-lg border border-black/5 bg-black/[0.02] p-2 transition-all duration-300 hover:border-black/10 hover:bg-black/[0.05] hover:shadow-sm dark:border-white/5 dark:bg-white/5 dark:hover:border-white/10 dark:hover:bg-white/10"
+          style={{
+            animationDelay: `${index * 40}ms`,
+            animationFillMode: "both",
+          }}
         >
           <img
             src={user.avatar_url}

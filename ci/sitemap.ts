@@ -1,6 +1,7 @@
-import { opendir, readFile, writeFile } from "fs/promises";
+import { opendir, readFile, writeFile, stat } from "fs/promises";
 import { basename, join, sep } from "path";
 import matter from "gray-matter";
+import { execSync } from "child_process";
 
 /**
  * This script generates a sitemap.xml and the navigation sidebar for the website. It's meant to be run just before the site is deployed.
@@ -31,6 +32,15 @@ async function walk(path: string, filter: (file: string) => boolean): Promise<st
 }
 
 const root = join(process.cwd(), "pages");
+
+// Automatically fetch docs if they are missing (for local dev)
+try {
+  await stat(root);
+} catch (e) {
+  console.log("📂 Pages directory missing. Fetching latest documentation...");
+  execSync("git clone --depth 1 https://github.com/rippedpiracy/docs pages", { stdio: "inherit" });
+}
+
 const files = [
   ...(await walk(
     root,
