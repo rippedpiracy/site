@@ -1,6 +1,10 @@
-# Ripped.guide
+<img width="178" height="136" alt="rippedtransparentproper" src="https://github.com/user-attachments/assets/7dc5baf4-222b-4b75-8469-20680a15bdfa" />
 
-Ripped.guide is the official web-based replacement for the #trusted-sites channel of the [Discord Server](https://discord.ripped.guide). 
+# ripped.guide
+
+[![Discord](https://img.shields.io/discord/702220357834244248?color=748bd9&labelColor=000000&label=&logo=discord&style=for-the-badge)](https://discord.ripped.guide "Discord")
+
+[**ripped.guide**](https://ripped.guide) is the official web-based replacement for the #trusted-sites channel of the [Discord Server](https://discord.ripped.guide). 
 
 This repository contains the application source code. The content and guides are stored on the [docs](https://github.com/rippedpiracy/docs) repository.
 
