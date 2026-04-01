@@ -1,6 +1,0 @@
-mkdocs
-mkdocs-git-revision-date-localized-plugin
-mkdocs-git-committers-plugin-2
-git+https://github.com/rippedpiracy/mkdocs-github-contributors-plugin
-mkdocs-ezlinks-plugin
-mkdocs-minify-plugin

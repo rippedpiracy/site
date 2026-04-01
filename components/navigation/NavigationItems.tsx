@@ -1,0 +1,65 @@
+import classNames from "@lib/classnames";
+import React, { createElement, Fragment, Suspense, useContext } from "react";
+import { Link, useLocation } from "react-router-dom";
+import MenuContext from "../../contexts/MenuContext";
+import { ICONS } from "./NavigationList";
+
+const Searchbar = React.lazy(() => import("../Searchbar"));
+
+interface MenuSelectionProps {
+  title?: string;
+  children: React.ReactNode;
+  className?: string;
+}
+
+export function NavigationSection({ title, className, children }: MenuSelectionProps) {
+  const classes = classNames("mb-6", className);
+
+  return (
+    <section className={classes}>
+      {title ? (
+        <h3 className="font-whitney-bold mb-2 ml-2 text-black dark:text-white">{title}</h3>
+      ) : null}
+      {children}
+    </section>
+  );
+}
+
+interface NavigationLinkProps {
+  href: string;
+  className?: string;
+  children: React.ReactNode;
+  icon: keyof typeof ICONS | null;
+}
+
+export function NavigationLink({ href, className, children, icon }: NavigationLinkProps) {
+  const location = useLocation();
+  const { setClose } = useContext(MenuContext);
+
+  const classes = classNames("flex items-center font-whitney rounded-md pl-3 gap-1", className, {
+    "bg-brand-blurple text-white": location.pathname === href,
+    "text-theme-light-sidebar-text dark:text-theme-dark-sidebar-text hover:bg-theme-light-sidebar-hover hover:text-theme-light-sidebar-hover-text dark:hover:bg-theme-dark-sidebar-hover dark:hover:text-white":
+      location.pathname !== href,
+  });
+
+  const linkClasses = classNames("group flex items-center pr-2 pl-0 py-1 w-full font-medium");
+
+  return (
+    <Fragment>
+      <span className={classes}>
+        {icon != null && createElement(ICONS[icon], { className: "size-5 shrink-0" })}
+        <Link to={href} className={linkClasses} onClick={setClose}>
+          {children}
+        </Link>
+      </span>
+    </Fragment>
+  );
+}
+
+export const SearchItem = (
+  <div id="searchContainer" className="w-full flex-1 pr-4 sm:flex">
+    <Suspense fallback={null}>
+      <Searchbar />
+    </Suspense>
+  </div>
+);

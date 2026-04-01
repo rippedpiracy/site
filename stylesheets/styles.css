@@ -1,0 +1,304 @@
+@reference "./tailwind.css";
+
+html {
+  scrollbar-gutter: stable;
+}
+
+* {
+  --text-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --background-dark: #36373e;
+  --sidebar-secondary-dark: #323339;
+  --sidebar-tertiary-dark: #36373e;
+  --table-head-background-dark: #27272a;
+  --table-row-background-secondary-dark: #232428;
+  --theme-dark-sidebar: #36373e;
+  --theme-dark-sidebar-hover: #393C43;
+  --theme-dark-collapsible: #27292d;
+}
+
+html.amoled {
+  --background-dark: #000000;
+  --sidebar-secondary-dark: #121212;
+  --sidebar-tertiary-dark: #000000;
+  --table-head-background-dark: #0a0a0a;
+  --table-row-background-secondary-dark: #050505;
+  --theme-dark-sidebar: #000000;
+  --theme-dark-sidebar-hover: #1a1a1a;
+  --theme-dark-collapsible: #111111;
+}
+
+abbr[title].no-underline {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Whitney Book Regular", var(--text-base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+  font-family: "Whitney Semibold Regular", var(--text-base);
+}
+
+code * {
+  @apply text-sm;
+}
+
+i,
+em {
+  font-family: "Whitney Book Italic", var(--text-base);
+  font-style: normal;
+}
+
+#searchContainer .DocSearch-Button,
+#error-search {
+  width: 100%;
+  border-radius: 0.75rem;
+  color: inherit;
+  /*noinspection CssUnresolvedCustomProperty*/
+  background-color: white;
+}
+
+#searchContainer .DocSearch-Button {
+  /* don't apply this to the errors search */
+  padding-left: 0.7em;
+  margin: 0 0 1rem;
+}
+
+.DocSearch-Button-Container > svg,
+.DocSearch-MagnifierLabel > svg {
+  display: none !important;
+}
+
+.DocSearch-Button-Container::before,
+.DocSearch-MagnifierLabel::before {
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  background-color: var(--icon-strong);
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M15.62 17.03a9 9 0 1 1 1.41-1.41l4.68 4.67a1 1 0 0 1-1.42 1.42l-4.67-4.68ZM17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M15.62 17.03a9 9 0 1 1 1.41-1.41l4.68 4.67a1 1 0 0 1-1.42 1.42l-4.67-4.68ZM17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+[type="search"] {
+  background-color: initial;
+}
+
+[type="search"]:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  #searchContainer .DocSearch-Button-Placeholder {
+    display: initial;
+    /*noinspection CssUnresolvedCustomProperty*/
+    color: var(--docsearch-placeholder-color);
+  }
+}
+
+/* Color search bar
+/* !!! UPDATE THIS IF CHANGING THEME COLOURS !!! */
+#searchContainer .DocSearch-Button,
+#error-search {
+  background-color: #f2f3f5;
+}
+
+#searchContainer .DocSearch-Button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+[data-theme="dark"] #searchContainer .DocSearch-Button,
+[data-theme="dark"] #error-search {
+  background-color: #323339;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: none;
+}
+
+[data-theme="dark"] #searchContainer .DocSearch-Button:focus,
+[data-theme="dark"] #searchContainer .DocSearch-Button:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: none;
+}
+
+html[data-theme="dark"] .DocSearch-Container {
+  --docsearch-text-color: #f5f6f7;
+  --docsearch-container-background: rgba(30, 31, 34, 0.8);
+  --docsearch-modal-background: #36373e;
+  --docsearch-modal-shadow: inset 1px 1px 0 0 #2c2e40, 0 3px 8px 0 #000000;
+  --docsearch-searchbox-background: #2b2d31; 
+  --docsearch-searchbox-focus-background: #1e1f22;
+  --docsearch-searchbox-shadow: none;
+  --docsearch-hit-color: #bec3c9;
+  --docsearch-hit-shadow: none;
+  --docsearch-hit-background: #2b2d31;
+  --docsearch-key-gradient: linear-gradient(-225deg, #444950, #1c1e21);
+  --docsearch-key-shadow: inset 0 -2px 0 0 #2dcde6, inset 0 0 1px 1px #515151, 0 1px 2px 1px rgba(30, 35, 90, 0.4);
+  --docsearch-footer-background: #2b2d31;
+  --docsearch-footer-shadow: inset 0 1px 0 0 rgba(73, 76, 106, 0.5), 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
+  --docsearch-logo-color: #fff;
+  --docsearch-muted-color: #a1a1aa;
+}
+
+html.amoled #searchContainer .DocSearch-Button,
+html.amoled #error-search {
+  background-color: #000000;
+  border-color: #333;
+}
+
+html.amoled #searchContainer .DocSearch-Button:focus,
+html.amoled #searchContainer .DocSearch-Button:hover {
+  border-color: #555;
+}
+
+html.amoled #searchContainer .DocSearch-Button .DocSearch-Button-Placeholder,
+html.amoled #searchContainer .DocSearch-Button .DocSearch-Search-Icon {
+  color: #a1a1aa; /* Light gray for hint text */
+}
+
+html.amoled #searchContainer .DocSearch-Button .DocSearch-Button-Key {
+  color: #a1a1aa;
+  background: #111;
+  border-color: #333;
+}
+
+html.amoled .DocSearch-Container {
+  --docsearch-text-color: #f5f6f7;
+  --docsearch-container-background: rgba(0, 0, 0, 0.85);
+  --docsearch-modal-background: #0a0a0a;
+  --docsearch-modal-shadow: inset 1px 1px 0 0 #2c2e40, 0 3px 8px 0 #000000;
+  --docsearch-searchbox-background: #000000;
+  --docsearch-searchbox-focus-background: #000000;
+  --docsearch-searchbox-shadow: none;
+  --docsearch-hit-color: #bec3c9;
+  --docsearch-hit-shadow: none;
+  --docsearch-hit-background: #111111;
+  --docsearch-key-gradient: linear-gradient(-225deg, #444950, #1c1e21);
+  --docsearch-key-shadow: inset 0 -2px 0 0 #cdcde6, inset 0 0 1px 1px #fff, 0 1px 2px 1px rgba(30, 35, 90, 0.4);
+  --docsearch-footer-background: #0a0a0a;
+  --docsearch-footer-shadow: inset 0 1px 0 0 rgba(73, 76, 106, 0.5), 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
+  --docsearch-logo-color: #fff;
+  --docsearch-muted-color: #a1a1aa;
+}
+
+[data-headlessui-portal] > div > div {
+  z-index: 9999;
+}
+
+[data-headlessui-portal] h2 {
+  @apply mt-2;
+}
+
+datalist {
+  display: none;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+/* Left sidebar base state (Hidden below 1280px) */
+.desktop-left-nav {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-100%);
+  transition: opacity 300ms ease, transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  left: max(8px, calc((100vw - min(100vw, 72rem)) / 2 - 25rem));
+}
+
+.desktop-content-left-pad {
+  transition: padding-left 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Left sidebar positioning */
+@media (min-width: 1280px) {
+  .desktop-left-nav {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+
+  .desktop-content-left-pad {
+    padding-left: clamp(0px, calc(25rem + 8px - max(0px, (100vw - 72rem) / 2)), 100vw);
+  }
+}
+
+/* Base max width for main content */
+.desktop-content-max {
+  max-width: 72rem;
+}
+
+/* Right ToC base state (Hidden below 1660px) */
+.desktop-right-toc {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(100%);
+  transition: opacity 300ms ease, transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  left: min(calc((100vw + min(100vw, 72rem)) / 2), calc(100vw - 8px - 17rem));
+}
+
+/* Right ToC positioning */
+@media (min-width: 1660px) {
+  .desktop-right-toc {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+
+  .desktop-right-toc-fallback {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  button.desktop-right-toc-fallback {
+    transform: scale(0.9) translateY(2rem) !important;
+  }
+
+  /* If there is no right ToC, expand content to occupy its space */
+  body:not(:has(.desktop-right-toc)) .desktop-content-max {
+    max-width: 90rem;
+    /* Keep the content's left edge fixed: shift right by half of added width */
+    margin-left: 17rem;
+  }
+
+  /* Also adjust left padding calculation to use the wider content width (89rem)
+     so the reserved left gutter remains consistent and the content's left edge
+     does not drift when ToC is absent. */
+  body:not(:has(.desktop-right-toc)) .desktop-content-left-pad {
+    padding-left: clamp(0px, calc(25rem + 8px - max(0px, (100vw - 89rem) / 2)), 100vw);
+  }
+}
+
+/* Layout wrappers */
+.app-wrapper {
+  @apply dark:bg-background-dark flex min-h-dvh overflow-hidden bg-white;
+}
+
+.sidebar-fade {
+  @apply fixed z-30 inset-0 bg-black duration-300 xl:opacity-0 xl:pointer-events-none;
+}
+
+.sidebar-fade.open {
+  @apply opacity-50;
+}
+
+.sidebar-fade.closed {
+  @apply opacity-0 pointer-events-none;
+}

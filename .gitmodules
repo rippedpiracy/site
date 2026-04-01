@@ -1,3 +1,6 @@
 [submodule "docs"]
-	path = docs
+	path = pages
+	url = https://github.com/rippedpiracy/docs
+[submodule "pages"]
+	path = pages
 	url = https://github.com/rippedpiracy/docs

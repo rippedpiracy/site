@@ -1,0 +1,15 @@
+{
+  "quoteProps": "consistent",
+  "endOfLine": "lf",
+  "printWidth": 120,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.mdx *.tsx *.ts",
+      "options": {
+        "useTabs": false
+      }
+    }
+  ],
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
