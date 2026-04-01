@@ -3,7 +3,7 @@ import { DocSearch } from "@docsearch/react";
 const config = {
   appId: import.meta.env.VITE_ALGOLIA_APP_ID ?? "YXKOI5NILL",
   apiKey: import.meta.env.VITE_ALGOLIA_API_KEY ?? "d23967e8d3cb288f2724946939799ede",
-  index: import.meta.env.VITE_ALGOLIA_INDEX_NAME ?? "ripped-guide",
+  index: import.meta.env.VITE_ALGOLIA_INDEX_NAME ?? "ripped",
 };
 
 export default function Searchbar() {
