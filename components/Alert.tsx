@@ -19,7 +19,7 @@ function getIcon(type: AlertType) {
 }
 
 function getClasses(type: AlertType) {
-  return classNames("flex items-start my-4 px-4 py-3 border-2 rounded-lg overflow-auto", {
+  return classNames("flex items-start my-4 px-4 py-3 border-2 rounded-lg overflow-auto [&_p]:mt-0! [&_p]:mb-0!", {
     "bg-red-100 border-[#f03f42] dark:bg-[#41373d] amoled:bg-black amoled:border-[#f03f42]/50": type === "danger",
     "bg-yellow-100 border-[#eeb132] dark:bg-[#3f3b39] amoled:bg-black amoled:border-[#eeb132]/50": type === "warn",
     "bg-blue-100 border-[#00a9fa] dark:bg-[#323c4a] amoled:bg-black amoled:border-[#00a9fa]/50": type === "info",
