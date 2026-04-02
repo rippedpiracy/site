@@ -53,8 +53,8 @@ const files = [
   .map((file) =>
     file
       .slice(root.length + 1)
-      .replace(/\.mdx?$/, "")
-      .replaceAll(sep, "/"),
+      .replaceAll(sep, "/")
+      .replace(/\.mdx?$/, ""),
   )
   .sort((a, b) => a.split("/").length - b.split("/").length);
 
