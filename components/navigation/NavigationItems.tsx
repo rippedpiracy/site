@@ -17,7 +17,7 @@ export function NavigationSection({ title, className, children }: MenuSelectionP
 
   return (
     <section className={classes}>
-      {title ? <h3 className="font-whitney-bold mb-2 ml-2 text-black dark:text-white">{title}</h3> : null}
+      {title ? <h3 className="font-whitney-bold mb-2 ml-2 select-none text-black dark:text-white">{title}</h3> : null}
       {children}
     </section>
   );
@@ -46,7 +46,7 @@ export function NavigationLink({ href, className, children, icon }: NavigationLi
     <Fragment>
       <span className={classes}>
         {icon != null && createElement(ICONS[icon], { className: "size-5 shrink-0" })}
-        <Link to={href} className={linkClasses} onClick={setClose}>
+        <Link to={href} className={linkClasses} onClick={setClose} draggable={false}>
           {children}
         </Link>
       </span>
