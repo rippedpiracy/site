@@ -49,11 +49,11 @@ To contribute to the UI, fix codebase issues, or implement new components, pleas
     pnpm install
     pnpm build
     ```
+    *Note: On the initial build, the development server will automatically initialize the `pages/` directory by cloning the latest commit of the [docs](https://github.com/rippedpiracy/docs) repository.*
 3.  **Run the development server**:
     ```bash
     pnpm run dev
     ```
-    *Note: On the initial run, the development server will automatically initialize the `pages/` directory by cloning the latest documentation from the docs repository.*
 
 ## Credits
 
