@@ -79,6 +79,9 @@ export default defineConfig({
       const siteName = "Ripped";
       const image = isBase ? `/banner.webp` : undefined;
 
+      const normalize = (p: string) => p.replace(/\/+$/, "").toLowerCase() || "/";
+      const normalizedRoute = normalize(route);
+
       let currentSection:
         | { name: string | null; pages: { link: string; name: string; description: string | null }[]; section: string }
         | undefined;
@@ -92,17 +95,17 @@ export default defineConfig({
           section: string;
         }[];
 
-        currentSection = data.find((s) => s.pages.some((p) => p.link === route || p.link + "/" === route));
+        currentSection = data.find((s) => s.pages.some((p) => normalize(p.link) === normalizedRoute));
 
         if (currentSection) {
-          currentPage = currentSection.pages.find((p) => p.link === route || p.link + "/" === route);
+          currentPage = currentSection.pages.find((p) => normalize(p.link) === normalizedRoute);
         }
       } catch (e) {
-        console.error("Failed to read data.json", e);
+        console.error(`[SEO] Failed to match route ${route}:`, e);
       }
 
       let finalTitle = currentPage?.name ? `${currentPage.name} - Ripped` : "Ripped";
-      let finalDesc = currentPage?.description || "";
+      let finalDesc = currentPage?.description || (currentPage?.name ? "" : "Ripped Guide");
 
       if (route === "/404") {
         finalTitle = "404 - Ripped";
