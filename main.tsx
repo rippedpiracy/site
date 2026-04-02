@@ -141,4 +141,22 @@ export const createRoot = ViteReactSSG({
     removeLoaders(routes);
     return createBrowserRouter(routes, opts);
   },
+  onPageRendered: (route, indexHtml) => {
+    let pageTitle = "Ripped";
+    let pageDescription = "";
+
+    for (const section of navigationData) {
+      const page = section.pages.find((p) => p.link === route || p.link + "/" === route);
+      if (page) {
+        pageTitle = `${page.name} - Ripped`;
+        pageDescription = page.description || pageDescription;
+        break;
+      }
+    }
+
+    return indexHtml
+      .replaceAll("__PLACEHOLDER_TITLE__", pageTitle)
+      .replaceAll("__PLACEHOLDER_DESCRIPTION__", pageDescription)
+      .replaceAll("__PLACEHOLDER_URL__", `https://ripped.guide${route}`);
+  },
 });
