@@ -38,6 +38,26 @@ body {
   font-family: "Whitney Book Regular", var(--text-base);
 }
 
+strong,
+b {
+  font-family: inherit;
+  font-weight: bold;
+}
+
+[data-theme="dark"] strong,
+[data-theme="dark"] b,
+html.amoled strong,
+html.amoled b {
+  color: var(--color-text-dark);
+}
+
+[data-theme="dark"] a strong,
+[data-theme="dark"] a b,
+html.amoled a strong,
+html.amoled a b {
+  color: inherit;
+}
+
 h1,
 h2,
 h3,
