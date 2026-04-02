@@ -68,8 +68,8 @@ function Heading({ as: As, className, children, useAnchor = true, useCopy = true
             "focus-visible:ring-brand-blurple/75 rounded-md focus:outline-hidden focus-visible:ring-2",
             "ml-2 md:hidden md:group-hover:inline-flex",
           )}
+          aria-label="Copy link to section"
           type="button"
-          // href={`#${anchor}`}
           onClick={() => {
             navigator.clipboard
               .writeText(`${window.location.href.split("#")[0]}#${anchor}`)
