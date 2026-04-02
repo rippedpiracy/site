@@ -57,4 +57,5 @@ To contribute to the UI, fix codebase issues, or implement new components, pleas
 
 ## Credits
 
-This project was built upon the [discord-userdoccers](https://github.com/discord-userdoccers) framework and is maintained by the Ripped Staff Team. We wholeheartedly thank the maintainers for allowing us to use it.
+This project was built upon the [discord-userdoccers](https://github.com/discord-userdoccers) framework and is maintained by the **Ripped Staff Team**.
+We wholeheartedly thank the maintainers for allowing us to use it.
