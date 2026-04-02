@@ -86,9 +86,7 @@ export default function RouteHeader({
         {/* NOTE: this margin is a hack cause the font sucks */}
         <span className="mb-px">{children}</span>
         <span className="ml-2 flex items-center gap-2">
-          {supportsBot ? (
-            <IconBadge tooltip="Supports bot users" icon={RobotIcon} />
-          ) : null}
+          {supportsBot ? <IconBadge tooltip="Supports bot users" icon={RobotIcon} /> : null}
           {supportsOAuth2 ? (
             <IconBadge
               tooltip={`Supports OAuth2 for authentication${
@@ -97,23 +95,11 @@ export default function RouteHeader({
               icon={WrenchIcon}
             />
           ) : null}
-          {unauthenticated ? (
-            <IconBadge tooltip="Unauthenticated" icon={LockUnlockedIcon} />
-          ) : null}
-          {mfa ? (
-            <IconBadge tooltip="MFA may be required" icon={KeyIcon} />
-          ) : null}
-          {supportsAuditReason ? (
-            <IconBadge
-              tooltip="Supports audit log reason"
-              icon={TopicsIcon}
-            />
-          ) : null}
+          {unauthenticated ? <IconBadge tooltip="Unauthenticated" icon={LockUnlockedIcon} /> : null}
+          {mfa ? <IconBadge tooltip="MFA may be required" icon={KeyIcon} /> : null}
+          {supportsAuditReason ? <IconBadge tooltip="Supports audit log reason" icon={TopicsIcon} /> : null}
           {deprecated ? (
-            <IconBadge
-              tooltip="Endpoint is still active but should be avoided"
-              icon={WarningIcon}
-            />
+            <IconBadge tooltip="Endpoint is still active but should be avoided" icon={WarningIcon} />
           ) : null}
         </span>
       </H3>
