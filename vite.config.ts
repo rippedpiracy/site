@@ -79,7 +79,11 @@ export default defineConfig({
       const siteName = "Ripped";
       const image = isBase ? `/banner.webp` : undefined;
 
-      const normalize = (p: string) => p.replace(/\/+$/, "").toLowerCase() || "/";
+      const normalize = (p: string) => {
+        let s = p.replace(/\/+$/, "").toLowerCase();
+        if (s && !s.startsWith("/")) s = "/" + s;
+        return s || "/";
+      };
       const normalizedRoute = normalize(route);
 
       let currentSection:
