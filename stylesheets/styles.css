@@ -8,6 +8,11 @@ html {
   --text-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+img,
+svg {
+  user-select: none;
+}
+
 :root {
   --background-dark: #36373e;
   --sidebar-secondary-dark: #323339;
