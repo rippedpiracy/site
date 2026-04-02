@@ -7,10 +7,15 @@ export default function Navigation() {
   return (
     <nav className="mt-5 flex-1 self-stretch px-6 select-none">
       <div className="-mt-4 mb-8 flex items-center justify-center xl:mt-2 xl:justify-between">
-        <a href="/" draggable="false">
+        <a
+          href="/"
+          draggable="false"
+          tabIndex={-1}
+          className="focus-visible:ring-brand-blurple/75 rounded-md focus:outline-hidden focus-visible:ring-2"
+        >
           <img
             src="/img/rippedtransparent-cropped.svg"
-            className="amoled:invert-0 h-10 invert xl:mt-1 dark:invert-0"
+            className="amoled:invert-0 h-10 invert xl:mt-1 xl:-ml-6 dark:invert-0"
             alt="Ripped"
             width={813}
             height={620}

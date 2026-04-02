@@ -1,4 +1,5 @@
 import { createElement, PropsWithChildren, ReactNode, useMemo, useState } from "react";
+import classNames from "@lib/classnames";
 import Chevron from "../icons/Chevron";
 import MDX_ICONS from "./icons";
 import Paragraph from "./Paragraph";
@@ -57,17 +58,19 @@ export default function Collapsible({
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <details
-      className="bg-theme-light-collapsible dark:bg-theme-dark-collapsible mb-6 rounded-md"
-      onToggle={() => setOpen((open) => !open)}
-    >
-      <summary
-        className="group border-text-light/10 dark:border-text-light flex w-full cursor-pointer items-center justify-between px-6 py-5 text-left"
-        style={{
-          borderBottomWidth: isOpen ? "1px" : "0",
-        }}
+    <div className="bg-theme-light-collapsible dark:bg-theme-dark-collapsible mb-6 rounded-md">
+      <button
+        type="button"
+        onClick={() => setOpen(!isOpen)}
+        aria-expanded={isOpen}
+        className={classNames(
+          "group border-text-light/10 dark:border-text-light focus-visible:ring-brand-blurple/75 flex w-full cursor-pointer items-center justify-between rounded-md px-6 py-5 text-left transition-all duration-300 focus:outline-hidden focus-visible:ring-2",
+          {
+            "border-b": isOpen,
+          },
+        )}
       >
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 text-left">
           <h3 className="text-text-light dark:text-text-dark flex items-center gap-1.5 text-xl">
             {icon && <div className="collapsible-icon">{icon}</div>}
             {title}
@@ -75,13 +78,23 @@ export default function Collapsible({
           <p className="text-text-light dark:text-text-dark text-base leading-6">{description}</p>
         </div>
         <Chevron
-          className="*:text-text-light dark:*:text-text-dark mr-2 size-5 opacity-70 transition-transform duration-200 group-hover:opacity-100"
+          className="*:text-text-light dark:*:text-text-dark mr-2 size-5 opacity-70 transition-transform duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:opacity-100"
           style={{
             transform: isOpen ? "rotate(-180deg)" : "none",
           }}
         />
-      </summary>
-      <div className="px-6 py-2">{children}</div>
-    </details>
+      </button>
+
+      <div
+        className={classNames(
+          "grid overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]",
+          isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0",
+        )}
+      >
+        <div className="min-h-0">
+          <div className="px-6 py-2">{children}</div>
+        </div>
+      </div>
+    </div>
   );
 }

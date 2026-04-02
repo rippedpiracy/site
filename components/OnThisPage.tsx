@@ -13,12 +13,15 @@ const DESKTOP_OFFSET = 24;
 
 const getTargetId = (link: string) => link.split("#")[1] ?? null;
 const getActiveLinkClasses = (isActive: boolean) =>
-  classNames("block rounded-md px-2 py-1", {
-    "bg-theme-light-sidebar-hover text-theme-light-sidebar-hover-text dark:bg-theme-dark-sidebar-hover dark:text-white":
-      isActive,
-    "hover:bg-theme-light-sidebar-hover hover:text-theme-light-sidebar-hover-text dark:hover:bg-theme-dark-sidebar-hover dark:hover:text-white":
-      !isActive,
-  });
+  classNames(
+    "block rounded-md px-2 py-1 focus:outline-hidden focus-visible:ring-2 focus-visible:ring-brand-blurple/75",
+    {
+      "bg-theme-light-sidebar-hover text-theme-light-sidebar-hover-text dark:bg-theme-dark-sidebar-hover dark:text-white":
+        isActive,
+      "hover:bg-theme-light-sidebar-hover hover:text-theme-light-sidebar-hover-text dark:hover:bg-theme-dark-sidebar-hover dark:hover:text-white":
+        !isActive,
+    },
+  );
 
 function CloseIcon({ className }: { className?: string }) {
   return (
@@ -162,7 +165,7 @@ export default function OnThisPage() {
         aria-label={OPEN_TOC_LABEL}
         title={OPEN_TOC_LABEL}
         aria-expanded={tocOpen}
-        className="desktop-right-toc-fallback bg-brand-blurple hover:bg-brand-blurple-hover fixed right-5 bottom-5 z-20 flex items-center gap-2 rounded-full px-4 py-2 text-sm text-white shadow-lg transition-all duration-300"
+        className="desktop-right-toc-fallback bg-brand-blurple hover:bg-brand-blurple-hover focus-visible:ring-brand-blurple/75 fixed right-5 bottom-5 z-20 flex items-center gap-2 rounded-full px-4 py-2 text-sm text-white shadow-lg transition-all duration-300 focus:outline-hidden focus-visible:ring-2"
       >
         <ListIcon className="h-4 w-4" />
         {TOC_LABEL}
@@ -191,7 +194,7 @@ export default function OnThisPage() {
               aria-label={CLOSE_TOC_LABEL}
               title={CLOSE_TOC_LABEL}
               className={classNames(
-                "rounded-md p-1 transition-colors",
+                "focus-visible:ring-brand-blurple/75 rounded-md p-1 transition-colors focus:outline-hidden focus-visible:ring-2",
                 "text-theme-light-sidebar-text hover:bg-theme-light-sidebar-hover hover:text-theme-light-sidebar-hover-text dark:text-theme-dark-sidebar-text dark:hover:bg-theme-dark-sidebar-hover dark:hover:text-white",
               )}
             >

@@ -16,7 +16,7 @@ function DocLink({ href, ...props }: DocLinkProps) {
 
 export default function Anchor({ href, className, ...props }: React.JSX.IntrinsicElements["a"]) {
   const classes = classNames(
-    "text-brand-link-light dark:text-brand-link-dark amoled:text-brand-link-amoled hover:underline",
+    "text-brand-link-light dark:text-brand-link-dark amoled:text-brand-link-amoled hover:underline rounded-xs focus:outline-hidden focus-visible:ring-2 focus-visible:ring-brand-blurple/75",
     className,
   );
 

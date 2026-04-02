@@ -20,7 +20,12 @@ export default function Header() {
 
   return (
     <header className="dark:bg-theme-dark-sidebar fixed inset-x-0 top-0 z-20 flex h-16 items-center justify-between bg-white p-2 md:p-4 xl:hidden">
-      <Link to="/" onClick={onMenuClick} aria-label="Open sidebar menu">
+      <Link
+        to="/"
+        onClick={onMenuClick}
+        aria-label="Open sidebar menu"
+        className="focus-visible:ring-brand-blurple/75 rounded-md focus:outline-hidden focus-visible:ring-2"
+      >
         <Bars
           onClick={setOpen}
           className="ml-[6px] h-7 cursor-pointer justify-self-start text-black xl:hidden dark:text-white"

@@ -34,22 +34,22 @@ export function NavigationLink({ href, className, children, icon }: NavigationLi
   const location = useLocation();
   const { setClose } = useContext(MenuContext);
 
-  const classes = classNames("flex items-center font-whitney rounded-md pl-3 gap-1", className, {
-    "bg-brand-blurple text-white": location.pathname === href,
-    "text-theme-light-sidebar-text dark:text-theme-dark-sidebar-text hover:bg-theme-light-sidebar-hover hover:text-theme-light-sidebar-hover-text dark:hover:bg-theme-dark-sidebar-hover dark:hover:text-white":
-      location.pathname !== href,
-  });
-
-  const linkClasses = classNames("group flex items-center pr-2 pl-0 py-1 w-full font-medium");
+  const finalClasses = classNames(
+    "group flex items-center font-whitney rounded-md pl-3 gap-1 font-medium focus:outline-hidden focus-visible:ring-2 focus-visible:ring-brand-blurple/75",
+    className,
+    {
+      "bg-brand-blurple text-white": location.pathname === href,
+      "text-theme-light-sidebar-text dark:text-theme-dark-sidebar-text hover:bg-theme-light-sidebar-hover hover:text-theme-light-sidebar-hover-text dark:hover:bg-theme-dark-sidebar-hover dark:hover:text-white":
+        location.pathname !== href,
+    },
+  );
 
   return (
     <Fragment>
-      <span className={classes}>
+      <Link to={href} className={finalClasses} onClick={setClose} draggable={false}>
         {icon != null && createElement(ICONS[icon], { className: "size-5 shrink-0" })}
-        <Link to={href} className={linkClasses} onClick={setClose} draggable={false}>
-          {children}
-        </Link>
-      </span>
+        <span className="flex-1 py-1 pr-2">{children}</span>
+      </Link>
     </Fragment>
   );
 }

@@ -17,7 +17,14 @@ export default function IconBadge(props: IconBadgeProps) {
   );
 
   if (href) {
-    return <Link to={href}>{content}</Link>;
+    return (
+      <Link
+        to={href}
+        className="focus-visible:ring-brand-blurple/75 rounded-md focus:outline-hidden focus-visible:ring-2"
+      >
+        {content}
+      </Link>
+    );
   }
 
   return content;

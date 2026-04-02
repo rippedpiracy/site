@@ -6,6 +6,12 @@ html {
 
 * {
   --text-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+              color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+              fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
+              stroke 300ms cubic-bezier(0.4, 0, 0.2, 1),
+              filter 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 img,
@@ -91,6 +97,11 @@ em {
   color: inherit;
   /*noinspection CssUnresolvedCustomProperty*/
   background-color: white;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+              color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+              fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
+              stroke 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #searchContainer .DocSearch-Button {
@@ -146,9 +157,10 @@ em {
   background-color: #f2f3f5;
 }
 
-#searchContainer .DocSearch-Button:focus {
+#searchContainer .DocSearch-Button:focus-visible {
   outline: none;
   box-shadow: none;
+  @apply ring-2 ring-brand-blurple/75;
 }
 
 [data-theme="dark"] #searchContainer .DocSearch-Button,
@@ -274,9 +286,10 @@ input::-webkit-calendar-picker-indicator {
 /* Right ToC base state (Hidden below 1660px) */
 .desktop-right-toc {
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
   transform: translateX(100%);
-  transition: opacity 300ms ease, transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 300ms ease, transform 300ms cubic-bezier(0.4, 0, 0.2, 1), visibility 300ms ease;
   left: min(calc((100vw + min(100vw, 72rem)) / 2), calc(100vw - 8px - 17rem));
 }
 
@@ -284,6 +297,7 @@ input::-webkit-calendar-picker-indicator {
 @media (min-width: 1660px) {
   .desktop-right-toc {
     opacity: 1;
+    visibility: visible;
     pointer-events: auto;
     transform: translateX(0);
   }

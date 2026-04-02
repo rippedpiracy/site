@@ -52,9 +52,22 @@ function Heading({ as: As, className, children, useAnchor = true, useCopy = true
 
   return (
     <As className={`group ${classes}`} id={anchor}>
-      {useAnchor ? <a href={`#${anchor}`}>{children}</a> : children}
+      {useAnchor ? (
+        <a
+          href={`#${anchor}`}
+          className="focus-visible:ring-brand-blurple/75 rounded-md focus:outline-hidden focus-visible:ring-2"
+        >
+          {children}
+        </a>
+      ) : (
+        children
+      )}
       {useCopy && (
         <button
+          className={classNames(
+            "focus-visible:ring-brand-blurple/75 rounded-md focus:outline-hidden focus-visible:ring-2",
+            "ml-2 md:hidden md:group-hover:inline-flex",
+          )}
           type="button"
           // href={`#${anchor}`}
           onClick={() => {
@@ -71,7 +84,7 @@ function Heading({ as: As, className, children, useAnchor = true, useCopy = true
           {React.createElement(showingCopied ? TickIcon : HyperlinkIcon, {
             className: `-m-1 ${
               As === "h1" ? "mb-0.25" : "mb-0.5"
-            } min-w-4 min-h-4 md:group-hover:inline-flex ml-2 w-5 h-5 motion-safe:animate-fade-in-out md:hidden`,
+            } min-w-4 min-h-4 w-5 h-5 motion-safe:animate-fade-in-out`,
           })}
         </button>
       )}

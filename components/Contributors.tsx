@@ -35,7 +35,7 @@ export default function Contributors() {
           href={user.html_url}
           target="_blank"
           rel="noopener noreferrer"
-          className="animate-pop-in group flex items-center gap-3 rounded-lg border border-black/5 bg-black/[0.02] p-2 transition-all duration-300 hover:border-black/10 hover:bg-black/[0.05] hover:shadow-sm dark:border-white/5 dark:bg-white/5 dark:hover:border-white/10 dark:hover:bg-white/10"
+          className="animate-pop-in group focus-visible:ring-brand-blurple/75 flex items-center gap-3 rounded-lg border border-black/5 bg-black/[0.02] p-2 transition-all duration-300 hover:border-black/10 hover:bg-black/[0.05] hover:shadow-sm focus:outline-hidden focus-visible:ring-2 dark:border-white/5 dark:bg-white/5 dark:hover:border-white/10 dark:hover:bg-white/10"
           style={{
             animationDelay: `${index * 40}ms`,
             animationFillMode: "both",
