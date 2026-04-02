@@ -152,9 +152,12 @@ export default defineConfig({
         : `<meta name="twitter:card" content="summary" key="twitter-card" />`;
       const ogImage = image ? `<meta property="og:image" content="${image}" key="og-image" />` : "";
 
-      const customHead = route === "/" ? `
+      const customHead =
+        route === "/"
+          ? `
     <link rel="preload" href="/img/rippedtransparent-cropped.svg" as="image" type="image/svg+xml" fetchpriority="high">
-    <link rel="preload" href="/img/ripped_banner.svg" as="image" type="image/svg+xml" fetchpriority="high">` : "";
+    <link rel="preload" href="/img/ripped_banner.svg" as="image" type="image/svg+xml" fetchpriority="high">`
+          : "";
 
       return html
         .replaceAll("__PLACEHOLDER_TITLE__", finalTitle)
