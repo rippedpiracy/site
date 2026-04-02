@@ -44,7 +44,7 @@ export default function Alert({ type, children, style }: AlertProps) {
       style={style}
     >
       <div className="flex pt-0.5 text-black dark:text-white">{icon}</div>
-      <div className="flex-1 text-sm leading-tight text-black sm:text-base sm:leading-normal dark:text-white">
+      <div className="flex-1 pt-1 text-sm leading-tight text-black sm:pt-0 sm:text-base sm:leading-normal dark:text-white">
         {children}
       </div>
     </aside>
