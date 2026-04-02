@@ -32,6 +32,8 @@ export default function Header() {
           src="/img/rippedtransparent-cropped.svg"
           className="amoled:invert-0 pointer-events-none absolute left-1/2 h-8 -translate-x-1/2 invert dark:invert-0"
           alt="Ripped"
+          width={813}
+          height={620}
         />
       )}
 

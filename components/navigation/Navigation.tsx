@@ -1,4 +1,3 @@
-import React from "react";
 import Discord from "../icons/Discord";
 import Github from "../icons/Github";
 import ThemeSwitcher from "../ThemeSwitcher";
@@ -13,6 +12,8 @@ export default function Navigation() {
             src="/img/rippedtransparent-cropped.svg"
             className="amoled:invert-0 h-10 invert xl:mt-1 dark:invert-0"
             alt="Ripped"
+            width={813}
+            height={620}
           />
         </a>
         <div className="hidden xl:flex xl:items-center xl:gap-2">
