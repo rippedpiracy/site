@@ -23,7 +23,13 @@ export default function CopyButton({ text, children }: CopyButtonProps) {
   return (
     <button
       type="button"
-      aria-label={status === CopyStatus.SUCCESS ? "Copied to clipboard" : status === CopyStatus.ERROR ? "Copy failed" : "Copy to clipboard"}
+      aria-label={
+        status === CopyStatus.SUCCESS
+          ? "Copied to clipboard"
+          : status === CopyStatus.ERROR
+            ? "Copy failed"
+            : "Copy to clipboard"
+      }
       className={classes}
       onClick={() => {
         void copy();
