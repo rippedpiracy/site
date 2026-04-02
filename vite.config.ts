@@ -11,31 +11,7 @@ import remarkGfm from "remark-gfm";
 import remarkSupersub from "remark-supersub";
 import remarkInjectTitle from "./lib/remarkInjectTitle";
 
-const TITLE_REGEX = /<h1 .*?><a .*?>([^<]+)<\/a>.*?<\/h1>|<h1>(.*?)<\/h1>/;
-const DEFAULT_SECTION = "Unofficial API Documentation";
-const MAIN_CONTENT_REGEX = /<main[^>]*>([\s\S]*?)<\/main>/i;
-const ARTICLE_CONTENT_REGEX = /<article[^>]*>([\s\S]*?)<\/article>/i;
-const SCRIPT_REGEX = /<script[\s\S]*?<\/script>/gi;
-const STYLE_REGEX = /<style[\s\S]*?<\/style>/gi;
-const TABLIST_REGEX = /<div[^>]*role="tablist"[^>]*>[\s\S]*?<\/div>/gi;
-
-function handleDesc(str: string) {
-  const content = ARTICLE_CONTENT_REGEX.exec(str)?.[1] ?? MAIN_CONTENT_REGEX.exec(str)?.[1] ?? str;
-
-  return `${content
-    .replace(SCRIPT_REGEX, "")
-    .replace(STYLE_REGEX, "")
-    .replace(TITLE_REGEX, "")
-    .replace(TABLIST_REGEX, "")
-    .replaceAll(/<[^>]*>|\s+/gm, " ")
-    .replaceAll("&amp;", "&")
-    .replaceAll("&quot;", '"')
-    .replaceAll("&#x27;", "'")
-    .trim()
-    .slice(0, 200)
-    .trim()
-    .replace(/&\w+$/, "")}...`;
-}
+// https://vite.dev/config/
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -96,10 +72,6 @@ export default defineConfig({
   ssgOptions: {
     onPageRendered: (route, html) => {
       // note: this could probably be moved to its own function instead of bloating vite.config.ts, unsure if it should be for now ~ darkerink
-      const title = TITLE_REGEX.exec(html)?.[1]?.trim();
-      const finalTitle = title ? `${title} - Ripped.guide` : "Ripped.guide";
-      const finalDesc = handleDesc(html) || "Ripped.guide";
-
       const isBase = route === "/" || route === "/intro";
       const domain = process.env.BASE_DOMAIN || "ripped.guide";
       const baseUrl = `https://${domain}`;
@@ -107,14 +79,16 @@ export default defineConfig({
       const siteName = "Ripped";
       const image = isBase ? `/banner.webp` : undefined;
 
-      let currentSection: { name: string | null; pages: { link: string; name: string }[]; section: string } | undefined;
-      let currentPage: { link: string; name: string } | undefined;
+      let currentSection:
+        | { name: string | null; pages: { link: string; name: string; description: string | null }[]; section: string }
+        | undefined;
+      let currentPage: { link: string; name: string; description: string | null } | undefined;
 
       try {
         const dataPath = path.resolve(__dirname, "./components/navigation/data.json");
         const data = JSON.parse(fs.readFileSync(dataPath, "utf8")) as {
           name: string | null;
-          pages: { link: string; name: string }[];
+          pages: { link: string; name: string; description: string | null }[];
           section: string;
         }[];
 
@@ -126,6 +100,16 @@ export default defineConfig({
       } catch (e) {
         console.error("Failed to read data.json", e);
       }
+
+      let finalTitle = currentPage?.name ? `${currentPage.name} - Ripped` : "Ripped";
+      let finalDesc = currentPage?.description || "";
+
+      if (route === "/404") {
+        finalTitle = "404 - Ripped";
+        finalDesc = "Wait, this is not where you're supposed to be! Please use the sidebar to navigate.";
+      }
+
+      // Calculate structured data after finding page info
 
       const structuredData = [
         {
@@ -148,7 +132,7 @@ export default defineConfig({
             {
               "@type": "ListItem",
               "position": currentSection?.name ? 2 : 1,
-              "name": currentPage?.name || title || DEFAULT_SECTION,
+              "name": currentPage?.name || "Ripped",
               "item": url,
             },
           ].filter(Boolean),
