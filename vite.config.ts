@@ -151,9 +151,10 @@ export default defineConfig({
         ? `<meta name="twitter:image" content="${image}" key="twitter-image" />\n    <meta name="twitter:card" content="summary_large_image" key="twitter-card" />`
         : `<meta name="twitter:card" content="summary" key="twitter-card" />`;
       const ogImage = image ? `<meta property="og:image" content="${image}" key="og-image" />` : "";
-      const googleVerification = process.env.GOOGLE_SITE_VERIFICATION
-        ? `<meta name="google-site-verification" content="${process.env.GOOGLE_SITE_VERIFICATION}" />`
-        : "";
+
+      const customHead = route === "/" ? `
+    <link rel="preload" href="/img/rippedtransparent-cropped.svg" as="image" type="image/svg+xml" fetchpriority="high">
+    <link rel="preload" href="/img/ripped_banner.svg" as="image" type="image/svg+xml" fetchpriority="high">` : "";
 
       return html
         .replaceAll("__PLACEHOLDER_TITLE__", finalTitle)
@@ -163,7 +164,7 @@ export default defineConfig({
         .replaceAll("<!-- __PLACEHOLDER_JSON_LD__ -->", jsonLd)
         .replaceAll("<!-- __PLACEHOLDER_TWITTER_IMAGE__ -->", twitterImage)
         .replaceAll("<!-- __PLACEHOLDER_OG_IMAGE__ -->", ogImage)
-        .replaceAll("<!-- __PLACEHOLDER_GOOGLE_SITE_VERIFICATION__ -->", googleVerification);
+        .replaceAll("<!-- __PLACEHOLDER_HEAD__ -->", customHead);
     },
     onFinished: () => {
       // Clean up the useless static-loader-data folder that vite-react-ssg outputs
