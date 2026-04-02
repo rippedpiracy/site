@@ -60,6 +60,7 @@ export default defineConfig({
     },
   },
   build: {
+    target: "esnext",
     rollupOptions: {
       output: {
         // Work around uBlock Origin blocking /assets/push-notifications.js despite it NOT being a push notification script
