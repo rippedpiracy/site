@@ -17,7 +17,7 @@ export function NavigationSection({ title, className, children }: MenuSelectionP
 
   return (
     <section className={classes}>
-      {title ? <h3 className="font-whitney-bold mb-2 ml-2 select-none text-black dark:text-white">{title}</h3> : null}
+      {title ? <h3 className="font-whitney-bold mb-2 ml-2 text-black select-none dark:text-white">{title}</h3> : null}
       {children}
     </section>
   );

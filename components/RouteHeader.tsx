@@ -87,11 +87,10 @@ export default function RouteHeader({
         <span className="mb-px">{children}</span>
         <span className="ml-2 flex items-center gap-2">
           {supportsBot ? (
-            <IconBadge href="/resources/application" tooltip="Supports bot users" icon={RobotIcon} />
+            <IconBadge tooltip="Supports bot users" icon={RobotIcon} />
           ) : null}
           {supportsOAuth2 ? (
             <IconBadge
-              href="/topics/oauth2"
               tooltip={`Supports OAuth2 for authentication${
                 supportsOAuth2 !== true ? ` with the "${supportsOAuth2}" scope` : ""
               }`}
@@ -99,21 +98,19 @@ export default function RouteHeader({
             />
           ) : null}
           {unauthenticated ? (
-            <IconBadge href="/reference#authentication" tooltip="Unauthenticated" icon={LockUnlockedIcon} />
+            <IconBadge tooltip="Unauthenticated" icon={LockUnlockedIcon} />
           ) : null}
           {mfa ? (
-            <IconBadge href="/authentication#mfa-verification" tooltip="MFA may be required" icon={KeyIcon} />
+            <IconBadge tooltip="MFA may be required" icon={KeyIcon} />
           ) : null}
           {supportsAuditReason ? (
             <IconBadge
-              href="/resources/audit-log#x-audit-log-reason"
               tooltip="Supports audit log reason"
               icon={TopicsIcon}
             />
           ) : null}
           {deprecated ? (
             <IconBadge
-              href="/reference#deprecated-endpoint"
               tooltip="Endpoint is still active but should be avoided"
               icon={WarningIcon}
             />

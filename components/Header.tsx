@@ -30,7 +30,7 @@ export default function Header() {
       {!isHome && (
         <img
           src="/img/rippedtransparent-cropped.svg"
-          className="amoled:invert-0 pointer-events-none absolute left-1/2 h-8 -translate-x-1/2 select-none invert dark:invert-0"
+          className="amoled:invert-0 pointer-events-none absolute left-1/2 h-8 -translate-x-1/2 invert select-none dark:invert-0"
           alt="Ripped"
           width={813}
           height={620}
