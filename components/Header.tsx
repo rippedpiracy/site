@@ -24,6 +24,7 @@ export default function Header() {
         to="/"
         onClick={onMenuClick}
         aria-label="Open sidebar menu"
+        data-umami-event="Open sidebar menu"
         className="focus-visible:ring-brand-blurple/75 rounded-md focus:outline-hidden focus-visible:ring-2"
       >
         <Bars
@@ -37,6 +38,7 @@ export default function Header() {
           src="/img/rippedtransparent-cropped.svg"
           className="amoled:invert-0 pointer-events-none absolute left-1/2 h-8 -translate-x-1/2 invert select-none dark:invert-0"
           alt="Ripped"
+          data-umami-event="Sidebar Home button"
           width={813}
           height={620}
           draggable="false"
