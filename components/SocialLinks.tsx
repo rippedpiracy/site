@@ -9,6 +9,7 @@ export default function SocialLinks() {
     <>
       <a
         aria-label="Discord"
+        data-umami-event="Discord"
         href={DISCORD_LINK}
         target="_blank"
         rel="noreferrer"
@@ -19,6 +20,7 @@ export default function SocialLinks() {
       </a>
       <a
         aria-label="GitHub"
+        data-umami-event="GitHub"
         href={GITHUB_LINK}
         target="_blank"
         rel="noreferrer"
