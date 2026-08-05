@@ -15,7 +15,15 @@ updates:
       # react-router-dom v7 drops the ./server.js subpath export that
       # vite-react-ssg imports during prerender. No vite-react-ssg release
       # supports v7 yet (0.9.2 still peers on ^6.14.1). See PR #12.
+      # NOTE: this also suppresses v7 *security* bumps. Patch/minor updates
+      # within 6.x are still allowed. Revisit when vite-react-ssg adds v7.
       - dependency-name: "react-router-dom"
+        update-types: ["version-update:semver-major"]
+      # typescript-eslint has no TS 7 support: even 8.66.0 still declares
+      # peer typescript ">=4.8.4 <6.1.0", and TS 7.0 is the native port.
+      # Linting dies with "typescript-eslint does not support TS 7.0".
+      # See PR #20 and typescript-eslint#10940. Revisit when TS >=7.1 lands.
+      - dependency-name: "typescript"
         update-types: ["version-update:semver-major"]
     groups:
       react:
@@ -37,7 +45,22 @@ updates:
           - "@tailwindcss/*"
           - "prettier-plugin-tailwindcss"
       dev-dependencies:
+        # Catch-all for the remaining devDeps. Without the excludes this also
+        # swallows the react/eslint/tailwind deps grouped above, producing
+        # overlapping PRs where one bad bump blocks every other update in the
+        # batch (see PR #20: 21 updates, all held up by typescript).
         dependency-type: "development"
+        exclude-patterns:
+          - "eslint"
+          - "eslint-*"
+          - "@eslint/*"
+          - "typescript-eslint"
+          - "@typescript-eslint/*"
+          - "tailwindcss"
+          - "@tailwindcss/*"
+          - "prettier-plugin-tailwindcss"
+          - "@types/react"
+          - "@types/react-dom"
 
   - package-ecosystem: "github-actions"
     directory: "/"
