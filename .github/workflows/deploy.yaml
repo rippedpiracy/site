@@ -90,7 +90,9 @@ jobs:
             const DEPLOYMENT_URL = "${{ steps.deploy.outputs.deployment-url }}";
             const DEPLOYMENT_ALIAS_URL = "${{ steps.deploy.outputs.pages-deployment-alias-url }}" || "https://ripped.guide";
             const DEPLOYMENT_ID = "${{ steps.deploy.outputs.pages-deployment-id }}";
-            const DEPLOYMENT_DESCRIPTION = process.env.DEPLOYMENT_DESCRIPTION;
+            // Commit messages can carry a body and trailers. The deployments API caps
+            // description at 140 chars, so keep the subject line only.
+            const DEPLOYMENT_DESCRIPTION = (process.env.DEPLOYMENT_DESCRIPTION ?? "").split("\n")[0].slice(0, 140);
 
             const envConfig = {
               production: {
