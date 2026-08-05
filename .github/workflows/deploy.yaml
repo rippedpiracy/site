@@ -17,11 +17,8 @@ jobs:
       deployments: write
       contents: write
 
-    # Dependabot runs cannot read Actions secrets (they use the separate
-    # Dependabot secrets store), so a deploy would always fail on missing
-    # CLOUDFLARE_API_TOKEN. Skip rather than expose deploy creds to a bot branch.
-    if: github.actor != 'dependabot[bot]' && (github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name)
-    
+    if: github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
+
     runs-on: ubuntu-latest
     name: Deploy
 
@@ -64,6 +61,10 @@ jobs:
 
       - name: Deploy Site
         id: deploy
+        # Dependabot runs read from the Dependabot secrets store, so
+        # CLOUDFLARE_API_TOKEN is empty and wrangler fails. Skip only the
+        # deploy — the build steps above still run and gate the PR.
+        if: github.actor != 'dependabot[bot]'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -71,6 +72,9 @@ jobs:
           command: pages deploy dist --project-name ripped --commit-dirty=true --branch ${{ github.event_name == 'pull_request_target' && format('pr-{0}', github.event.number) || github.ref_name }}
 
       - name: Notify Deployment
+        # Depends on the deploy step's outputs, and needs a write token that
+        # Dependabot runs do not get.
+        if: github.actor != 'dependabot[bot]'
         uses: actions/github-script@v7
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
