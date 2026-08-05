@@ -17,8 +17,11 @@ jobs:
       deployments: write
       contents: write
 
-    if: github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
-
+    # Dependabot runs cannot read Actions secrets (they use the separate
+    # Dependabot secrets store), so a deploy would always fail on missing
+    # CLOUDFLARE_API_TOKEN. Skip rather than expose deploy creds to a bot branch.
+    if: github.actor != 'dependabot[bot]' && (github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name)
+    
     runs-on: ubuntu-latest
     name: Deploy
 
