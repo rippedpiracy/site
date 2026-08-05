@@ -162,6 +162,8 @@ jobs:
     needs: deploy
     if: github.ref == 'refs/heads/master' && success()
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout Site
         uses: actions/checkout@v7
