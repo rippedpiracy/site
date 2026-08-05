@@ -11,6 +11,12 @@ updates:
     commit-message:
       prefix: "deps"
       prefix-development: "deps-dev"
+    ignore:
+      # react-router-dom v7 drops the ./server.js subpath export that
+      # vite-react-ssg imports during prerender. No vite-react-ssg release
+      # supports v7 yet (0.9.2 still peers on ^6.14.1). See PR #12.
+      - dependency-name: "react-router-dom"
+        update-types: ["version-update:semver-major"]
     groups:
       react:
         patterns:
