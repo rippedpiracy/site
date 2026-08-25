@@ -45,6 +45,10 @@ body {
   font-family: "Whitney Book Regular", var(--text-base);
 }
 
+article small {
+  @apply text-text-light dark:text-text-dark;
+}
+
 strong,
 b,
 sub,
