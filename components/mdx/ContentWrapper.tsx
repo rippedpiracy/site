@@ -9,7 +9,7 @@ export default function ContentWrapper({ children }: ContentWrapperProps) {
   return (
     <div
       className="relative flex flex-1 scroll-pt-16 flex-col items-center overflow-y-auto focus:outline-hidden xl:scroll-pt-0"
-      style={{ scrollbarGutter: "stable" }}
+      style={{ scrollbarGutter: "stable both-edges" }}
     >
       <Header />
       <div className="h-16 xl:hidden" />
