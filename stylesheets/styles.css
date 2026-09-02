@@ -1,9 +1,5 @@
 @reference "./tailwind.css";
 
-html {
-  scrollbar-gutter: stable;
-}
-
 * {
   --text-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -267,11 +263,14 @@ input::-webkit-calendar-picker-indicator {
   pointer-events: none;
   transform: translateX(-100%);
   transition: opacity 300ms ease, transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
-  left: max(8px, calc((100vw - min(100vw, 72rem)) / 2 - 25rem));
+  left: max(8px, calc((100vw - min(100vw, 72rem)) / 4 - 10rem));
 }
 
 .desktop-content-left-pad {
-  transition: padding-left 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:
+    padding-left 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    max-width 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    margin-left 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Left sidebar positioning */
@@ -284,13 +283,26 @@ input::-webkit-calendar-picker-indicator {
   }
 
   .desktop-content-left-pad {
-    padding-left: clamp(0px, calc(25rem + 8px - max(0px, (100vw - 72rem) / 2)), 100vw);
+    padding-left: clamp(2.5rem, calc(25rem + 8px - max(0px, (100vw - 72rem) / 2)), 100vw);
   }
 }
 
 /* Base max width for main content */
 .desktop-content-max {
   max-width: 72rem;
+}
+
+/* While the left sidebar is edge-aligned, center no-ToC pages in the
+   remaining viewport space instead of the full viewport. */
+@media (min-width: 1280px) and (max-width: 1659px) {
+  body:not(:has(.desktop-right-toc)) .desktop-content-max {
+    max-width: calc(100vw - 20.5rem);
+    margin-left: 20.5rem;
+  }
+
+  body:not(:has(.desktop-right-toc)) .desktop-content-left-pad {
+    padding-left: 2.5rem;
+  }
 }
 
 /* Right ToC base state (Hidden below 1660px) */
@@ -325,15 +337,18 @@ input::-webkit-calendar-picker-indicator {
   /* If there is no right ToC, expand content to occupy its space */
   body:not(:has(.desktop-right-toc)) .desktop-content-max {
     max-width: 90rem;
-    /* Keep the content's left edge fixed: shift right by half of added width */
-    margin-left: 17rem;
+  }
+
+  /* Center the sidebar in the wider gutter used by pages without a right ToC. */
+  body:not(:has(.desktop-right-toc)) .desktop-left-nav {
+    left: max(8px, calc((100vw - min(100vw, 90rem)) / 4 - 10rem));
   }
 
   /* Also adjust left padding calculation to use the wider content width (89rem)
      so the reserved left gutter remains consistent and the content's left edge
      does not drift when ToC is absent. */
   body:not(:has(.desktop-right-toc)) .desktop-content-left-pad {
-    padding-left: clamp(0px, calc(25rem + 8px - max(0px, (100vw - 89rem) / 2)), 100vw);
+    padding-left: clamp(2.5rem, calc(25rem + 8px - max(0px, (100vw - 89rem) / 2)), 100vw);
   }
 }
 
