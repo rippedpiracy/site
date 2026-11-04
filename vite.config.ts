@@ -59,6 +59,12 @@ export default defineConfig({
       "@lib": path.resolve(__dirname, "./lib"),
     },
   },
+  ssr: {
+    // @docsearch/react v5 imports named exports from @algolia/autocomplete-core,
+    // whose Node entry point is a UMD/CJS bundle. Bundle them for SSR so Vite
+    // resolves the ESM builds instead of externalizing them.
+    noExternal: ["@docsearch/react", "@algolia/autocomplete-core"],
+  },
   build: {
     target: "esnext",
     rollupOptions: {
